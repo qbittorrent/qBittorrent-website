@@ -92,3 +92,7 @@ RewriteBase /
 
 #remove the need for .php extention 
 RewriteRule ^donate$ donate.php [NC]
+
+# Auto redirect http->https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
