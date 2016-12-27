@@ -1,0 +1,1935 @@
+<h3>Saturday December 17th 2016 - qBittorrent v3.3.10 release</h3>
+<p>qBittorrent v3.3.10 was released containing hotfixes. Windows users: There is an installer for 64-bit qbittorrent. However, you <b>might</b> experience increased memory usage due to this.
+<br><b>NOTICE TO PACKAGERS:</b> Read 3.3.8 news and changelog too.</p>
+<ul>
+<li>BUGFIX: Fix share ratio limiting. Broken by commit 259b5e51c49b744. Closes #6039 #6048. (sledgehammer999)</li>
+<li>BUGFIX: Case insensitive sort for client column. Closes #6054. (Oke Atime)</li>
+<li>BUGFIX: Make resume/pause menu items clickable. Closes #6040. (Oke Atime)</li>
+<li>WINDOWS: Make the updater to look for the x64 installer if running x64 version. (sledgehammer999)</li>
+</ul>
+
+<h3>Wednesday December 14th 2016 - qBittorrent v3.3.9 release</h3>
+<p>qBittorrent v3.3.9 was released containing hotfixes.<br><b>NOTICE TO PACKAGERS:</b> Read 3.3.8 news and changelog too.</p>
+<ul>
+<li>BUGFIX: Fix slider for per torrent speed limits when no global speed limit has been set. Closes #6046. (sledgehammer999)</li>
+<li>BUGFIX: Fix GUI for proxy settings. Closes #6045. (sledgehammer999)</li>
+<li>OSX: Correctly migrate settings/rss/usage stats in macOS. Closes #6041. (sledgehammer999)</li>
+</ul>
+
+<h3>Wednesday December 14th 2016 - qBittorrent v3.3.8 release</h3>
+<p>qBittorrent v3.3.8 was released.<br><b>NOTICE TO PACKAGERS:</b> Libtorrent 1.1.x series isn't officially supported yet. This qBittorent release uses API of 1.1.x that hasn't been released yet. It is in their git branch for now. Wait for 1.1.2 release, or build from RC_1_1 branch, or build against the 1.0.x series.</p>
+<ul>
+<li>FEATURE: Start using new libtorrent 1.1.x APIs (needs at least 1.1.2). Still unofficial support. (glassez, sledgehammer999)</li>
+<li>FEATURE: Add a new DHT bootstrap node run by libtorrent author arvidn. (sledgehammer999)</li>
+<li>FEATURE: Option to disable tracker's favicon download. (sledgehammer999)</li>
+<li>FEATURE: Shift + scroll = horizontal scroll. Closes #5980. Only for TransferListWidget, PeerListWidget. (Chocobo1)</li>
+<li>BUGFIX: Actually set new path as default when checkBox is enabled in Add New Torrent dialog. (erikssm)</li>
+<li>BUGFIX: Properly fix the handling of default save path store/load. (sledgehammer999)</li>
+<li>BUGFIX: Fix crash when restoring from tray. Closes #5854. (Chocobo1)</li>
+<li>BUGFIX: Export torrents added only after the setting was enabled. (sledgehammer999)</li>
+<li>BUGFIX: Delete old rss favicon before assigning new one. (sledgehammer999)</li>
+<li>BUGFIX: Don't revert save path value in the Dialog when metadata are received. Closes #5482. (sledgehammer999)</li>
+<li>BUGFIX: Don't ever stop seeding forced torrents. Closes #5784. (sledgehammer999)</li>
+<li>BUGFIX: Fix potential crash in TransferList widget. Closes #5873. (Chocobo1)</li>
+<li>BUGFIX: Sort torrent names case insensitively. (Yez Ezey)</li>
+<li>BUGFIX: Fix mistake in getting values for sorting in TransferList widget. (Anton Lashkov)</li>
+<li>BUGFIX: Fix memory leaks. (dzmat, Chocobo1)</li>
+<li>WEBUI: Fix webui port overflow. (thalieht)</li>
+<li>WEBUI: Changed meaning of the value of the 'dl_limit', 'up_limit', 'alt_dl_limit' and 'alt_up_limit' tokens. The value is expressed in bytes and not in KiB. (sledgehammer999)</li>
+<li>WEBUI: Don't request client SSL certificate. Closes #3883. (borouhin)</li>
+<li>WEBUI: Bump API_VERSION and API_VERSION_MIN to 11.</li>
+<li>SEARCH: Fixed extratorrent search not working Closes #5736 #5753. (Yez Ezey)</li>
+<li>SEARCH: Update Demonoid plugin. (ngosang)</li>
+<li>SEARCH: Remove TorrentReactor plugin. (ngosang)</li>
+<li>SEARCH: Fix python auto install, deletion of installer and use 3.5.x series for Vista+. Closes #5871. (sledgehammer999)</li>
+<li>SEARCH: Set /usr/local/bin before default PATH on macOS. closes #5639 #5571. This enables finding newer python installs. (Yez Ezey)</li>
+<li>COSMETIC: Log: set embedded Tracker [OFF] msg type as info. (thalieht)</li>
+<li>COSMETIC: Remove (mostly) useless log warnings about tracker's favicon. (sledgehammer999)</li>
+<li>COSMETIC: Change RSS view layout to horizontal. Closes #5920. (Chocobo1)</li>
+<li>OSX: Fix crash on exit using Qt4. (Yez Ezey)</li>
+<li>OSX: Change QSettings to IniFormat on macOS. Closes #5770 #5808. (Yez Ezey)</li>
+<li>LINUX: Workaround a Qt5 bug which results in a flood of network interface change singals. (Eugene Shalygin)</li>
+<li>OTHER: Turkish translation for installer. (Burak Yavuz)</li>
+<li>OTHER: Update portugueseBR for installer. (DaRKSoM)</li>
+<li>OTHER: Update portuguese for installer. (EdwardLinux)</li>
+<li>OTHER: Add --disable-qt-dbus to configure if $host_os is macOS. (Yez Ezey)</li>
+<li>OTHER: New translations: Icelandic, Latvian, Malay, Occitan, Uzbek.</li>
+<li>OTHER: A whole lot of code refactoring by various people.</li>
+</ul>
+
+<h3>Sunday September 11th 2016 - qBittorrent v3.3.7 release</h3>
+<p>qBittorrent v3.3.7 was released. Minor bugfixes of v3.3.6. Mac OS X builds will be delayed a little bit because Qt 5.6.1 doesn't play nice and I'll need to rebuild 5.6.0.</p>
+<ul>
+<li>FEATURE: Delete torrent+files with Shift+Delete (pieniacy)</li>
+<li>BUGFIX: Fix 6-hour speedplot point push rate. Close #5545 (Daniel Segesdi)</li>
+<li>BUGFIX: Avoid spawning a new explorer.exe process when selecting "Open containing folder". Closes #5564. (Chocobo1)</li>
+<li>BUGFIX: Fix loading of new geoip db due to an artificial size limit. (SagePtr)</li>
+<li>BUGFIX: Better error handling and logging with smtp communication. (Brian Kendall)</li>
+<li>SEARCH: Remove KickassTorrents search engine (ngosang)</li>
+<li>SEARCH: Remove BTDigg search engine (ngosang)</li>
+<li>SEARCH: Update Torrentz search engine (ngosang)</li>
+</ul>
+
+<h3>Wednesday July 20th 2016 - qBittorrent v3.3.6 release</h3>
+<p>qBittorrent v3.3.6 was released. Minor bugfixes of v3.3.5. It also fixes crashes on launch for some Windows setups. It is a libtorrent problem. On Windows it uses libtorrent 1.0.9+git f716aef5 with commit 45cff5837f7b4af reverted as this one is causing the crashes. Investigation is ongoing. Mac OS X builds are ready too. Ubuntu PPA will follow.</p>
+<ul>
+<li>BUGFIX: Do not create save folder in advance (glassez)</li>
+<li>BUGFIX: Fix upper-bound limit of command line for "Run External Program" in Windows. Closes #5399. (Chocobo1)</li>
+<li>BUGFIX: Invoke system's cmd.exe directly. (Chocobo1)</li>
+<li>BUGFIX: Workaround space issues in file path for running external program on Windows. (Chocobo1)</li>
+<li>BUGFIX: Fix icons are missing when using RTL languages in Options dialog. Closes #5398. (Chocobo1)</li>
+</ul>
+
+<h3>Monday June 20th 2016 - qBittorrent v3.3.5 release</h3>
+<p>qBittorrent v3.3.5 was released.</p>
+<ul>
+<li>FEATURE: Implement Torrent Management Mode(TMM) (glassez)</li>
+<li>FEATURE: New cookies management dialog and various related fixes (glassez)</li>
+<li>FEATURE: Use unique temp directories (temp_path/&lttruncated_torrent_hash&gt). Closes #5154. (glassez)</li>
+<li>FEATURE: Display notifications when a torrent is added. Closes #334 and #915. (sledgehammer999)</li>
+<li>FEATURE: Sort labels with natural sort algorithm in the right-click menu. Closes #3919. (Chocobo1)</li>
+<li>FEATURE: Add option to automatically remove .torrent files upon adding (Eugene Shalygin)</li>
+<li>FEATURE: Add option to bind directly to an IP instead of using a network Interface (Sjoerd van der Berg, sledgehammer999)</li>
+<li>FEATURE: Detailed tooltips on the progress and availability bars in the General button of each torrent. (Eugene Shalygin)</li>
+<li>FEATURE: Let user able to specifiy a filter when choosing an IP filter file (Chocobo1)</li>
+<li>FEATURE: Improve usability of "Run External Program". Users can write (platform dependent) shell scripts now. (Chocobo1)</li>
+<li>PERFORMANCE: Optimize drawing in speed graph (Anton Lashkov, Chocobo1)</li>
+<li>BUGFIX: Fix memory leak. (sledgehammer999)</li>
+<li>BUGFIX: Fix resizing bug in "add torrent dialog". Closes #5036. (Chocobo1)</li>
+<li>BUGFIX: Fix qBittorrent doesn't exit immediately when "all donwloads are done -> exit" option enabled. (glassez, Chocobo1)</li>
+<li>BUGFIX: Display the filepath when a torrent fails to load. Closes #100 and #805. (sledgehammer999)</li>
+<li>BUGFIX: Fix Add tracker dialog empty trackers (ngosang)</li>
+<li>BUGFIX: Fix Add tracker dialog URL download (ngosang)</li>
+<li>BUGFIX: Fix torrent adding with existing data (glassez)</li>
+<li>BUGFIX: Try to find incomplete files for new torrent (glassez)</li>
+<li>BUGFIX: Fix rechecking after torrent is finished (glassez)</li>
+<li>BUGFIX: Fix duplicate network interfaces. Closes #5131 (ngosang)</li>
+<li>BUGFIX: Fix .!qB extension is added when disabled (glassez)</li>
+<li>BUGFIX: Fix "IP Filtering - Apply to trackers" wasn't being applied. Closes #5217. (Chocobo1)</li>
+<li>BUGFIX: Don't resize the Country column needlessly (thalieht)</li>
+<li>BUGFIX: Fix crashing when exiting the program while the Options window was showing. Closes #4871, #5049. (Chocobo1)</li>
+<li>BUGFIX: Fix parsing of eMule .DAT filters. Closes #5281. (thalieht, sledgehammer999)</li>
+<li>WEBUI: Implement in setting/removing/showing categories. (buinsky)</li>
+<li>WEBUI: Add 'Added on' column in Webui. Closes #5145,#1092,#738 (Ibrahim Tachijian)</li>
+<li>WEBUI: Add command to get the logs (pmzqla)</li>
+<li>WEBUI: Expose Add trackers feature (pmzqla)</li>
+<li>WEBUI: Bump API_VERSION and API_VERSION_MIN to 10. (sledgehammer999)</li>
+<li>SEARCH: Implement search filters in the proxy model. (Eugene Shalygin)</li>
+<li>SEARCH: Optimize widgets inside of the search tab (Eugene Shalygin)</li>
+<li>SEARCH: Remove duplicated code from search tab and widget (Eugene Shalygin)</li>
+<li>SEARCH: Use nova2dl.py script instead of DownloadManager. Closes #5026. (glassez)</li>
+<li>SEARCH: Various UI cleanups and optimizations. (Chocobo1, ngosang)</li>
+<li>SEARCH: Fix Torrentz, Mininova, LegitTorrents, PirateBay plugins (ngosang)</li>
+<li>SEARCH: Fix toolbar resizing when m_searchFilter appears/disappears. Closes #5120. (Chocobo1)</li>
+<li>SEARCH: Use QPalette::LinkVisited color for downloaded items in search results (Eugene Shalygin)</li>
+<li>SEARCH: Update Python version requirements (min 2.7.9 / 3.3.0) (ngosang)</li>
+<li>SEARCH: Remove filters from Torrentreactor, BTDigg and Demonoid. It is done in the GUI now. (ngosang)</li>
+<li>RSS: default refresh interval to 30 mins (botmtl)</li>
+<li>COSMETIC: Improve TransferListDelegate::sizeHint (Chocobo1)</li>
+<li>COSMETIC: Fix long text clipping. Closes #5091. (Chocobo1)</li>
+<li>COSMETIC: Minor change in Stats dialog (ngosang)</li>
+<li>COSMETIC: Fix Update all button height in RSS tab (ngosang)</li>
+<li>COSMETIC: Disable `comboHideZero` when `checkHideZero` is unchecked. (Chocobo1)</li>
+<li>COSMETIC: Disable `checkLimituTPConnections` when `checkuTP` is unchecked. (Chocobo1)</li>
+<li>COSMETIC: Enable word wrap for "Run external program" help text (Chocobo1)</li>
+<li>COSMETIC: Fix mutually exclusive radio buttons can be unselected. (Chocobo1)</li>
+<li>COSMETIC: Set About tab font-size to default (zywo)</li>
+<li>COSMETIC: Improve wordings in "Auto download torrent" section (Chocobo1)</li>
+<li>COSMETIC: Change "Auto download torrent" default save path to "default location". (Chocobo1)</li>
+<li>COSMETIC: Change ambiguous text "Copy selected" to "Copy IP:port" (Chocobo1)</li>
+<li>COSMETIC: Improve error messages for "Auto download torrents" (Chocobo1)</li>
+<li>COSMETIC: Slim down 'Downloads' page of options window. (sledgehammer999)</li>
+<li>COSMETIC: Cleanup Connection page in Option dialog. Closes #845. (Chocobo1)</li>
+<li>COSMETIC: Fix reload button size is not the same size as "..." button in options dialog. (Chocobo1)</li>
+<li>WINDOWS: Let Windows handle all widgets scaling. (Chocobo1)</li>
+<li>WINDOWS: Improve stack trace for windows by including source filenames and line numbers (SeigneurSerpent)</li>
+<li>OSX: Fix qt5 bundle on OSX. Closes #4014. (sledgehammer999)</li>
+<li>OTHER: Make AddNewTorrentDialog behavior uniform (glassez)</li>
+<li>OTHER: Optimize the shutdown dialog (Chocobo1)</li>
+<li>OTHER: Enable access to shutdown functions when configured with `--disable-gui` option (Chocobo1)</li>
+<li>OTHER: Delete Import Torrent Dialog. Just use the "add new torrent" dialog. (glassez)</li>
+<li>OTHER: Optimize code for natural sorting (Chocobo1)</li>
+<li>OTHER: Use new alert dispathing API for libtorrent 1.1.x (glassez)</li>
+<li>OTHER: Fix gcc 6 compilation with qmake. See #5237. (sledgehammer999)</li>
+</ul>
+
+<h3>Tuesday March 29th 2016 - qBittorrent v3.3.4 release</h3>
+<p>qBittorrent v3.3.4 was released after a long time with huge changelog.<br/>The Windows binary is compiled using Qt 5.6. You'll see a graphic glitch when hovering over the "plus" sign in the content tree. It is a known problem but Qt 5.6 brings fixes that justify using it despite the graphic glitch.</p>
+<ul>
+<li>FEATURE: Download more pieces in "Download first and last pieces first" feature (ngosang)</li>
+<li>FEATURE: Unlock first column in peerlist too (thalieht)</li>
+<li>FEATURE: Add "Hide zero values" option. Closes #3543. (Chocobo1)</li>
+<li>FEATURE: Add a "remaining" column to the torrent content model (Ben Lau)</li>
+<li>FEATURE: Allow to toggle columns in peerlist (thalieht)</li>
+<li>FEATURE: Add ability to filter log messages by type. (sledgehammer999)</li>
+<li>FEATURE: Add ability to write the log to file. (sledgehammer999)</li>
+<li>FEATURE: Add 'never show again' checkbox/pref to auto-exit confirm dialog (d3fault, sledgehammer999, Chocobo1)</li>
+<li>PERFORMANCE: Perform fastresume data saving in separate thread (glassez)</li>
+<li>PERFORMANCE: Optimize session startup (glassez)</li>
+<li>BUGFIX: Save resume data using QSaveFile (Qt5 only). This reduces chances of corrupt files. (glassez)</li>
+<li>BUGFIX: Check torrent file permissions before opening (birdie-github)</li>
+<li>BUGFIX: Always update native session's announce_ip setting (Jesse Connop)</li>
+<li>BUGFIX: Fix loading *.magnet files from watched folders. Closes #4701. (sledgehammer999)</li>
+<li>BUGFIX: Fix upgrade corrupted fastresume file (glassez)</li>
+<li>BUGFIX: Fix total values for "Seeds" & "Peers" (Chocobo1)</li>
+<li>BUGFIX: Fix potential race condition. Closes #4742. (Chocobo1)</li>
+<li>BUGFIX: Don't merge trackers for private torrents. Closes #2928. (sledgehammer999)</li>
+<li>BUGFIX: Fix double buttons in "Add New Torrent" dialog. (Chocobo1)</li>
+<li>BUGFIX: Fix malformed date header in email. Closes #4828. (Chocobo1)</li>
+<li>BUGFIX: Save "Run external program" input as is. Closes #4830. (Chocobo1)</li>
+<li>BUGFIX: Enable "filename" column in peers list again. Crash is fixed now. (Eugene Shalygin)</li>
+<li>BUGFIX: Don't display warning when folder name stayed the same after rename. (sledgehammer999)</li>
+<li>BUGFIX: Fix selection of Portuguese translation files. (sledgehammer999)</li>
+<li>BUGFIX: Fix selection of Esperanto locale. Closes #4999. (sledgehammer999)</li>
+<li>BUGFIX: Fix "caja" file manager opens the file instead of opens the directory. Closes #5003. (Chocobo1)</li>
+<li>BUGFIX: Fix periodic latency spikes on Windows with WiFi connections. Closes #4209. (sledgehammer999)</li>
+<li>BUGFIX: Potentially fix a random crash coming from the sidepanel (sledgehammer999, ngosang)</li>
+<li>WEBUI: Fix max_ratio precision. Closes #4707 (ngosang)</li>
+<li>WEBUI: Fix JavaScript exception on WebUI load (buinsky)</li>
+<li>WEBUI: Fix translation (buinsky)</li>
+<li>WEBUI: Submit the label in the new label dialog on pressing enter key (buinsky)</li>
+<li>WEBUI: Check WebUI username and password length. Closes #4191 (ngosang)</li>
+<li>WEBUI: Minor changes in CSS styles (ngosang)</li>
+<li>WEBUI: Add "Added on" and "Completion on" fields to query/torrents query response (buinsky)</li>
+<li>WEBUI: Do not try to parse request message when content-length is 0 (Dan Seminara)</li>
+<li>WEBUI: Support SSL certificate bundles. Issue #4896. (UnDifferential)</li>
+<li>WEBUI: Change the order of the values of speed labels (buinsky)</li>
+<li>WEBUI: Bump WebUI API_VERSION</li>
+<li>SEARCH: Update PirateBay plugin. (ngosang)</li>
+<li>SEARCH: Added TorLock search engine (ngosang)</li>
+<li>COSMETIC: Fix splash screen staying on top of all windows. Closes #1391. (sledgehammer999)</li>
+<li>COSMETIC: Rearrange advanced settings (Chocobo1)</li>
+<li>COSMETIC: Cleanup "about" dialog (Chocobo1)</li>
+<li>COSMETIC: Cleanup "Add New Torrent" dialog (Chocobo1)</li>
+<li>COSMETIC: Use short date in addnewtorrentdialog (Chocobo1)</li>
+<li>COSMETIC: Change "Free disk space" to "Free space on disk" (Chocobo1)</li>
+<li>COSMETIC: Let OS handle DPI scaling for now. Should let Qt do the work when it's more mature. (Chocobo1)</li>
+<li>COSMETIC: Put comment_lbl in QScrollArea. Closes #4881. (Chocobo1)</li>
+<li>COSMETIC: Change the order of the values of speed labels (buinsky)</li>
+<li>COSMETIC: Cleanup the Log tab (Chocobo1)</li>
+<li>COSMETIC: Cleanup the RSS tab (Chocobo1)</li>
+<li>OTHER: Set "Show splash screen on start up" option default to off (Chocobo1)</li>
+<li>OTHER: Support for cross-compilation with MXE (Boris Nagaev)</li>
+<li>OTHER: Add basic (and unofficial) cmake support (Eugene Shalygin)</li>
+<li>OTHER: Move some URLs overs to https (funkydude)</li>
+<li>OTHER: Add appveyor support (Chocobo1)</li>
+<li>OTHER: TravisCI: switch to Trusty image. Closes #4953. (Chocobo1)</li>
+<li>OTHER: Many other internal code restructuring, cleaning and fixing.</li>
+</ul>
+
+<a name="forum_restored"><h3>Saturday February 13th 2016 - The forum is restored</h3></a>
+<p>As mentioned <a href="#forum_compromise">earlier</a>, there were reports that the forums from a bunch of bittorrent related sites were hacked. As a result we switched off our forum to investigate. To the best of our knowledge we weren't hacked. We didn't discover any evidence of unauthorized entry. We highly suspect that the self-proclaimed "hacker" was a fraud instead. Just so you know the passwords are saved hashed and salted in the database. It is very difficult to reverse this and obtain the real password. In any case, we reset all the passwords and switched on the forum. You already should have received an email about your new password.</p>
+
+<h3>Thursday January 21th 2016 - qBittorrent v3.3.3 release</h3>
+<p>qBittorrent v3.3.3 was released. See changelog. This build also fixes a problem that requested "G:" drive on Windows.</p>
+<ul>
+<li>BUGFIX: Temporarily disable "filename" column of peers view. It has a bug that causes frequent crashes. See issue #4597.</li>
+<li>WEBUI: Move style of dynamic table header to CSS (buinsky)</li>
+<li>WEBUI: Fix unnecessary updates of torrent peers table (buinsky)</li>
+</ul>
+
+<h3>Tuesday January 19th 2016 - qBittorrent v3.3.2 release</h3>
+<p>qBittorrent v3.3.2 was released. It fixes a few regressions. If you use watch folders you'll need to reconfigure them.<br/>The Windows binary is compiled using MSVC 2015 now.</p>
+<ul>
+<li>FEATURE: Add a new column to peers list that shows list of files which are downloaded right now from a peer. (evsh)</li>
+<li>FEATURE: Improve the "Watch folders" UI. Closes #4300. You'll need to redo your watch folders settings. (sledgehammer999, glassez)</li>
+<li>FEATURE: Support loading multiple magnets/hashes/urls per .magnet file in the watched folder(one per line). Closes #217. (sledgehammer999)</li>
+<li>BUGFIX: Fix resolution of peer host names. Closes #4307. (sledgehammer999)</li>
+<li>BUGFIX: Don't recheck twice after 'Force Recheck' with 'Recheck torrents on completion' enabled. Closes #4274. (sledgehammer999)</li>
+<li>BUGFIX: Don't apply some settings again if they weren't changed. Closes #4278. (sledgehammer999)</li>
+<li>BUGFIX: Update ISO 3166 country codes. Closes #3942. (Chocobo1)</li>
+<li>BUGFIX: Fix moving torrents to Temp after app restart. Closes #4434. (glassez)</li>
+<li>BUGFIX: Fix crash in favicon code due to null pointer dereference. (glassez)</li>
+<li>BUGFIX: Move the 'qBittorrent-resume' file even when no magnets were recovered. Also make sure to rename it with a unique name. Closes #4334. (sledgehammer999)</li>
+<li>BUGFIX: Don't add the watch folder before the user closes the Preferences window. (sledgehammer999)</li>
+<li>BUGFIX: Remove watch folders permanently only if the user accepts the Preferences dialog. (sledgehammer999)</li>
+<li>BUGFIX: Better handling of cookies in the download manager (glassez)</li>
+<li>BUGFIX: Use the download manager for RSS, the program updater and the dns updater. (glassez)</li>
+<li>BUGFIX: Fix reconfigure additional trackers (glassez)</li>
+<li>BUGFIX: Fix loading corrupted .fastresume file (glassez)</li>
+<li>WEBUI: Show filtered torrents number (buinsky)</li>
+<li>WEBUI: Fix paused, active and inactive filters (buinsky)</li>
+<li>WEBUI: Fixed bug when uploading several files and only the last one was considered. (naikel)</li>
+<li>WEBUI: Implemented WebUI interface for the new Watched Folders feature (naikel)</li>
+<li>WEBUI: Fix possible showing "qBittorrent client is not reachable" message on deleting torrents. (buinsky)</li>
+<li>WEBUI: Don't show "Limit download speed" menu item for downloaded torrents. (buinsky)</li>
+<li>WEBUI: Update webui run program parameters (buinsky)</li>
+<li>WEBUI: Allow to remove the label assigned to a torrent (pmzqla)</li>
+<li>WEBUI: Repair translation (buinsky)</li>
+<li>WEBUI: Remember last opened tab (buinsky)</li>
+<li>WEBUI: Bump WebUI API_VERSION and API_VERSION_MIN.</li>
+<li>COSMETIC: Update native names for Chinese locales. Closes #4381. (sledgehammer999)</li>
+<li>COSMETIC: Rename column header in Content view. (Chocobo1)</li>
+<li>COSMETIC: Edit speed limits and upload ratio icons (buinsky)</li>
+<li>SEARCH: Code refactoring. (glassez)</li>
+<li>SEARCH: Fix PirateBay plugin implementation for Python 3 (ngosang)</li>
+<li>SEARCH: Update PirateBay URL. Closes #4470 (ngosang)</li>
+<li>RSS: Code refactoring. (glassez)</li>
+<li>LINUX: Fix build. (sledgehammer999)</li>
+<li>OSX: Set qBittorrent as default torrent app in  Mac OS (dmitry.viktorov)</li>
+<li>OTHER: Fix lrelease version due to the default Qt5 build (Fabio Alessandro Locati)</li>
+<li>OTHER: Indicate to the user that he's going to download the new version. Indicate from the installer that the old version was detected and no settings will be deleted. Closes #4320. (sledgehammer999)</li>
+<li>OTHER: Don't require GUI libs for qt4 nox build. Closes #4404. (sledgehammer999)</li>
+<li>OTHER: Fix cross-compilation (bnagaev)</li>
+<li>OTHER: Allow GeoIP in nox builds (glassez)</li>
+</ul>
+
+<a name="forum_compromise"><h3>Tuesday December 22nd 2015 - Forum compromise</h3></a>
+<p>It has come to our attention that the forum database containing user info <b>might</b> have been compromised by a third unauthorized party. <u>We aren't able to tell if this is true from our logs</u>. And we aren't sure if the hack was real. See more info in this <a href="https://torrentfreak.com/hackers-grab-deluge-and-qbittorrent-user-databases-151221/">article</a>. If the database was indeed compromised it was probably through a bug of the forum software. We had installed version 2.0.11 of <a href="http://www.simplemachines.org/">SMF</a>, which is the latest stable. As a precaution we have taken down the forums. The passwords weren't saved as plaintext, but as salted hashes. It will make it very difficult for the hackers to recover the real passwords. However, we strongly recommend you to change your password to any other site on which you used the same password. We are sorry for the inconvenience.</p>
+
+<h3>Tuesday December 8th 2015 - qBittorrent v3.3.1 release</h3>
+<p>qBittorrent v3.3.1 was released. It fixes a few regressions. Mac OS X builds will be provided at a later time.</p>
+<ul>
+<li>FEATURE: FEATURE: New "Set as default label" option in Add torrent dialog. (takiz)</li>
+<li>FEATURE: Support wildcards for filtering torrent list and torrent content (vlakoff)</li>
+<li>BUGFIX: Fix -1 is displayed instead of the infinity symbol (Chocobo1)</li>
+<li>BUGFIX: Fix scan dirs settings saving. Closes #4254, #4239, #4187. (glassez)</li>
+<li>BUGFIX: Exported torrents now use name instead of hash. Closes #4205. (glassez)</li>
+<li>BUGFIX: Improve upgrade to v3.3.0. Now undownloaded magnets will be migrated too. Fixes #4195. (glassez)</li>
+<li>BUGFIX: Fix wrong encoding for listen failed error message. (glassez)</li>
+<li>BUGFIX: Fix RSS not automarking articles as read. (glassez)</li>
+<li>BUGFIX: Fix possible deadlock during application exit. (sledgehammer999)</li>
+<li>WEBUI: Cookies support on WebUI when downloading torrent from a URL. (Naikel Aparicio)</li>
+<li>WEBUI: Modified download and upload windows to allow autocompletion of browsers. (Naikel Aparicio)</li>
+<li>WEBUI: Fixed the spinner in the WebUI upload page. (Naikel Aparicio)</li>
+<li>WEBUI: Modified height of the WebUI download page. (Naikel Aparicio)</li>
+<li>WEBUI: Fixed all the JavaScript functions for download and upload pages. (Naikel Aparicio)</li>
+<li>WEBUI: Add seeds tab to WebUI (buinsky)</li>
+<li>WEBUI: Bump WebUI API_VERSION.</li>
+<li>COSMETIC: Cleanup "Trackers", "Peers", "HTTP Sources", "Speed" and "Content" page layout (Chocobo1)</li>
+<li>COSMETIC: Reduce mainwindow border width (Chocobo1)</li>
+<li>COSMETIC: Use QLineEdit built-in ClearButton (Qt5 only) (Chocobo1)</li>
+<li>COSMETIC: Change text description for half-open connection (Chocobo1)</li>
+<li>OTHER: Change update URL to FossHub. Closes #4188. (sledgehammer999)</li>
+</ul>
+
+<h3>Sunday November 29th 2015 - qBittorrent v3.3.0 release</h3>
+<p>qBittorrent v3.3.0 was released. A lot has happened to it. And as you may have noticed from the v3.2.x series, we now have a healthy amount of devs contributing to it.<br/> This series have switched to Qt5 but Qt4 is still supported. Temporarily OS X builds will use Qt4.</p>
+<ul>
+<li>FEATURE: Huge core code refactoring. Problems with labels, temp folders etc should be eliminated. Smoother UI should be observed too. (glassez)</li>
+<li>FEATURE: Speed graph (Anton Lashkov)</li>
+<li>FEATURE: Add multiple peers in Peers addition dialog. Closes #1563, #2245, #3133, #1419, #3287, #1419 (ngosang)</li>
+<li>FEATURE: Allow to copy all peers with a keyboard shortcut (ngosang)</li>
+<li>FEATURE: Use GeoIP2 database, allows for country resolution of IPv6 peers. It is no longer embedded in the program but downloaded and updated monthly. (glassez)</li>
+<li>FEATURE: Add more "Run External Program" parameters, closes #3053, #238, #1291, #1522. (Chocobo1, glassez)</li>
+<li>FEATURE: Add an option to allow the use of proxies only for torrents. Closes #2701. (pmzqla)</li>
+<li>FEATURE: Detect network interface state changes. It should detect VPN connection resets. (Pawel Polewicz)</li>
+<li>FEATURE: Switch to using c++11 (glassez)</li>
+<li>FEATURE: Automatically add trackers to new downloads. (ngosang)</li>
+<li>FEATURE: You can now choose the path to download for watched folders. (dsimakov, sledgehammer999)</li>
+<li>FEATURE: Switch to Qt5 by default.</li>
+<li>BUGFIX: Fix progress calculation in Content tab. Closes #2639 Closes #2752 (ngosang)</li>
+<li>BUGFIX: Fix label filter. Closes #3429. (glassez)</li>
+<li>BUGFIX: Fix "Run External Program Launches too Early" issue, closes #2107. (Chocobo1)</li>
+<li>BUGFIX: Don't remove torrent contents parent folder, even it is empty. Closes #2244. (Chocobo1)</li>
+<li>BUGFIX: Always apply filter for manually banned IPs. Related #3988. (sledgehammer999)</li>
+<li>BUGFIX: Fix reporting of tracker status. Closes #3101. (sledgehammer999)</li>
+<li>BUGFIX: Don't connect to "any interface" when the configured network interface is missing. Closes #3943, #2741, #1159, #844 and #143. (sledgehammer999)</li>
+<li>BUGFIX: Fix reordering of first column with Qt5. Closes #2835. (sledgehammer999)</li>
+<li>COSMETIC: Add back "qBittorrent" in program updater title, closes #3549. (Chocobo1)</li>
+<li>COSMETIC: Use infinity symbol rather than -1 for nb_connections (pmzqla)</li>
+<li>COSMETIC: Move uTP options to it's own section (Chocobo1)</li>
+<li>COSMETIC: Fix availability bar & progress bar height being too small on high DPI displays (Chocobo1)</li>
+<li>COSMETIC: Fix availability label & progress label clipped on high DPI displays, closes #3237. (Chocobo1)</li>
+<li>COSMETIC: Add tooltips/legend for availability bar & progress bar (Chocobo1)</li>
+<li>COSMETIC: Use theme color for background in PropertiesWidget (Chocobo1)</li>
+<li>COSMETIC: Replace horizontal line with border in bottom panel (Chocobo1)</li>
+<li>COSMETIC: Various visual changes in the side panel. (Chocobo1)</li>
+<li>COSMETIC: Use thin border for transfer list (Chocobo1)</li>
+<li>COSMETIC: Make URL in "Add Torrent File..." clickable. Closes #3928. (Chocobo1)</li>
+<li>COSMETIC: New view for errored torrents. (sledgehammer999)</li>
+<li>WEBUI: Add information in General tab (ngosang)</li>
+<li>WEBUI: Reorder "Super seeding mode" option in right click menu (ngosang)</li>
+<li>WEBUI: Clean up JavaScript code (ngosang)</li>
+<li>WEBUI: Added labels support. #648 (Felipe Barriga Richards, ngosnag)</li>
+<li>WEBUI: Fix accessing the WebUI through IPv6 (ngosang)</li>
+<li>WEBUI: Bump WebUI API_VERSION to 6.</li>
+<li>WEBUI: Change selected color to differentiate from the progressbar. (Daniel Peukert, ngosang)</li>
+<li>SEARCH: Add "Copy description page URL" button in search tab. Closes #2371. (pmzqla)</li>
+<li>SEARCH: Add https_proxy env variable. This forces Python to use the HTTP proxy for HTTPS connections. (pmzqla)</li>
+<li>SEARCH: Detect new plugin URL from clipboard (ngosang)</li>
+<li>SEARCH: Update Torrentz trackers (ngosang)</li>
+<li>WINDOWS: Fix german translation of the installer (netswap)</li>
+<li>NOX: Don't ask the user questions in nox build when in non-interactive mode. Closes #3875. (sledgehammer999)</li>
+<li>OTHER: Fixed typos, spelling correction (dartraiden)</li>
+<li>OTHER: Fix need for restart to enable/disable peer countries resolution. (glassez)</li>
+<li>OTHER: Unload the GeoIP db when disabled. (sledgehammer999)</li>
+<li>OTHER: Reduce max value of "Disk cache size" to 1536MB for 32bit. Closes to #4028. (Chocobo1)</li>
+<li>OTHER: Make "Download in sequential order" and "Download first and last piece first" options independent. (glassez)</li>
+</ul>
+
+<h3>Saturday October 10th 2015 - qBittorrent v3.2.4 release</h3>
+<p>qBittorrent v3.2.4 was released. This release finally fixes an obscure "hit-and-run" bug with trackers.
+It is actually a libtorrent bug which is fixed in their source. But for fixing builds that will use older versions of
+libtorrent (eg on Linux) I made a change in the v3.2.4 code that will circumvent the bug anyway.
+This version should be the last in the v3.2.x series. The upcoming v3.3.x is pretty stable and we'll focus to streamline it for release.<br>
+PS: Ubuntu and OS X builds will be available in a few hours.</p>
+<ul>
+<li>FEATURE: Select the file of single file torrents when opening destination folder (pmzqla)</li>
+<li>BUGFIX: Fix crash with invalid favicon. Closes #3632. (glassez)</li>
+<li>BUGFIX: Try to download favicon.png when the download of favicon.ico fails (pmzqla)</li>
+<li>BUGFIX: Try to avoid loading a corrupted configuration file. Also log errors encountered while saving/loading the configuration. Closes #3503. (sledgehammer999)</li>
+<li>BUGFIX: Allow adding torrent link from Torcache (jsayol)</li>
+<li>BUGFIX: Don't limit the number of torrents that can be announced to the tracker/dht/lsd. Closes #3473. (sledgehammer999)</li>
+<li>BUGFIX: Fix potential crash when memory allocation failed. Closes #3877. (Chocobo1)</li>
+<li>COSMETIC: Change Queue buttons order in the Toolbar (GUI & Web UI) (ngosang)</li>
+<li>COSMETIC: Move option "Ignore transfer limits on local network" to Speed page (Chocobo1)</li>
+<li>COSMETIC: Move option "Confirm torrent deletion" to Behavior page (Chocobo1)</li>
+<li>COSMETIC: Fix typos. Make `μTP` untranslatable. Use American variation of words. Closes #3654. (sledgehammer999)</li>
+<li>COSMETIC: Optimize text color for dark themes. Closes #3633 and #3815. (sledgehammer999)</li>
+<li>COSMETIC: Show current label in the torrent context menu. Closes #3776. (sledgehammer999)</li>
+<li>WEBUI: Add save_path to /query/torrents (Casey Bodley)</li>
+<li>WEBUI: Bump API_VERSION to 5</li>
+<li>SEARCH: Fix python detection when the 'Anaconda' software is installed. Closes #3731. (sledgehammer999)</li>
+<li>RSS: Handle magnet links as torrents instead of news URLs. Closes #3560 (ngosang)</li>
+<li>RSS: Trim elements text in RSS articles (ngosang)</li>
+<li>RSS: Fix contextual menu in RSS torrents list (ngosang)</li>
+<li>RSS: Improve error handling when a RSS feed doesn't contain torrents (ngosang)</li>
+<li>RSS: More precise message and code simplification in RSS feeds deletion (ngosang)</li>
+<li>RSS: Don't hide the elements in Unread list when clicked (ngosang)</li>
+<li>RSS: Allow multiple selection in RSS torrents list (ngosang)</li>
+<li>RSS: Simplify string translation (ngosang)</li>
+<li>RSS: Handle more types of RSS feeds (ngosang)</li>
+<li>RSS: Fix RSS panel position not saved (ngosang)</li>
+<li>RSS: Fix forgetting label changes to first item in RSS rule list. (Gelmir)</li>
+<li>RSS: Add label to UI when a new one is creating during rule addition. (Gelmir)</li>
+<li>RSS: Removes refresh message when adding a new feed (ngosang)</li>
+<li>RSS: Fix RSS crash when deleting RSS feeds. Closes #997, #2152, #2461, #3718, #3747, #3766, #3806, #3814, #3829 and #3846. (ngosang)</li>
+<li>RSS: Sort labels in RSS Downloader dialog, closes #3140. (Chocobo1)</li>
+<li>WINDOWS: Correctly show german letters in the installer. Closes #3574, #3566. (sledgehammer999)</li>
+<li>WINDOWS: Fix file selection on Explorer when the filename contains weird characters. Closes #3185. (sledgehammer999)</li>
+<li>WINDOWS: Fix wrong default download directory in Windows. Closes #2625. (Chocobo1)</li>
+<li>WINDOWS: Fix German translation of the installer. (netswap)</li>
+<li>LINUX: Fix broken .desktop file icon for some locales. See #3905. (sledgehammer999)</li>
+<li>OTHER: Fix ppc64le detection during configure (sledgehammer999)</li>
+<li>OTHER: Don't use sed in configure. Closes #3169. (pmzqla)</li>
+<li>OTHER: Fix broken donation link. Closes #3771. (sledgehammer999)</li>
+<li>OTHER: Add forum link in README. Closes #3853. (sledgehammer999)</li>
+<li>OTHER: New translation: Esperanto</li>
+<li>OTHER: Fix Qt5 nox build on non-Windows. (sledgehammer999)</li>
+</ul>
+
+<h3>Sunday October 04th 2015 - Paypal issue resolved</h3>
+<p>Dear users and supporters!</p>
+<P>We had a minor issue with our Paypal account, which has now been resolved.</br>
+Donation is now possible again - through Paypal.</br>
+This does not mean that Paypal is preferred, the other methods work just fine too.</br>
+(you may need to force refresh the main page to make your browser discard the old cached one)</P>
+<p>Again, I would like to thank everyone for the continued support and donations.</p>
+
+<h3>Sunday August 02nd 2015 - qBittorrent v3.2.3 release</h3>
+<p>qBittorrent v3.2.3 was released.</p>
+<ul>
+<li>BUGFIX: Fix crash when closing a search tab while search is running (pmzqla)</li>
+<li>SEARCH: Other minor search fixes and improvements (pmzqla)</li>
+</ul>
+
+<h3>Saturday August 01st 2015 - qBittorrent v3.2.2 release</h3>
+<p>qBittorrent v3.2.2 was released.</p>
+<ul>
+<li>FEATURE: Allow to force reannounce DHT too (Chocobo1)</li>
+<li>FEATURE: Implement an option to disable confirmation of torrent recheck (blaxspirit)</li>
+<li>FEATURE: Allow to copy all the trackers with a keyboard shortcut (pmzqla)</li>
+<li>BUGFIX: Fix torrent renaming. Closes #3398 (ngosang)</li>
+<li>BUGFIX: Fix localhost address (::ffff:127.0.0.1) is not recognized when connecting to WebUI (Chocobo1)</li>
+<li>BUGFIX: Fix '&' character in label name becomes accelerator key, closes #3454. (Chocobo1)</li>
+<li>BUGFIX: Fix HTTP header parsing when torrent filename contains a semicolon. Closes #3511.</li>
+<li>BUGFIX: Fix installing search plugin from local file. (sledgehammer999)</li>
+<li>BUGFIX: Fix installing search plugin by drag-n-dropping file. (sledgehammer999)</li>
+<li>COSMETIC: Update color scheme of completed.png icon. (sledgehammer999)</li>
+<li>COSMETIC: Fix printing of the copyright symbol in the About dialog. (sledgehammer999)</li>
+<li>COSMETIC: Minor changes in Preview File dialog (ngosang)</li>
+<li>COSMETIC: Add Force Resume icon (ngosang)</li>
+<li>COSMETIC: Add count of unread items to RSS tab label (pmzqla)</li>
+<li>WEBUI: Ports between 1 and 65535 as in the GUI. Closes #1602 (ngosang)</li>
+<li>WEBUI: Fix an error in Content tab when the torrent doesn't have metadata (ngosang)</li>
+<li>WEBUI: New option Web UI port UPNP. Closes #3358 (ngosang)</li>
+<li>WEBUI: Fix API Content Types. Closes #3393 (ngosang)</li>
+<li>WEBUI: Fix empty trackers addition (ngosang)</li>
+<li>WEBUI: Torrent download from hash. Closes #1173 (ngosang)</li>
+<li>WEBUI: Fix sort by queue number (ngosang)</li>
+<li>WEBUI: Open external links in a new window/tab (ngosang)</li>
+<li>WEBUI: Massive increase in performance. (ngosang)</li>
+<li>SEARCH: Search status per tab (DoumanAsh)</li>
+<li>SEARCH: Remove the word 'torrent' in ExtraTorrent results (ngosang)</li>
+<li>SEARCH: Prefer python3 over python2 on Linux and OS X (pmzqla)</li>
+<li>SEARCH: Show notification if Python is not found and a search is started (pmzqla)</li>
+<li>SEARCH: Update link to the Windows Python installer (pmzqla)</li>
+<li>SEARCH: Improve checks for python. Print python version and path to log. (sledgehammer999)</li>
+<li>SEARCH: Improve Python detection (ngosang)</li>
+<li>OTHER: Improvements on the build system (Chocobo1)</li>
+<li>OTHER: Bump minimum libtorrent version required to 1.0.6/0.16.19. (sledgehammer999)</li>
+<li>OTHER: New translation: Slovenian</li>
+</ul>
+
+<h3>Saturday July 11th 2015 - qBittorrent v3.2.1 release</h3>
+<p>qBittorrent v3.2.1 was released. The lag that some users experience when selecting a torrent or right-clicking it is fixed in v3.3.x series. However the code cannot be backported to v3.2.x series.</p>
+<ul>
+<li>FEATURE: Change default preferences (ngosang)</li>
+<li>FEATURE: Add "Add link to torrent" menu in TrayIconMenu. Closes #2918. (Chocobo1)</li>
+<li>FEATURE: Allow to Open files from the properties pane by pressing "Enter" (pmzqla)</li>
+<li>FEATURE: Add checkbox option for IpFilterTrackers. (Chocobo1)</li>
+<li>FEATURE: Download-from-URL textbox change focus on tab key (Mayank Asthana)</li>
+<li>FEATURE: Increase priority value of "High" (pmzqla)</li>
+<li>FEATURE: Add 16 KiB, 8 MiB and 16 MiB piece sizes in Torrent Creator (ngosang)</li>
+<li>BUGFIX: Disable Auto piece size when creating a new torrent (ngosang)</li>
+<li>BUGFIX: Set default focus to cancel button in delete confirm dlg, closes #3085 (Chocobo1)</li>
+<li>BUGFIX: Set default focus to ok button in add new torrent dlg (Chocobo1)</li>
+<li>BUGFIX: Set default focus to no button in exit confirm box (Chocobo1)</li>
+<li>BUGFIX: Fix Start Minimized checkbox in Options (ngosang)</li>
+<li>BUGFIX: Remove limits on alternative speeds setting (LazyBui)</li>
+<li>BUGFIX: Fix sorting torrents by ETA (pmzqla)</li>
+<li>BUGFIX: Improve ratio calculation formula. Closes #3096. (Chocobo1)</li>
+<li>BUGFIX: Clear missing files flag when resuming or force rechecking. Fixes issues in #2750. (sledgehammer999)</li>
+<li>BUGFIX: Delete tempfile when downloading favicon.ico. Closes #3257. (sledgehammer999)</li>
+<li>BUGFIX: Don't close downloadFromURL dialog when showing empty url warning (Chocobo1)</li>
+<li>BUGFIX: Minimize to tray only if the relevant option is enabled. (sledgehammer999)</li>
+<li>BUGFIX: Update disk space label after changing partition, closes #3309. (Chocobo1)</li>
+<li>BUGFIX: Don't use a default upload limit. Closes #3275. (sledgehammer999)</li>
+<li>BUGFIX: Fix Properties bar size when started minimized to tray. Closes #3206. (sledgehammer999)</li>
+<li>COSMETIC: Change option text "Confirmation on exit when torrents are active" (Chocobo1)</li>
+<li>COSMETIC: Enable to choose dark/light tray icons on all platforms. (Chocobo1)</li>
+<li>COSMETIC: Use AllUppercase for label text (Chocobo1)</li>
+<li>COSMETIC: changes in typography (ngosang)</li>
+<li>COSMETIC: Menu revamp (Chocobo1)</li>
+<li>COSMETIC: Revamp general tab info (Chocobo1)</li>
+<li>COSMETIC: Better update message for users (Chocobo1)</li>
+<li>COSMETIC: Fix ugly 'C++' wrapping in About dialog. (glassez)</li>
+<li>WEBUI: Fix login and logout relative URLs (ngosang)</li>
+<li>WEBUI: Fix resumeAll and pauseAll. Closes #3016 (ngosang)</li>
+<li>WEBUI: Changes in title bar (ngosang)</li>
+<li>WEBUI: Complete translatable strings (ngosang)</li>
+<li>WEBUI: Minor changes in style (ngosang)</li>
+<li>WEBUI: Fix Max connections and Time active in transfer information (ngosang)</li>
+<li>WEBUI: New config - Global maximum number of upload slots (ngosang)</li>
+<li>WEBUI: Display wasted data with friendly units. Closes #2994 (ngosang)</li>
+<li>WEBUI: add delay in shutdown command in order to send out response msg (Chocobo1)</li>
+<li>WEBUI: Option to hide Top Toolbar (ngosang)</li>
+<li>WEBUI: Reorder the tabs/groups in Options window (ngosang)</li>
+<li>WEBUI: Add new options (ngosang)</li>
+<li>WEBUI: Increase API_VERSION due to changes in #3279, #3197, #3226 and #3040 (ngosang)</li>
+<li>WEBUI: Add Web Seeds (HTTP Sources) tab (ngosang)</li>
+<li>WEBUI: Don't update the tabs if tab's panel is collapsed (ngosang)</li>
+<li>WEBUI: Fix alternative global rate limits. (ngosang)</li>
+<li>SEARCH: Fix thepiratebay. Closes #3012 (ngosang)</li>
+<li>SEARCH: Improve torrentz engine to return more results (ngosang)</li>
+<li>SEARCH: Change width of columns in search tab. Closes #764 (ngosang)</li>
+<li>SEARCH: Make strings translatable in seach engine (ngosang)</li>
+<li>SEARCH: Aborting search engine process during closure. Close #2671 (DoumanAsh)</li>
+<li>SEARCH: Perform searches in parallel (DoumanAsh)</li>
+<li>SEARCH: Add Demonoid search engine (ngosang)</li>
+<li>SEARCH: Minor fixes in search engines (ngosang)</li>
+<li>SEARCH: Show the version of search engines (ngosang)</li>
+<li>SEARCH: Update Legit Torrent to remove sgmllib (DoumanAsh)</li>
+<li>SEARCH: Update KickassTorrents (ngosang)</li>
+<li>SEARCH: Update BTDigg (ngosang)</li>
+<li>SEARCH: Update Torrentz (ngosang)</li>
+<li>SEARCH: Update ExtraTorrent (ngosang)</li>
+<li>SEARCH: Update TorrentReactor (ngosang)</li>
+<li>SEARCH: Fix Python 2 implementation of Torrentz (ngosang)</li>
+<li>SEARCH: Cosmetic changes in search engine (ngosang)</li>
+<li>SEARCH: Fix column sort in search engine. Closes #2621 (ngosang)</li>
+<li>RSS: Update matching RSS articles while editing rules (pmzqla)</li>
+<li>WINDOWS: Fix python detection from registry when multiple versions are installed (sledgehammer999)</li>
+<li>LINUX: Fixes Linux issue for when the theme doesn't have a corresponding icon. (sledgehammer999)</li>
+<li>OTHER: Correctly detect FreeBSD when configuring. (sledgehammer999, yurivict)</li>
+<li>OTHER: Add translator to credits.</li>
+<li>OTHER: New translation: Indonesian.</li>
+<li>OTHER: Split Chinese locales into Chinese Simplified, Chinese Traditional(Taiwan), Chinese Traditional(Hong Kong). (sledgehammer999)</li>
+</ul>
+
+<h3>Sunday May 10th 2015 - qBittorrent v3.2.0 release</h3>
+<p>qBittorrent v3.2.0 was released. After a long wait it is released. WebUI users will need to reset their passwords. Windows user with many torrents don't need to manually exit the application before system shutdown anymore.</p>
+<p>Thanks to all the contributors. Below follows the <b>HUGE</b> list of changes.</p>
+<ul>
+<li>FEATURE: Show actual protocol for listen success/failure in the log. Needs libtorrent v1.0.0 (Gelmir)</li>
+<li>FEATURE: Support per tracker re-announce. Needs libtorrent v1.0.0 (Gelmir)</li>
+<li>FEATURE: Support saving in network locations. (Gelmir)</li>
+<li>FEATURE: Support Qt5 (mostly Glassez)</li>
+<li>FEATURE: Code optimizations resulting in a more CPU efficient and snappier qBittorrent. (sorokin)</li>
+<li>FEATURE: WEBUI code rewritten, refactored and improved. (glassez, pmzqla, buinsky)</li>
+<li>FEATURE: Add option to hibernate computer in Auto-Shutdown menu (Bruno Barbieri)</li>
+<li>FEATURE: Cache preferences in memory. Minimize chance of settings corruption. Closes #1272, #1523, #1694. (sledgehammer999)</li>
+<li>FEATURE: Option to disable connections not supported by proxies. Closes #1894. (sledgehammer999)</li>
+<li>FEATURE: Haiku OS support (diger)</li>
+<li>FEATURE: Add a save resume data interval option(useful for SSD). (john-peterson)</li>
+<li>FEATURE: Add "Last Seen Complete" column (pmzqla)</li>
+<li>FEATURE: Add "Last Activity" column (pmzqla)</li>
+<li>FEATURE: Add "Total Size" column (pmzqla)</li>
+<li>FEATURE: Show current speed limits in the status bar (pmzqla)</li>
+<li>FEATURE: Episode filtering for RSS (Gelmir)</li>
+<li>FEATURE: Highlight files when opening containing folder on Windows and Linux(nautilus, dolphin, konqueror). (Gelmir, pmzqla)</li>
+<li>FEATURE: Setting to ignore RSS rule matches for X days (Gelmir)</li>
+<li>FEATURE: Add hotkeys and buttons for Top and Bottom priorities (alfrix)</li>
+<li>FEATURE: Implement peer relevance column. Closes #1630. (sledgehammer999)</li>
+<li>FEATURE: Show reason why a peer was blocked. Needs libtorrent 1.0.x. (sledgehammer999)</li>
+<li>FEATURE: Use the 'fastest_upload' setting as seed choking algorithm. (sledgehammer999)</li>
+<li>FEATURE: Allow to set text options for the toolbar icons (pmzqla)</li>
+<li>FEATURE: Add 'Resumed' torrent filter (john.s.peterson)</li>
+<li>FEATURE: 'Add New Torrent` dialog has a button for quickly choosing a location (sledgehammer999)</li>
+<li>FEATURE: Copy selected peers as IP:Port format. (ngosang)</li>
+<li>FEATURE: Show info hash in the torrent details in 'Add New Torrent' dialog. (sledgehammer999, chrishirst)</li>
+<li>FEATURE: New feature: Remove empty labels (ngosang)</li>
+<li>FEATURE: Add "Copy name" option in right-click menu of torrent list. Closes #2452 (chrishirst)</li>
+<li>FEATURE: Implement tracker list in the side panel. Closes #170. (sledgehammer999)</li>
+<li>FEATURE: Implement a 'Completed' status. Closes #2326 #2483 #939. (sledgehammer999)</li>
+<li>FEATURE: Columns for session-based download and upload statistics (LazyBui)</li>
+<li>BUGFIX: Use completed time from libtorrent directly. Closes #1726.</li>
+<li>BUGFIX: Speedup and fix a bug in torrent moving. (sorokin)</li>
+<li>BUGFIX: Scan Folder dialog now remembers last location (Bryan Roscoe)</li>
+<li>BUGFIX: Show input box to filter torrent list only when the list is shown (pmzqla)</li>
+<li>BUGFIX: Add placeholder text to the input to filter the torrent list (pmzqla)</li>
+<li>BUGFIX: Put directories first when sorting torrent content by name (pmzqla)</li>
+<li>BUGFIX: Fix missing icon for open action in file list (Gelmir)</li>
+<li>BUGFIX: Set placeholder text to torrent content filter. (sorokin)</li>
+<li>BUGFIX: Fix torrent creation when data is too large (sorokin)</li>
+<li>BUGFIX: Load torrents that have big metadata file. Closes #1889. (sledgehammer999)</li>
+<li>BUGFIX: Use correct separator for "OR" condition in RSS rules (pmzqla)</li>
+<li>BUGFIX: Don't waste UI space in 'Content' window. Closes #2159 (alfrix)</li>
+<li>BUGFIX: Fix the language selection in the combobox when the system locale only has a lang equivalent and not a lang_COUNTRY one. Closes #1786. (sledgehammer999)</li>
+<li>BUGFIX: Don't overwrite the 'Add Paused' setting from the Add New Torrent Dialog (Gelmir)</li>
+<li>BUGFIX: Fix file preview when .!qB extension is used (pmzqla)</li>
+<li>BUGFIX: Ensure that the priority column has enough width when queueing is enabled. Closes #2263. (sledgehammer999)</li>
+<li>BUGFIX: Don't put limits to the alternative speed limits (pmzqla)</li>
+<li>BUGFIX: Make space key change all selected files' checkboxes (sorokin)</li>
+<li>BUGFIX: Don't block peers that use privileged ports. (sledgehammer999)</li>
+<li>BUGFIX: Accept multiple files at once. Closes #2253 (buinsky)</li>
+<li>BUGFIX: Don't touch torrents whose files are missing. Closes #342 #2308 #2469. (sledgehammer999)</li>
+<li>BUGFIX: Save the new save path first in the history. Closes #2382. (sledgehammer999)</li>
+<li>BUGFIX: Fix default tracker in 'Create Torrent' dialog. (ngosang)</li>
+<li>BUGFIX: Let the OS decide the default interface regardless of IPv4/IPv6. Closes #2156. (Chocobo1)</li>
+<li>BUGFIX: Delete the correct selected torrents when the list is filtered. Closes #2729. (sledgehammer999)</li>
+<li>BUGFIX: Don't use HTML in tray icon pop-up on OSX. Closes #2830. (pmzqla)</li>
+<li>BUGFIX: Fix crash when trying to open destination folder on a torrent with no metadata. Closes #2522. (pmzqla)</li>
+<li>BUGFIX: Change torrent name when metadata is retrieved. (ngosang)</li>
+<li>COSMETIC: Removes white bar in the labels list. Closes #1151. (ngosang)</li>
+<li>COSMETIC: Fix speed printing in the tray icon and in the title bar. Closes #2737. (sledgehammer999)</li>
+<li>COSMETIC: Change the color scheme used (sledgehammer999)</li>
+<li>RSS: Display remote images in the preview (Mladen Milinkovic)</li>
+<li>RSS: Format html descriptions in the preview (Mladen Milinkovic)</li>
+<li>RSS: Support overriding global "Add paused" option on per rule basis (Gelmir)</li>
+<li>WINDOWS: Fix automatic python download. Closes #2076. (sledgehammer999)</li>
+<li>WINDOWS: Fix crash when searching the registry for installed python (glassez)</li>
+<li>WINDOWS: Tell Windows to wait during shutdown. (sledgehammer999, paolo-sz)</li>
+<li>OSX: Use the configure script to prepare the build in Mac OSX too. Closes #2295. (sledgehammer999)</li>
+<li>OSX: Fix the build (David Christenson)</li>
+<li>LINUX: Distribute systemd service file for the nox build (sledgehammer999, leigh123linux)</li>
+<li>LINUX: Create qBittorrent.appdata.xml (alxpl)</li>
+<li>SEARCH: Update KickassTorrents plugin (pmzqla)</li>
+<li>SEARCH: Remove vertor engine. Closes #2260. (DoumanAsh)</li>
+<li>SEARCH: Small fix of import in legittorrents engine (DoumanAsh)</li>
+<li>SEARCH: Add combo box for fast search engine switch (DoumanAsh)</li>
+<li>SEARCH: Fix error in mininova search engine (ngosang)</li>
+<li>SEARCH: Fix piratebay. Closes #2270 (DoumanAsh)</li>
+<li>SEARCH: Updated URL in kickasstorrents search engine (ngosang)</li>
+<li>SEARCH: Torrentz search engine added (ngosang)</li>
+<li>OTHER: Drop libtorrent 0.15.x support</li>
+<li>OTHER: Drop Qt < 4.8.0 support</li>
+<li>OTHER: Migrate build system to autotools (sledgehammer999)</li>
+<li>OTHER: Remove deprecated feature of separate DHT port. (sledgehammer999)</li>
+<li>OTHER: Speedup compilation speed (sorokin)</li>
+<li>OTHER: Backtrace generation now works on MinGW. (Gelmir)</li>
+<li>OTHER: New translation: Hindi(India).</li>
+</ul>
+
+<h3>Sunday February 22nd 2015 - qBittorrent v3.1.12 release</h3>
+<p>This is merely an excuse for a new and correct build for OSX users. The previous versions didn't work on older hardware. In the meantime I backported some important fixes for Windows which resulted in crashes too.</p>
+<ul>
+<li>OSX: Fix build to work with older machines. (sledgehammer999, Noctem)</li>
+<li>WINDOWS: Fix automatic Python download. (sledgehammer999)</li>
+<li>WINDOWS: Fix crashes due to memory corruption and improve Python registry searching. (glassez)</li>
+</ul>
+
+<h3>Wednesday December 17th 2014 - qBittorrent v3.1.11.1 release</h3>
+<p>This is a Mac OS X release. This is the same source as v3.1.11. The difference is in the way it is compiled. Now it doesn't crash during launch due to incorrect dynamic library linking. Provided by user <b>DomT4</b> (github)</p>
+
+<h3>Thursday November 27th 2014 - Ubuntu PPAs</h3>
+<p>As you may have noticed already our Ubuntu PPAs were broken for quite some time now. Chris Dumez, who maintained them, was unable to fix them. Today I managed to create new and working PPAs. Head over to the <a href="download.php">download page</a> and find the new PPAs. You should remove the old ones to avoid conflicts.</p>
+
+<h3>Wednesday October 22nd 2014 - qBittorrent v3.1.11 release</h3>
+<p>qBittorrent v3.1.11 was released. I know I said that v3.1.10 would be the last of the v3.1.x series. However there were 2-3 regressions that warranted a new release. In the meantime, more bugfixes and features were commited by others. So v3.1.11 <b>should be</b> the last unless we find some serious issues with it.</p>
+<p>Also some Windows 7 users experienced freezing of the GUI. We tracked it down to a specific commit in boost 1.56. So until boost fixes it, I am going to use boost 1.55 for Windows releases.</p>
+<ul>
+<li>FEATURE: Allow relative torrent paths when qBittorrent is already running (pmzqla)</li>
+<li>FEATURE: Make Windows icons suitable for high dpi screens (pmzqla)</li>
+<li>FEATURE: Increase maximum size of system icons (pmzqla)</li>
+<li>BUGFIX: Fix crash in the "Content" widget when user would right click in it without a torrent selected (Ivan Sorokin)</li>
+<li>BUGFIX: Don't show multiple unlock UI dialogs. Closes #2040. (sledgehammer999)</li>
+<li>SEARCH: Fix bug where python would falsely be detected and nothing worked (paolo-sz)</li>
+<li>SEARCH: Fix TorrentReactor search plugin (Bruno Barbieri)</li>
+<li>SEARCH: Fix search engine encoding issues with python3 on Windows (Bruno Barbieri)</li>
+<li>SEARCH: Pirate bay search engine update (DoumanAsh)</li>
+<li>SEARCH: Internal improvements in the python code (Bruno Barbieri)</li>
+<li>WINDOWS: Fix magnet link association. Closes #1952. (sledgehammer999)</li>
+<li>WINDOWS and OSX: Fix again the program updater. The url was changed by sourceforge.net. Closes #1954. (sledgehammer999)</li>
+<li>OSX: Fix compilation (sledgehammer999)</li>
+<li>WEBUI: Set correct HTTP Content-Type in case of forbidden access. (pmzqla)</li>
+<li>COSMETIC: Remove unneeded tooltip (pmzqla)</li>
+<li>COSMETIC: Don't stretch the last section in the transfer list (pmzqla)</li>
+<li>COSMETIC: Set minimum width of the left panel in the preferences (pmzqla)</li>
+<li>OTHER: Optimize sorting of rows. This should have less CPU impact when many torrents are present. (Ivan Sorokin)</li>
+<li>OTHER: Use the correct character encoding for exceptions coming from libtorrent. (sledgehammer999)</li>
+<li>OTHER: Use boost:bind() as the docs show. Allows compilation with older gcc versions. (sledgehammer999)</li>
+</ul>
+
+<h3>Sunday September 21st 2014 - qBittorrent v3.1.10 release</h3>
+<p>qBittorrent v3.1.10 was released. This is the last release for the 3.1.x series</p>
+<ul>
+<li>FEATURE: Allow disabling of OS cache. This will prevent RAM increases on Windows when seeding many files. Closes #1699. (sledgehammer999)</li>
+<li>FEATURE: Add 'Completed' column. Closes #1241. (sledgehammer999)</li>
+<li>FEATURE: Added 'Ratio Limit' column. Closes #936. (sledgehammer999)</li>
+<li>FEATURE: Add 'Open' and 'Open Containing Folder' entries in the content's right-click menu. Closes #1143. (sledgehammer999)</li>
+<li>FEATURE: Don't listen on IPv6 address by default. Prevents network connectivity problems. Closes #1880. (sledgehammer999)</li>
+<li>FEATURE: Added 'Shutdown now' button in shutdown confirmation dialog. Closes #969. (sledgehammer999)</li>
+<li>FEATURE: Add peer port column to PeerListWidget. Closes #1650. (Ivanov Juriy)</li>
+<li>COSMETIC: Fix weird ratio values when torrent was imported or downloaded history was lost due to crash. (sledgehammer999)</li>
+<li>COSMETIC: Use 'μTP' instead of 'uTP'. (sledgehammer999)</li>
+<li>COSMETIC: Show the loaded torrents in the transferlist when qBT is launched with a torrent/magnet and the AddNewTorrentDialog is showing. Closes #1564. (sledgehammer999)</li>
+<li>COSMETIC: Don't mix finished/unifinished torrents when sorting by ETA. Closes #1688. (sledgehammer999)</li>
+<li>COSMETIC: Sort finished torrents by completed date when sorting by queue number. (sledgehammer999)</li>
+<li>COSMETIC: Right align numerical values in the transfer list. Partially revert 51a9a9aab. Closes #1903. (sledgehammer999)</li>
+<li>COSMETIC: Don't display the Search Engine tab by default. (sledgehammer999)</li>
+<li>WINDOWS: Correctly associate torrents and magnet links with qBittorrent under non-admin accounts. Closes #291 #527 #579 #614 #964. (glassez, sledgehammer999)</li>
+<li>WINDOWS: Check for python before creating the search engine tab. Prevents the creation of python specific files in the user's PC if no python is found. Closes #1370. (sledgehammer999)</li>
+<li>WINDOWS: Don't create keys in the registry if python isn't found. Closes #1370. (sledgehammer999)</li>
+<li>WINDOWS: Can now correctly detect 64bit and 32bit python installations on 64bit Windows. Closes #1148 #445 #795 #1708. (sledgehammer999)</li>
+<li>WINDOWS: Search first in PATH for python. Closes #956. (sledgehammer999)</li>
+<li>OSX: Enable system tray in MACOSX (Nick Korotysh).</li>
+<li>OSX: Fix headless (nox) build. (sledgehammer999)</li>
+<li>WEBUI: Correctly save/load settings and other improvements (glassez)</li>
+<li>WEBUI: Removed broken 'Report a bug' iframe. Closes #1343 (Benjamin Hutchins)</li>
+<li>WEBUI: Removed broken 'Documentation'. Improves fix for #1343 (Benjamin Hutchins)</li>
+<li>WEBUI: Removed essentially useless 'Visit website' iframe and changed it to a regular link. Improves fix for #1343 (Benjamin Hutchins)</li>
+<li>BUGFIX: Fix RSS feed icon. The tmp file gets deleted in the feed destructor. Closes #1639 (sledgehammer999)</li>
+<li>BUGFIX: fix issue #1674: AddNewTorrentDialog is shown again and again even if checkbox "dont ask me again" is set (Ivan Sorokin)</li>
+<li>BUGFIX: Don't show availability bar for magnet links (Ivan Sorokin)</li>
+<li>BUGFIX: Fix crash when the selected torrent disappears from the transfer list. Closes #1661 (sledgehammer999)</li>
+<li>BUGFIX: Fix tracker announcing problem(hit-and-run) when many torrents are being active. Closes #1571 (sledgehammer999)</li>
+<li>BUGFIX: Count magnet links in the 'downloading' filter and make them prevent system inhibition. Closes #1558 (sledgehammer999)</li>
+<li>BUGFIX: Pick up updated plugins. Closes #1745. (sledgehammer999)</li>
+<li>BUGFIX: Bring mainwindow in front when notification is clicked and other windows are in front. (sledgehammer999)</li>
+<li>BUGFIX: Speedup torrent moving (Ivan Sorokin)</li>
+<li>BUGFIX: Fix bug when moving a torrent before the previous move is completed (Ivan Sorokin)</li>
+<li>BUGFIX: Add option to hibernate computer in Auto-Shutdown menu (Bruno Barbieri)</li>
+<li>BUGFIX: Fix column resizing issues (Bryan Roscoe)</li>
+<li>BUGFIX: Fix possible crashes. Closes #1814. (sledgehammer999)</li>
+<li>BUGFIX: Limit max cache to 1800MiB for 32bits compiled binaries and to 4GiB for other. Closes #1698. (sledgehammer999)</li>
+<li>BUGFIX: Don't localize double numbers in the webui. Closes #1525. (sledgehammer999)</li>
+<li>BUGFIX: Don't shrink transferlist rows when scrolling horizontally. Closes #1613. (sledgehammer999)</li>
+<li>BUGFIX: When qBT is launched with a magnet don't show it in the transferlist while the metadata are being loaded in the background. (sledgehammer999)</li>
+<li>BUGFIX: Show disk space while retrieving metadata. Closes #1693. (sledgehammer999)</li>
+<li>BUGFIX: Don't disable DHT/LSD/UPnP in the GUI when anonymous mode is enabled. (sledgehammer999)</li>
+<li>BUGFIX: Possible fix for crash in RSS code. Closes #1901. (sledgehammer999)</li>
+<li>BUGFIX: Fixed SMTP emailing code (Ivanov Juriy, sledgehammer999)</li>
+<li>BUGFIX: Don't display the context menu in 'Content' and 'HTTP Sources' buttons when no torrent is selected. It prevents crashes. Closes #1906, #1900. (sledgehammer999)</li>
+<li>BUGFIX: Don't translate file extensions. Closes #1907. (sledgehammer999)</li>
+<li>BUGFIX: Fix available disk space label on single file torrents. (sledgehammer999)</li>
+<li>BUGFIX: Show stalled downloads that are uploading under the 'Active' filter. Closes #1654." (sledgehammer999)</li>
+<li>BUGFIX: fix import torrent with "Keep incomplete torrents in:" enabled (lojack5)</li>
+<li>BUGFIX: Send a spoofed user agent for the search engines(fixes some of them) (Martin Janco)</li>
+<li>BUGFIX: Support URLs that redirect to magnet links (Gelmir)</li>
+<li>BUGFIX: Consider queued items before deciding to 'auto-shutdown on downloads completion'. Closes #1942. (sledgehammer999)</li>
+</ul>
+
+<h3>Sunday August 10th 2014 - Bitcoin and Litecoin</h3>
+<p>There are two new donations methods added. Now you can send money in Bitcoins and Litecoins too. PayPal donations will continue, but Bitcoins are preferred. Find the addresses in the main page.</p>
+<p>I am really busy for the last few months in real life. Work towards 3.1.10 continues though. If you take a look at the git repo you will see what the new commits fix. 3.1.10 will be the last of the 3.1.x series. Some work has been done for the 3.2.x series, but serious development will begin after 3.1.10 has been released.</p>
+
+<h3>Tuesday April 29th 2014 - qBittorrent v3.1.9.2 release</h3>
+<p>qBittorrent v3.1.9.2 was released.</p>
+<ul>
+<li>OTHER: The v3.1.9.1 Windows build was broken</li>
+</ul>
+
+<h3>Monday April 28th 2014 - qBittorrent v3.1.9.1 release</h3>
+<p>qBittorrent v3.1.9.1 was released.</p>
+<ul>
+<li>OTHER: This is an excuse to produce new builds with an OpenSSL version that isn't affected by the heartbleed bug for Windows and Mac. This bug should only affect the WebUI and only if HTTPS/SSL authentication was enabled.</li>
+</ul>
+
+<h3>Saturday March 1st 2014 - qBittorrent v3.1.9 release</h3>
+<p>qBittorrent v3.1.9 was released.</p>
+<ul>
+<li>BUGFIX: Fix nox build. Closes #1368 (bob23450)</li>
+<li>BUGFIX: Fix build with libtorrent 0.15.x (sledgehammer999)</li>
+<li>BUGFIX: Fix missing percentage signs. Closes #1392. (sledgehammer999)</li>
+<li>BUGFIX: Fix queue sorting order. (alfrix)</li>
+<li>BUGFIX: Fix build using qt < 4.7 Closes #1385. (Evgeny Lensky)</li>
+<li>BUGFIX: Fix autoupdater. Send our user-agent to sourceforge.net (sledgehammer999)</li>
+<li>FEATURE: Add button for links in toolbar (alfrix)</li>
+</ul>
+
+<h3>Sunday February 2nd 2014 - qBittorrent v3.1.8 release</h3>
+<p>qBittorrent v3.1.8 was released.</p>
+<ul>
+<li>BUGFIX: Really fix build of v3.1.6</li>
+</ul>
+
+<h3>Sunday February 2nd 2014 - qBittorrent v3.1.7 release</h3>
+<p>qBittorrent v3.1.7 was released.</p>
+<ul>
+<li>BUGFIX: Fix build of v3.1.6</li>
+</ul>
+
+<h3>Sunday February 2nd 2014 - qBittorrent v3.1.6 release</h3>
+<p>qBittorrent v3.1.6 was released.</p>
+<ul>
+<li>BUGFIX: Fix 'preview file' regression. Closes #1285. (sledgehammer999)</li>
+<li>BUGFIX: Fix peers and seeds sorting in transfer list. (Angel Alonso)</li>
+<li>BUGFIX: Fix btdigg search engine. (BTDigg research team)</li>
+<li>BUGFIX: Save statistics every 15min and only if there was new traffic. Fixes #1288 and partially #1272. (sledgehammer999)</li>
+<li>BUGFIX: Fix share ratio text in the 'general' tab. (sledgehammer999)</li>
+<li>BUGFIX: Output a more generic message when blocking IPs and don't use italics in the log. (sledgehammer999)</li>
+<li>BUGFIX: Allow 2 decimals when setting the share ratio. Closes #1303. (sledgehammer999)</li>
+<li>BUGFIX: Fix extratorrents search plugin. (sledgehammer999)</li>
+<li>BUGFIX: Use shorter names for amount columns in main UI (Gelmir)</li>
+<li>BUGFIX: Fix overstretched options dialog. Closes #1293. (sledgehammer999)</li>
+<li>BUGFIX: Don't show a popup menu when no torrent is selected. (sledgehammer999)</li>
+<li>BUGFIX: Launch external programs async and don't block. Closes #1252. (sledgehammer999)</li>
+<li>BUGFIX: Don't re-announce to trackers when torrent is paused. Closes #1310. (sledgehammer999)</li>
+<li>BUGFIX: Bring dialog boxes in the front when qbt doesn't have focus. (sledgehammer999)</li>
+<li>BUGFIX: Correctly resize 'name' column of the content tab. Closes #1360. (sledgehammer999)</li>
+<li>BUGFIX: Correctly restore 'name' column width when loading magnet links in the 'Add new torrent dialog'. Closes #1334. (sledgehammer999)</li>
+<li>WEBUI: Fix sorting by size in WebUI when non-default locale used. (Vladimir Golovnev)</li>
+<li>UI: Reposition statistics menu item. (sledgehammer999)</li>
+<li>UI: Convert more accurately decimal numbers to text. (sledgehammer999)</li>
+<li>WINDOWS/OSX: Improvements on the behavior of the program updater(closes #1282) (sledgehammer999)</li>
+<li>LINUX: Explicitle tell that we don't support freedesktop's startup notify standard. Fixes GNOME issues. Closes #1217. (sledgehammer999)</li>
+<li>LINUX: Add our WM_CLASS in the .desktop file so window managers know how to group our windows. (sledgehammer999)</li>
+<li>OTHER: Sync translations from Transifex.</li>
+</ul>
+
+<h3>Thursday January 17th 2014 - qBittorrent v3.1.5 release</h3>
+<p>qBittorrent v3.1.5 was released.</p>
+<ul>
+<li>BUGFIX: Fix compilation with Qt 4.7. Closes #1215. (sledgehammer999)</li>
+<li>BUGFIX: Third attempt at fixing saving settings on OS shutdown. (sledgehammer999)</li>
+<li>BUGFIX: Preview now correctly uses the selected file. Closes #1222 #1182. (sledgehammer999)</li>
+<li>BUGFIX: Allow to resize the columns in Add New Torrent dialog. Closes #1207 #676 (sledgehammer999)</li>
+<li>BUGFIX: Ensure that at least one column in the tranferlist is always visible. Closes #1165. (sledgehammer999)</li>
+<li>BUGFIX: Ensure that the options window will always be placed onscreen. Closes #1226. (sledgehammer999)</li>
+<li>BUGFIX: Delete temporary files after they aren't needed. Closes #1188. (sledgehammer999)</li>
+<li>BUGFIX: Correctly detect libtorrent version. (sledgehammer999)</li>
+<li>BUGFIX: Various code cppcheck fixes (Konstantin Goncharik)</li>
+<li>BUGFIX: Remove isohunt search engine and update thepiratebay url (sledgehammer999)</li>
+<li>BUGFIX: Fix rss settings corruption when checking regexp and going to other rule. (Gelmir)</li>
+<li>BUGFIX: Don't count paused torrents for the autoshutdown. Closes #1280. (sledgehammer999)</li>
+<li>LINUX: Fix notifications with xfce4-notifyd.</li>
+<li>OSX: Added basic retina support. Closes #1251. (Sébastien Lavoie)</li>
+<li>OTHER: Sync translations from Transifex.</li>
+</ul>
+
+<h3>Sunday December 29th 2013 - qBittorrent v3.1.4 release</h3>
+<p>qBittorrent v3.1.4 was released.</p>
+<ul>
+<li>FEATURE: Statistics dialog (Gelmir)</li>
+<li>FEATURE: Tooltips explaining each peer's connection flags (sledgehammer999)</li>
+<li>FEATURE: Win/Mac Check for program updates every 15min and allow the user to manually check for updates through the help menu. (sledgehammer999)</li>
+<li>BUGFIX: Better dialog message for torrent delete confirmation (sledgehammer999)</li>
+<li>BUGFIX: Fix resizing grip location. Closes #1146. (sledgehammer999)</li>
+<li>BUGFIX: Lock toolbar in place. Closes #1144. (sledgehammer999)</li>
+<li>BUGFIX: Second attempt at fixing saving settings on shutdown. (sledgehammer999)</li>
+<li>BUGFIX: Sort labels in 'Add new torrent' dialog. Closes #1150 #411. (sledgehammer999)</li>
+<li>LINUX: Fix build under Ubuntu 13.10 (sledgehammer999)</li>
+<li>LINUX: Make sleep and shutdown functions work on systemd's logind (Faheem Pervez)</li>
+</ul>
+
+<h3>Monday November 20th 2013 - qBittorrent v3.1.3 release</h3>
+<p>qBittorrent v3.1.3 was released.</p>
+<ul>
+<li>FEATURE: Add a key shortcut to "Add link to torrent..." (Angel Alonso)</li>
+<li>BUGFIX: Make all columns and headers use the same text alignment in the transferlist. (sledgehammer999)</li>
+<li>BUGFIX: Fix build system for Unix/Linux. (sledgehammer999)</li>
+<li>BUGFIX: Case insensitive sort in Peers list. Closes #1066. (sledgehammer999)</li>
+<li>BUGFIX: Small optimization of WebUI responses when there isn't a data payload. (sledgehammer999)</li>
+<li>BUGFIX: Hide empty folders after filtering. Closes #74. (sledgehammer999)</li>
+<li>BUGFIX: Expand folders when filtering files. Closes #1076. (sledgehammer999)</li>
+<li>BUGFIX: Updated search plugin's URL (wowzaman12)</li>
+<li>BUGFIX: Strip some png to fix incorrect sRGB profiles. (Angel Alonso)</li>
+<li>BUGFIX: Fixed font issues on OSX Mavericks (wowzaman12)</li>
+<li>BUGFIX: Improve text in the About dialog (Artem S. Tashkinov)</li>
+<li>BUGFIX: Always show a peer IP address as a tool tip (Artem S. Tashkinov)</li>
+<li>BUGFIX: Fix inhibit system functionality. Closes #766. (sledgehammer999)</li>
+<li>BUGFIX: WebUI: Don't gzip too small payloads. (sledgehammer999)</li>
+<li>BUGFIX: Correctly detect if the browser supports gzip compression. (sledgehammer999)</li>
+<li>BUGFIX: Fix WebUI link to 'Anonymous mode' explanation. Closes #1093. (sledgehammer999)</li>
+<li>BUGFIX: Correctly update tracker tier number in the trackers tab. Closes #1075. (sledgehammer999)</li>
+<li>BUGFIX: Speed improvements.(sledgehammer999)</li>
+<li>OTHER: Updated translations.</li>
+</ul>
+
+<h3>Tuesday November 5th 2013 - qBittorrent v3.1.2 release</h3>
+<p>qBittorrent v3.1.2 was released. It contains critical fixes.</p>
+<ul>
+<li>BUGFIX: Fix WebUI gzip compression. Closes #1037. (sledgehammer999)</li>
+<li>BUGFIX: Fix compilation with qt < 4.8.0. Closes #1043. (sledgehammer999)</li>
+<li>OTHER: Updated translations.</li>
+</ul>
+
+<h3>Monday October 28th 2013 - qBittorrent v3.1.1.1 release</h3>
+<p>qBittorrent v3.1.1.1 was released. This affects Windows only. It's the same as v3.1.1. It uses 0.16.12 which isn't broken. It is marked as 3.1.1.1 so the auto-update mechanism can work.</p>
+
+<h3>Monday October 28th 2013 - Windows build is broken</h3>
+<p>The v3.1.1 Windows build is broken. Don't download it from Sourceforge.net</p>
+
+<h3>Monday October 28th 2013 - qBittorrent v3.1.1 release</h3>
+<p>qBittorrent v3.1.1 was released.</p>
+<ul>
+<li>FEATURE: Show external IP in the log. Closes #968. (sledgehammer999)</li>
+<li>FEATURE: Enable gzip compression in the webui. It should be faster now. (sledgehammer999)</li>
+<li>FEATURE: Torrents show more states(queued for checking, downloading metadata, allocating, checking resume). (sledgehammer999)</li>
+<li>FEATURE: Reenable "force reannounce" to all trackers. (sledgehammer999)</li>
+<li>FEATURE: Allow to clear the UI lock password. Closes #973. (sledgehammer999)</li>
+<li>FEATURE: New translations: English(Australia) and English(United Kingdom)</li>
+<li>BUGFIX: Expose all available translation in the WebUI. Closes #976. (sledgehammer999)</li>
+<li>BUGFIX: Copy IP copied wrong data. Closes #970 (sledgehammer999)</li>
+<li>BUGFIX: "Preview file..." didn't work on single file torrents. (sledgehammer999)</li>
+<li>BUGFIX: Fix and improve the scheduler (Gelmir and sledgehammer999)</li>
+<li>BUGFIX: RSS fixes. Closes #960, #998 (Gelmir)</li>
+<li>BUGFIX: Fix 'append label to save path' with magnet links. (sledgehammer999)</li>
+<li>BUGFIX: Can download up to 10MB .torrent file when a link is provided. Closes #879 (sledgehammer999)</li>
+<li>OTHER: Updated translations.</li>
+<li>LINUX: Fix missing conf.pri error (leigh123linux)</li>
+<li>WINDOWS: Don't remove file associations if they aren't our own. (sledgehammer999)</li>
+</ul>
+
+<h3>Saturday October 12th 2013 - qBittorrent v3.1.0 release</h3>
+<p>qBittorrent v3.1.0 was released today with a huge changelog. Enjoy!</p>
+<ul>
+<li>FEATURE: Add command line option to daemonize qbittorrent-nox (ngaro)</li>
+<li>FEATURE: Add "Shutdown qBittorrent" button to Web UI (ngaro)</li>
+<li>FEATURE: Add setting to copy .torrent files for finished downloads (Driim)</li>
+<li>FEATURE: Add option to start qBittorrent on Windows startup (sledgehammer999)</li>
+<li>FEATURE: Add context menu to Web seed list (Gelmir)</li>
+<li>FEATURE: Add support for tracker tiers / groups to creator (Gelmir)</li>
+<li>FEATURE: Allow clearing execution and ban logs (Gelmir)</li>
+<li>FEATURE: Add option to use random port on each startup (ireallylikeher)</li>
+<li>FEATURE: Expose the cache expiry to the user (Gelmir)</li>
+<li>FEATURE: Support Atom feeds (Gelmir)</li>
+<li>FEATURE: Add "save path" column (John Peterson)</li>
+<li>FEATURE: Add μTorrent-compatible "Flags" column in the peer tab(sledgehammer999)</li>
+<li>FEATURE: Load magnet metadata in the background while the "Add New Torrent" Dialog is showing (Gelmir)</li>
+<li>FEATURE: Allow to enter only an info-hash for download(sledgehammer999)</li>
+<li>FEATURE: Bring the "Add New Torrent" Dialog to the front(glassez)</li>
+<li>BUGFIX: Add confirmation dialog for "Force recheck" action (closes #131)</li>
+<li>BUGFIX: Greatly improve RSS manager performance (closes #34)</li>
+<li>BUGFIX: Ensure that all columns in the tranferlist have a size > 0.</li>
+<li>BUGFIX: Don't mark RSS item as read when it failed to download (Gelmir)</li>
+<li>BUGFIX: Fix ETA calculation when some files are downloaded and marked afterwards as 'do not download'(sledgehammer999)</li>
+<li>BUGFIX: Make the UI show that PEX/DHT/LSD are actually disabled on private torrents(sledgehammer999)</li>
+<li>BUGFIX: Scheduler should be much more robust and correct now(sledgehammer999)</li>
+<li>BUGFIX: Now qBt won't forget torrent settings after an unclean shutdown(sledgehammer999)</li>
+<li>BUGFIX: Text boxes in edit dialogs will fit to text width(Gelmir)</li>
+<li>BUGFIX: Enable edit/rename via F2 or double click in various places(Gelmir)</li>
+<li>BUGFIX: Allow to edit trackers and copy their urls(Gelmir and Driim)</li>
+<li>BUGFIX: Add Uploaded column to main view(Gelmir)</li>
+<li>BUGFIX: Calculate ETA for seeding torrents(Gelmir)</li>
+<li>BUGFIX: Add option to ignore global share ratio limits for created torrents(Gelmir)</li>
+<li>OTHER: Many RSS bugfixes and improvements all over the place(Gelmir)</li>
+<li>OTHER: Generate translations at configure time to reduce tarball size</li>
+<li>OTHER: Make peer tab sortable by ip too (Gelmir)</li>
+<li>OTHER: Translations moved to Transifex(https://www.transifex.com/projects/p/qbittorrent/)</li>
+<li>OTHER: New Translation - Vietnamese (Anh Phan)</li>
+<li>PERFORMANCE: Impove drawing speed of tranferlist when there are many torrents(>100)</li>
+<li>PERFORMANCE: Impove drawing speed of peers list when there are many peers</li>
+</ul>
+
+<h3>Monday July 29th 2013 - qBittorrent v3.0.11 release</h3>
+<p>qBittorrent v3.0.11 was released today and fixes several bugs.</p>
+<ul>
+<li>FEATURE: Allow more fine tuning of upload slots. It should improve speed (sledgehammer999)</li>
+<li>FEATURE: Enable edit/rename via F2 or double click in various places (Gelmir)</li>
+<li>BUGFIX: Fix Spanish and Basque translations being messed up on Windows (sledgehammer999)</li>
+<li>BUGFIX: Don't allow newlines in rename dialog (Gelmir)</li>
+<li>BUGFIX: Treat unfinished dates as the newest ones when sorting (sledgehammer999)</li>
+<li>BUGFIX: Fix text size problem on Windows with custom DPI (sledgehammer999)</li>
+<li>BUGFIX: Respect UI lock when clicking on tray notification (sledgehammer999)</li>
+<li>BUGFIX: Fix kickass torrents search plugin (Gelmir)</li>
+<li>BUGFIX: Use system language as default language. Closes #780 (sledgehammer999)</li>
+<li>BUGFIX: Move completed files to .unwanted folder when they are unselected by the user (constantined)</li>
+<li>BUGFIX: Show delete action when multiple feeds are selected (Gelmir)</li>
+<li>BUGFIX: Use Unicode for libtorrent alert messages (Gelmir)</li>
+<li>OTHER: Update translations</li>
+<li>WINDOWS: Shave off ~4MB from the binary size (sledgehammer999)</li>
+<li>WINDOWS: Remove wrong dependency on msvc2008 runtime (sledgehammer999)</li>
+<li>WINDOWS: Disable stacktrace when building with mingw (Gelmir)</li>
+<li>WINDOWS: Updated NSIS script to include/delete .pdb file. (sledgehammer999)</li>
+</ul>
+
+<h3>July 10th 2013 - qBittorrent v3.0.10 release</h3>
+<p>qBittorrent v3.0.10 was released today and fixes several bugs.</p>
+<ul>
+<li>BUGFIX: Fix LegitTorrents search plugin</li>
+<li>BUGFIX: Improve peer host name resolution (closes #360)</li>
+<li>BUGFIX: Context menu fix in the Web UI</li>
+<li>BUGFIX: Respect 'don't show' torrent dialog in Search (sledgehammer999)</li>
+<li>BUGFIX: Torrent creator can now use files/folders from disk root (Gelmir)</li>
+<li>BUGFIX: Update free disk space when changing drives in the add new torrent dialog (sledgehammer999)</li>
+<li>BUGFIX: Various fixes relating to RSS drag and drop (Gelmir)</li>
+<li>BUGFIX: Properly rename torrent which changes position in filter model (Gelmir)</li>
+<li>BUGFIX: Actually show tray notifications when a torrent finishes downloading (sledgehammer999)</li>
+<li>BUGFIX: Don't download RSS items based on rules still being edited (Gelmir)</li>
+<li>COSMETIC: Native look for the search boxes (Hyperz)</li>
+<li>IMPROVEMENT: Use natural sorting where possible (Gelmir and sledgehammer999)</li>
+<li>LINUX: Drop Boost.Thread dependency from configure script</li>
+<li>OTHER: Update translations.</li>
+<li>OTHER: Drop obsolete Boost.Thread dependency from configure script on linux (Dumez)</li>
+<li>LIBTORRENT: SOCKS5 fixes (0.16.10)</li>
+<li>LIBTORRENT: Fix hanging issue on Windows when closing files (0.16.10)</li>
+<li>LIBTORRENT: Cache can now be returned to the OS (0.16.10)</li>
+<li>PERFORMANCE: Impove drawing speed of tranferlist when there are many torrents(>100) (sledgehammer999)</li>
+<li>PERFORMANCE: Impove drawing speed of peers list when there are many peers (sledgehammer999)</li>
+</ul>
+
+<h3>July 7th 2013 - New qBittorrent maintainer</h3>
+<p>qBittorrent from June 23rd 2013 has a new maintainer. Christophe Dumez, the original author, has stepped down and transfered the project maintenance to sledgehammer999. Read more <a href="http://qbforums.shiki.hu/index.php/topic,2009.0.html">here</a>.</p>
+
+<h3>April 7th 2013 - New qBittorrent Ubuntu PPAs</h3>
+<p>qBittorrent now has new Ubuntu PPA repositories with daily builds of qBittorrent, for both stable branch and trunk (development branch).</p>
+<ul>
+<li>Stable: <a href="http://launchpad.net/~hydr0g3n/+archive/qbittorrent-stable/">qBittorrent-stable</a></li>
+<li>Unstable: <a href="http://launchpad.net/~hydr0g3n/+archive/qbittorrent-trunk/">qBittorrent-trunk</a></li>
+</ul>
+
+<h3>March 16th 2013 - qBittorrent v3.0.9 release</h3>
+<p>qBittorrent v3.0.9 was released today and fixes several outstanding issues. Kuddos to everyone who helped squashing bugs!</p>
+<ul>
+<li>BUGFIX: Raise qBittorrent windows when another instance is launched</li>
+<li>BUGFIX: Show human readable names for network interfaces in preferences (Windows)</li>
+<li>BUGFIX: Fix torrent creator bug when saving non-latin path (Windows)</li>
+<li>BUGFIX: Enable 'copy magnet uri' for torrents without metadata too</li>
+<li>BUGFIX: Fix a few JSON parser issues (Gelmir)</li>
+<li>BUGFIX: Add support for gzipped encoded HTTP responses (daimor)</li>
+<li>BUGFIX: Fix possibly missing "Add torrent" icon (Driim)</li>
+<li>OTHER: Add search plugin for Legit Torrents</li>
+</ul>
+
+<h3>January 20th 2013 - qBittorrent v3.0.8 release</h3>
+<p>qBittorrent v3.0.8 was released today with several bug fixes.</p>
+<ul>
+<li>BUGFIX: Fix support for --no-splash command line argument</li>
+<li>BUGFIX: Fix compilation error with libtorrent v0.15</li>
+<li>BUGFIX: Fix search issues with Python3</li>
+<li>BUGFIX: Fix dead link about certificates in program preferences</li>
+</ul>
+
+<h3>January 19th 2013 - qBittorrent v3.0.7 release</h3>
+<p>qBittorrent v3.0.7 was released today with several bug fixes.</p>
+<ul>
+<li>BUGFIX: Update max write cache size to 2048MB and set it to automatic by default (closes #148)</li>
+<li>BUGFIX: Add m4v to the list of previewable file extensions (closes #216)</li>
+<li>BUGFIX: Fix "Couldn't set environment variable..." message on start up (closes #245)</li>
+<li>BUGFIX: Use right path separator in torrent addition dialog on Windows</li>
+<li>BUGFIX: Fix "Set as default save path" setting (closes #254)</li>
+<li>BUGFIX: Reenable disk cache on Windows since the memory issue seems to be gone</li>
+<li>BUGFIX: Fixed several search engine plugins and removed the dead ones</li>
+<li>BUGFIX: Use https links in search plugins when possible</li>
+<li>BUGFIX: Bump Mootools to v1.4.5 (Web UI)</li>
+<li>BUGFIX: Require password to exit qBittorrent from tray icon when locked (closes #311)</li>
+<li>BUGFIX: Fix possible crash in loadPeers() (closes #222)</li>
+</ul>
+
+<h3>October 29th 2012 - FindMySoft Review</h3>
+<p>FindMySoft created a quick look video showcasing of qBittorrent v3.0.5 and wrote a nice review.</p>
+<a href="http://qbittorrent.findmysoft.com"><img src="img/review2_5_qBittorrent_award.png"/ alt="FindMySoft review"></a>
+
+<h3>October 7th 2012 - qBittorrent v3.0.6 release</h3>
+<p>qBittorrent v3.0.6 was released today with several bug fixes.</p>
+<ul>
+<li>BUGFIX: Fix unicode support for command-line arguments on Windows (closes #139)</li>
+<li>BUGFIX: Do not store created torrent in memory before writing it to a file (closes #133)</li>
+<li>BUGFIX: No longer fallback to ANY interface if the user-selected interface cannot be found (closes #143)</li>
+<li>BUGFIX: Fix timezone parsing in RSS (closes #136)</li>
+<li>BUGFIX: Fix cookie support for RSS feeds (closes #119)</li>
+</ul>
+
+<h3>September 30th 2012 - qBittorrent v3.0.5 release</h3>
+<p>qBittorrent v3.0.5 was released today with several bug fixes.</p>
+<ul>
+<li>BUGFIX: Disabling systray icon no longer disables file association settings (closes #114)</li>
+<li>BUGFIX: Import new trackers from magnet link in case of duplicate torrent (closes #111)</li>
+<li>BUGFIX: Fix "Skip hash check" feature in torrent import dialog (closes #128)</li>
+<li>BUGFIX: Several Web UI connection fixes</li>
+<li>BUGFIX: Add Basque locale to Web UI</li>
+</ul>
+
+<h3>September 16th 2012 - qBittorrent v3.0.3 release</h3>
+<p>qBittorrent v3.0.3 was released today with several bug fixes and a new translation (Hebrew).</p>
+<ul>
+<li>BUGFIX: Fix issue with temporary directory not being taken into consideration (closes #94)</li>
+<li>BUGFIX: Address encoding issues when using search engine on Windows (closes #29)</li>
+<li>BUGFIX: Bypass cache when uploading a torrent file in Web UI (closes #68)</li>
+<li>BUGFIX: "Completed On" column is not updated until restart (closes #84)</li>
+<li>BUGFIX: Fix possible build error on some systems</li>
+<li>I18N: Add hebrew translation</li>
+</ul>
+
+<h3>September 1st 2012 - qBittorrent v3.0.2 release</h3>
+<p>qBittorrent v3.0.2 was released today to address a few issues that people experienced.</p>
+<ul>
+<li>FEATURE: Add "clear" functionality to search field (closes #59)</li>
+<li>BUGFIX: Attempt to use qBittorrent icon from theme if available (closes #49)</li>
+<li>BUGFIX: Fix crash when a fastresume file is empty (closes #52)</li>
+<li>BUGFIX: Fix encoding problem for detected XDG Download folder (closes #53)</li>
+<li>BUGFIX: Improve performance when showing torrent content panel (Improves #24)</li>
+<li>BUGFIX: Fix label-based filtering of torrents whose label contains special characters</li>
+<li>BUGFIX: Fix possible crash due to labels (closes #64)</li>
+</ul>
+
+<h3>August 21st 2012 - qBittorrent v3.0.1 release</h3>
+<p>A first bugfix release in the v3.0.x series was just uploaded in order
+to address a few issues that were reported after the v3.0.0 release.</p>
+<ul>
+<li>BUGFIX: Fix possible crash when adding a tracker to a magnet torrent without metadata (Closes #1034254)</li>
+<li>BUGFIX: Remember queue position for torrents without metadata (closes #17)</li>
+<li>BUGFIX: Fix crash when using unauthorized characters in label names (closes #19)</li>
+<li>BUGFIX: Fix search plugins updating (closes #25)</li>
+<li>BUGFIX: Make uTP connections rate limited by default</li>
+</ul>
+
+<h3>August 9th 2012 - qBittorrent v3.0.0 final release</h3>
+<p>qBittorrent v3.0.0 was finally released as stable today thanks to our team's hard work.</p>
+<ul>
+<li>FEATURE: Brand new torrent addition dialog</li>
+<li>FEATURE: Add the ability to choose the save path when using magnet links (mutoso)</li>
+<li>FEATURE: Add support for adding multiple local torrents at once (Web UI)</li>
+<li>COSMETIC: Improve style of left panel</li>
+<li>BUGFIX: Lower panels no longer gets disabled</li>
+<li>BUGFIX: Major code refactoring and various optimizations</li>
+<li>BUGFIX: No longer strip root folder from torrent files</li>
+<li>OTHER: Drop support for libtorrent v0.14.x</li>
+<li>OTHER: Drop support for Qt 4.5</li>
+</ul>
+
+<h3>July 1st 2012 - qBittorrent v3.0.0 release candidate</h3>
+<p>I'm glad to announce that I uploaded today the first release candidate for
+qBittorrent v3.0.0, the next major release of qBittorrent.</p>
+<p>We encourage people to start testing this release candidate and help us iron out
+the issues so that we can make a final release as soon as possible.</p>
+
+<h3>July 1st 2012 - qBittorrent v2.9.11 release</h3>
+<p>qBittorrent v2.9.11 was released today to bring a few bug fixes.</p>
+<ul>
+<li>BUGFIX: Fix unreversible "Minimize to tray" on some window managers</li>
+<li>BUGFIX: Fix torrent availability computation (closes #988869)</li>
+<li>BUGFIX: Bring window to front after restoring from systray</li>
+<li>BUGFIX: Fix keyboard focus problems on main window (closes #1019563)</li>
+<li>BUGFIX: Fix ThePirateBay search plugin</li>
+</ul>
+
+<h3>June 24th 2012 - qBittorrent v2.9.10 release</h3>
+<p>qBittorrent v2.9.10 has been released to address several issues that have been reported recently.</p>
+<ul>
+<li>BUGFIX: Fix possible crash when showing torrent content (closes #1002586)</li>
+<li>BUGFIX: Add support for RSS feeds using magnet links (closes #1016379)</li>
+<li>BUGFIX: Remove 100kb limit for torrent file size in Web UI</li>
+<li>BUGFIX: Fix ratio limiting bug (closes #835217)</li>
+<li>BUGFIX: Do not display .!qB file extensions in Web UI</li>
+<li>BUGFIX: Stop using absolute URLs in Web UI ajax requests (closes #1011226)</li>
+<li>BUGFIX: Fix torrent association and loading on Mac OS X (closes #1011229)</li>
+<li>BUGFIX: Fix unreversible "Minimize to tray" on some window managers (closes #917825)</li>
+</ul>
+
+<h3>May 5th 2012 - qBittorrent v2.9.8 release</h3>
+<p>qBittorrent v2.9.8 was released to address a few compilation issues in several environments and polish the user interface a bit.</p>
+<ul>
+<li>BUGFIX: Various UI style fixes</li>
+<li>BUGFIX: Fix compilation with gcc 4.7</li>
+<li>BUGFIX: Fix possible compilation error with msvc (Windows)</li>
+<li>BUGFIX: Fix compilation on OS/2</li>
+<li>I18N: Update Italian translation</li>
+</ul>
+
+<h3>March 18th 2012 - qBittorrent v2.9.7 release</h3>
+<p>qBittorrent v2.9.7 was released today in order to fix a few issues that have been 
+reported in the past weeks.</p>
+<ul>
+<li>BUGFIX: Fix download first/last pieces state reporting</li>
+<li>BUGFIX: Fix name of progress column in torrent content panel</li>
+<li>BUGFIX: Disable system tray icon on Mac OS X</li>
+<li>BUGFIX: RSS downloader should not ignore "Do not start automatically" rule (closes #946910)</li>
+<li>BUGFIX: Fix DHT port setting in Web UI (Closes #952182)</li>
+<li>BUGFIX: Fix possible Web UI authentication problem when using SSL (closes #941343)</li>
+<li>BUGFIX: Fix possible issues with folder removal when removing a torrent</li>
+<li>I18N: Add Basque translation</li>
+</ul>
+
+<h3>February 18th 2012 - qBittorrent v2.9.5 release</h3>
+<p>qBittorrent v2.9.5 was released today to fix a few issues that have been reported
+recently.</p>
+<p>Also note that the project source code has moved from Gitorious to <a href="http://git.qbittorrent.org">Github</a>.</p>
+<ul>
+<li>BUGFIX: qBittorrent does not handle redirection to relative URLs correctly (Closes #919905)</li>
+<li>BUGFIX: Cmd+M minimizes main window on Mac OS X (Closes #928216)</li>
+<li>BUGFIX: Cmd+Del removes torrents on Mac OS X (Closes #928852)</li>
+<li>BUGFIX: Fix potential bug when moving single file torrents to tmp folder (closes #932861)</li>
+<li>BUGFIX: Fix torrent import dialog layout (Closes #930932)</li>
+<li>BUGFIX: Prevent log window buffer from filling up (Closes #929673)</li>
+<li>BUGFIX: Fix crash when disabling then reenabling RSS</li>
+<li>BUGFIX: Fix duplicate torrent detection when adding a magnet link</li>
+<li>BUGFIX: Fix import of new trackers when adding a torrent with same hash (Closes #747000)</li>
+<li>BUGFIX: Fix possible redownload of torrents marked as read (Closes #927495)</li>
+<li>BUGFIX: Properly remove RSS feed settings/history upon feed removal</li>
+<li>I18N: Add Belarusian translation</li>
+</ul>
+
+<h3>December 29th 2011 - qBittorrent v2.9.3 release</h3>
+<p>qBittorrent v2.9.3 has been released today after a "short" break in development.</p>
+<p>Changelog:</p>
+<ul>
+<li>BUGFIX: Fix btdigg plugin (Python3 support + torrent name in magnet links)</li>
+<li>BUGFIX: Fix banning of IPv6 peers (Closes #885021)</li>
+<li>BUGFIX: Fix torrent addition dialog layout problem (Closes #84650522)</li>
+<li>BUGFIX: Do not report any progress for disabled files (Closes #56731485)</li>
+<li>BUGFIX: Make torrent sorting case insensitive (Closes #857154)</li>
+<li>BUGFIX: Improve Web UI usability of small devices</li>
+<li>BUGFIX: Program updater: More reliable version detection / comparison</li>
+<li>I18N: Add Georgian translation</li>
+</ul>
+
+<h3>October 29th 2011 - qBittorrent v2.9.2 release</h3>
+<p>qBittorrent v2.9.2 has just been uploaded to fix an annoying issue with the torrent addition dialog dimensions and to reduce the number of dependencies.</p>
+<p>Changelog:</p>
+<ul>
+<li>BUGFIX: Fix mimimum dimensions for torrent addition dialog</li>
+<li>BUGFIX: Remove dependency on boost-datetime</li>
+<li>BUGFIX: Remove dependency on boost-filesystem (libtorrent v0.16.x)</li>
+</ul>
+
+<h3>October 23rd 2011 - qBittorrent v2.9.1 release</h3>
+<p>Here comes the first bugfix release in the v2.9.x series. Although very stable, we did find
+a few regressions that needed fixing.</p>
+<p>Changelog:</p>
+<ul>
+<li>BUGFIX: Add support for speed limits scheduling (Web UI)</li>
+<li>BUGFIX: Fix ratio calculation for purely seeded torrents</li>
+<li>I18N: Update Russian translation</li>
+<li>COSMETIC: Torrent addition dialog layout fixes</li>
+</ul>
+
+<h3>October 8th 2011 - qBittorrent v2.9.0 release</h3>
+<p>qBittorrent v2.9.0 was released today with nice new features and a lot of polishing, enjoy!</p>
+<p>Thanks a lot to the people who helped make this release come to life.</p>
+<p>Changelog:</p>
+<ul>
+<li>FEATURE: Add file association settings to program preferences (Windows)</li>
+<li>FEATURE: Add setting to ignore slow torrents in queueing system</li>
+<li>FEATURE: Add advanced setting to announce to all trackers</li>
+<li>FEATURE: Add support for anonymous mode (libtorrent >= v0.16)</li>
+<li>FEATURE: Add quick "set as default save path" checkbox to torrent addition dialog (sledgehammer999)</li>
+<li>BUGFIX: Add tray menu entry for toggling window visibility</li>
+<li>BUGFIX: Fix execution log lines selection and copying</li>
+<li>BUGFIX: Reduce CPU usage when running Web UI</li>
+<li>BUGFIX: Save RSS items to disk regularly for safety</li>
+<li>BUGFIX: Fix ratio calculation (use all_time_download)</li>
+<li>BUGFIX: Fix torrent upload issues (Web UI)</li>
+<li>BUGFIX: Fix some IE incompatibilities (Web UI)</li>
+<li>COSMETIC: Display speed at the beginning of the Window title</li>
+<li>COSMETIC: Several cosmetic fixes to the Web UI</li>
+<li>COSMETIC: Make top toolbar follow system style</li>
+<li>OTHER: Display libraries versions in about dialog (sledgehammer999)</li>
+<li>OTHER: Display qBittorrent version in Web UI about dialog</li>
+</ul>
+
+<h3>September 12th 2011 - qBittorrent v2.8.5 release</h3>
+<p>qBittorrent v2.8.5 was released today to address a few issues that were reported over the holidays.</p>
+<p>ArchLinux users will be happy to know that this version finally supports Python 3.x, making the search engine available to them too.</p>
+<p>Changelog:</p>
+<ul>
+<li>BUGFIX: Fix encryption setting saving in Web UI</li>
+<li>BUGFIX: Fix "Copy torrents to" setting saving in Web UI</li>
+<li>BUGFIX: Announce to all trackers in a tier to avoid stalling issues</li>
+<li>BUGFIX: Make search engine work with Python 3.x</li>
+<li>BUGFIX: Fix search engine plugins update tool</li>
+<li>BUGFIX: Fix KickAssTorrents search plugin</li>
+</ul>
+
+<h3>August 9th 2011 - qBittorrent v2.8.4 release</h3>
+<p>qBittorrent v2.8.4 was released today with some additional bug fixes and improvements.</p>
+<p>qBittorrent v2.8.x seems pretty stable now so I'll start working on the next major release: v2.9.0.</p>
+<p>Changelog:</p>
+<ul>
+<li>BUGFIX: Added back ability to reorder trackers</li>
+<li>BUGFIX: Do not announce to all trackers in the same tier to comply with the multi-tracker specification</li>
+<li>BUGFIX: Fix torrent addition dialog geometry saving</li>
+</ul>
+
+<h3>August 2nd 2011 - qBittorrent v2.8.3 release</h3>
+<p>qBittorrent v2.8.3 was just released with a few bug fixes. Libtorrent-rasterbar v0.15.7 was also recently released.</p>
+<p>Changelog:</p>
+<ul>
+<li>BUGFIX: Fix memory usage problem in log tab</li>
+<li>BUGFIX: Make sure the main window is not hidden on startup if no system tray icon is available</li>
+</ul>
+
+<h3>June 19th 2011 - qBittorrent on Gitorious</h3>
+<p>We have decided to move qBittorrent source code to <a href="https://gitorious.org/qbittorrent">Gitorious</a> and to use GIT instead of SVN. We are hoping this will facilitate code contributions through merge requests and GIT patches.</p>
+<p>We need more people contributing code, the development team is way too small at the moment.</p>
+<p>The bug tracker is still on <a href="http://bugs.qbittorrent.org">Launchpad</a>, and the file releases will stay on <a href="https://sourceforge.net/projects/qbittorrent/files/">Sourceforge</a> for now.</p>
+<p>I would also like to move the Website to use an engine such as Wordpress or Drupal to facilitate editing. I - however - do not have the spare time to take on this task right now. If anybody is interested in working on this, please contact <a href="mailto:chris@qbittorrent.org">me</a>.</p>
+
+<h3>June 18th 2011 - qBittorrent v2.8.2 release</h3>
+<p>We have just uploaded qBittorrent v2.8.2 to fix a few minor issues.</p>
+<p>qBittorrent v2.8.1 to v2.8.2 changelog:</p>
+<ul>
+<li>BUGFIX: Fix tracker exchange advanced setting</li>
+<li>BUGFIX: Fix Proxy authentication settings</li>
+<li>BUGFIX: Fix possible status filters widget height problem</li>
+<li>FEATURE: Show tracker tier (order) in tracker list</li>
+</ul>
+
+<h3>June 5th 2011 - qBittorrent v2.8.1 release</h3>
+<p>We have just release qBittorrent v2.8.1 to fix an annoying bug in v2.8.0. Users were unable to change the Web UI username / password from the Web UI which represents a security risk, especially for nox users.</p>
+<p>qBittorrent v2.8.0 to v2.8.1 changelog:</p>
+<ul>
+<li>BUGFIX: Fix Web UI username/password change (Web UI)</li>
+</ul>
+
+<h3>June 2nd 2011 - qBittorrent v2.8.0 release</h3>
+<p>A new major release of qBittorrent was released today: v2.8.0. The first version of qBittorrent which support the next libtorrent v0.16 (with uTP support).</p>
+<p>qBittorrent v2.7.x to v2.8.0 changelog:</p>
+<ul>
+<li>FEATURE: Added full libtorrent v0.16 support (uTP, ...)</li>
+<li>FEATURE: Proxy can be disabled for peer connections</li>
+<li>FEATURE: Added support for secure SMTP connection (SSL)</li>
+<li>FEATURE: Added support for SMTP authentication</li>
+<li>FEATURE: Added UPnP/NAT-PMP port forward for the Web UI port</li>
+<li>FEATURE: qBittorrent can update dynamic DNS services (DynDNS, no-ip)</li>
+<li>FEATURE: Display peer connection type in peer list (BT, uTP, Web)</li>
+<li>FEATURE: Added full regex support to RSS downloader</li>
+<li>FEATURE: Added regex help and validation in RSS downloader</li>
+<li>FEATURE: Added HTTPS support to Web UI (Ishan Arora)</li>
+<li>BUGFIX: Change systray icon on the fly (no restart needed)</li>
+<li>BUGFIX: Remember peer-level rate limits (requires libtorrent v0.16)</li>
+<li>BUGFIX: Stop annoncing to trackers an all tiers (more respectful)</li>
+<li>BUGFIX: Stop sharing private trackers with other peers</li>
+<li>BUGFIX: Tracker exchange extension can be disabled</li>
+<li>BUGFIX: Cleaner program exit on system log out</li>
+<li>BUGFIX: Fix possible magnet link parsing problems</li>
+<li>BUGFIX: Fix possible RSS URL parsing problems</li>
+<li>COSMETIC: Added monochrome icon for light themes</li>
+</ul>
+
+<h3>April 16th 2011 - qBittorrent v2.7.3 and v2.8.0beta3 uploads</h3>
+<p>I have just uploaded qBittorrent v2.7.3. It fixes a few bugs (including one potentially important) and improves performance.</p>
+<p>Development is also progressing on v2.8.0 with a new beta release.</p>
+<p>qBittorrent v2.7.2 to v2.7.3 changelog:</p>
+<ul>
+<li>FEATURE: Added search plugin for btdigg.org (From BTDigg research team)</li>
+<li>BUGFIX: Do not delete unwanted files that were already present when adding the torrent</li>
+<li>BUGFIX: Fix URL decoding in search engine</li>
+<li>BUGFIX: Trackers can now be added to torrents without metadata</li>
+<li>BUGFIX: Fix initialization problem with some private trackers</li>
+<li>BUGFIX: Fix crash in RSS downloader</li>
+<li>BUGFIX: Make sure assertions are disabled in release mode</li>
+</ul>
+
+<h3>April 5th 2011 - qBittorrent v2.7.2 release</h3>
+<p>qBittorrent v2.7.2 has just been uploaded. It brings a few important bug fixes.</p>
+<p>qBittorrent v2.7.1 to v2.7.2 changelog:</p>
+<ul>
+<li>BUGFIX: Uninhibit system sleep on exit (Vladimir Golovnev)</li>
+<li>BUGFIX: Fix error on Windows when qBittorrent is shutdown by session manager (Vladimir Golovnev)</li>
+<li>BUGFIX: Fix alternative speeds tooltip</li>
+<li>BUGFIX: Parse URLs in torrent description</li>
+<li>BUGFIX: Make sure python is not required on startup (Windows)</li>
+<li>BUGFIX: Use ConsoleKit to shutdown the system instead of HAL (deprecated)</li>
+<li>BUGFIX: use UPower to suspend the system instead of HAL (deprecated)</li>
+<li>BUGFIX: Rewrote computer shutdown/suspend code to avoid data loss</li>
+<li>OTHER: Get rid of libnotify dependency (Use DBus instead)</li>
+</ul>
+
+<h3>March 26th 2011 - qBittorrent v2.7.1 release</h3>
+<p>qBittorrent v2.7.1 was released today. It ships a few bug fixes and a lot of translations updates.</p>
+<p>qBittorrent v2.7.0 to v2.7.1 changelog:</p>
+<ul>
+<li>BUGFIX: Limit file names to 255 bytes to avoid issues on Linux FS</li>
+<li>BUGFIX: Fix possible crash when changing the priority of a file</li>
+<li>BUGFIX: Magnet link association fix on Win32 (sledgehammer999)</li>
+<li>BUGFIX: Easier compilation on Win32 using MinGW (sledgehammer999)</li>
+<li>BUGFIX: Sync program preferences before computer shutdown to avoid loss</li>
+<li>OTHER: Get rid of QtSVG dependency</li>
+<li>I18N: Updated German, Italian, Hungarian, Portuguese, Brazilian, Spanish and Catalan translations</li>
+</ul>
+
+<h3>March 20th 2011 - qBittorrent v2.7.0 release</h3>
+<p>qBittorrent v2.7.0 was released with a few interesting new features and some more polishing.</p>
+<p>As you can see from the changelog, the project is attracting some new developers, which is excellent news.
+A big thanks to Vladimir Golovnev, Christian Kandeler and Ville Kiiskinen for their contribution.</p>
+<p>qBittorrent v2.6.9 to v2.7.0 changelog:</p>
+<ul>
+<li>FEATURE: Added search field for torrent content</li>
+<li>FEATURE: Added auto-shutdown confirmation dialog</li>
+<li>FEATURE: Added option to skip torrent deletion confirmation (Ville Kiiskinen)</li>
+<li>FEATURE: IP address reported to trackers is now customizable</li>
+<li>FEATURE: Inhibit system sleep when torrents are active (Vladimir Golovnev)</li>
+<li>FEATURE: Added option to bypass Web UI authentication for localhost</li>
+<li>FEATURE: Added option to disable program exit confirmation</li>
+<li>FEATURE: Added per-torrent ratio limiting (Christian Kandeler)</li>
+<li>FEATURE: Torrent content list is now sortable</li>
+<li>BUGFIX: Fix compilation with namespaced Qt (Christian Kandeler)</li>
+<li>BUGFIX: Added length restriction on UI lock password</li>
+<li>COSMETIC: Added monochrome tray icon</li>
+<li>COSMETIC: Improved status bar's style</li>
+<li>OTHER: Make QtDBus dependency optional (X11)</li>
+</ul>
+
+<h3>March 13th 2011 - qBittorrent v2.6.9 release</h3>
+<p>qBittorrent v2.6.9 has been released today with a few more bug fixes. We are also making good progress on v2.7.0
+and it should be ready soon.</p>
+<p>qBittorrent v2.6.7 to v2.6.9 changelog:</p>
+<ul>
+<li>BUGFIX: Fix compilation with libtorrent v0.14.x</li>
+<li>BUGFIX: Fix issues when writing on NTFS (Linux, Mac)</li>
+<li>BUGFIX: Fix root folder being cut off if the torrent comes from a scanned folder (Christian Kandeler)</li>
+<li>BUGFIX: Improve folder removal behavior</li>
+<li>BUGFIX: Make sure the .unwanted folder is deleted on soft torrent removal</li>
+<li>BUGFIX: Indicate support for Magnet links in desktop file (Fisiu)</li>
+<li>BUGFIX: Do not report torrent being checked as queued</li>
+<li>BUGFIX: Improve lists columns state saving</li>
+</ul>
+
+<h3>February 26th 2011 - qBittorrent v2.6.7 release</h3>
+<p>qBittorrent v2.6.7 was just released to fix a few bugs (most of them on Windows).</p>
+<p>qBittorrent v2.6.6 to v2.6.7 changelog:</p>
+<ul>
+<li>BUGFIX: Encoding fixes (Windows)</li>
+<li>BUGFIX: Fix "append label to save path" (Windows)</li>
+<li>BUGFIX: Disable OS cache for aligned files to reduce memory consumption</li>
+<li>BUGFIX: Fix torrent upload from Web UI (Windows)</li>
+<li>BUGFIX: Fix cursor problem in torrent addition dialog</li>
+<li>BUGFIX: Fix crash when additing an empty tracker URL</li>
+<li>BUGFIX: Share ratio can now go over 100</li>
+<li>BUGFIX: Fix compilation with boost >= v1.46</li>
+</ul>
+
+<h3>February 8th 2011 - qBittorrent v2.6.6 release</h3>
+<p>qBittorrent v2.6.6 was just released. It brings a few bug fixes including some important ones for Windows. It also features a few cosmetic improvements.</p>
+<p>qBittorrent v2.6.5 to v2.6.6 changelog:</p>
+<ul>
+<li>FEATURE: IP address reported to trackers is now customizable</li>
+<li>BUGFIX: Use slashes instead of antislashes in URLs (Windows)</li>
+<li>BUGFIX: Fix articles read state reset problem in RSS</li>
+<li>BUGFIX: Fix possible path encoding issues on Windows</li>
+<li>BUGFIX: Fix downloads from URLs on Windows</li>
+<li>I18N: Added Lithuanian translation</li>
+<li>COSMETIC: Improve main window layout</li>
+<li>COSMETIC: Improve properties buttons style</li>
+<li>COSMETIC: Display pieces being downloaded in green instead of yellow</li>
+<li>COSMETIC: Improve piece availability bar appearance</li>
+</ul>
+
+<h3>February 3rd 2011 - qBittorrent v2.6.5 release</h3>
+<p>qBittorrent v2.6.5 was released today, a bit late due to the recent problems experienced by SourceForge. Exceptionally, this bugfix release includes a major code rewrite of the RSS functionality. Indeed, this part of the code was less than optimal and was becoming very difficult to improve or even maintain. This rewrite results, according to initial reports, in a more stable experience and less CPU / memory usage when using RSS in qBittorrent.</p>
+<p>Special thanks to Vladimir Golovnev who helped again to improve system integration and bug fixing. We are also glad to announce that Tomaso is joining the team as Norwegian translator, replacing Lars-Erik Labori who left quite a long time ago.</p>
+<p>qBittorrent v2.6.4 to v2.6.5 changelog:</p>
+<ul>
+<li>BUGFIX: Make sure the progress is not 100% unless the file is complete</li>
+<li>BUGFIX: Fix memory leak in HTTP torrent downloader</li>
+<li>BUGFIX: Use native file dialogs (by Vladimir Golovnev)</li>
+<li>BUGFIX: Fix encoding problem in torrent moving code (by Vladimir Golovnev)</li>
+<li>BUGFIX: Performance improvement on ARM</li>
+<li>BUGFIX: RSS code rewrite (more cpu/memory efficient)</li>
+<li>I18N: Updated Norwegian translation (Tomaso)</li>
+</ul>
+
+<h3>January 23rd 2011 - qBittorrent v2.6.4 release</h3>
+<p>qBittorrent v2.6.4 was released today. It brings quite a few fixes and improvements.</p>
+<p>Special thanks to Vladimir Golovnev who helped fix bugs for this release.</p>
+<p>qBittorrent v2.6.3 to v2.6.4 changelog:</p>
+<ul>
+<li>BUGFIX: Added unicode support to email notification</li>
+<li>BUGFIX: Improved compatibility with various SMTP servers</li>
+<li>BUGFIX: Fix Labeling in RSS downloader</li>
+<li>BUGFIX: Avoid main window flashing on startup (closes #703984)</li>
+<li>BUGFIX: Improved hostname resolution code</li>
+<li>BUGFIX: Dropped dependency on libboost-thread</li>
+<li>BUGFIX: Display legal notice on screen center</li>
+<li>BUGFIX: Fix renaming of single-file torrents (by Vladimir Golovnev)</li>
+<li>I18N: More dialog buttons are now translated (by Vladimir Golovnev)</li>
+<li>I18N: Fix translation of size units (by Vladimir Golovnev)</li>
+</ul>
+
+<h3>January 15th 2011 - qBittorrent v2.6.3 release</h3>
+<p>qBittorrent v2.6.3 was just released. It is recommended to update since it fixes potential crashes and brings further polishing</p>
+<p>qBittorrent v2.6.2 to v2.6.3 changelog:</p>
+<ul>
+<li>BUGFIX: Fix possible crashes in full allocation mode</li>
+<li>BUGFIX: Fix icon size issues (Linux, icon theme)</li>
+<li>BUGFIX: Fixed file priority context menu</li>
+<li>BUGFIX: Remove dbus dependency in nox mode</li>
+<li>BUGFIX: Fix compilation on FreeBSD</li>
+<li>I18N: Improve Web UI translation</li>
+<li>I18N: Updated Polish translation</li>
+</ul>
+
+<h3>January 12th 2011 - qBittorrent v2.6.2 release</h3>
+<p>I have just uploaded qBittorrent v2.6.2 which brings a few important bug fixes as well as translation update/fixes.</p>
+<p>qBittorrent v2.6.1 to v2.6.2 changelog:</p>
+<ul>
+<li>BUGFIX: Do not report PeX as being disabled when DHT is</li>
+<li>BUGFIX: Fix possible crash on adding magnet links</li>
+<li>BUGFIX: Fix torrent import (was not working)</li>
+<li>I18N: Updated Greek, Croatian, Russian, Unkrainian and Bulgarian translations</li>
+<li>I18N: Added Armenian translation (New)</li>
+<li>I18N: Remove country flags from program preferences (language selection)</li>
+<li>I18N: Translate locale names (language selection)</li>
+</ul>
+
+<h3>January 10th 2011 - qBittorrent v2.6.1 release</h3>
+<p>Here comes a first bugfix release for qBittorrent v2.6. It brings some more polishing to the UI as well as a few minor fixes.</p>
+<p>qBittorrent v2.6.0 to v2.6.1 changelog:</p>
+<ul>
+<li>BUGFIX: Really disable torrent addition dialog by default</li>
+<li>BUGFIX: Fix some missing icons in the Web UI</li>
+<li>BUGFIX: Fix magnet torrent name update problem</li>
+<li>COSMETIC: Use 24px size for toolbar icons and reduce spacing</li>
+<li>COSMETIC: Move transfer list filter on the right side of the toolbar</li>
+</ul>
+
+<h3>January 9th 2011 - qBittorrent v2.6.0 final release</h3>
+<p>I'm pleased to announce the final release of qBittorrent v2.6.0. This new major release brings a few new interesting features, more polishing and fixes some long-standing limitations.</p>
+<p>qBittorrent v2.5.5 to v2.6.0 changelog:</p>
+<ul>
+<li>FEATURE: Use system icons (Linux, Qt >= 4.6)</li>
+<li>FEATURE: Improved ETA calculation</li>
+<li>FEATURE: Simplify program preferences</li>
+<li>FEATURE: Software update check can now be disabled (Mac OS X / Windows)</li>
+<li>FEATURE: Display pieces size in torrent properties</li>
+<li>FEATURE: Added "Time Active/Seeded" column to transfer list</li>
+<li>FEATURE: Give feedback regarding the IP filter parsing</li>
+<li>FEATURE: Added a button to reload the IP filter</li>
+<li>FEATURE: Search engine results can now be opened in a Web browser</li>
+<li>FEATURE: Added a search engine plugin to extratorrent.com</li>
+<li>FEATURE: Added a search engine plugin for kickasstorrents.com</li>
+<li>FEATURE: Added auto-suspend upon downloads completion feature</li>
+<li>BUGFIX: Hide unwanted files that have to be partly downloaded</li>
+<li>BUGFIX: Do not allocate space for unwanted files (preallocation mode)</li>
+<li>I18N: Added Galician translation</li>
+<li>COSMETIC: Same deletion confirmation dialog in the GUI and Web UI</li>
+<li>COSMETIC: Simplified the top toolbar</li>
+<li>COSMETIC: Display execution log as a tab instead of a modal window</li>
+</ul>
+
+<h3>January 6th 2011 - qBittorrent v2.5.5 and v2.6.0rc1 release</h3>
+<p>I have just uploaded both v2.5.5 to fix a few outstanding issues and a first release candidate for v2.6.0.</p>
+<p>qBittorrent v2.5.3 to v2.5.5 changelog:</p>
+<ul>
+<li>BUGFIX: Added --enable-debug parameter to the configure script</li>
+<li>BUGFIX: Prioritize first and last pieces when sequential download is enabled</li>
+<li>BUGFIX: Some encoding fixes (Windows)</li>
+<li>BUGFIX: Display default password on stdout when using nox</li>
+<li>BUGFIX: Fix issues when search engines results contain a '|'</li>
+<li>BUGFIX: Avoid possible crash on exit when the IP filter is enabled (closes #695945)</li>
+</ul>
+
+<h3>January 1st 2011 - qBittorrent v2.5.3 release</h3>
+<p>Happy new year to you all! I have just uploaded qBittorrent v2.5.3 with a few bug fixes.</p>
+<p>qBittorrent v2.5.2 to v2.5.3 changelog:</p>
+<ul>
+<li>BUGFIX: Fix priority up/down for multiple torrents at the same time (closes #692184)</li>
+<li>BUGFIX: Make sure the number of torrents is properly set on startup (closes #694135)</li>
+<li>BUGFIX: Fix scan directories saving (closes #694768)</li>
+<li>BUGFIX: Remove empty folders on torrent soft deletion (closes #695174)</li>
+<li>BUGFIX: Make sure the main window has focus on startup</li>
+<li>BUGFIX: Fix ampersand display in search tabs (closes #695715)</li>
+</ul>
+
+<h3>December 19th 2010 - qBittorrent v2.5.2 release</h3>
+<p>qBittorrent v2.5.2 was just uploaded, as well as a first beta for v2.6.0. v2.6.0beta1 finally brings support for the system theme icons and also uses an improved ETA calculation algorithm.</p>
+<p>qBittorrent v2.5.1 to v2.5.2 changelog:</p>
+<ul>
+<li>BUGFIX: Fix alternative speed icon staying pressed when disabled</li>
+<li>BUGFIX: Fix slot warning on startup</li>
+<li>BUGFIX: Fix alignment issues in program preferences</li>
+<li>BUGFIX: Make sure we don't move completed torrent to the temp directory for checking (closes #602938)</li>
+<li>BUGFIX: Fix some 'File Not found' warning in the Web UI</li>
+<li>BUGFIX: Fix dangerous usage of vector iterator</li>
+<li>BUGFIX: No longer expand the first folder in the torrent content list</li>
+<li>BUGFIX: Fixes possible crash in the RSS Downloader dialog (closes #691426)</li>
+</ul>
+
+<h3>December 5th 2010 - qBittorrent v2.5.1 release</h3>
+<p>After a long period of code refactoring and testing, we are glad to announce the release of qBittorrent v2.5.0. This major release brings a lot of new features as well as important performance improvements.</p>
+<p>qBittorrent v2.4.11 to v2.5.1 changelog:</p>
+<ul>
+<li>FEATURE: qBittorrent can now act as a tracker</li>
+<li>FEATURE: New and improved RSS feed automated downloader</li>
+<li>FEATURE: Added feature to shutdown qbittorrent on torrents completion</li>
+<li>FEATURE: Added a torrent import assistant to seed or keep downloading outside torrents</li>
+<li>FEATURE: qBittorrent can update itself from Sourceforge (Windows/Mac OS X only)</li>
+<li>FEATURE: Added a transfer list column to display the current tracker</li>
+<li>FEATURE: Remember the last trackers used in the torrent creation tool</li>
+<li>FEATURE: The optimal piece size is now automatically computed in the torrent creation tool</li>
+<li>FEATURE: Bring up the connection settings when clicking on the connection status icon</li>
+<li>FEATURE: Major code refactoring and optimization</li>
+<li>FEATURE: Added "Amount downloaded/left" columns to transfer list</li>
+<li>FEATURE: Simplified proxy settings</li>
+<li>FEATURE: Optimized and improved the peer country resolution code</li>
+<li>FEATURE: Download first/last pieces first when sequential download is enabled (Thanks Ahmad)</li>
+<li>FEATURE: Download first/last pieces first now applies to all media files in the torrent (Thanks Ahmad)</li>
+<li>BUGFIX: Fix SOCKS5 proxy authentication in search engine(closes #680072)</li>
+<li>BUGFIX: Fix two advanced settings (ignore limits on LAN and protocol overhead inclusion in rate limiter)</li>
+<li>BUGFIX: Fix strict super seeding (was not working)</li>
+<li>BUGFIX: Improve magnet save path handling (closes #683395)</li>
+<li>BUGFIX: Disable overwrite confirmation in torrent addition dialog (closes # 685269)</li>
+<li>COSMETIC: Replaced message box by on-screen notification for download errors</li>
+<li>COSMETIC: Improved the torrent creation tool appearance</li>
+<li>COSMETIC: Use country flags by Mark James (Thanks to Dmytro Pukha)</li>
+<li>COSMETIC: Use bigger alternative speed icon</li>
+<li>OTHERS: Dropped support for Qt &lt;= 4.4</li>
+</ul>
+
+<h3>November 21st 2010 - qBittorrent v2.4.11 and v2.5.0beta6 releases</h3>
+<p>qBittorrent v2.4.11 has just been released. It will be the last bugfix release for the v2.4.x series as v2.5.0 is almost ready. 
+Regarding the next major release - v2.4.5 - it is now in feature freeze and I have uploaded today a sixth beta release. 
+</p><p>I hope some users will have a chance to test this beta and report issues to help us stabilize. 
+A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to bring important performance improvements and to reduce the risk of introducing bugs.</p>
+<p>qBittorrent v2.4.10 to v2.4.11 changelog:</p>
+<ul>
+<li>BUGFIX: Do not report a progress of 100% in the Web UI unless the torrent is really complete (closes #674349)</li>
+<li>BUGFIX: Fix possible incorrect behavior with queueing</li>
+<li>BUGFIX: Fix RSS refresh interval saving</li>
+<li>BUGFIX: Fix possible crash when setting RSS proxy (closes #676288)</li>
+<li>BUGFIX: Fix HTTP redirect issue that would cause the torrent addition to show up for automated RSS downloads (Closes #677565)</li>
+</ul>
+
+<h3>November 10th 2010 - qBittorrent v2.4.10 release</h3>
+<p>I have just uploaded qBittorrent v2.4.10 to fix remaining outstanding issues. I am also working really hard to get v2.5.0 ready but I very little free time unfortunately.</p>
+<p>qBittorrent v2.4.9 to v2.4.10 changelog:</p>
+<ul>
+<li>BUGFIX: Fix possible crash when selecting a RSS item (really closes #575624)</li>
+<li>BUGFIX: Improved IPv6 support (IP filter and Peer list)</li>
+<li>BUGFIX: Make IP filter more tolerant towards strangely formatted IPs</li>
+<li>BUGFIX: More reliable folder scanning</li>
+<li>BUGFIX: Do not create the torrent root folder at final destination if torrent is in the temp dir (closes #673271)</li>
+<li>BUGFIX: Fix compilation with libnotify v0.7.0 (closes #671769)</li>
+<li>BUGFIX: Use a pointing cursor over status bar buttons</li>
+</ul>
+
+<h3>October 31st 2010 - qBittorrent v2.4.9 release</h3>
+<p>I hope all of you are enjoying Halloween! I - personally - have been very busy preparing a new bugfix release for the v2.4.x series ;)</p>
+<p>Once again, it brings a lot of new bug fixes. The activity on the bug tracker has remained very high this week. Hopefully it will calm down next week :P</p>
+<p>qBittorrent v2.4.8 to v2.4.9 changelog:</p>
+<ul>
+<li>BUGFIX: Fix crash when pressing enter in save path field in torrent addition dialog</li>
+<li>BUGFIX: Fix crash when deleting a torrent with no metadata (closes #667528)</li>
+<li>BUGFIX: Fix possible crash on clicking a RSS article (closes #575624)</li>
+<li>BUGFIX: Correctly update total number of torrents when a torrent is automatically removed (closes #668726)</li>
+<li>BUGFIX: Correctly display the hash of torrents with no metadata</li>
+<li>BUGFIX: Elide status bar text if it is too wide</li>
+<li>BUGFIX: Make sure the splash screen is displayed for 2 seconds</li>
+<li>BUGFIX: Make listening on a particular interface more reliable</li>
+<li>BUGFIX: Fix torrent size update in torrent addition dialog</li>
+<li>BUGFIX: Fix possible crash on qBittorrent shutdown</li>
+<li>BUGFIX: Fix and improve file priorities editing (closes #669084)</li>
+<li>I18N: Updated Arabic, Italian and Croatian translations</li>
+</ul>
+
+<h3>October 24th 2010 - qBittorrent v2.4.8 release</h3>
+<p>We have just uploaded another bugfix release for the qBittorrent v2.4.x series. It fixes quite a lot of issues. There are a lot of people taking to time to write bug reports and helping us make qBittorrent as bug-free as possible: this is great.</p>
+<p>Development on qBittorrent v2.5.0 is also progressing fast and we have uploaded a second beta for people to test.</p>
+<p>qBittorrent v2.4.7 to v2.4.8 changelog:</p>
+<ul>
+<li>BUGFIX: Fix possible crash on manual peer ban</li>
+<li>BUGFIX: Improved hostname resolution code</li>
+<li>BUGFIX: Several search plugins fixed</li>
+<li>BUGFIX: Auto-disable the shutdown feature</li>
+<li>BUGFIX: Remember the current property tab on startup</li>
+<li>BUGFIX: Fix status list widget height issue on style change</li>
+<li>BUGFIX: Fix rounding issue in torrent progress display</li>
+<li>BUGFIX: Fix issue when altering files priorities of a seeding torrent</li>
+<li>BUGFIX: Better fix for save path editing issues in torrent addition dialog</li>
+<li>BUGFIX: Peers can now be sorted by country</li>
+</ul>
+
+<h3>October 19th 2010 - qBittorrent v2.4.7 release</h3>
+<p>qBittorrent v2.4.7 was just uploaded to fix a few issues that were reported recently.</p>
+<p>qBittorrent v2.4.6 to v2.4.7 changelog:</p>
+<ul>
+<li>BUGFIX: Display the priority column when the queueing system gets enabled</li>
+<li>BUGFIX: Fix encoding problem in file renaming</li>
+<li>BUGFIX: Delete uneeded files on torrent "soft" deletion</li>
+<li>BUGFIX: Fix issues when marking a file as 'not downloaded' causes the torrent to complete</li>
+<li>BUGFIX: Improved "Set Location" and "Change save path" dialogs</li>
+<li>BUGFIX: Fix display of queued seeding torrents</li>
+</ul>
+
+<h3>October 17th 2010 - qBittorrent v2.4.6 release</h3>
+<p>qBittorrent v2.4.6 was just uploaded in order to release a few new bug fixes. We have also uploaded qBittorrent v2.5.0beta1 which includes 
+the new embedded tracker and qBittorrent shutdown upon torrent completion.</p>
+<p>qBittorrent v2.4.5 to v2.4.6 changelog:</p>
+<ul>
+<li>BUGFIX: Fix "torrent seeding after creation" feature</li>
+<li>BUGFIX: The properties panel data would sometimes not match the selected torrent</li>
+<li>BUGFIX: Fix detection of files at final destination when temp dir is used</li>
+<li>BUGFIX: Fix moving of a torrent to an unexisting directory</li>
+</ul>
+
+<h3>September 26th 2010 - qBittorrent v2.4.2 release</h3>
+<p>After a short pause in development, we have finally uploaded a bugfix release for qBittorrent v2.4. It brings quite a few fixes including some important ones for Windows platform.</p>
+<p>qBittorrent v2.4.0 to v2.4.2 changelog:</p>
+<ul>
+<li>I18N: Updated Arabic translation</li>
+<li>I18N: Fixes to German translation</li>
+<li>BUGFIX: Save path can now be edited in torrent addition dialog</li>
+<li>BUGFIX: Fix save path encoding on non-utf8 systems</li>
+<li>BUGFIX: Fix saving to drive root on Windows</li>
+<li>BUGFIX: OGV can now be previewed</li>
+<li>BUGFIX: Maximum download limit is now 10MB/s</li>
+<li>BUGFIX: Fix 'download in scan dir' persistence</li>
+<li>BUGFIX: Add .torrent extension only when missing (torrent creator)</li>
+<li>BUGFIX: Fix possible issue with temporary download path persistence</li>
+<li>BUGFIX: Added support for | (OR) operator in RSS feed downloader</li>
+<li>BUGFIX: Fix Web UI for spanish users</li>
+<li>BUGFIX: Fix locale switching from Web UI</li>
+<li>BUGFIX: Use AND operator for torrentdownloads.net searches</li>
+<li>BUGFIX: Limit torrent addition dialog width to fit the screen</li>
+<li>COSMETIC: Fix progress bars style on Windows</li>
+</ul>
+
+<h3>August 24th 2010 - qBittorrent v2.4.0 release</h3>
+<p>I have just uploaded qBittorrent v2.4.0. It brings quite a few features and some of them were awaited by users for quite some time.</p>
+<p>There may be a short pause in development now because I will defend my PhD thesis soon and then relocate to Finland.</p>
+<p>qBittorrent v2.3.1 to v2.4.0 changelog:</p>
+<ul>
+<li>FEATURE: Added actions to "Move to top/bottom" of priority queue</li>
+<li>FEATURE: Auto-Shutdown on downloads completion</li>
+<li>FEATURE: Email notification on download completion</li>
+<li>FEATURE: Added button to password-lock the UI</li>
+<li>FEATURE: Added label-level Pause/Resume/Delete actions</li>
+<li>FEATURE: Torrents can now be filtered by name</li>
+<li>FEATURE: Run external program on torrent completion</li>
+<li>FEATURE: Detect executable updates in order to advise the user to restart</li>
+</ul>
+
+<h3>July 27th 2010 - qBittorrent v2.3.0 release</h3>
+<p>qBittorrent v2.3.0 was just released. It ships quite a few new features and we hope you will all like it.</p>
+<p>Note that I will be leaving on vacation tomorrow and I will not be back until August 13th.</p>
+<p>qBittorrent v2.2.11 to v2.3.0 changelog:</p>
+<ul>
+<li>FEATURE: Simplified torrent root folder renaming/truncating (&lt; v2.3.0 is no longer forward compatible)</li>
+<li>FEATURE: Remember previous save paths in torrent addition dialog</li>
+<li>FEATURE: Max number of half-open connections can now be edited</li>
+<li>FEATURE: Added support for strict super seeding</li>
+<li>FEATURE: The user can force listening on a particular network interface</li>
+<li>FEATURE: Added cookie support for RSS feeds</li>
+<li>FEATURE: User can force tracker reannounce</li>
+<li>FEATURE: Added "No action" setting for double-click action</li>
+<li>FEATURE: Several torrents can be moved at once</li>
+<li>FEATURE: Added error state for torrents (error is displayed in a tooltip)</li>
+<li>FEATURE: Added filter for paused/error torrents</li>
+<li>FEATURE: Add Check/Uncheck all feature in Web UI</li>
+<li>FEATURE: Search engine can now be disabled</li>
+<li>FEATURE: Torrents can be automatically paused once they reach a given ratio</li>
+<li>FEATURE: Several files can now be disabled at once</li>
+<li>FEATURE: Added "Select All/None" buttons to files list</li>
+<li>FEATURE: Added support for BitComet links (bc://bt/...)</li>
+<li>BUGFIX: Hide seeding torrents files priorities in Web UI</li>
+<li>BUGFIX: The user can disable permanently recursive torrent download</li>
+<li>BUGFIX: Peer Exchange status is now correctly reported</li>
+<li>BUGFIX: Use an INI file instead of the registry on Windows (More reliable)</li>
+<li>BUGFIX: Removed client spoofing feature to avoid tracker blacklisting</li>
+<li>COSMETIC: Display peers country name in tooltip</li>
+<li>COSMETIC: Display number of torrents in transfers tab label</li>
+<li>COSMETIC: Simplified program preferences</li>
+<li>COSMETIC: Fix naming of actions opening new dialogs (use Name...)</li>
+</ul>
+
+<h3>June 23rd 2010 - qBittorrent v2.2.10 and v2.3.0beta3 release</h3>
+<p>We have released another bugfix release for qBittorrent v2.2.x series. This will probably be the last one as development on v2.3.0 is going well. We would expect to release v2.3.0 final before the end of July.</p>
+<p>qBittorrent v2.2.9 to v2.2.10 changelog:</p>
+<ul>
+<li>BUGFIX: Fix Web UI in qBittorrent nox version</li>
+<li>BUGFIX: Improved ETA display (more user friendly)</li>
+<li>BUGFIX: Fix possible compilation errors with libtorrent v0.15</li>
+<li>BUGFIX: Fix minor issues in torrent creation tool</li>
+<li>BUGFIX: Use checkable actions to avoid issues on systems hiding menu icons (e.g. recent Gnome)</li>
+<li>BUGFIX: Use busy cursor for search plugin updates</li>
+<li>BUGFIX: Free disk space calculation now works if destination folder does not exist</li>
+<li>BUGFIX: Fix "append .!qB extension to incomplete files" feature</li>
+<li>BUGFIX: Several OS/2 fixes by Silvan Scherrer</li>
+<li>COSMETIC: Display "Alternative speed limits" button as pressed when enabled</li>
+</ul>
+
+<h3>June 13th 2010 - qBittorrent v2.2.9 release</h3>
+<p>We have just uploaded qBittorrent v2.2.9 on Sourceforge. This new release includes bug fixes but also official support for Windows operating system.</p>
+<p>The Windows build should be available today or tomorrow. However, the Mac build will be delayed because it is the exams period for our maintainers.</p>
+<p>qBittorrent v2.2.8 to v2.2.9 changelog:</p>
+<ul>
+<li>FEATURE: Official support for Win32 platform</li>
+<li>FEATURE: Better integration with Mac OS</li>
+<li>BUGFIX: Fix torrent availability computation (closes #587337)</li>
+<li>BUGFIX: Disable torrent addition dialog as a default</li>
+<li>BUGFIX: Fix Web UI authentication with Opera Browser</li>
+<li>BUGFIX: Fix Javascript error in Web UI when using IE</li>
+<li>BUGFIX: Fix a lot of encoding problems on non UTF-8 systems</li>
+<li>BUGFIX: Fix race condition allowing to run multiple instances (closes #286968)</li>
+<li>BUGFIX: Fix window hiding problem when having a modal window (closes #589070)</li>
+</ul>
+
+<h3>June 6th 2010 - qBittorrent available for testing on Windows</h3>
+<p>Today represents an important milestone for qBittorrent. We have uploaded today on Sourceforge our first <a href="http://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-2.2.9/qbittorrent_2.2.9.1_setup.exe/download">Windows installer for qBittorrent v2.2.8+</a>. This installer should be regarded as a public beta as we are looking for feedback before making an official stable release (v2.2.9).</p>
+<p>Please visit our download page to grab and install qBittorrent on Windows. If you find bugs, please report them via our <a href="http://bugs.qbittorrent.org">bug tracker</a>. We thank you in advance for your helpful feedback!</p>
+
+<h3>June 4th 2010 - qBittorrent back on Mac OS X and making its debut on Windows</h3>
+<p>qBittorrent had been unmaintained on Mac platform for a while because our package maintainer was temporarily unavailable. We have excellent news: he is back! Furthermore, we welcome an additional Mac maintainer in our team: Mirco Chinelli. Both worked really hard and uploaded today qBittorrent v2.2.8 dmg for Snow Leopard. Please find it on our download page.</p>
+<p>Another great news is that I am currently working very actively on the Windows port with a new member: Mohammad Dib. As a consequence, qBittorrent v2.2.9 will be released and supported on all threee major platforms: Linux, Mac and Windows. We are currently working hard on Windows bug fixing, in collaboration with beta testers (Please contact <a href="mailto:chris@qbittorrent.org">me</a> if you wish to help with the testing), in order to make a polished and stable release really soon! Stay put :)</p>
+
+<h3>March 14th 2010 - qBittorrent v2.2.0</h3>
+<p>qBittorrent v2.2.0 final has been released today. This new major release brings a few interesting features such as a bandwidth scheduler and more advanced feature settings. There was also a great deal of code cleanup and optimization.</p>
+<p>qBittorrent v2.1.x to v2.2.0 changelog:</p>
+<ul>
+<li>FEATURE: User can set alternative speed limits for fast toggling</li>
+<li>FEATURE: Bandwidth scheduler (automatically use alternative speed limits for a given period)</li>
+<li>FEATURE: Added "Added/Completed On" columns to transfer list</li>
+<li>FEATURE: Added "Upload/Download limit" columns to transfer list</li>
+<li>FEATURE: Torrent files can be exported to a given directory</li>
+<li>FEATURE: Outgoing ports range can be customized (for QoS)</li>
+<li>FEATURE: User can choose to apply transfer limits on LAN too</li>
+<li>FEATURE: User can choose to include the protocol overhead in transfer limits</li>
+<li>FEATURE: Torrents can be automatically rechecked on completion</li>
+<li>FEATURE: If 2 torrents have the same hash, add new trackers/URL seeds to the existing torrent</li>
+<li>FEATURE: Trackers can be added from Web UI</li>
+<li>FEATURE: Global transfer information are displayed in the new Web UI status bar</li>
+<li>FEATURE: Allow to change the priority of several files at once</li>
+<li>FEATURE: Support for multiple scan folders (Patch by Christian Kandeler)</li>
+<li>BUGFIX: Only one log window can be opened at a time</li>
+<li>BUGFIX: Optimized RSS module memory usage</li>
+<li>BUGFIX: Consider HTTP downloads >1MB as invalid .torrent files and abort</li>
+<li>BUGFIX: Fix Web UI authentication with some browsers</li>
+<li>BUGFIX: Set Web UI ban period to 1 hour</li>
+<li>COSMETIC: Improved style management</li>
+</ul>
+
+<h3>January 24th 2010 - qBittorrent v2.1.2 and v2.2.0beta1</h3>
+<p>We have just uploaded v2.1.2. This bugfix release adds further polishing and should be very stable. Exceptionally, a feature was also added because it seems users were missing this one from earlier releases: File prioritizing in a torrent.</p>
+<p>We have also tagged v2.2.0beta1 for testing purpose. It introduces alternative speed limits and a bandwidth scheduler. More changes to v2.2.0 will arrive soon as its development is just starting.</p>
+<p>qBittorrent v2.1.1 to v2.1.2 changelog:</p>
+<ul>
+<li>FEATURE: Added back file prioritizing in a torrent</li>
+<li>BUGFIX: Fix issue causing torrents not to be displayed in the list</li>
+<li>BUGFIX: Make sure invalid torrent are removed from the transfer list</li>
+<li>BUGFIX: Fix overwrite check when renaming a folder in a torrent</li>
+<li>BUGFIX: Force a recheck after renaming files to avoid overwriting</li>
+<li>BUGFIX: Improve "Open destination folder" behavior</li>
+<li>BUGFIX: Fix race condition in RSS that could cause a crash on startup</li>
+<li>BUGFIX: Improved user friendlyness of size units</li>
+<li>BUGFIX: Optimized transfer list repainting</li>
+<li>COSMETIC: Improved transfer speed display in peers list</li>
+</ul>
+
+<h3>January 20th 2010 - qBittorrent v2.1.1 bugfix release</h3>
+<p>Several bugs were reported just after v2.1.0 release. We have thus decided to make a bugfix release. It is recommended to update due to the number of bugs fixed.</p>
+<p>qBittorrent v2.1.0 to v2.1.1 changelog:</p>
+<ul>
+<li>BUGFIX: Fix compilation with Qt4.4</li>
+<li>BUGFIX: Save torrent metadata so that it does not have to be re-downloaded on restart (Magnet links)</li>
+<li>BUGFIX: Fix folder renaming in a torrent (would rename children under certain conditions)</li>
+<li>BUGFIX: Nox version no longer requires libQtXml</li>
+<li>BUGFIX: Configure file now checks for pkg-config executable which is required</li>
+<li>BUGFIX: Torrents added from magnet links were not remembered on restart</li>
+<li>BUGFIX: "Add in pause" setting can be ignored from torrent addition dialog</li>
+<li>BUGFIX: Fix renaming of files with unicode characters in their name</li>
+<li>BUGFIX: Fix typo in legal notice (startup)</li>
+<li>BUGFIX: Can listen on ports &lt; 1024 (must be root)</li>
+<li>BUGFIX: Paused torrents can now be rechecked</li>
+<li>BUGFIX: Fix "open torrent destination" feature when path contains spaces</li>
+<li>I18N: Updated translations (Hungarian, Chinese, Russian)</li>
+</ul>
+
+<h3>January 18th 2010 - qBittorrent v2.1.0 final release</h3>
+<p>We uploaded today qBittorrent v2.1.0 final, a little earlier than anticipated. Once again, this new major release brings a lot of changes.</p>
+<p>The most important new features are torrent categorizing/labeling to better organize big torrent lists, headless running for people who want to run qBittorrent on a server without X server and control it remotely, new search engine plugins, better proxy support, a more secure and complete Web UI.</p>
+<p>A lot of polishing and bug fixing has been made since qBittorrent v2.0.0, it is strongly advised to update.</p>
+<p>qBittorrent v2.0.7 to v2.1.0 changelog:</p>
+<ul>
+<li>FEATURE: Graphical User Interface can be disabled at compilation time (headless running)</li>
+<li>FEATURE: Torrents can be labeled/categorized</li>
+<li>FEATURE: Labeled torrent can be downloaded corresponding subfolders</li>
+<li>FEATURE: Disk cache size can be set from preferences</li>
+<li>FEATURE: Peer Exchange (PeX) can be disabled from preferences</li>
+<li>FEATURE: Append !.qB extension to incomplete files option (libtorrent >= v0.15 only)</li>
+<li>FEATURE: Torrent files/folders can be renamed (torrent addition dialog or files properties)</li>
+<li>FEATURE: uTorrent compatible tracker list support (use torrentz.com url as a default)</li>
+<li>FEATURE: Better proxy support and preferences remodeling</li>
+<li>FEATURE: qBittorrent can identify itself as uTorrent, Vuze or KTorrent (Any stable version)</li>
+<li>FEATURE: Torrents can be renamed in transfer list</li>
+<li>FEATURE: Display torrent addition dialog for magnet links too</li>
+<li>FEATURE: Files contained in a torrent are opened on double click (files panel)</li>
+<li>FEATURE: Added support for magnet links in search engine</li>
+<li>FEATURE: Added vertor.com and torrentdownloads.net search plugins</li>
+<li>FEATURE: Search engine can now use a SOCKS5 proxy</li>
+<li>FEATURE: HTTP proxy support for peer communication</li>
+<li>BUGFIX: Search engine loads new proxy settings without program restart</li>
+<li>BUGFIX: Use XDG folders (.cache, .local) instead of .qbittorrent</li>
+<li>BUGFIX: Added legal notice on startup that the user must accept</li>
+<li>BUGFIX: Protect Web UI authentication against brute forcing</li>
+<li>BUGFIX: Use HTTP digest mode for Web UI authentication (instead of Basic)</li>
+<li>BUGFIX: Properly display torrents with one file in subfolder(s)</li>
+<li>COSMETIC: Use checkboxes to filter torrent content instead of comboboxes</li>
+<li>COSMETIC: Use alternating row colors in transfer list (set in program preferences)</li>
+<li>COSMETIC: Added a spin box to speed limiting dialog for manual input</li>
+</ul>
+
+<h3>January 3rd 2010 - qBittorrent v2.1.0rc1</h3>
+<p>First of all, we would like to wish you all a happy new year. To enjoy this new year even more, I'm planning to release qBittorrent v2.1.0 really soon and We uploaded a first release candidate today. We are hoping that people will test this release candidate and report issues as soon as possible so that we can make a stable release before the end of this month.</p>
+<p>v2.1.0 brings some long-waited features such as headless running (GUI can be disabled at compilation time by passing --disable-gui flag) and torrent categorizing/labeling. Renaming of torrents and their content is now also supported.</p>
+<p>qBittorrent v2.0.5 to v2.1.0rc1 changelog:</p>
+<ul>
+<li>FEATURE: Graphical User Interface can be disabled at compilation time (headless running)</li>
+<li>FEATURE: Torrents can be labeled/categorized</li>
+<li>FEATURE: Labeled torrent can be downloaded corresponding subfolders</li>
+<li>FEATURE: Disk cache size can be set from preferences</li>
+<li>FEATURE: Peer Exchange (PeX) can be disabled from preferences</li>
+<li>FEATURE: Append !.qB extension to incomplete files option (libtorrent >= v0.15 only)</li>
+<li>FEATURE: Torrent files/folders can be renamed (torrent addition dialog or files properties)</li>
+<li>FEATURE: uTorrent compatible tracker list support (use torrentz.com url as a default)</li>
+<li>FEATURE: Better proxy support and preferences remodeling</li>
+<li>FEATURE: qBittorrent can identify itself as uTorrent, Vuze or KTorrent (Any stable version)</li>
+<li>FEATURE: Torrents can be renamed in transfer list</li>
+<li>BUGFIX: Use XDG folders (.cache, .local) instead of .qbittorrent</li>
+<li>COSMETIC: Use checkboxes to filter torrent content instead of comboboxes</li>
+<li>COSMETIC: Use alternating row colors in transfer list (set in program preferences)</li>
+<li>COSMETIC: Added a spin box to speed limiting dialog for manual input</li>
+</ul>
+
+<h3>December 13th 2009 - qBittorrent v2.0.1</h3>
+<p>We have just uploaded a first bugfix release for qBittorrent v2.0. This version brings support for Hex Magnet Links which are used by some web sites such as <a href="http://thepiratebay.org/">The Pirate Bay</a>.</p>
+<p>Another good news is that qBittorrent project won <a href="http://www.etoiles-du-libre.org">Les étoiles du libre</a> Free Software competition, in desktop applications.</p>
+<p>qBittorrent v2.0.0 to v2.0.1 changelog:</p>
+<ul>
+<li>BUGFIX: µTorrent user-agent is now spoofed correctly</li>
+<li>BUGFIX: Fix column hiding behavior when queueing system is disabled</li>
+<li>BUGFIX: Fix link to plugins.qbittorrent.org in plugins dialog</li>
+<li>BUGFIX: ~/qBT_dir is created only when it is actually used</li>
+<li>BUGFIX: Fix possible missing slot message (toggleSelectedTorrentsSuperSeeding)</li>
+<li>BUGFIX: Fix possible crash in torrent properties (files)</li>
+<li>BUGFIX: Added Hex Magnet Links support (Thanks Haypo)</li>
+</ul>
+
+<h3>December 10th 2009 - qBittorrent v2.0.0 final release</h3>
+<p>As planned, qBittorrent v2.0.0 final was released today after a rather long period of test, which was necessary due to the large number of features/changes introduced. We really received a lot of feedback regarding v2.0.0 betas and release candidates and we would like to thank the brave people who tested it.</p>
+<p>qBittorrent v2.0.0 changelog is available <a href="http://qbittorrent.svn.sourceforge.net/viewvc/qbittorrent/trunk/Changelog?revision=3083&amp;view=markup">here</a>.</p>
+
+<h3>December 2nd 2009 - qBittorrent v2.0.0rc4 and competition finalist</h3>
+<p>Just a short article to announce that qBittorrent v2.0.0rc4 was released. It is stable and the UI will not change. I am now simply waiting for late translation updates so that I can make a final release (probably on December 10th)</p>
+<p>Another good news is that qBittorrent project is now a finalist in "desktop applications" category in <a href="http://etoiles-du-libre.org">"Les Etoiles Du Libre"</a> Free Software competition. The winning projects will be selected on December 12th so let's keep our fingers crossed!</p>
+
+<h3>November 28th 2009 - qBittorrent v2.0.0rc2 and more search engine plugins</h3>
+<p>We have released today a second release candidate for qBittorrent v2.0.0. A lot of users decided to give v2.0.0 a try as soon as they saw the screenshots and we thank them for their useful feedback. Thanks to their effort, qBittorrent v2.0.0 final will be released sooner than expected.</p>
+<p>We also recently moved our wiki to Sourceforge and we wrote a <a href="http://doc.qbittorrent.org">new documentation</a> for qBittorrent v2.0. The documentation is complete already.</p>
+<p>Another recent news was that <a href="http://www.mininova.org">Mininova</a> engine disabled access to over a million torrent files when it partly shut down its website due to legal issues. After this news, TorrentFreak published a list of <a href="http://torrentfreak.com/10-alternatives-to-mininova-091126/">10 alternatives to Mininova</a>. We decided it would be useful to support these 10 search engines in qBittorrent. As a result, we are currently publishing new plugins on <a href="http://plugins.qbittorrent.org">Plugins.qbittorrent.org</a>. 4 new plugins are available at the time I'm writing this news while qBittorrent already supported 3 engines listed in the Top 10. This means that only 3 more plugins are missing to support the whole Top 10.</p>
+
+<h3>November 17th 2009 - qBittorrent v1.5.6 release and qBittorrent v2.0.0 news</h3>
+<p>Here is another bugfix release for qBittorrent v1.5.x while waiting for the next major release: qBittorrent v2.0.0. Development on v2.0.0 is going really well and we are hoping it will be ready in a month or so. qBittorrent v2.0 brings a lot of new features and UI changes. The list of changes is available <a href="http://qbittorrent.svn.sourceforge.net/viewvc/qbittorrent/trunk/Changelog?view=markup">here</a> but to summarize it should be a very close equivalent to the official Bittorrent client: µTorrent, in all levels: features, UI, lightness.</p>
+<p>qBittorrent v1.5.5 to v1.5.6 changelog:</p>
+<ul>
+<li>BUGFIX: RSS feed articles can now be displayed using keyboard arrows</li>
+<li>BUGFIX: RSS feed downloader can only process unread articles now</li>
+<li>BUGFIX: Fixed memory leak in RSS parser</li>
+<li>BUGFIX: Fixed possible crash in search autocompletion</li>
+<li>BUGFIX: Improved ETA calculation for big torrents</li>
+<li>BUGFIX: Fixed per-torrent speed limiting</li>
+</ul>
+
