@@ -1,8 +1,6 @@
 <?php require_once('header.inc.php'); ?>
 
 <!--<h2>qBittorrent: An Advanced BitTorrent Client</h2>-->
-<h3><b>Important news:</b> <a href="/news.php#forum_restored">The forum is restored</a></h3>
-<br/>
 <h3>About qBittorrent</h3>
 <a href="download.php"><img src="img/QBt-download-150.png" alt="qBittorrent" style="float: left; margin-right: 10px; height: 115px;"/></a><p>The qBittorrent project aims to provide a Free Software alternative to µTorrent. Additionally, qBittorrent runs and provides the same features on all major platforms (Linux, Mac OS X, Windows, OS/2, FreeBSD).</p>
 <p>qBittorrent is based on the Qt toolkit and <a href="http://www.libtorrent.org">libtorrent-rasterbar</a>.</p>
