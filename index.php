@@ -54,7 +54,7 @@
   </li>
   <li><b>UPnP / NAT-PMP port forwarding support</b></li>
   <!--<li><b>Available in <a href="localization.php">~25 languages</a> (Unicode support)</b></li>-->
-  <li><b>Available in <a href="https://www.transifex.com/projects/p/qbittorrent/">~41 languages</a> (Unicode support)</b></li>
+  <li><b>Available in <a href="https://www.transifex.com/projects/p/qbittorrent/">~49 languages</a> (Unicode support)</b></li>
   <li><b>Torrent creation tool</b></li>
   <li><b>Advanced RSS support with download filters (inc. regex)</b></li>
   <li><b>Bandwidth scheduler</b></li>
