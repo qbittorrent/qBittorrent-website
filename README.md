@@ -1,4 +1,4 @@
-This repo contains the files for the main website(https://qbittorrent.org).
+This repository contains the official qBittorrent website (https://qbittorrent.org).
 
 Anyone is welcome to submit PRs that fix problems and improve things.
 
