@@ -415,9 +415,9 @@ PS: Ubuntu and OS X builds will be available in a few hours.</p>
 
 <h3>Sunday October 04th 2015 - Paypal issue resolved</h3>
 <p>Dear users and supporters!</p>
-<P>We had a minor issue with our Paypal account, which has now been resolved.</br>
-Donation is now possible again - through Paypal.</br>
-This does not mean that Paypal is preferred, the other methods work just fine too.</br>
+<P>We had a minor issue with our Paypal account, which has now been resolved.<br>
+Donation is now possible again - through Paypal.<br>
+This does not mean that Paypal is preferred, the other methods work just fine too.<br>
 (you may need to force refresh the main page to make your browser discard the old cached one)</P>
 <p>Again, I would like to thank everyone for the continued support and donations.</p>
 
