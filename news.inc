@@ -89,7 +89,7 @@
 <ul>
 <li>FEATURE: Implement Torrent Management Mode(TMM) (glassez)</li>
 <li>FEATURE: New cookies management dialog and various related fixes (glassez)</li>
-<li>FEATURE: Use unique temp directories (temp_path/&lttruncated_torrent_hash&gt). Closes #5154. (glassez)</li>
+<li>FEATURE: Use unique temp directories (temp_path/&lt;truncated_torrent_hash&gt;). Closes #5154. (glassez)</li>
 <li>FEATURE: Display notifications when a torrent is added. Closes #334 and #915. (sledgehammer999)</li>
 <li>FEATURE: Sort labels with natural sort algorithm in the right-click menu. Closes #3919. (Chocobo1)</li>
 <li>FEATURE: Add option to automatically remove .torrent files upon adding (Eugene Shalygin)</li>
@@ -1145,7 +1145,7 @@ the issues so that we can make a final release as soon as possible.</p>
 </ul>
 
 <h3>March 18th 2012 - qBittorrent v2.9.7 release</h3>
-<p>qBittorrent v2.9.7 was released today in order to fix a few issues that have been 
+<p>qBittorrent v2.9.7 was released today in order to fix a few issues that have been
 reported in the past weeks.</p>
 <ul>
 <li>BUGFIX: Fix download first/last pieces state reporting</li>
@@ -1585,9 +1585,9 @@ and it should be ready soon.</p>
 </ul>
 
 <h3>November 21st 2010 - qBittorrent v2.4.11 and v2.5.0beta6 releases</h3>
-<p>qBittorrent v2.4.11 has just been released. It will be the last bugfix release for the v2.4.x series as v2.5.0 is almost ready. 
-Regarding the next major release - v2.4.5 - it is now in feature freeze and I have uploaded today a sixth beta release. 
-</p><p>I hope some users will have a chance to test this beta and report issues to help us stabilize. 
+<p>qBittorrent v2.4.11 has just been released. It will be the last bugfix release for the v2.4.x series as v2.5.0 is almost ready.
+Regarding the next major release - v2.4.5 - it is now in feature freeze and I have uploaded today a sixth beta release.
+</p><p>I hope some users will have a chance to test this beta and report issues to help us stabilize.
 A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to bring important performance improvements and to reduce the risk of introducing bugs.</p>
 <p>qBittorrent v2.4.10 to v2.4.11 changelog:</p>
 <ul>
@@ -1660,7 +1660,7 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
 </ul>
 
 <h3>October 17th 2010 - qBittorrent v2.4.6 release</h3>
-<p>qBittorrent v2.4.6 was just uploaded in order to release a few new bug fixes. We have also uploaded qBittorrent v2.5.0beta1 which includes 
+<p>qBittorrent v2.4.6 was just uploaded in order to release a few new bug fixes. We have also uploaded qBittorrent v2.5.0beta1 which includes
 the new embedded tracker and qBittorrent shutdown upon torrent completion.</p>
 <p>qBittorrent v2.4.5 to v2.4.6 changelog:</p>
 <ul>
