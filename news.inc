@@ -628,7 +628,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>SEARCH: Updated URL in kickasstorrents search engine (ngosang)</li>
 <li>SEARCH: Torrentz search engine added (ngosang)</li>
 <li>OTHER: Drop libtorrent 0.15.x support</li>
-<li>OTHER: Drop Qt < 4.8.0 support</li>
+<li>OTHER: Drop Qt &lt; 4.8.0 support</li>
 <li>OTHER: Migrate build system to autotools (sledgehammer999)</li>
 <li>OTHER: Remove deprecated feature of separate DHT port. (sledgehammer999)</li>
 <li>OTHER: Speedup compilation speed (sorokin)</li>
@@ -758,7 +758,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>BUGFIX: Fix build with libtorrent 0.15.x (sledgehammer999)</li>
 <li>BUGFIX: Fix missing percentage signs. Closes #1392. (sledgehammer999)</li>
 <li>BUGFIX: Fix queue sorting order. (alfrix)</li>
-<li>BUGFIX: Fix build using qt < 4.7 Closes #1385. (Evgeny Lensky)</li>
+<li>BUGFIX: Fix build using qt &lt; 4.7 Closes #1385. (Evgeny Lensky)</li>
 <li>BUGFIX: Fix autoupdater. Send our user-agent to sourceforge.net (sledgehammer999)</li>
 <li>FEATURE: Add button for links in toolbar (alfrix)</li>
 </ul>
@@ -866,7 +866,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <p>qBittorrent v3.1.2 was released. It contains critical fixes.</p>
 <ul>
 <li>BUGFIX: Fix WebUI gzip compression. Closes #1037. (sledgehammer999)</li>
-<li>BUGFIX: Fix compilation with qt < 4.8.0. Closes #1043. (sledgehammer999)</li>
+<li>BUGFIX: Fix compilation with qt &lt; 4.8.0. Closes #1043. (sledgehammer999)</li>
 <li>OTHER: Updated translations.</li>
 </ul>
 
