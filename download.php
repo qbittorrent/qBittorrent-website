@@ -85,11 +85,11 @@ You can also download it from <a href="https://github.com/qbittorrent/qBittorren
 <img src="img/tar-logo.jpg" alt="Source tarball" style="float: left; width: 100px; margin-right: 5px;"/><br/>
 <p style="padding-left: 120px">
 Link: qBittorrent v3.3.9
-<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz/download">TAR.GZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz.asc/download">PGP signature</a>) 
+<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz/download">TAR.GZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz.asc/download">PGP signature</a>)
 /
-<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz/download">TAR.XZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz.asc/download">PGP signature</a>)   
+<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz/download">TAR.XZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz.asc/download">PGP signature</a>)
 (Stable)</p>
-<!--<p style="padding-left: 120px">Link: qBittorrent v3.0.0rc5 (unstable) 
+<!--<p style="padding-left: 120px">Link: qBittorrent v3.0.0rc5 (unstable)
 <a href="http://downloads.sourceforge.net/project/qbittorrent/qbittorrent-unstable/qbittorrent-3.0.0rc5.tar.gz?use_mirror=master">TAR.GZ</a>
 /
 <a href="http://downloads.sourceforge.net/project/qbittorrent/qbittorrent-unstable/qbittorrent-3.0.0rc5.tar.xz?use_mirror=master">TAR.XZ</a>
@@ -100,10 +100,10 @@ Link: qBittorrent v3.3.9
 <p>Please select your operating system:
 <select id="OSSelect" onchange="showSelectedSystem(this)">
   <option value="emptyOS" selected>Choose...</option>
-  <option value="linux">Linux</option>
-  <option value="freebsd">FreeBSD</option>
   <option value="os2">eComStation (OS/2)</option>
+  <option value="freebsd">FreeBSD</option>
   <option value="haiku">Haiku</option>
+  <option value="linux">Linux</option>
 </select> </p>
 <script type="text/javascript">
   $("OSSelect").set("value", "emptyOS");
@@ -112,19 +112,19 @@ Link: qBittorrent v3.3.9
   <p>Please select your Linux distribution:
   <select id="distroSelect" onchange="showSelectedSystem(this)">
     <option value="emptyDist" selected>Choose...</option>
-    <option value="ubuntu">Ubuntu</option>
+    <option value="agilialinux">AgiliaLinux</option>
+    <option value="altlinux">Alt Linux</option>
+    <option value="archlinux">ArchLinux</option>
+    <option value="blackpanther">blackPanther OS</option>
     <option value="debian">Debian</option>
     <option value="fedora">Fedora</option>
-    <option value="opensuse">OpenSuse</option>
     <option value="gentoo">Gentoo</option>
-    <option value="archlinux">ArchLinux</option>
-    <option value="mandriva">Mandriva</option>
     <option value="mageia">Mageia</option>
-    <option value="slackware">Slackware</option>
-    <option value="altlinux">Alt Linux</option>
-    <option value="agilialinux">AgiliaLinux</option>
-    <option value="blackpanther">blackPanther OS</option>
+    <option value="mandriva">Mandriva</option>
+    <option value="opensuse">OpenSuse</option>
     <option value="pardus">Pardus</option>
+    <option value="slackware">Slackware</option>
+    <option value="ubuntu">Ubuntu</option>
   </select></p>
 </div>
 
