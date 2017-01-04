@@ -8,6 +8,7 @@
 <h3>Help qBittorrent</h3>
 <p>qBittorrent is developed by <a href="team.php">volunteers</a> on their spare time. If you like this piece of software, please make a donation and help it survive.</p>
 <p>Donation info <a href="donate">here</a>.</p>
+
 <h3>Recommend qBittorrent</h3>
 <!-- Facebook -->
 <div id="fb-root"></div>
@@ -25,9 +26,7 @@
 <div class="g-plusone" data-annotation="inline"></div>
 <br/><br/>
 <!-- Twitter -->
-<iframe allowtransparency="true" frameborder="0" scrolling="no"
-        src="//platform.twitter.com/widgets/tweet_button.html"
-        style="width:130px; height:20px;"></iframe>
+<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h3>qBittorrent Features</h3>
 <ul>
