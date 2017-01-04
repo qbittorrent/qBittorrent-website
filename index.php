@@ -10,8 +10,16 @@
 <p>Donation info <a href="donate">here</a>.</p>
 <h3>Recommend qBittorrent</h3>
 <!-- Facebook -->
-<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.qbittorrent.org&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:560px; height:35px;" allowTransparency="true"></iframe>
-<br/>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="https://www.qbittorrent.org/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+<br/><br/>
 <!-- Google + -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <div class="g-plusone" data-annotation="inline"></div>
