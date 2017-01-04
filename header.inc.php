@@ -5,11 +5,10 @@
 
 <!--?xml version="1.0" encoding="UTF-8"?-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>qBittorrent official website</title>
     <meta name="Author" content="Christophe Dumez, chris@qbittorrent.org"/>
-    <meta http-equiv="Content-Language" content="en-GB"/>
     <meta name="Copyright" content="(c) 2006-2007"/>
     <meta name="description" content="qBittorrent official website"/>
     <meta name="Language" content="english"/>
