@@ -221,7 +221,7 @@
 <li>OTHER: Many other internal code restructuring, cleaning and fixing.</li>
 </ul>
 
-<a name="forum_restored"><h3>Saturday February 13th 2016 - The forum is restored</h3></a>
+<a id="forum_restored"><h3>Saturday February 13th 2016 - The forum is restored</h3></a>
 <p>As mentioned <a href="#forum_compromise">earlier</a>, there were reports that the forums from a bunch of bittorrent related sites were hacked. As a result we switched off our forum to investigate. To the best of our knowledge we weren't hacked. We didn't discover any evidence of unauthorized entry. We highly suspect that the self-proclaimed "hacker" was a fraud instead. Just so you know the passwords are saved hashed and salted in the database. It is very difficult to reverse this and obtain the real password. In any case, we reset all the passwords and switched on the forum. You already should have received an email about your new password.</p>
 
 <h3>Thursday January 21th 2016 - qBittorrent v3.3.3 release</h3>
@@ -278,7 +278,7 @@
 <li>OTHER: Allow GeoIP in nox builds (glassez)</li>
 </ul>
 
-<a name="forum_compromise"><h3>Tuesday December 22nd 2015 - Forum compromise</h3></a>
+<a id="forum_compromise"><h3>Tuesday December 22nd 2015 - Forum compromise</h3></a>
 <p>It has come to our attention that the forum database containing user info <b>might</b> have been compromised by a third unauthorized party. <u>We aren't able to tell if this is true from our logs</u>. And we aren't sure if the hack was real. See more info in this <a href="https://torrentfreak.com/hackers-grab-deluge-and-qbittorrent-user-databases-151221/">article</a>. If the database was indeed compromised it was probably through a bug of the forum software. We had installed version 2.0.11 of <a href="http://www.simplemachines.org/">SMF</a>, which is the latest stable. As a precaution we have taken down the forums. The passwords weren't saved as plaintext, but as salted hashes. It will make it very difficult for the hackers to recover the real passwords. However, we strongly recommend you to change your password to any other site on which you used the same password. We are sorry for the inconvenience.</p>
 
 <h3>Tuesday December 8th 2015 - qBittorrent v3.3.1 release</h3>
