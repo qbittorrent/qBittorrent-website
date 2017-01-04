@@ -63,7 +63,7 @@ You can also download it from <a href="https://github.com/qbittorrent/qBittorren
 <h3>Mac OS X Lion / Mountain Lion / Mavericks / Yosemite / El Capitan / Sierra</h3>
 <img src="img/macoslogo.png" alt="Mac OS" style="float: left; width: 100px; margin-right: 5px;"/><br/>
 <p style="padding-left: 120px">Link: <a href="https://www.fosshub.com/qBittorrent.html">qBittorrent v3.3.10 (DMG and PGP signature)</a> (Stable - FossHub)</p>
-<p style="padding-left: 120px;font-size:75%">Link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.10/qbittorrent-3.3.10.dmg/download">qBittorrent v3.3.10</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.10/qbittorrent-3.3.10.dmg.asc/download">PGP signature</a> (Stable - SourceForge)</p> (Stable - SourceForge)</p>
+<p style="padding-left: 120px;font-size:75%">Link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.10/qbittorrent-3.3.10.dmg/download">qBittorrent v3.3.10</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.10/qbittorrent-3.3.10.dmg.asc/download">PGP signature</a> (Stable - SourceForge)</p>
 <ul style="padding-left: 160px">
     <li>Libtorrent: 1.0.10</li>
     <li>Qt: 5.7.0</li>
@@ -85,11 +85,11 @@ You can also download it from <a href="https://github.com/qbittorrent/qBittorren
 <img src="img/tar-logo.jpg" alt="Source tarball" style="float: left; width: 100px; margin-right: 5px;"/><br/>
 <p style="padding-left: 120px">
 Link: qBittorrent v3.3.9
-<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz/download">TAR.GZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz.asc/download">PGP signature</a>) 
+<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz/download">TAR.GZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz.asc/download">PGP signature</a>)
 /
-<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz/download">TAR.XZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz.asc/download">PGP signature</a>)   
+<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz/download">TAR.XZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz.asc/download">PGP signature</a>)
 (Stable)</p>
-<!--<p style="padding-left: 120px">Link: qBittorrent v3.0.0rc5 (unstable) 
+<!--<p style="padding-left: 120px">Link: qBittorrent v3.0.0rc5 (unstable)
 <a href="http://downloads.sourceforge.net/project/qbittorrent/qbittorrent-unstable/qbittorrent-3.0.0rc5.tar.gz?use_mirror=master">TAR.GZ</a>
 /
 <a href="http://downloads.sourceforge.net/project/qbittorrent/qbittorrent-unstable/qbittorrent-3.0.0rc5.tar.xz?use_mirror=master">TAR.XZ</a>
