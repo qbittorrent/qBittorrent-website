@@ -3,7 +3,6 @@
   ob_start();
 ?>
 
-<!--?xml version="1.0" encoding="UTF-8"?-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
