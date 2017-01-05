@@ -105,9 +105,6 @@ Link: qBittorrent v3.3.9
   <option value="haiku">Haiku</option>
   <option value="linux">Linux</option>
 </select> </p>
-<script type="text/javascript">
-  $("OSSelect").set("value", "emptyOS");
-</script>
 
 <div id="distroDiv" class="invisible">
   <p>Please select your Linux distribution:
@@ -128,6 +125,11 @@ Link: qBittorrent v3.3.9
     <option value="ubuntu">Ubuntu</option>
   </select></p>
 </div>
+
+<script type="text/javascript">
+  OSSelect.value = "emptyOS"
+  distroSelect.value = "emptyDist"
+</script>
 
 <div id="ubuntuDiv" class="invisible">
 <h4>Ubuntu packages</h4>
