@@ -108,6 +108,7 @@ Link: qBittorrent v3.3.9
 <script type="text/javascript">
   $("OSSelect").set("value", "emptyOS");
 </script>
+
 <div id="distroDiv" class="invisible">
   <p>Please select your Linux distribution:
   <select id="distroSelect" onchange="showSelectedSystem(this)">
@@ -199,16 +200,14 @@ One-click install <a href="https://software.opensuse.org/package/qbittorrent">he
 <div id="archlinuxDiv" class="invisible">
   <h4>ArchLinux packages</h4>
   <img src="img/archlinux.png" alt="ArchLinux" style="float: left; margin-right: 5px; width: 65px;"/>
-  <p>
-    qBittorrent is officially packaged on <a href="https://www.archlinux.org/">ArchLinux</a>.
-    To install, simply type the following commands:
-    <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-      sudo pacman -Sy qbittorrent
-    </div>
-    Package information <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.<br><br>
-    For development, build from Arch User Repository (AUR):<br>
-    AUR Package information <a href="https://aur.archlinux.org/packages/qbittorrent-git/">here</a>.
-  </p>
+  qBittorrent is officially packaged on <a href="https://www.archlinux.org/">ArchLinux</a>.
+  To install, simply type the following commands:
+  <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
+    sudo pacman -Sy qbittorrent
+  </div>
+  Package information <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.<br><br>
+  For development, you can get PKGBUILD from Arch User Repository (AUR) and build it yourself:<br>
+  AUR (non-official) information <a href="https://aur.archlinux.org/packages/qbittorrent-git/">here</a>.
 </div>
 
 <div id="altlinuxDiv" class="invisible">
