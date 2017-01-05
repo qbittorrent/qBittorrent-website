@@ -100,10 +100,10 @@ Link: qBittorrent v3.3.9
 <p>Please select your operating system:
 <select id="OSSelect" onchange="showSelectedSystem(this)">
   <option value="emptyOS" selected>Choose...</option>
-  <option value="linux">Linux</option>
-  <option value="freebsd">FreeBSD</option>
   <option value="os2">eComStation (OS/2)</option>
+  <option value="freebsd">FreeBSD</option>
   <option value="haiku">Haiku</option>
+  <option value="linux">Linux</option>
 </select> </p>
 <script type="text/javascript">
   $("OSSelect").set("value", "emptyOS");
@@ -112,19 +112,19 @@ Link: qBittorrent v3.3.9
   <p>Please select your Linux distribution:
   <select id="distroSelect" onchange="showSelectedSystem(this)">
     <option value="emptyDist" selected>Choose...</option>
-    <option value="ubuntu">Ubuntu</option>
+    <option value="agilialinux">AgiliaLinux</option>
+    <option value="altlinux">Alt Linux</option>
+    <option value="archlinux">ArchLinux</option>
+    <option value="blackpanther">blackPanther OS</option>
     <option value="debian">Debian</option>
     <option value="fedora">Fedora</option>
-    <option value="opensuse">OpenSuse</option>
     <option value="gentoo">Gentoo</option>
-    <option value="archlinux">ArchLinux</option>
-    <option value="mandriva">Mandriva</option>
     <option value="mageia">Mageia</option>
-    <option value="slackware">Slackware</option>
-    <option value="altlinux">Alt Linux</option>
-    <option value="agilialinux">AgiliaLinux</option>
-    <option value="blackpanther">blackPanther OS</option>
+    <option value="mandriva">Mandriva</option>
+    <option value="opensuse">OpenSuse</option>
     <option value="pardus">Pardus</option>
+    <option value="slackware">Slackware</option>
+    <option value="ubuntu">Ubuntu</option>
   </select></p>
 </div>
 
@@ -197,10 +197,18 @@ One-click install <a href="https://software.opensuse.org/package/qbittorrent">he
 </div>
 
 <div id="archlinuxDiv" class="invisible">
-<h4>ArchLinux packages</h4>
-<img src="img/archlinux.png" alt="ArchLinux" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is present in the unofficial Arch Linux User Repository(AUR).
-These packages are maintained by community members.<br/>
-You can find more information <a href="https://aur.archlinux.org/packages.php?K=qbittorrent">here</a>.</p>
+  <h4>ArchLinux packages</h4>
+  <img src="img/archlinux.png" alt="ArchLinux" style="float: left; margin-right: 5px; width: 65px;"/>
+  <p>
+    qBittorrent is officially packaged on <a href="https://www.archlinux.org/">ArchLinux</a>.
+    To install, simply type the following commands:
+    <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
+      sudo pacman -Sy qbittorrent
+    </div>
+    Package information <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.<br><br>
+    For development, build from Arch User Repository (AUR):<br>
+    AUR Package information <a href="https://aur.archlinux.org/packages/qbittorrent-git/">here</a>.
+  </p>
 </div>
 
 <div id="altlinuxDiv" class="invisible">
