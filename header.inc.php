@@ -1,22 +1,19 @@
 <?php
   //session_start();
   ob_start();
-  ?>
-<!--?xml version="1.0" encoding="UTF-8"?-->
-<!DOCTYPE html
-     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+?>
+
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>qBittorrent official website</title>
     <meta name="Author" content="Christophe Dumez, chris@qbittorrent.org"/>
-    <meta http-equiv="Content-Language" content="en-GB"/>
     <meta name="Copyright" content="(c) 2006-2007"/>
     <meta name="description" content="qBittorrent official website"/>
     <meta name="Language" content="english"/>
     <meta name="keywords" content="qbittorrent, christophe, dumez, bittorrent, Qt4.2, Qt, trolltech, C++, GPL, libtorrent, rblibtorrent, arvid, norberg, azureus, utorrent, ktorrent, qtorrent"/>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-    <script type="text/javascript" src="js/mootools.js"></script>
+    <script type="text/javascript" src="js/mootools.js" async defer></script>
 
 <!--    Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />

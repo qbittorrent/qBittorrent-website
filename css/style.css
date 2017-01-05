@@ -10,7 +10,7 @@ body {
    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
    font-size: 16px;
    text-align: center;
-   margin: 0; 
+   margin: 0;
    padding: 0;
 }
 
@@ -70,7 +70,7 @@ div .codePart {
 h2 {
    color: #4394E8; /* background-color: #ADD15A; */
    display: block;
-   font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
    font-size: 2em;
    margin: 0;
 }
@@ -80,7 +80,7 @@ h3 {
    clear: both;
    color: #282F33; /* background-color: #ADD15A; */
    display: block;
-   font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
    font-size: 1.4em;
    /*font-weight: lighter;*/
    margin: 15px 0 10px 0;
@@ -149,7 +149,7 @@ h3 {
 
 .menu ul li a {
    color: #FFFFFF;
-   font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
    font-size: 1.05em;
    text-decoration: none;
 }
@@ -171,5 +171,5 @@ h3 {
 }
 
 .invisible {
-   display: none; 
+   display: none;
 }

@@ -8,24 +8,25 @@
 <h3>Help qBittorrent</h3>
 <p>qBittorrent is developed by <a href="team.php">volunteers</a> on their spare time. If you like this piece of software, please make a donation and help it survive.</p>
 <p>Donation info <a href="donate">here</a>.</p>
+
 <h3>Recommend qBittorrent</h3>
 <!-- Facebook -->
-<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.qbittorrent.org&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:560px; height:35px;" allowTransparency="true"></iframe>
-<br/>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="https://www.qbittorrent.org/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+<br/><br/>
 <!-- Google + -->
-<g:plusone annotation="inline"></g:plusone>
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<div class="g-plusone" data-annotation="inline"></div>
 <br/><br/>
 <!-- Twitter -->
-<iframe allowtransparency="true" frameborder="0" scrolling="no"
-        src="//platform.twitter.com/widgets/tweet_button.html"
-        style="width:130px; height:20px;"></iframe>
+<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h3>qBittorrent Features</h3>
 <ul>
@@ -54,7 +55,7 @@
   </li>
   <li><b>UPnP / NAT-PMP port forwarding support</b></li>
   <!--<li><b>Available in <a href="localization.php">~25 languages</a> (Unicode support)</b></li>-->
-  <li><b>Available in <a href="https://www.transifex.com/projects/p/qbittorrent/">~49 languages</a> (Unicode support)</b></li>
+  <li><b>Available in <a href="https://www.transifex.com/sledgehammer999/qbittorrent/">~49 languages</a> (Unicode support)</b></li>
   <li><b>Torrent creation tool</b></li>
   <li><b>Advanced RSS support with download filters (inc. regex)</b></li>
   <li><b>Bandwidth scheduler</b></li>

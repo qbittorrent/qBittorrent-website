@@ -89,7 +89,7 @@
 <ul>
 <li>FEATURE: Implement Torrent Management Mode(TMM) (glassez)</li>
 <li>FEATURE: New cookies management dialog and various related fixes (glassez)</li>
-<li>FEATURE: Use unique temp directories (temp_path/&lttruncated_torrent_hash&gt). Closes #5154. (glassez)</li>
+<li>FEATURE: Use unique temp directories (temp_path/&lt;truncated_torrent_hash&gt;). Closes #5154. (glassez)</li>
 <li>FEATURE: Display notifications when a torrent is added. Closes #334 and #915. (sledgehammer999)</li>
 <li>FEATURE: Sort labels with natural sort algorithm in the right-click menu. Closes #3919. (Chocobo1)</li>
 <li>FEATURE: Add option to automatically remove .torrent files upon adding (Eugene Shalygin)</li>
@@ -221,7 +221,7 @@
 <li>OTHER: Many other internal code restructuring, cleaning and fixing.</li>
 </ul>
 
-<a name="forum_restored"><h3>Saturday February 13th 2016 - The forum is restored</h3></a>
+<a id="forum_restored"><h3>Saturday February 13th 2016 - The forum is restored</h3></a>
 <p>As mentioned <a href="#forum_compromise">earlier</a>, there were reports that the forums from a bunch of bittorrent related sites were hacked. As a result we switched off our forum to investigate. To the best of our knowledge we weren't hacked. We didn't discover any evidence of unauthorized entry. We highly suspect that the self-proclaimed "hacker" was a fraud instead. Just so you know the passwords are saved hashed and salted in the database. It is very difficult to reverse this and obtain the real password. In any case, we reset all the passwords and switched on the forum. You already should have received an email about your new password.</p>
 
 <h3>Thursday January 21th 2016 - qBittorrent v3.3.3 release</h3>
@@ -278,7 +278,7 @@
 <li>OTHER: Allow GeoIP in nox builds (glassez)</li>
 </ul>
 
-<a name="forum_compromise"><h3>Tuesday December 22nd 2015 - Forum compromise</h3></a>
+<a id="forum_compromise"><h3>Tuesday December 22nd 2015 - Forum compromise</h3></a>
 <p>It has come to our attention that the forum database containing user info <b>might</b> have been compromised by a third unauthorized party. <u>We aren't able to tell if this is true from our logs</u>. And we aren't sure if the hack was real. See more info in this <a href="https://torrentfreak.com/hackers-grab-deluge-and-qbittorrent-user-databases-151221/">article</a>. If the database was indeed compromised it was probably through a bug of the forum software. We had installed version 2.0.11 of <a href="http://www.simplemachines.org/">SMF</a>, which is the latest stable. As a precaution we have taken down the forums. The passwords weren't saved as plaintext, but as salted hashes. It will make it very difficult for the hackers to recover the real passwords. However, we strongly recommend you to change your password to any other site on which you used the same password. We are sorry for the inconvenience.</p>
 
 <h3>Tuesday December 8th 2015 - qBittorrent v3.3.1 release</h3>
@@ -415,9 +415,9 @@ PS: Ubuntu and OS X builds will be available in a few hours.</p>
 
 <h3>Sunday October 04th 2015 - Paypal issue resolved</h3>
 <p>Dear users and supporters!</p>
-<P>We had a minor issue with our Paypal account, which has now been resolved.</br>
-Donation is now possible again - through Paypal.</br>
-This does not mean that Paypal is preferred, the other methods work just fine too.</br>
+<P>We had a minor issue with our Paypal account, which has now been resolved.<br>
+Donation is now possible again - through Paypal.<br>
+This does not mean that Paypal is preferred, the other methods work just fine too.<br>
 (you may need to force refresh the main page to make your browser discard the old cached one)</P>
 <p>Again, I would like to thank everyone for the continued support and donations.</p>
 
@@ -628,7 +628,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>SEARCH: Updated URL in kickasstorrents search engine (ngosang)</li>
 <li>SEARCH: Torrentz search engine added (ngosang)</li>
 <li>OTHER: Drop libtorrent 0.15.x support</li>
-<li>OTHER: Drop Qt < 4.8.0 support</li>
+<li>OTHER: Drop Qt &lt; 4.8.0 support</li>
 <li>OTHER: Migrate build system to autotools (sledgehammer999)</li>
 <li>OTHER: Remove deprecated feature of separate DHT port. (sledgehammer999)</li>
 <li>OTHER: Speedup compilation speed (sorokin)</li>
@@ -758,7 +758,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>BUGFIX: Fix build with libtorrent 0.15.x (sledgehammer999)</li>
 <li>BUGFIX: Fix missing percentage signs. Closes #1392. (sledgehammer999)</li>
 <li>BUGFIX: Fix queue sorting order. (alfrix)</li>
-<li>BUGFIX: Fix build using qt < 4.7 Closes #1385. (Evgeny Lensky)</li>
+<li>BUGFIX: Fix build using qt &lt; 4.7 Closes #1385. (Evgeny Lensky)</li>
 <li>BUGFIX: Fix autoupdater. Send our user-agent to sourceforge.net (sledgehammer999)</li>
 <li>FEATURE: Add button for links in toolbar (alfrix)</li>
 </ul>
@@ -866,7 +866,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <p>qBittorrent v3.1.2 was released. It contains critical fixes.</p>
 <ul>
 <li>BUGFIX: Fix WebUI gzip compression. Closes #1037. (sledgehammer999)</li>
-<li>BUGFIX: Fix compilation with qt < 4.8.0. Closes #1043. (sledgehammer999)</li>
+<li>BUGFIX: Fix compilation with qt &lt; 4.8.0. Closes #1043. (sledgehammer999)</li>
 <li>OTHER: Updated translations.</li>
 </ul>
 
@@ -1035,7 +1035,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 
 <h3>October 29th 2012 - FindMySoft Review</h3>
 <p>FindMySoft created a quick look video showcasing of qBittorrent v3.0.5 and wrote a nice review.</p>
-<a href="http://qbittorrent.findmysoft.com"><img src="img/review2_5_qBittorrent_award.png"/ alt="FindMySoft review"></a>
+<a href="http://qbittorrent.findmysoft.com"><img src="img/review2_5_qBittorrent_award.png" alt="FindMySoft review"></a>
 
 <h3>October 7th 2012 - qBittorrent v3.0.6 release</h3>
 <p>qBittorrent v3.0.6 was released today with several bug fixes.</p>
@@ -1145,7 +1145,7 @@ the issues so that we can make a final release as soon as possible.</p>
 </ul>
 
 <h3>March 18th 2012 - qBittorrent v2.9.7 release</h3>
-<p>qBittorrent v2.9.7 was released today in order to fix a few issues that have been 
+<p>qBittorrent v2.9.7 was released today in order to fix a few issues that have been
 reported in the past weeks.</p>
 <ul>
 <li>BUGFIX: Fix download first/last pieces state reporting</li>
@@ -1585,9 +1585,9 @@ and it should be ready soon.</p>
 </ul>
 
 <h3>November 21st 2010 - qBittorrent v2.4.11 and v2.5.0beta6 releases</h3>
-<p>qBittorrent v2.4.11 has just been released. It will be the last bugfix release for the v2.4.x series as v2.5.0 is almost ready. 
-Regarding the next major release - v2.4.5 - it is now in feature freeze and I have uploaded today a sixth beta release. 
-</p><p>I hope some users will have a chance to test this beta and report issues to help us stabilize. 
+<p>qBittorrent v2.4.11 has just been released. It will be the last bugfix release for the v2.4.x series as v2.5.0 is almost ready.
+Regarding the next major release - v2.4.5 - it is now in feature freeze and I have uploaded today a sixth beta release.
+</p><p>I hope some users will have a chance to test this beta and report issues to help us stabilize.
 A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to bring important performance improvements and to reduce the risk of introducing bugs.</p>
 <p>qBittorrent v2.4.10 to v2.4.11 changelog:</p>
 <ul>
@@ -1660,7 +1660,7 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
 </ul>
 
 <h3>October 17th 2010 - qBittorrent v2.4.6 release</h3>
-<p>qBittorrent v2.4.6 was just uploaded in order to release a few new bug fixes. We have also uploaded qBittorrent v2.5.0beta1 which includes 
+<p>qBittorrent v2.4.6 was just uploaded in order to release a few new bug fixes. We have also uploaded qBittorrent v2.5.0beta1 which includes
 the new embedded tracker and qBittorrent shutdown upon torrent completion.</p>
 <p>qBittorrent v2.4.5 to v2.4.6 changelog:</p>
 <ul>
