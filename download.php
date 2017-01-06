@@ -41,7 +41,7 @@ You can also download it from <a href="https://github.com/qbittorrent/qBittorren
 <b>PREVIOUSLY</b> the following key was used to sign the v3.3.4 source tarballs and v3.3.4 Windows installer <b>only</b>: 4096R/<a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xA1ACCAE4520EC6F6">520EC6F6</a> with fingerprint <code>F4A5FD201B117B1C2AB590E2A1ACCAE4520EC6F6</code>.<br />
 
 <h3>Windows XP / Vista / 7 / 8 / 10</h3>
-<img src="img/winlogo.png" alt="Windows" style="float: left; width: 100px; margin-right: 5px;"/><br/>
+<img src="img/os/winlogo.png" alt="Windows" style="float: left; width: 100px; margin-right: 5px;"/><br/>
 <p style="padding-left: 120px">Link: <a href="https://www.fosshub.com/qBittorrent.html">qBittorrent v3.3.10 32-bit and 64-bit installers and PGP signature</a> (Stable - FossHub)</p>
 <p style="padding-left: 120px;font-size:75%">Link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_setup.exe/download">qBittorrent v3.3.10 32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_setup.exe.asc/download">PGP signature</a> (Stable - SourceForge)</p>
 <p style="padding-left: 120px;font-size:75%">Link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_x64_setup.exe/download">qBittorrent v3.3.10 64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_x64_setup.exe.asc/download">PGP signature</a> (Stable - SourceForge)</p>
@@ -61,7 +61,7 @@ You can also download it from <a href="https://github.com/qbittorrent/qBittorren
 <br/>
 
 <h3>Mac OS X Lion / Mountain Lion / Mavericks / Yosemite / El Capitan / Sierra</h3>
-<img src="img/macoslogo.png" alt="Mac OS" style="float: left; width: 100px; margin-right: 5px;"/><br/>
+<img src="img/os/macoslogo.png" alt="Mac OS" style="float: left; width: 100px; margin-right: 5px;"/><br/>
 <p style="padding-left: 120px">Link: <a href="https://www.fosshub.com/qBittorrent.html">qBittorrent v3.3.10 (DMG and PGP signature)</a> (Stable - FossHub)</p>
 <p style="padding-left: 120px;font-size:75%">Link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.10/qbittorrent-3.3.10.dmg/download">qBittorrent v3.3.10</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.10/qbittorrent-3.3.10.dmg.asc/download">PGP signature</a> (Stable - SourceForge)</p>
 <ul style="padding-left: 160px">
@@ -133,7 +133,7 @@ Link: qBittorrent v3.3.9
 
 <div id="ubuntuDiv" class="invisible">
 <h4>Ubuntu packages</h4>
-<img src="img/ubuntulogo.png" alt="Ubuntu" style="float: left; margin-right: 5px;"/><p>qBittorrent is now available in official Ubuntu repositories since v9.04 "Jaunty".
+<img src="img/os/ubuntulogo.png" alt="Ubuntu" style="float: left; margin-right: 5px;"/><p>qBittorrent is now available in official Ubuntu repositories since v9.04 "Jaunty".
 <p>More up-to-date packages are published on our <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable">stable</a>
 and <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-unstable">unstable</a> PPAs.
 <br>The <b>stable</b> PPA supports Ubuntu 12.04 LTS, 14.04 LTS, 14.10 and 15.04.
@@ -154,18 +154,18 @@ sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
 
 <div id="debianDiv" class="invisible">
 <h4>Debian packages</h4>
-<img src="img/debianlogo.png" alt="Debian" style="float: left; margin-right: 5px;"/><p>qBittorrent and libtorrent-rasterbar are now officially included in Debian. Packages are maintained by <a href="mailto:cristian.debian@gmail.com">Cristian Greco</a>. See this <a href="https://packages.debian.org/search?keywords=qbittorrent&searchon=names&suite=all&section=all">page</a> for more information.</p>
+<img src="img/os/debianlogo.png" alt="Debian" style="float: left; margin-right: 5px;"/><p>qBittorrent and libtorrent-rasterbar are now officially included in Debian. Packages are maintained by <a href="mailto:cristian.debian@gmail.com">Cristian Greco</a>. See this <a href="https://packages.debian.org/search?keywords=qbittorrent&searchon=names&suite=all&section=all">page</a> for more information.</p>
 </div>
 
 <div id="mandrivaDiv" class="invisible">
 <h4>Mandriva Linux packages</h4>
-<img src="img/mandrivalogo.png" alt="Mandriva" style="float: left; margin-right: 5px;"/><p>qBittorrent is currently officially included in Mandriva Cooker. You can find more information <a href="http://doc4.mandriva.org/bin/view/d4/component/qbittorrent?d=cooker">here</a>.
+<img src="img/os/mandrivalogo.png" alt="Mandriva" style="float: left; margin-right: 5px;"/><p>qBittorrent is currently officially included in Mandriva Cooker. You can find more information <a href="http://doc4.mandriva.org/bin/view/d4/component/qbittorrent?d=cooker">here</a>.
 </p>
 </div>
 
 <div id="mageiaDiv" class="invisible">
 <h4>Mageia packages</h4>
-<img src="img/mageia.png" alt="Mageia" style="float: left; margin-right: 5px;"/><p>qBittorrent is currently packaged in the Mageia official repositories.
+<img src="img/os/mageia.png" alt="Mageia" style="float: left; margin-right: 5px;"/><p>qBittorrent is currently packaged in the Mageia official repositories.
 It is packaged by <a href="mailto:ahmad@mageia.org">Ahmad Samir</a>. To install it, make
 sure the online repositories are configured correctly then install it
 either:</p>
@@ -177,31 +177,31 @@ either:</p>
 
 <div id="gentooDiv" class="invisible">
 <h4>Gentoo ebuilds</h4>
-<img src="img/gentoo.png" alt="Gentoo" style="float: left; margin-right: 5px;"/>qBittorrent is officially available in portage. You can install it easilly on your system using emerge command. These ebuilds are maintained by <a href="mailto:hwoarang@gentoo.org">Markos Chandras</a>. See <a href="https://packages.gentoo.org/packages/net-p2p/qbittorrent">this page</a> for more information.
+<img src="img/os/gentoo.png" alt="Gentoo" style="float: left; margin-right: 5px;"/>qBittorrent is officially available in portage. You can install it easilly on your system using emerge command. These ebuilds are maintained by <a href="mailto:hwoarang@gentoo.org">Markos Chandras</a>. See <a href="https://packages.gentoo.org/packages/net-p2p/qbittorrent">this page</a> for more information.
 </div>
 
 <div id="opensuseDiv" class="invisible">
 <h4>OpenSuse packages</h4>
-<img src="img/opensuse.png" alt="openSUSE" style="float:left; margin-right:5px;"/><p>qBittorrent has been in the OpenSuse official repository since v11.3. <br/>
+<img src="img/os/opensuse.png" alt="openSUSE" style="float:left; margin-right:5px;"/><p>qBittorrent has been in the OpenSuse official repository since v11.3. <br/>
 <br/>
 One-click install <a href="https://software.opensuse.org/package/qbittorrent">here</a>.</p>
 </div>
 
 <div id="fedoraDiv" class="invisible">
 <h4>Fedora packages</h4>
-<img src="img/fedoralogo.gif" alt="Fedora" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is officially packaged on Fedora. RPM packages are maintained by <a href="mailto:leigh123linux@googlemail.com">Leigh Scott</a>.</p>
+<img src="img/os/fedoralogo.gif" alt="Fedora" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is officially packaged on Fedora. RPM packages are maintained by <a href="mailto:leigh123linux@googlemail.com">Leigh Scott</a>.</p>
 <p>See this <a href="https://admin.fedoraproject.org/pkgdb/package/qbittorrent/">page</a> for more information.</p>
 </div>
 
 <div id="slackwareDiv" class="invisible">
 <h4>Slackware scripts</h4>
-<img src="img/slackware.png" alt="Slackware" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is available for Slackware through <a href="https://slackbuilds.org/">slackbuilds.org</a>. The slackbuild script is maintained by <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>. See this <a href="https://slackbuilds.org/repository/13.0/network/qbittorrent/">page</a> for more information.</p>
+<img src="img/os/slackware.png" alt="Slackware" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is available for Slackware through <a href="https://slackbuilds.org/">slackbuilds.org</a>. The slackbuild script is maintained by <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>. See this <a href="https://slackbuilds.org/repository/13.0/network/qbittorrent/">page</a> for more information.</p>
 <p><a href="mailto:alien@slackware.com">Eric Hameleers</a> is also maintaining binary packages for slackware. Those are available <a href="http://slackware.com/~alien/slackbuilds/qbittorrent/">there</a>.</p>
 </div>
 
 <div id="archlinuxDiv" class="invisible">
   <h4>ArchLinux packages</h4>
-  <img src="img/archlinux.png" alt="ArchLinux" style="float: left; margin-right: 5px; width: 65px;"/>
+  <img src="img/os/archlinux.png" alt="ArchLinux" style="float: left; margin-right: 5px; width: 65px;"/>
   qBittorrent is officially packaged on <a href="https://www.archlinux.org/">ArchLinux</a>.
   To install, simply type the following commands:
   <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
@@ -214,7 +214,7 @@ One-click install <a href="https://software.opensuse.org/package/qbittorrent">he
 
 <div id="altlinuxDiv" class="invisible">
 <h4>Alt Linux packages</h4>
-<img src="img/altlinux.gif" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.altlinux.com">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
+<img src="img/os/altlinux.gif" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.altlinux.com">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
 <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
 sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
 </div>
@@ -222,7 +222,7 @@ sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
 
 <div id="agilialinuxDiv" class="invisible">
 <h4>AgiliaLinux packages</h4>
-<img src="img/agilialinux.png" alt="AgiliaLinux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.agilialinux.ru/">AgiliaLinux</a>. Packages are available <a href="http://packages.agilialinux.ru/search.php?lname=qbittorrent&version=&arch=&build=&hasfile=&which=&desc=">here</a>. To install, simply type the following command:
+<img src="img/os/agilialinux.png" alt="AgiliaLinux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.agilialinux.ru/">AgiliaLinux</a>. Packages are available <a href="http://packages.agilialinux.ru/search.php?lname=qbittorrent&version=&arch=&build=&hasfile=&which=&desc=">here</a>. To install, simply type the following command:
 <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
 mpkg-install qbittorrent
 </div>
@@ -230,13 +230,13 @@ mpkg-install qbittorrent
 
 <div id="blackpantherDiv" class="invisible">
 <h4>blackPanther OS packages</h4>
-<img src="img/blackPanther-dark.png" alt="blackPanther OS" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is officially shipped on <a href="http://www.blackpanther.hu">blackPanther OS</a> CD as the default Bittorrent client. RPM packages are available <a href="ftp://ftp.blackpanther.hu/blackPanther/OS/All/Seeker/qbittorrent/">here</a>.</p>
+<img src="img/os/blackPanther-dark.png" alt="blackPanther OS" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is officially shipped on <a href="http://www.blackpanther.hu">blackPanther OS</a> CD as the default Bittorrent client. RPM packages are available <a href="ftp://ftp.blackpanther.hu/blackPanther/OS/All/Seeker/qbittorrent/">here</a>.</p>
 <p>These packages are maintained by <a href="mailto:kbarcza@blackpanther.hu">Charles Barcza</a>.</p>
 </div>
 
 <div id="freebsdDiv" class="invisible">
 <h4>FreeBSD packages</h4>
-<img src="img/freebsd.png" alt="FreeBSD" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is officially packaged for FreeBSD. <br/>
+<img src="img/os/freebsd.png" alt="FreeBSD" style="float: left; margin-right: 5px; width: 65px;"/><p>qBittorrent is officially packaged for FreeBSD. <br/>
 More information about the port can he found <a href="http://www.freebsdsoftware.org/net-p2p/qbittorrent.html">here</a>.<br/><br/>
 To install qBittorrent, you should issue the following commands:</p>
 <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
@@ -247,13 +247,13 @@ pkg_add -r qbittorrent
 
 <div id="haikuDiv" class="invisible">
 <h4>Haiku port</h4>
-<p><img src="img/haiku.png" alt="Haiku" style="float: left; margin-right: 5px;"/>qBittorrent is available in HaikuDepot.</p>
+<p><img src="img/os/haiku.png" alt="Haiku" style="float: left; margin-right: 5px;"/>qBittorrent is available in HaikuDepot.</p>
 <p>You can download it from <a href="https://depot.haiku-os.org/qbittorrent_x86">here</a>.</p>
 </div>
 
 <div id="pardusDiv" class="invisible">
 <h4>Pardus packages</h4>
-<img src="img/pardus.gif" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="http://www.pardus.org.tr/eng/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
+<img src="img/os/pardus.gif" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="http://www.pardus.org.tr/eng/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
 <br/>To install, simply type the following command:
 <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
 #Ensure the contrib repo is present on your system:<br/>
@@ -268,7 +268,7 @@ sudo pisi it qbittorrent<br/>
 </div>
 
 <div id="os2Div" class="invisible">
-<img src="img/ecs_logo.gif" alt="eComStation" style="float: left; margin-right: 5px; width: 100px;"/><br/>
+<img src="img/os/ecs_logo.gif" alt="eComStation" style="float: left; margin-right: 5px; width: 100px;"/><br/>
 <p>qBittorrent is available on <a href="http://www.ecomstation.com/">eComStation (OS/2)</a> via this <a href="https://svn.netlabs.org/qtapps/wiki/QT4%20Networking">download</a> page.</p>
 <p>This package is maintained by <a href="mailto:silvan.scherrer@aroa.ch">Silvan Scherrer</a>.</p>
 </div>
