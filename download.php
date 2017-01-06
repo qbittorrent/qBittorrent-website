@@ -1,38 +1,5 @@
 <?php require_once('header.inc.php'); ?>
 
-<script type="text/javascript">
-  var displayed = null;
-  function showSelectedSystem(selectElem) {
-    if (displayed) {
-      $(displayed).addClass("invisible");
-      displayed = null;
-    }
-    var cur_os = selectElem.get("value");
-    if (selectElem.get("id") == "OSSelect") {
-      if (cur_os == "emptyOS") {
-        $("distroDiv").addClass("invisible");
-        return;
-      }
-      if (cur_os == "linux") {
-        $("distroDiv").set("value", "emptyDist");
-        $("distroDiv").removeClass("invisible");
-        return;
-      }
-      displayed = cur_os + "Div";
-      $("distroDiv").addClass("invisible");
-      $(displayed).removeClass("invisible");
-      return;
-    }
-    if (selectElem.get("id") == "distroSelect") {
-      if (cur_os != "emptyDist") {
-        displayed = cur_os + "Div";
-        $(displayed).removeClass("invisible");
-      }
-      return;
-    }
-  }
-</script>
-
 <h2>Downloads</h2>
 <h3>Public key for PGP signing</h3>
 <p>Starting from v3.3.4 all source tarballs and binaries are signed.<br />
@@ -98,7 +65,7 @@ Link: qBittorrent v3.3.9
 <br/>
 <h3>Other Binary Packages</h3>
 <p>Please select your operating system:
-<select id="OSSelect" onchange="showSelectedSystem(this)">
+<select id="OSSelect" onchange="showOption(this)">
   <option value="emptyOS" selected>Choose...</option>
   <option value="os2">eComStation (OS/2)</option>
   <option value="freebsd">FreeBSD</option>
@@ -106,9 +73,9 @@ Link: qBittorrent v3.3.9
   <option value="linux">Linux</option>
 </select> </p>
 
-<div id="distroDiv" class="invisible">
+<div id="linuxDiv" class="invisible">
   <p>Please select your Linux distribution:
-  <select id="distroSelect" onchange="showSelectedSystem(this)">
+  <select id="distroSelect" onchange="showOption(this)">
     <option value="emptyDist" selected>Choose...</option>
     <option value="agilialinux">AgiliaLinux</option>
     <option value="altlinux">Alt Linux</option>
@@ -125,11 +92,6 @@ Link: qBittorrent v3.3.9
     <option value="ubuntu">Ubuntu</option>
   </select></p>
 </div>
-
-<script type="text/javascript">
-  OSSelect.value = "emptyOS"
-  distroSelect.value = "emptyDist"
-</script>
 
 <div id="ubuntuDiv" class="invisible">
 <h4>Ubuntu packages</h4>
@@ -275,4 +237,34 @@ sudo pisi it qbittorrent<br/>
 
 <hr class="invisible clear"/>
 <br/><br/>
+
+<script type="text/javascript">
+  OSSelect.value = "emptyOS"
+  distroSelect.value = "emptyDist"
+
+  function setIdClassAttr(id, v)
+  {
+    var docElem = document.getElementById(id);
+    if (docElem) docElem.className = v;
+  }
+
+  function showOption(elem)
+  {
+    var resetClassAttr = function(id, v) {
+      var opts = document.getElementById(id).options;
+      for (var i = 0; i < opts.length; ++i)
+        setIdClassAttr(opts[i].value + "Div", v);
+    };
+
+    // reset all
+    if (elem.id == "OSSelect") {
+      resetClassAttr("OSSelect", "invisible");
+      distroSelect.value = "emptyDist"
+    }
+    resetClassAttr("distroSelect", "invisible");
+
+    setIdClassAttr(elem.value + "Div", "");  // display selected element
+  }
+</script>
+
 <?php require_once('footer.inc.php');
