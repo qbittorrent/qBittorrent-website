@@ -2,31 +2,31 @@
 
 <script type="text/javascript">
   var displayed = null;
-  var showSelectedSystem = function(selectElem) {
-    if(displayed) {
-       $(displayed).addClass("invisible");
-       displayed = null;
+  function showSelectedSystem(selectElem) {
+    if (displayed) {
+      $(displayed).addClass("invisible");
+      displayed = null;
     }
     var cur_os = selectElem.get("value");
-    if(selectElem.get("id") == "OSSelect") {
-       if(cur_os == "emptyOS") {
-          $("distroDiv").addClass("invisible");
-          return;
-       }
-       if(cur_os == "linux") {
-           $("distroDiv").set("value", "emptyDist");
-          $("distroDiv").removeClass("invisible");
-          return;
-       }
-       displayed = cur_os+"Div";
-       $("distroDiv").addClass("invisible");
-       $(displayed).removeClass("invisible");
-       return;
+    if (selectElem.get("id") == "OSSelect") {
+      if (cur_os == "emptyOS") {
+        $("distroDiv").addClass("invisible");
+        return;
+      }
+      if (cur_os == "linux") {
+        $("distroDiv").set("value", "emptyDist");
+        $("distroDiv").removeClass("invisible");
+        return;
+      }
+      displayed = cur_os + "Div";
+      $("distroDiv").addClass("invisible");
+      $(displayed).removeClass("invisible");
+      return;
     }
-    if(selectElem.get("id") == "distroSelect") {
-      if(cur_os != "emptyDist") {
-         displayed = cur_os+"Div";
-         $(displayed).removeClass("invisible");
+    if (selectElem.get("id") == "distroSelect") {
+      if (cur_os != "emptyDist") {
+        displayed = cur_os + "Div";
+        $(displayed).removeClass("invisible");
       }
       return;
     }
