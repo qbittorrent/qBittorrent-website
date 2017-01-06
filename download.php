@@ -2,31 +2,31 @@
 
 <script type="text/javascript">
   var displayed = null;
-  var showSelectedSystem = function(selectElem) {
-    if(displayed) {
-       $(displayed).addClass("invisible");
-       displayed = null;
+  function showSelectedSystem(selectElem) {
+    if (displayed) {
+      $(displayed).addClass("invisible");
+      displayed = null;
     }
     var cur_os = selectElem.get("value");
-    if(selectElem.get("id") == "OSSelect") {
-       if(cur_os == "emptyOS") {
-          $("distroDiv").addClass("invisible");
-          return;
-       }
-       if(cur_os == "linux") {
-           $("distroDiv").set("value", "emptyDist");
-          $("distroDiv").removeClass("invisible");
-          return;
-       }
-       displayed = cur_os+"Div";
-       $("distroDiv").addClass("invisible");
-       $(displayed).removeClass("invisible");
-       return;
+    if (selectElem.get("id") == "OSSelect") {
+      if (cur_os == "emptyOS") {
+        $("distroDiv").addClass("invisible");
+        return;
+      }
+      if (cur_os == "linux") {
+        $("distroDiv").set("value", "emptyDist");
+        $("distroDiv").removeClass("invisible");
+        return;
+      }
+      displayed = cur_os + "Div";
+      $("distroDiv").addClass("invisible");
+      $(displayed).removeClass("invisible");
+      return;
     }
-    if(selectElem.get("id") == "distroSelect") {
-      if(cur_os != "emptyDist") {
-         displayed = cur_os+"Div";
-         $(displayed).removeClass("invisible");
+    if (selectElem.get("id") == "distroSelect") {
+      if (cur_os != "emptyDist") {
+        displayed = cur_os + "Div";
+        $(displayed).removeClass("invisible");
       }
       return;
     }
@@ -105,9 +105,7 @@ Link: qBittorrent v3.3.9
   <option value="haiku">Haiku</option>
   <option value="linux">Linux</option>
 </select> </p>
-<script type="text/javascript">
-  $("OSSelect").set("value", "emptyOS");
-</script>
+
 <div id="distroDiv" class="invisible">
   <p>Please select your Linux distribution:
   <select id="distroSelect" onchange="showSelectedSystem(this)">
@@ -127,6 +125,11 @@ Link: qBittorrent v3.3.9
     <option value="ubuntu">Ubuntu</option>
   </select></p>
 </div>
+
+<script type="text/javascript">
+  OSSelect.value = "emptyOS"
+  distroSelect.value = "emptyDist"
+</script>
 
 <div id="ubuntuDiv" class="invisible">
 <h4>Ubuntu packages</h4>
@@ -199,16 +202,14 @@ One-click install <a href="https://software.opensuse.org/package/qbittorrent">he
 <div id="archlinuxDiv" class="invisible">
   <h4>ArchLinux packages</h4>
   <img src="img/archlinux.png" alt="ArchLinux" style="float: left; margin-right: 5px; width: 65px;"/>
-  <p>
-    qBittorrent is officially packaged on <a href="https://www.archlinux.org/">ArchLinux</a>.
-    To install, simply type the following commands:
-    <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-      sudo pacman -Sy qbittorrent
-    </div>
-    Package information <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.<br><br>
-    For development, build from Arch User Repository (AUR):<br>
-    AUR Package information <a href="https://aur.archlinux.org/packages/qbittorrent-git/">here</a>.
-  </p>
+  qBittorrent is officially packaged on <a href="https://www.archlinux.org/">ArchLinux</a>.
+  To install, simply type the following commands:
+  <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
+    sudo pacman -Sy qbittorrent
+  </div>
+  Package information <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.<br><br>
+  For development, you can get PKGBUILD from Arch User Repository (AUR) and build it yourself:<br>
+  AUR (non-official) information <a href="https://aur.archlinux.org/packages/qbittorrent-git/">here</a>.
 </div>
 
 <div id="altlinuxDiv" class="invisible">
