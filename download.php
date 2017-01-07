@@ -51,10 +51,10 @@ You can also download it from <a href="https://github.com/qbittorrent/qBittorren
 <h3>Source Tarballs</h3>
 <img src="img/tar-logo.jpg" alt="Source tarball" style="float: left; width: 100px; margin-right: 5px;"/><br/>
 <p style="padding-left: 120px">
-Link: qBittorrent v3.3.9
-<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz/download">TAR.GZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.gz.asc/download">PGP signature</a>)
+Link: qBittorrent v3.3.10
+<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.gz/download">TAR.GZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.gz.asc/download">PGP signature</a>)
 /
-<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz/download">TAR.XZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.9/qbittorrent-3.3.9.tar.xz.asc/download">PGP signature</a>)
+<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.xz/download">TAR.XZ</a>(<a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.xz.asc/download">PGP signature</a>)
 (Stable)</p>
 <!--<p style="padding-left: 120px">Link: qBittorrent v3.0.0rc5 (unstable)
 <a href="http://downloads.sourceforge.net/project/qbittorrent/qbittorrent-unstable/qbittorrent-3.0.0rc5.tar.gz?use_mirror=master">TAR.GZ</a>
