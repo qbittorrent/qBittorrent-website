@@ -214,7 +214,7 @@ One-click install <a href="https://software.opensuse.org/package/qbittorrent">he
 
 <div id="altlinuxDiv" class="invisible">
 <h4>Alt Linux packages</h4>
-<img src="img/os/altlinux.gif" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.altlinux.com">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
+<img src="img/os/altlinux.png" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.altlinux.com">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
 <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
 sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
 </div>
@@ -253,7 +253,7 @@ pkg_add -r qbittorrent
 
 <div id="pardusDiv" class="invisible">
 <h4>Pardus packages</h4>
-<img src="img/os/pardus.gif" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="http://www.pardus.org.tr/eng/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
+<img src="img/os/pardus.png" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="http://www.pardus.org.tr/eng/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
 <br/>To install, simply type the following command:
 <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
 #Ensure the contrib repo is present on your system:<br/>
@@ -268,7 +268,7 @@ sudo pisi it qbittorrent<br/>
 </div>
 
 <div id="os2Div" class="invisible">
-<img src="img/os/ecs_logo.gif" alt="eComStation" style="float: left; margin-right: 5px; width: 100px;"/><br/>
+<img src="img/os/ecs_logo.png" alt="eComStation" style="float: left; margin-right: 5px; width: 100px;"/><br/>
 <p>qBittorrent is available on <a href="http://www.ecomstation.com/">eComStation (OS/2)</a> via this <a href="https://svn.netlabs.org/qtapps/wiki/QT4%20Networking">download</a> page.</p>
 <p>This package is maintained by <a href="mailto:silvan.scherrer@aroa.ch">Silvan Scherrer</a>.</p>
 </div>

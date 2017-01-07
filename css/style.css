@@ -114,14 +114,14 @@ h3 {
 }
 
 .wrapper-bottom {
-   background-image: url(../img/footer.gif);
+   background-image: url(../img/footer.png);
    background-position: bottom;
    background-repeat: no-repeat;
    padding-bottom: 30px;
 }
 
 .wrapper-top {
-   background: transparent url(../img/header.gif) no-repeat top;
+   background: transparent url(../img/header.png) no-repeat top;
    padding-top: 30px;
 }
 
