@@ -1,17 +1,16 @@
-
 /*
  * CSS By Christophe Dumez <chris@dchris.eu>
  * Copyright (c) 2006
  */
 
 body {
-   background-color: #2f67ba;
-   color: #282F33;
-   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-   font-size: 16px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
+  background-color: #2f67ba;
+  color: #282F33;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 div #LogoChris {
@@ -27,23 +26,23 @@ div #mainBox {
 }
 
 img {
-   border: 0;
+  border: 0;
 }
 
-img .flag{
+img .flag {
   float: left;
   margin-right: 10px;
   padding-right: 10px;
 }
 
 p.copyright {
-   color: #FFFFFF;
-   font-size: 0.65em;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   width: 800px;
-   margin: 0 auto;
+  color: #FFFFFF;
+  font-size: 0.65em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
 }
 
 #topleft {
@@ -64,65 +63,65 @@ div .codePart {
   width: 400px;
   margin: 0 auto;
   border-style: solid double groove;
-  border-color: #2f67ba
+  border-color: #2f67ba;
 }
 
 h2 {
-   color: #4394E8; /* background-color: #ADD15A; */
-   display: block;
-   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-   font-size: 2em;
-   margin: 0;
+  color: #4394E8;  /* background-color: #ADD15A; */
+  display: block;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 0;
 }
 
 h3 {
-   border-bottom: 1px solid #D9DEE1;
-   clear: both;
-   color: #282F33; /* background-color: #ADD15A; */
-   display: block;
-   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-   font-size: 1.4em;
+  border-bottom: 1px solid #D9DEE1;
+  clear: both;
+  color: #282F33;  /* background-color: #ADD15A; */
+  display: block;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
    /*font-weight: lighter;*/
-   margin: 15px 0 10px 0;
+  margin: 15px 0 10px 0;
 }
 
 /* Stretcher */
 
 .stretcher {
-   font-size: 0.75em;
-   padding: 0 30px 0 30px;
+  font-size: 0.75em;
+  padding: 0 30px 0 30px;
 }
 
 .stretcher a {
-   color: #a4a2a2;
-   font-weight: bold;
-   text-decoration: underline;
+  color: #a4a2a2;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .stretcher a:hover {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .wrapper {
-   background-color: #FFFFFF;
-   background-image: url(../img/corpo.gif);
-   background-position: center;
-   background-repeat: repeat-y;
-   margin: 0 auto;
-   text-align: left;
-   width: 620px;
+  background-color: #FFFFFF;
+  background-image: url(../img/corpo.gif);
+  background-position: center;
+  background-repeat: repeat-y;
+  margin: 0 auto;
+  text-align: left;
+  width: 620px;
 }
 
 .wrapper-bottom {
-   background-image: url(../img/footer.png);
-   background-position: bottom;
-   background-repeat: no-repeat;
-   padding-bottom: 30px;
+  background-image: url(../img/footer.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 .wrapper-top {
-   background: transparent url(../img/header.png) no-repeat top;
-   padding-top: 30px;
+  background: transparent url(../img/header.png) no-repeat top;
+  padding-top: 30px;
 }
 
 /* End stretcher */
@@ -130,46 +129,46 @@ h3 {
 /* Menu */
 
 .menu {
-   background-color: transparent;
+  background-color: transparent;
 }
 
 .menu ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .menu ul li {
-   border-left: 1px solid #49565D;
-   display: inline;
-   margin-left: 5px;
-   padding-left: 10px;
+  border-left: 1px solid #49565D;
+  display: inline;
+  margin-left: 5px;
+  padding-left: 10px;
 }
 
 .menu ul li a {
-   color: #FFFFFF;
-   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-   font-size: 1.05em;
-   text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.05em;
+  text-decoration: none;
 }
 
 .menu ul li a:hover {
-   color: #AAD5FF;
+  color: #AAD5FF;
 }
 
 .menu ul li.first {
-   border-left: 0px solid #49565D;
-   margin-left: 0px;
-   padding-left: 0px;
+  border-left: 0px solid #49565D;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .menu ul li.last {
-   border-right: 0px solid #49565D;
-   margin-right: 0px;
-   padding-right: 0px;
+  border-right: 0px solid #49565D;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
 .invisible {
-   display: none;
+  display: none;
 }
