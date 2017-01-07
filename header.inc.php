@@ -20,6 +20,12 @@
     <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
+
+    <link rel="prefetch" href="download.php">
+    <link rel="preconnect" href="http://git.qbittorrent.org">
+    <link rel="preconnect" href="http://bugs.qbittorrent.org">
+    <link rel="preconnect" href="http://wiki.qbittorrent.org">
+    <link rel="dns-prefetch" href="http://forum.qbittorrent.org">
 </head>
 <body>
     <div>
