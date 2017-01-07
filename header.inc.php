@@ -13,10 +13,15 @@
     <meta name="Language" content="english"/>
     <meta name="keywords" content="qbittorrent, christophe, dumez, bittorrent, Qt4.2, Qt, trolltech, C++, GPL, libtorrent, rblibtorrent, arvid, norberg, azureus, utorrent, ktorrent, qtorrent"/>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
     <script type="text/javascript" src="js/mootools.js" async defer></script>
 
-<!--    Main CSS -->
+    <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
 </head>
 <body>
     <div>
