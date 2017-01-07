@@ -37,7 +37,7 @@
           <li><a href="news.php">News</a></li>
           <li><a href="http://git.qbittorrent.org">Develop</a></li>
           <li><a href="download.php">Download</a></li>
-          <li><a href="https://sourceforge.net/project/screenshots.php?group_id=163414">Screenshots</a></li>
+          <li><a href="https://sourceforge.net/projects/qbittorrent/#screenshots">Screenshots</a></li>
           <li><a href="http://bugs.qbittorrent.org">Bugs</a></li>
           <li><a href="http://wiki.qbittorrent.org">Wiki</a></li>
           <li><a href="http://forum.qbittorrent.org">Forum</a></li>
