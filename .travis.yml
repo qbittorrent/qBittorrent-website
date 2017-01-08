@@ -4,4 +4,4 @@ php:
   - nightly
 
 script:
-  - for file in *.php; do php -l "$file"; done
+  - for file in *.php; do php -f "$file" > /dev/null; done
