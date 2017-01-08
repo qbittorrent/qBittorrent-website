@@ -1,4 +1,8 @@
-This repository contains the official qBittorrent website (https://qbittorrent.org).
+qbittorrrent-website
+===
+[![TravisCI status](https://travis-ci.org/qbittorrent/qbittorrrent-website.svg?branch=master)](https://travis-ci.org/qbittorrent/qbittorrrent-website)
+
+This repository contains the official qBittorrent website: https://qbittorrent.org
 
 Anyone is welcome to submit PRs that fix problems and improve things.
 
