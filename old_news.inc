@@ -1,7 +1,3 @@
-<h3>Tuesday December 27th 2016 - SSL support</h3>
-<p>Now the mainsite is served over HTTPS. Thanks to <a href="https://letsencrypt.org/">Let's Encrypt</a> and to shiki(forum admin).
-<br>Also the mainsite is available as a git repo now for (almost) anyone to hack, fix bugs and maybe redesign. Look <a href="https://github.com/qbittorrent/qbittorrrent-website">here</a></p>
-
 <h3>Saturday December 17th 2016 - qBittorrent v3.3.10 release</h3>
 <p>qBittorrent v3.3.10 was released containing hotfixes. Windows users: There is an installer for 64-bit qbittorrent. However, you <b>might</b> experience increased memory usage due to this.
 <br><b>NOTICE TO PACKAGERS:</b> Read 3.3.8 news and changelog too.</p>
