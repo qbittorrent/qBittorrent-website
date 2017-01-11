@@ -6,13 +6,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="qBittorrent Official Website"/>
+    <meta name="keywords" content="qBittorrent, torrent client, BitTorrent protocol, cross-platform, free and open-source software, GNU GPL, libtorrent-rasterbar, Qt, C++"/>
+    <meta name="author" content="qBittorrent Development Team: https://github.com/qbittorrent"/>
+
     <title>qBittorrent official website</title>
-    <meta name="Author" content="Christophe Dumez, chris@qbittorrent.org"/>
-    <meta name="Copyright" content="(c) 2006-2007"/>
-    <meta name="description" content="qBittorrent official website"/>
-    <meta name="Language" content="english"/>
-    <meta name="keywords" content="qbittorrent, christophe, dumez, bittorrent, Qt4.2, Qt, trolltech, C++, GPL, libtorrent, rblibtorrent, arvid, norberg, azureus, utorrent, ktorrent, qtorrent"/>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
