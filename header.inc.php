@@ -11,7 +11,7 @@
     <meta name="keywords" content="qBittorrent, torrent client, BitTorrent protocol, cross-platform, free and open-source software, GNU GPL, libtorrent-rasterbar, Qt, C++"/>
     <meta name="author" content="qBittorrent Development Team: https://github.com/qbittorrent"/>
 
-    <title>qBittorrent official website</title>
+    <title>qBittorrent Official Website</title>
 
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
