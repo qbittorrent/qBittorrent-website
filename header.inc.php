@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!--[if lt IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
 
     <link rel="prefetch" href="download.php">
@@ -25,15 +25,17 @@
     <link rel="preconnect" href="http://bugs.qbittorrent.org">
     <link rel="preconnect" href="http://wiki.qbittorrent.org">
     <link rel="dns-prefetch" href="http://forum.qbittorrent.org">
-</head>
-<body>
+  </head>
+  <body>
     <div>
       <a href="download.php" id="topleft"></a>
     </div>
+
     <div id="MainBox">
       <div id="LogoChris">
         <img src="img/qb_newbanner.jpg" alt="qBittorrent" style="margin: 0; padding: 0;"/>
       </div>
+
       <div class="menu">
         <ul>
           <li class="first"><a href="index.php">Home</a></li>
@@ -46,6 +48,7 @@
           <li><a href="http://forum.qbittorrent.org">Forum</a></li>
         </ul>
       </div>
+
       <div class="wrapper">
         <div class="wrapper-top">
           <div class="wrapper-bottom">
