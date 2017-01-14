@@ -10,6 +10,7 @@
     <meta name="description" content="qBittorrent Official Website"/>
     <meta name="keywords" content="qBittorrent, torrent client, BitTorrent protocol, cross-platform, free and open-source software, GNU GPL, libtorrent-rasterbar, Qt, C++"/>
     <meta name="author" content="qBittorrent Development Team: https://github.com/qbittorrent"/>
+    <meta name="google-site-verification" content="2P14de1zV_NTk03Ebnc0wpPKWaeJoj7B9Tc_HtRkOfE" />
 
     <title>qBittorrent Official Website</title>
 
