@@ -39,7 +39,7 @@
 
       <div class="menu">
         <ul>
-          <li class="first"><a href="index.php">Home</a></li>
+          <li class="first"><a href="/">Home</a></li>
           <li><a href="news.php">News</a></li>
           <li><a href="http://git.qbittorrent.org">Develop</a></li>
           <li><a href="download.php">Download</a></li>
