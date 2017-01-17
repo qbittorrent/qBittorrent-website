@@ -20,13 +20,20 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-like" data-href="https://www.qbittorrent.org/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-<br/><br/>
+<br/>
 <!-- Google + -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <div class="g-plusone" data-annotation="inline"></div>
-<br/><br/>
+<br/>
 <!-- Twitter -->
 <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br/>
+<!-- VK -->
+<script type="text/javascript" src="https://vk.com/js/api/share.js?94" charset="windows-1251"></script>
+<script type="text/javascript">document.write(VK.Share.button(false,{type: "round", text: "Share"}));</script>
+<!-- weibo -->
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8" async defer></script>
+<wb:like type="simple"></wb:like>
 
 <h3>qBittorrent Features</h3>
 <ul>
