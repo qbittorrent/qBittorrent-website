@@ -20,7 +20,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-like" data-href="https://www.qbittorrent.org/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-<br/>
+<br style="margin: 3px 0;">
 <!-- Google + -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <div class="g-plusone" data-annotation="inline"></div>
