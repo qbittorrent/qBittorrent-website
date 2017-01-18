@@ -13,9 +13,9 @@
 # The line just below this section: 'Options FollowSymLinks' may cause problems
 # with some server configurations.  It is required for use of mod_rewrite, but may already
 # be set by your server administrator in a way that dissallows changing it in
-# your .htaccess file.  If using it causes your server to error out, comment it out (add # to 
+# your .htaccess file.  If using it causes your server to error out, comment it out (add # to
 # beginning of line), reload your site in your browser and test your sef url's.  If they work,
-# it has been set by your server administrator and you do not need it set here. 
+# it has been set by your server administrator and you do not need it set here.
 #
 # Only use one of the two SEF sections that follow.  Lines that can be uncommented
 # (and thus used) have only one #.  Lines with two #'s should not be uncommented
@@ -90,7 +90,7 @@ RewriteBase /
 #
 ########## End - 3rd Party SEF Section
 
-#remove the need for .php extention 
+#remove the need for .php extention
 RewriteRule ^donate$ donate.php [NC]
 
 # Auto redirect http->https
