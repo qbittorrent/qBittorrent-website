@@ -18,3 +18,15 @@
 	RewriteCond %{HTTPS} off
 	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
+
+# control "max-age" & "Cache-Control" in HTTP header
+<IfModule mod_expires.c>
+	# for etag, exclude INode
+	FileETag All -INode
+
+	ExpiresActive On
+	ExpiresDefault "access plus 7 days"
+
+	ExpiresByType text/css  "access plus 2 hours"
+	ExpiresByType text/html "access plus 2 hours"
+</IfModule>
