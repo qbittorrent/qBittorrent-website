@@ -1,21 +1,18 @@
-##  Can be commented out if causes errors, see notes above.
+# mod_rewrite in use
+# these are required for "per-directory rewrites"
 Options FollowSymLinks
-
-#  mod_rewrite in use
 RewriteEngine On
 
-#  Uncomment following line if your webserver's URL
-#  is not directly related to physical file paths.
-#  Update Your Joomla/MamboDirectory (just / for root)
+# uncomment following line if your webserver's URL is not directly related to physical file paths.
 RewriteBase /
 
-#remove the need for .php extention
+# remove the need for .php extention
 RewriteRule ^donate$ donate.php [NC]
 
-# Redirect non-www to www (https):
+# redirect non-www to www (https):
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}$1 [L,R=301]
 
-# Auto redirect http->https
+# auto redirect http -> https
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
