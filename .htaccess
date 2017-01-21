@@ -19,7 +19,9 @@
 	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 	# HTTP Strict Transport Security (HSTS)
-	Header always set Strict-Transport-Security "max-age=300;"
+	<IfModule mod_headers.c>
+		Header always set Strict-Transport-Security "max-age=300;"
+	</IfModule>
 </IfModule>
 
 # control "max-age" & "Cache-Control" in HTTP header
