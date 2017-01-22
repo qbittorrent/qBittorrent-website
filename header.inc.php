@@ -16,6 +16,7 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/TLbanner.css" />
 
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -28,9 +29,9 @@
     <link rel="dns-prefetch" href="http://forum.qbittorrent.org">
   </head>
   <body>
-    <div>
-      <a href="download.php" id="topleft"></a>
-    </div>
+    <span id="forkongithub">
+      <a href="download.php">Latest: v3.3.10</a>
+    </span>
 
     <div id="MainBox">
       <div id="LogoChris">

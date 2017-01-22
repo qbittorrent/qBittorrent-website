@@ -45,18 +45,6 @@ p.copyright {
   margin: 0 auto;
 }
 
-#topleft {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: block;
-  height: 125px;
-  width: 125px;
-  background: url(../img/TLbanner.png) no-repeat;
-  text-indent: -999em;
-  text-decoration: none;
-}
-
 div .codePart {
   /*border: solid double rgb(47,103,186);*/
   font-style: italic;
