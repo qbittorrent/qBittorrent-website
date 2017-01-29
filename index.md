@@ -1,16 +1,19 @@
 <!-- ## qBittorrent: An Advanced BitTorrent Client -->
 ### About qBittorrent
-<a href="download.php"><img src="img/QBt-download-150.png" alt="qBittorrent" style="float: left; margin-right: 10px; height: 115px;"/></a>
-The qBittorrent project aims to provide a Free Software alternative to µTorrent.
+<a href="download.php"><img src="img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
+The qBittorrent project aims to provide a open-source software alternative to µTorrent.
+
 Additionally, qBittorrent runs and provides the same features on all major platforms (Linux, Mac OS X, Windows, OS/2, FreeBSD).
 
-qBittorrent is based on the Qt toolkit and [libtorrent-rasterbar](http://www.libtorrent.org).
+qBittorrent is based on the Qt toolkit and [libtorrent-rasterbar](http://www.libtorrent.org) library.
 
 
 ### Help qBittorrent
-qBittorrent is developed by [volunteers](team.php) on their spare time. If you like this piece of software, please make a donation and help it survive.
+qBittorrent is developed by [volunteers](team.php) on their spare time.
 
-Donation info [here](donate).
+If you like this piece of software, please make a donation and help it survive.
+
+Donation info [here](donate.php).
 
 
 ### Recommend qBittorrent
@@ -44,24 +47,26 @@ Donation info [here](donate).
 ### qBittorrent Features
 * Polished µTorrent-like User Interface
 * Well-integrated and extensible Search Engine
-  * Simultaneous search in most famous BitTorrent search sites
-  * Per-category-specific search requests (e.g. Books, Music, Movies)
-* All Bittorrent extensions
-  * DHT, Peer Exchange, Full encryption, Magnet/BitComet URIs, ...
-* Remote control through a Web user interface
-  * Nearly identical to the regular UI, all in Ajax
-* Advanced control over trackers, peers and torrents
+  * Simultaneous search in many Torrent search sites
+  * Category-specific search requests (e.g. Books, Music, Software)
+* RSS feed support with advanced download filters (inc. regex)
+* Many Bittorrent extensions supported:
+  * Magnet links
+  * Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery
+  * Private torrents
+  * and many more...
+* Remote control through Web user interface, written with AJAX
+  * Nearly identical to the regular GUI
+* Sequential downloading (Download in order)
+* Advanced control over torrents, trackers and peers
   * Torrents queueing and prioritizing
   * Torrent content selection and prioritizing
-* UPnP / NAT-PMP port forwarding support
-* Available in [~49 languages](https://www.transifex.com/sledgehammer999/qbittorrent/) (Unicode support)
-* Torrent creation tool
-* Advanced RSS support with download filters (inc. regex)
 * Bandwidth scheduler
-* IP Filtering (eMule and PeerGuardian compatible)
+* Torrent creation tool
+* IP Filtering (eMule & PeerGuardian format compatible)
 * IPv6 compliant
-* Sequential downloading (aka "Download in order")
-* Available on most platforms: Linux, Mac OS X, Windows, OS/2, FreeBSD
+* UPnP / NAT-PMP port forwarding support
+* Available on all platforms: Windows, Linux, Mac OS X, FreeBSD, OS/2
+* Available in [~70 languages](https://www.transifex.com/sledgehammer999/qbittorrent/)
 
-
-#### Go ahead and try qBittorrent, you won't regret it!
+** Go ahead and try qBittorrent, you won't regret it! **
