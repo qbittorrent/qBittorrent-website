@@ -20,7 +20,7 @@
 
 	# HTTP Strict Transport Security (HSTS)
 	<IfModule mod_headers.c>
-		Header always set Strict-Transport-Security "max-age=604800;"
+		Header always set Strict-Transport-Security "max-age=31536000;"
 	</IfModule>
 </IfModule>
 
