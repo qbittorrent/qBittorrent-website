@@ -1,7 +1,7 @@
 <!-- ## qBittorrent: An Advanced BitTorrent Client -->
 ### About qBittorrent
 <a href="download.php"><img src="img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
-The qBittorrent project aims to provide a open-source software alternative to µTorrent.
+The qBittorrent project aims to provide an open-source software alternative to µTorrent.
 
 Additionally, qBittorrent runs and provides the same features on all major platforms (Linux, Mac OS X, Windows, OS/2, FreeBSD).
 
@@ -13,7 +13,7 @@ qBittorrent is developed by [volunteers](team.php) on their spare time.
 
 If you like this piece of software, please make a donation and help it survive.
 
-Donation info [here](donate.php).
+Donation info [here](donate).
 
 
 ### Recommend qBittorrent
@@ -49,11 +49,12 @@ Donation info [here](donate.php).
 * Well-integrated and extensible Search Engine
   * Simultaneous search in many Torrent search sites
   * Category-specific search requests (e.g. Books, Music, Software)
-* RSS feed support with advanced download filters (inc. regex)
+* RSS feed support with advanced download filters (incl. regex)
 * Many Bittorrent extensions supported:
   * Magnet links
-  * Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery
+  * Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery (LSD)
   * Private torrents
+  * Encrypted connections
   * and many more...
 * Remote control through Web user interface, written with AJAX
   * Nearly identical to the regular GUI
