@@ -61,7 +61,7 @@ Link: qBittorrent v3.3.10
 /
 <a href="http://downloads.sourceforge.net/project/qbittorrent/qbittorrent-unstable/qbittorrent-3.0.0rc5.tar.xz?use_mirror=master">TAR.XZ</a>
 </p>-->
-<p style="padding-left: 120px">Link: <a href="https://github.com/arvidn/libtorrent/releases/download/libtorrent-1_0_10/libtorrent-rasterbar-1.0.10.tar.gz">libtorrent-rasterbar v1.0.10</a> (Stable)</p>
+<p style="padding-left: 120px">Link: <a href="https://github.com/arvidn/libtorrent/releases/download/libtorrent-1_0_11/libtorrent-rasterbar-1.0.11.tar.gz">libtorrent-rasterbar v1.0.11</a> (Stable)</p>
 <br/>
 <h3>Other Binary Packages</h3>
 <p>Please select your operating system:
