@@ -14,6 +14,7 @@
     <meta name="google-site-verification" content="2P14de1zV_NTk03Ebnc0wpPKWaeJoj7B9Tc_HtRkOfE" />
 
     <title>qBittorrent Official Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" sizes="16x16 32x32 64x64"/>
 
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
