@@ -21,12 +21,12 @@
 <h3>Windows XP / Vista / 7 / 8 / 10</h3>
 <img src="img/os/winlogo.png" alt="Windows icon" class="floatLeft"/>
 <p>
-  <strong>Current version: qBittorrent v3.3.10</strong>
+  <strong>Current version: qBittorrent v3.3.11</strong>
 </p>
 <p>
   <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-  <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
-  <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.10/qbittorrent_3.3.10_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
+  <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.11/qbittorrent_3.3.11_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.11/qbittorrent_3.3.11_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
+  <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.11/qbittorrent_3.3.11_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.11/qbittorrent_3.3.11_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
 </p>
 <table>
   <tbody>
@@ -36,11 +36,11 @@
     </tr>
     <tr>
       <td>32-bit installer</td>
-      <td><code>26eff6be73a1055e85eb1a09ebe488c5c60eb095</code></td>
+      <td><code>040e92e87d9108a3cbcfcfc7d83b0f051cc77261</code></td>
     </tr>
     <tr>
       <td>64-bit installer</td>
-      <td><code>1a1a101a575af62c2d2c8b7ada23fc998b99d091</code></td>
+      <td><code>9a7e9d6df60a76a58ec1b96b4d6bf291b2a78875</code></td>
     </tr>
     <tr>
   </tbody>
@@ -50,15 +50,15 @@
     </tr>
     <tr>
       <td>libtorrent-rasterbar</td>
-      <td>1.0.10+gita166c3f70921</td>
+      <td>1.0.11+gitecd20f15cb3f</td>
     </tr>
     <tr>
       <td>Qt</td>
-      <td>5.7.1</td>
+      <td>5.7.1(32-bit) / 5.8.0(64-bit)</td>
     </tr>
     <tr>
       <td>Boost</td>
-      <td>1.62.0</td>
+      <td>1.63.0</td>
     </tr>
   </tbody>
 </table>
@@ -72,13 +72,14 @@
 <h3>macOS Lion / Mountain&nbsp;Lion / Mavericks / Yosemite / El&nbsp;Capitan / Sierra</h3>
 <img src="img/os/macoslogo.png" alt="macOS icon" class="floatLeft"/>
 <p>
-  <strong>Current version: qBittorrent v3.3.10</strong>
+  <strong>Current version: qBittorrent v3.3.11</strong>
 </p>
 <p>
-  <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)
+  <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
+  <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.11/qbittorrent-3.3.11.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.11/qbittorrent-3.3.11.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
 </p>
 <p>
-  <strong>Checksum (SHA-1):</strong> <code>0c44069c998d1f70e889408c6da4aea1e6387fb5</code>
+  <strong>Checksum (SHA-1):</strong> <code>ff1caf5af41f26cc1cd6883c00d752b8697af7c4</code>
 </p>
 <table>
   <thead>
@@ -90,15 +91,15 @@
   <tbody>
     <tr>
       <td>libtorrent-rasterbar</td>
-      <td>1.0.10</td>
+      <td>1.0.11+gitecd20f15cb3f</td>
     </tr>
     <tr>
       <td>Qt</td>
-      <td>5.7.0</td>
+      <td>5.8.0</td>
     </tr>
     <tr>
       <td>Boost</td>
-      <td>1.62.0</td>
+      <td>1.63.0</td>
     </tr>
   </tbody>
 </table>
@@ -108,11 +109,11 @@
 <h3>Source Tarball</h3>
 <img src="img/tar-logo.jpg" alt="tarball icon" class="floatLeft"/>
 <p>
-  <strong>Current version: qBittorrent v3.3.10</strong>
+  <strong>Current version: qBittorrent v3.3.11</strong>
 </p>
 <p>
-  <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
-  <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.10/qbittorrent-3.3.10.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
+  <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
+  <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
 </p>
 <table>
   <thead>
@@ -128,7 +129,7 @@
     </tr>
     <tr>
       <td>Qt</td>
-      <td>5.7 branch latest release</td>
+      <td>5.8 branch latest release</td>
     </tr>
     <tr>
       <td>Boost</td>
