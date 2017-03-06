@@ -1,3 +1,9 @@
+### Monday March 6th 2017 - "qBittorrent is the best BitTorrent client": a guide by TurboLab.it
+
+The Italian techzine *TurboLab.it* published a new long-form BitTorrent tutorial titled [La Grande Guida a BitTorrent](https://turbolab.it/bittorrent-973/grande-guida-bittorrent-669) (literally: *The big guide to BitTorrent*). **The author recommends *qBittorrent* as "the best BitTorrent client for Windows"**, citing the lightweight footprint, the no-crapware bundled installer and the clean interface among the top reasons for his choice.  
+Those who understand Italian can read the full guide here: [La Grande Guida a BitTorrent](https://turbolab.it/bittorrent-973/grande-guida-bittorrent-669).  
+TurboLab.it team welcomes hints, tips and tricks to make the guide even better: comments can be left using the guide own commenting system (free registration required).
+
 ### Friday March 3rd 2017 - qBittorrent v3.3.11 release
 
 qBittorrent v3.3.11 was released. There are a few WebUI security fixes.  
