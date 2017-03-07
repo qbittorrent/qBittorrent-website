@@ -1,3 +1,16 @@
+### Tuesday March 7th 2017 - NOTICE to tracker operators: User agent change
+Starting from the next version (v3.3.12) qBittorrent will use the following user-agent format:
+```
+qBittorrent/A.B.C.DE
+```
+`A`, `B`, `C` and `D` are numbers indicating `VERSION_MAJOR`, `VERSION_MINOR`, `VERSION_BUGFIX` and `VERSION_BUILD` respectively.  
+If `D` is zero it will be omitted. The 3rd dot(`.`) will be omitted in this case.  
+`A`, `B` and `C` will always be present.  
+`E` is a string and possible values of it are `alpha`, `beta` and `rc`. They might not appear in all lowercase. Also they might appear numbered eg `alpha2`.  
+If `E` is empty it will be omitted. This indicates a stable release.  
+There is no connection between `D` and `E`. One might be present even if the other isn't.
+To sum up and give an example, the user agent that v3.3.12 will use is `qBittorrent/3.3.12`.
+
 ### Monday March 6th 2017 - "qBittorrent is the best BitTorrent client": a guide by TurboLab.it
 
 The Italian techzine *TurboLab.it* published a new long-form BitTorrent tutorial titled [La Grande Guida a BitTorrent](https://turbolab.it/bittorrent-973/grande-guida-bittorrent-669) (literally: *The big guide to BitTorrent*). **The author recommends *qBittorrent* as "the best BitTorrent client for Windows"**, citing the lightweight footprint, the no-crapware bundled installer and the clean interface among the top reasons for his choice.  
