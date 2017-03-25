@@ -115,6 +115,9 @@
   <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
   <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.11/qbittorrent-3.3.11.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
 </p>
+<p>
+  Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>
+</p>
 <table>
   <thead>
     <tr>
