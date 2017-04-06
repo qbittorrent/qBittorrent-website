@@ -32,7 +32,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download.php">Latest: v3.3.11</a>
+      <a href="download.php">Latest: v3.3.12</a>
     </span>
 
     <div id="MainBox">

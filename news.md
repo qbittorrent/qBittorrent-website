@@ -1,3 +1,29 @@
+### Thursday April 6th 2017 - qBittorrent v3.3.12 release
+
+qBittorrent v3.3.12 was released. This a bugfix release not a major one.
+- FEATURE: Indicate bitness in stackstrace and about dialog. Closes #6172. (sledgehammer999)
+- BUGFIX: Fix incomplete type compile error with Qt4 (Chocobo1)
+- BUGFIX: Fix compile error: ‘escape’ is not a member of ‘Qt’ (Chocobo1)
+- BUGFIX: Use system locale to format dates/time/etc (sledgehammer999)
+- BUGFIX: Follow http user-agent format (Chocobo1)
+- BUGFIX: Fix cancel "Set location" causes files move to installation dir. (Chocobo1)
+- WEBUI: Improve performance of updating 'progress' column (buinsky)
+- WEBUI: Implement statistics window in web UI (FranciscoPombal)
+- WEBUI: fixed "remaining" column in WebUI (FranciscoPombal)
+- WEBUI: Set HttpOnly attribute to SID cookie (Chocobo1)
+- WEBUI: Fire up the timer to clean inactive sessions (Chocobo1)
+- WEBUI: Set cookie SID value to empty on logout (Chocobo1)
+- WINDOWS: Make the installer DPI aware (regs01)
+- WINDOWS: Set exit code to 0 on install/uninstall success. Fixes problem with silent installations. (Chocobo1)
+- WINDOWS: The 64-bit installer refuses to install on 32-bit systems. (sledgehammer999)
+- WINDOWS: The 64-bit installer uses the correct "Program Files" now. Detection will not work if you install on top of previous installer. (sledgehammer999)
+- WINDOWS: Fix running the uninstaller if the user chose a different path in the installer. Closes #6080. (sledgehammer999)
+- LINUX: Add keywords to the .desktop file. (sledgehammer999)
+- LINUX: Update stuff in appdata.xml and run 'appstream-utl upgrade' on it. (sledgehammer999)
+- OTHER: Replace rand() by a true uniform distribution generator (Chocobo1)
+- OTHER: Change our user-agent format as indicated earlier in the news section (Chocobo1)
+- OTHER: cmake: fix OSX bundle creation (evsh)
+
 ### Tuesday March 7th 2017 - NOTICE to tracker operators: User agent change
 Starting from the next version (v3.3.12) qBittorrent will use the following user-agent format:
 ```
