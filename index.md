@@ -9,7 +9,7 @@ qBittorrent is based on the Qt toolkit and [libtorrent-rasterbar](http://www.lib
 
 
 ### Help qBittorrent
-qBittorrent is developed by [volunteers](team.php) on their spare time.
+qBittorrent is developed by [volunteers](team.php) in their spare time.
 
 If you like this piece of software, please make a donation and help it survive.
 
