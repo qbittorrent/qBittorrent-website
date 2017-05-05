@@ -18,6 +18,10 @@ Donation info [here](donate).
 
 ### Recommend qBittorrent
 <div>
+  <!-- GitHub -->
+  <script src="https://buttons.github.io/buttons.js" async defer></script>
+  <a class="github-button" href="https://github.com/qbittorrent/qBittorrent" data-show-count="true" aria-label="Star qBittorrent on GitHub">Star</a>
+
   <!-- Facebook -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
