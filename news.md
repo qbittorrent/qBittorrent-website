@@ -1,6 +1,6 @@
 ### Thursday June 1st 2017 - qBittorrent v3.3.13 release
 
-qBittorrent v3.3.13 was released. This release is made mainly to fix possible Cross-Site Request Forgery attacks via the webui reporteg by OpenGG and fixed by Chocobo1.
+qBittorrent v3.3.13 was released. This release is made mainly to fix possible Cross-Site Request Forgery attacks via the webui reported by OpenGG and fixed by Chocobo1.
 - BUGFIX: Fixed UI glitch about torrent numbers in the sidepanel. Fixes #6454. (evsh)
 - BUGFIX: Fix downloaded/uploaded columns were not highlighted properly when selected. (Chocobo1)
 - BUGFIX: Always draw background in files list and search result list (Chocobo1)
