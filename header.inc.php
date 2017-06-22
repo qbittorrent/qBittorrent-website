@@ -25,10 +25,6 @@
     <![endif]-->
 
     <link rel="prefetch" href="download.php">
-    <link rel="preconnect" href="http://git.qbittorrent.org">
-    <link rel="preconnect" href="http://bugs.qbittorrent.org">
-    <link rel="preconnect" href="http://wiki.qbittorrent.org">
-    <link rel="dns-prefetch" href="http://forum.qbittorrent.org">
   </head>
   <body>
     <span id="forkongithub">
@@ -44,12 +40,12 @@
         <ul>
           <li class="first"><a href="/">Home</a></li>
           <li><a href="news.php">News</a></li>
-          <li><a href="http://forum.qbittorrent.org">Forum</a></li>
+          <li><a href="https://qbforums.shiki.hu/">Forum</a></li>
           <li><a href="download.php">Download</a></li>
           <li><a href="https://sourceforge.net/projects/qbittorrent/#screenshots">Screenshots</a></li>
-          <li><a href="http://wiki.qbittorrent.org">Wiki</a></li>
-          <li><a href="http://git.qbittorrent.org">Development</a></li>
-          <li><a href="http://bugs.qbittorrent.org">Bugs</a></li>
+          <li><a href="https://github.com/qbittorrent/qBittorrent/wiki">Wiki</a></li>
+          <li><a href="https://github.com/qbittorrent/qBittorrent">Development</a></li>
+          <li><a href="https://github.com/qbittorrent/qBittorrent/issues">Bugs</a></li>
         </ul>
       </div>
 
