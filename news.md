@@ -1,3 +1,27 @@
+### Thursday July 20th 2017 - qBittorrent v3.3.14 release
+
+qBittorrent v3.3.14 was released.
+1. This release is made mainly to fix the previous problematic fix for Cross-Site Request Forgery attacks via the webui.
+2. It also contains another Webui fix for a DNS rebinding attack. For all WebUI users, if your qBittorrent server is assigned with a domain name, it is recommended to enter the domain name in `GUI: Options -> WebUI tab -> Server domains textbox` or in `config: Preferences section -> WebUI/ServerDomains` in order to defend against DNS rebinding attacks.
+3. For macOS users: This is my first attempt to have a shortcut to `Applications` folder in the dmg. I hope that I didn't screw up the presentation.
+4. Google has decided that qBittorrent is a persona non-grata. Read [this](https://www.reddit.com/r/torrents/comments/6obxsa/google_bans_bittorrent/) reddit post for more info.
+5. Either this weekend or the next one you will get a beta for v3.4.0. It has A LOT of new features so help in finding grave bugs. Keep checking back to see if it is posted.
+
+- BUGFIX: Set interface for outgoing traffic(libtorrent 1.1.x series). (evsh)
+- WEBUI: Fix KEEP_ALIVE_DURATION value (Chocobo1)
+- WEBUI: Relax CSRF defense. Closes #6882. Allow HTTP request which has neither Origin nor Referer header included. (Chocobo1)
+- WEBUI: Skip username/password check for active sessions (closes #6860) (Thomas Piccirello)
+- WEBUI: Fix javascript errors and follow best practices (Thomas Piccirello)
+- WEBUI: Fix value comparison. Closes #7081. (Chocobo1)
+- WEBUI: Avoid modifying request headers (Chocobo1)
+- WEBUI: Implement HTTP host header filtering. This filtering is required to defend against DNS rebinding attack. Fixes security issues reported by @beardog108 privately. (Chocobo1)
+- WEBUI: Add Status column to webui (addresses #6815) (#7032) (Tom Piccirello)
+- WEBUI: Bump API_VERSION and API_VERSION_MIN to 15.
+- SEARCH: Pad shorter python versions. Closes #6877. (sledgehammer999)
+- WINDOWS: Updated Arabic, Turkish, Greek, Russian, Danish languages of the installer. (KingLucius, BouRock, thalieht, Andrei Stepanov, scootergrisen)
+- WINDOWS: Raise total stack size on Windows to 8 MB. Closes #7021. (Chocobo1)
+- LINUX: Systemd service with user switch and other fixes/optimizations. (anton.latukha)
+
 ### Thursday June 1st 2017 - qBittorrent v3.3.13 release
 
 qBittorrent v3.3.13 was released. This release is made mainly to fix possible Cross-Site Request Forgery attacks via the webui reported by OpenGG and fixed by Chocobo1.
