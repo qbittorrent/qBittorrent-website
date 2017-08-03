@@ -1,3 +1,9 @@
+### Thursday August 3rd 2017 - qBittorrent v3.3.15 release
+
+qBittorrent v3.3.15 was released. Very minor release to fix a possibly annoying problem.
+3.4.0beta is being prepped and will be released this weekend. Stay tuned.
+- BUGFIX: Temporary subfolder wasn't being deleted. (glassez)
+
 ### Thursday July 20th 2017 - qBittorrent v3.3.14 release
 
 qBittorrent v3.3.14 was released.
