@@ -25,6 +25,16 @@ div #mainBox {
   margin: 0 auto;
 }
 
+div .col1 {
+  float: left;
+  width: 25%;
+}
+
+div .col2 {
+  float: left;
+  width: 75%;
+}
+
 img {
   border: 0;
 }
@@ -71,13 +81,6 @@ h3 {
   font-size: 1.4em;
    /*font-weight: lighter;*/
   margin: 15px 0 10px 0;
-}
-
-img.floatLeft {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 70px;
-  width: 100px;
 }
 
 /* Stretcher */
