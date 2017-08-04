@@ -80,7 +80,7 @@
   <div class="box1">
     <img src="img/os/macoslogo.png" alt="macOS icon"/>
   </div>
-  <div class="col2 clearfix">
+  <div>
     <p>
       <strong>Current version: qBittorrent v3.3.15</strong><br/><br/>
       <strong>May work on older OSX versions. If not, recompile with older Qt version.</strong>
@@ -122,7 +122,7 @@
   <div class="box1">
     <img src="img/tar-logo.jpg" alt="tarball icon"/>
   </div>
-  <div class="col2">
+  <div>
     <p>
       <strong>Current version: qBittorrent v3.3.15</strong>
     </p>
