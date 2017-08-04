@@ -29,7 +29,7 @@
   <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
 </p>
 <table>
-  <tbody>
+  <tbody class="wordBreak">
     <tr>
       <td><strong>Checksum</strong></td>
       <td><strong>SHA2-256</strong></td>
@@ -49,7 +49,7 @@
       <td><strong>Version</strong></td>
     </tr>
     <tr>
-      <td>libtorrent-rasterbar</td>
+      <td><nobr>libtorrent-rasterbar</nobr></td>
       <td>1.0.11+git1c6025e6120d</td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@
   <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
   <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
 </p>
-<p>
+<p class="wordBreak">
   <strong>Checksum (SHA2-256):</strong> <code>10b9f6afc250de301ef95f65107539296d8ebb93df776245bec2f57b5598f85e</code>
 </p>
 <table>
@@ -119,7 +119,7 @@
   Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>
 </p>
 <table>
-  <tbody>
+  <tbody class="wordBreak">
     <tr>
       <td><strong>Checksum</strong></td>
       <td><strong>SHA2-256</strong></td>
@@ -140,7 +140,7 @@
       <td><strong>Recommended version</strong></td>
     </tr>
     <tr>
-      <td>libtorrent-rasterbar</td>
+      <td><nobr>libtorrent-rasterbar</nobr></td>
       <td>1.0 branch latest release</td>
     </tr>
     <tr>
