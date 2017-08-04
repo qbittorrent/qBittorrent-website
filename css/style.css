@@ -25,14 +25,14 @@ div #mainBox {
   margin: 0 auto;
 }
 
-div .col1 {
-  float: left;
-  width: 25%;
+div .flexbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-div .col2 {
-  float: left;
-  width: 75%;
+div .flexbox .box1 {
+  min-width: 135px
 }
 
 img {

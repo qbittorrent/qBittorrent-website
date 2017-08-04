@@ -19,52 +19,54 @@
 
 
 <h3>Windows XP / Vista / 7 / 8 / 10</h3>
-<div class="col1">
-<img src="img/os/winlogo.png" alt="Windows icon" class="floatLeft"/>
-</div>
-<div class="col2">
-  <p>
-    <strong>Current version: qBittorrent v3.3.15</strong>
-  </p>
-  <p>
-    <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-    <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
-    <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
-  </p>
-  <table>
-    <tbody class="wordBreak">
-      <tr>
-        <td><strong>Checksum</strong></td>
-        <td><strong>SHA2-256</strong></td>
-      </tr>
-      <tr>
-        <td>32-bit installer</td>
-        <td><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
-      </tr>
-      <tr>
-        <td>64-bit installer</td>
-        <td><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
-      </tr>
-      <tr>
-    </tbody>
-    <tbody>
-        <td><strong>Library</strong></td>
-        <td><strong>Version</strong></td>
-      </tr>
-      <tr>
-        <td><nobr>libtorrent-rasterbar</nobr></td>
-        <td>1.0.11+git1c6025e6120d</td>
-      </tr>
-      <tr>
-        <td>Qt</td>
-        <td>5.7.1(32-bit) / 5.9.1(64-bit)</td>
-      </tr>
-      <tr>
-        <td>Boost</td>
-        <td>1.64.0</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="flexbox">
+  <div class="box1">
+    <img src="img/os/winlogo.png" alt="Windows icon"/>
+  </div>
+  <div>
+    <p>
+      <strong>Current version: qBittorrent v3.3.15</strong>
+    </p>
+    <p>
+      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
+    </p>
+    <table>
+      <tbody class="wordBreak">
+        <tr>
+          <td><strong>Checksum</strong></td>
+          <td><strong>SHA2-256</strong></td>
+        </tr>
+        <tr>
+          <td>32-bit installer</td>
+          <td><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
+        </tr>
+        <tr>
+          <td>64-bit installer</td>
+          <td><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
+        </tr>
+        <tr>
+      </tbody>
+      <tbody>
+          <td><strong>Library</strong></td>
+          <td><strong>Version</strong></td>
+        </tr>
+        <tr>
+          <td><nobr>libtorrent-rasterbar</nobr></td>
+          <td>1.0.11+git1c6025e6120d</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>5.7.1(32-bit) / 5.9.1(64-bit)</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.64.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 <p>
   <strong>64-bit NOTICE:</strong> The 64-bit version is only compatible with Windows Vista+.<br/>
@@ -74,103 +76,107 @@
 
 
 <h3>Yosemite / El&nbsp;Capitan / Sierra</h3>
-<div class="col1">
-  <img src="img/os/macoslogo.png" alt="macOS icon" class="floatLeft"/>
-</div>
-<div class="col2">
-  <p>
-    <strong>Current version: qBittorrent v3.3.15</strong><br/><br/>
-    <strong>May work on older OSX versions. If not, recompile with older Qt version.</strong>
-  </p>
-  <p>
-    <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-    <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
-  </p>
-  <p class="wordBreak">
-    <strong>Checksum (SHA2-256):</strong> <code>10b9f6afc250de301ef95f65107539296d8ebb93df776245bec2f57b5598f85e</code>
-  </p>
-  <table>
-    <tbody>
-      <tr>
-        <td><strong>Library</strong></td>
-        <td><strong>Version</strong></td>
-      </tr>
-      <tr>
-        <td>libtorrent-rasterbar</td>
-        <td>1.0.11+git1c6025e6120d</td>
-      </tr>
-      <tr>
-        <td>Qt</td>
-        <td>5.9.1</td>
-      </tr>
-      <tr>
-        <td>Boost</td>
-        <td>1.64.0</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="flexbox">
+  <div class="box1">
+    <img src="img/os/macoslogo.png" alt="macOS icon"/>
+  </div>
+  <div class="col2 clearfix">
+    <p>
+      <strong>Current version: qBittorrent v3.3.15</strong><br/><br/>
+      <strong>May work on older OSX versions. If not, recompile with older Qt version.</strong>
+    </p>
+    <p>
+      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
+    </p>
+    <p class="wordBreak">
+      <strong>Checksum (SHA2-256):</strong> <code>10b9f6afc250de301ef95f65107539296d8ebb93df776245bec2f57b5598f85e</code>
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Library</strong></td>
+          <td><strong>Version</strong></td>
+        </tr>
+        <tr>
+          <td>libtorrent-rasterbar</td>
+          <td>1.0.11+git1c6025e6120d</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>5.9.1</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.64.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 <br/>
 
 
 <h3>Source Tarball</h3>
-<div class="col1">
-<img src="img/tar-logo.jpg" alt="tarball icon" class="floatLeft"/>
-</div>
-<div class="col2">
-  <p>
-    <strong>Current version: qBittorrent v3.3.15</strong>
-  </p>
-  <p>
-    <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
-    <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
-  </p>
-  <p>
-    Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>.
-  </p>
-  <table>
-    <tbody class="wordBreak">
-      <tr>
-        <td><strong>Checksum</strong></td>
-        <td><strong>SHA2-256</strong></td>
-      </tr>
-      <tr>
-        <td>TAR.GZ</td>
-        <td><code>78068f8088325655c1bbf1c81dd04c67ac5e09a96ffcb3ea908f29f7f35bd1fc</code></td>
-      </tr>
-      <tr>
-        <td>TAR.XZ</td>
-        <td><code>a7bbc08a39912a15a496702e736a98c083011bbb14fe5f04440880d7e6b2ceae</code></td>
-      </tr>
-      <tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <td><strong>Dependency</strong></td>
-        <td><strong>Recommended version</strong></td>
-      </tr>
-      <tr>
-        <td><nobr>libtorrent-rasterbar</nobr></td>
-        <td>1.0 branch latest release</td>
-      </tr>
-      <tr>
-        <td>Qt</td>
-        <td>5.9 branch latest release</td>
-      </tr>
-      <tr>
-        <td>Boost</td>
-        <td>latest release</td>
-      </tr>
-      <tr>
-        <td>OpenSSL</td>
-        <td>1.0 branch latest release</td>
-      </tr>
-      <tr>
-        <td>zlib</td>
-        <td>latest release</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="flexbox">
+  <div class="box1">
+    <img src="img/tar-logo.jpg" alt="tarball icon"/>
+  </div>
+  <div class="col2">
+    <p>
+      <strong>Current version: qBittorrent v3.3.15</strong>
+    </p>
+    <p>
+      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
+      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
+    </p>
+    <p>
+      Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>.
+    </p>
+    <table>
+      <tbody class="wordBreak">
+        <tr>
+          <td><strong>Checksum</strong></td>
+          <td><strong>SHA2-256</strong></td>
+        </tr>
+        <tr>
+          <td>TAR.GZ</td>
+          <td><code>78068f8088325655c1bbf1c81dd04c67ac5e09a96ffcb3ea908f29f7f35bd1fc</code></td>
+        </tr>
+        <tr>
+          <td>TAR.XZ</td>
+          <td><code>a7bbc08a39912a15a496702e736a98c083011bbb14fe5f04440880d7e6b2ceae</code></td>
+        </tr>
+        <tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><strong>Dependency</strong></td>
+          <td><strong>Recommended version</strong></td>
+        </tr>
+        <tr>
+          <td><nobr>libtorrent-rasterbar</nobr></td>
+          <td>1.0 branch latest release</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>5.9 branch latest release</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>latest release</td>
+        </tr>
+        <tr>
+          <td>OpenSSL</td>
+          <td>1.0 branch latest release</td>
+        </tr>
+        <tr>
+          <td>zlib</td>
+          <td>latest release</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 <br/>
 
