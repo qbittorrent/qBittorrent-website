@@ -167,6 +167,10 @@ h3 {
   padding-right: 0px;
 }
 
+.nobr	{
+  white-space:nowrap;
+}
+
 .invisible {
   display: none;
 }
@@ -174,3 +178,5 @@ h3 {
 .wordBreak {
   word-break: break-all;
 }
+
+
