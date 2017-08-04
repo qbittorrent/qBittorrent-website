@@ -46,14 +46,14 @@
           <td>64-bit installer</td>
           <td><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
         </tr>
-        <tr>
       </tbody>
       <tbody>
+        <tr>
           <td><strong>Library</strong></td>
           <td><strong>Version</strong></td>
         </tr>
         <tr>
-          <td><nobr>libtorrent-rasterbar</nobr></td>
+          <td class="nobr">libtorrent-rasterbar</td>
           <td>1.0.11+git1c6025e6120d</td>
         </tr>
         <tr>
@@ -147,7 +147,6 @@
           <td>TAR.XZ</td>
           <td><code>a7bbc08a39912a15a496702e736a98c083011bbb14fe5f04440880d7e6b2ceae</code></td>
         </tr>
-        <tr>
       </tbody>
       <tbody>
         <tr>
@@ -155,7 +154,7 @@
           <td><strong>Recommended version</strong></td>
         </tr>
         <tr>
-          <td><nobr>libtorrent-rasterbar</nobr></td>
+          <td class="nobr">libtorrent-rasterbar</td>
           <td>1.0 branch latest release</td>
         </tr>
         <tr>
