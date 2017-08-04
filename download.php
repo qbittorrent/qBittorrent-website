@@ -69,10 +69,11 @@
 <br/>
 
 
-<h3>Yosemite / El&nbsp;Capitan / Sierra(may work on older versions too. If not, recompile with older Qt version)</h3>
+<h3>Yosemite / El&nbsp;Capitan / Sierra</h3>
 <img src="img/os/macoslogo.png" alt="macOS icon" class="floatLeft"/>
 <p>
-  <strong>Current version: qBittorrent v3.3.15</strong>
+  <strong>Current version: qBittorrent v3.3.15</strong><br/><br/>
+  <strong>May work on older OSX versions. If not, recompile with older Qt version.</strong>
 </p>
 <p>
   <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
