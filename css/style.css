@@ -167,3 +167,7 @@ img.floatLeft {
 .invisible {
   display: none;
 }
+
+.wordBreak {
+  word-break: break-all;
+}

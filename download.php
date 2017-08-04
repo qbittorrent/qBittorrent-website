@@ -29,18 +29,18 @@
   <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
 </p>
 <table>
-  <tbody>
+  <tbody class="wordBreak">
     <tr>
       <td><strong>Checksum</strong></td>
-      <td><strong>SHA-1</strong></td>
+      <td><strong>SHA2-256</strong></td>
     </tr>
     <tr>
       <td>32-bit installer</td>
-      <td><code>fcae8fccfa7cfbfc373592c5fa5d07cb6088c73e</code></td>
+      <td><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
     </tr>
     <tr>
       <td>64-bit installer</td>
-      <td><code>1b2ca1b5a47182b649004e45a1af6657f99be158</code></td>
+      <td><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
     </tr>
     <tr>
   </tbody>
@@ -49,7 +49,7 @@
       <td><strong>Version</strong></td>
     </tr>
     <tr>
-      <td>libtorrent-rasterbar</td>
+      <td><nobr>libtorrent-rasterbar</nobr></td>
       <td>1.0.11+git1c6025e6120d</td>
     </tr>
     <tr>
@@ -69,17 +69,18 @@
 <br/>
 
 
-<h3>Yosemite / El&nbsp;Capitan / Sierra(may work on older versions too. If not, recompile with older Qt version)</h3>
+<h3>Yosemite / El&nbsp;Capitan / Sierra</h3>
 <img src="img/os/macoslogo.png" alt="macOS icon" class="floatLeft"/>
 <p>
-  <strong>Current version: qBittorrent v3.3.15</strong>
+  <strong>Current version: qBittorrent v3.3.15</strong><br/><br/>
+  <strong>May work on older OSX versions. If not, recompile with older Qt version.</strong>
 </p>
 <p>
   <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
   <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
 </p>
-<p>
-  <strong>Checksum (SHA-1):</strong> <code>d6ac961060be8be024dd4278e5a24efb5a3f2cfa</code>
+<p class="wordBreak">
+  <strong>Checksum (SHA2-256):</strong> <code>10b9f6afc250de301ef95f65107539296d8ebb93df776245bec2f57b5598f85e</code>
 </p>
 <table>
   <thead>
@@ -119,15 +120,28 @@
   Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>
 </p>
 <table>
-  <thead>
+  <tbody class="wordBreak">
     <tr>
-      <th>Dependency</th>
-      <th>Recommended version</th>
+      <td><strong>Checksum</strong></td>
+      <td><strong>SHA2-256</strong></td>
     </tr>
-  </thead>
+    <tr>
+      <td>TAR.GZ</td>
+      <td><code>78068f8088325655c1bbf1c81dd04c67ac5e09a96ffcb3ea908f29f7f35bd1fc</code></td>
+    </tr>
+    <tr>
+      <td>TAR.XZ</td>
+      <td><code>a7bbc08a39912a15a496702e736a98c083011bbb14fe5f04440880d7e6b2ceae</code></td>
+    </tr>
+    <tr>
+  </tbody>
   <tbody>
     <tr>
-      <td>libtorrent-rasterbar</td>
+      <td><strong>Dependency</strong></td>
+      <td><strong>Recommended version</strong></td>
+    </tr>
+    <tr>
+      <td><nobr>libtorrent-rasterbar</nobr></td>
       <td>1.0 branch latest release</td>
     </tr>
     <tr>
