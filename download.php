@@ -83,13 +83,11 @@
   <strong>Checksum (SHA2-256):</strong> <code>10b9f6afc250de301ef95f65107539296d8ebb93df776245bec2f57b5598f85e</code>
 </p>
 <table>
-  <thead>
-    <tr>
-      <th>Library</th>
-      <th>Version</th>
-    </tr>
-  </thead>
   <tbody>
+    <tr>
+      <td><strong>Library</strong></td>
+      <td><strong>Version</strong></td>
+    </tr>
     <tr>
       <td>libtorrent-rasterbar</td>
       <td>1.0.11+git1c6025e6120d</td>
