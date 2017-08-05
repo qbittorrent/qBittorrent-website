@@ -120,7 +120,7 @@
 <h3>Source Tarball</h3>
 <div class="flexbox">
   <div class="box1">
-    <img src="img/tar-logo.jpg" alt="tarball icon"/>
+    <img src="img/tar-logo.jpg" alt="tarball icon" width="100"/>
   </div>
   <div>
     <p>
