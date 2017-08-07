@@ -69,11 +69,17 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.0.11+git1c6025e6120d (stable) / 1.1.4+git2b98951ace (beta)</td>
+          <td>
+            1.0.11+git1c6025e6120d (stable)<br/>
+            1.1.4+git2b98951ace (beta)
+          </td>
         </tr>
         <tr>
           <td>Qt</td>
-          <td>5.7.1 (32-bit) / 5.9.1 (64-bit)</td>
+          <td>
+            5.7.1 (32-bit)<br/>
+            5.9.1 (64-bit)
+          </td>
         </tr>
         <tr>
           <td>Boost</td>
