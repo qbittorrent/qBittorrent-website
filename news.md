@@ -1,8 +1,8 @@
 ### Monday August 7th 2017 - qBittorrent v3.4.0beta_20170807_0320f9d5b5e release
 
-Windows packages for v3.4.0beta_20170807_0320f9d5b5e are released.
-macOS packges might follow.
-**CAVEAT:** The 32bit build doesn't work on Windows XP. Apparently the libtorrent 1.1.x series have dropped the support for that OS.
+Windows packages for v3.4.0beta_20170807_0320f9d5b5e are released.<br>
+macOS packges might follow.<br>
+**CAVEAT:** The 32bit build doesn't work on Windows XP. Apparently the libtorrent 1.1.x series have dropped the support for that OS.<br>
 Here is the current changelog:
 - FEATURE: New icon theme with SVG source, so we can scale it appropriately in the future. (Bert Verhelst)
 - FEATURE: Drop Qt 4 support. Raise minimum Qt version to 5.5.1 (evsh)
