@@ -40,26 +40,26 @@
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
     </p>
     <table>
-      <tbody class="wordBreak">
+      <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
           <td><strong>SHA2-256</strong></td>
         </tr>
         <tr>
           <td>32-bit installer (stable)</td>
-          <td><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
+          <td class="wordBreak"><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
         </tr>
         <tr>
           <td>64-bit installer (stable)</td>
-          <td><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
+          <td class="wordBreak"><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
         </tr>
         <tr>
           <td>32-bit installer (beta)</td>
-          <td><code>94caea2498420a3243e0216155343223d4fc5baa44c5cd435163153039a84d34</code></td>
+          <td class="wordBreak"><code>94caea2498420a3243e0216155343223d4fc5baa44c5cd435163153039a84d34</code></td>
         </tr>
         <tr>
           <td>64-bit installer (beta)</td>
-          <td><code>28db86816a62d7e67150adb70697ba2e137e5b040dcd81a2a4e9662c1613fb02</code></td>
+          <td class="wordBreak"><code>28db86816a62d7e67150adb70697ba2e137e5b040dcd81a2a4e9662c1613fb02</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -149,18 +149,18 @@
       Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>.
     </p>
     <table>
-      <tbody class="wordBreak">
+      <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
           <td><strong>SHA2-256</strong></td>
         </tr>
         <tr>
           <td>TAR.GZ</td>
-          <td><code>78068f8088325655c1bbf1c81dd04c67ac5e09a96ffcb3ea908f29f7f35bd1fc</code></td>
+          <td class="wordBreak"><code>78068f8088325655c1bbf1c81dd04c67ac5e09a96ffcb3ea908f29f7f35bd1fc</code></td>
         </tr>
         <tr>
           <td>TAR.XZ</td>
-          <td><code>a7bbc08a39912a15a496702e736a98c083011bbb14fe5f04440880d7e6b2ceae</code></td>
+          <td class="wordBreak"><code>a7bbc08a39912a15a496702e736a98c083011bbb14fe5f04440880d7e6b2ceae</code></td>
         </tr>
       </tbody>
       <tbody>
