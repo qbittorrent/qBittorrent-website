@@ -25,12 +25,19 @@
   </div>
   <div>
     <p>
-      <strong>Current version: qBittorrent v3.3.15</strong>
+      <strong>Current stable version: qBittorrent v3.3.15</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
+    </p>
+    <p>
+      Current <strong>beta</strong> version: qBittorrent v3.4.0beta_20170807_0320f9d5b5e
+      <br/><strong>Windows XP isn't supported in the beta version</strong>
+    </p>
+    <p>
+      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
     </p>
     <table>
       <tbody class="wordBreak">
@@ -39,12 +46,20 @@
           <td><strong>SHA2-256</strong></td>
         </tr>
         <tr>
-          <td>32-bit installer</td>
+          <td>32-bit installer(stable)</td>
           <td><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
         </tr>
         <tr>
-          <td>64-bit installer</td>
+          <td>64-bit installer(stable)</td>
           <td><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
+        </tr>
+        <tr>
+          <td>32-bit installer(beta)</td>
+          <td><code>94caea2498420a3243e0216155343223d4fc5baa44c5cd435163153039a84d34</code></td>
+        </tr>
+        <tr>
+          <td>64-bit installer(beta)</td>
+          <td><code>28db86816a62d7e67150adb70697ba2e137e5b040dcd81a2a4e9662c1613fb02</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -54,7 +69,7 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.0.11+git1c6025e6120d</td>
+          <td>1.0.11+git1c6025e6120d(stable) / 1.1.4+git2b98951ace(beta)</td>
         </tr>
         <tr>
           <td>Qt</td>

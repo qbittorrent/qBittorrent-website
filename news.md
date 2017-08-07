@@ -1,3 +1,52 @@
+### Monday August 7th 2017 - qBittorrent v3.4.0beta_20170807_0320f9d5b5e release
+
+Windows packages for v3.4.0beta_20170807_0320f9d5b5e are released.
+macOS packges might follow.
+**CAVEAT:** The 32bit build doesn't work on Windows XP. Apparently the libtorrent 1.1.x series have dropped the support for that OS.
+Here is the current changelog:
+- FEATURE: New icon theme with SVG source, so we can scale it appropriately in the future. (Bert Verhelst)
+- FEATURE: Drop Qt 4 support. Raise minimum Qt version to 5.5.1 (evsh)
+- FEATURE: UI for managing locally banned IP list (dzmat)
+- FEATURE: Support for specifying where to save/load config files. Support for portable mode. (evsh)
+- FEATURE: It is now possible to pass options via ENV variables instead of cmd options. (evsh)
+- FEATURE: Allow to strip subfolder in multifile torrents. (glassez, sledgehammer999)
+- FEATURE: Allow cmd args to specify options when adding torrents. (Brian Kendall)
+- FEATURE: Widget for showing filesystem paths while typing. Used in the Add New Torrent and Options dialogs. (evsh)
+- FEATURE: Trackerlist: Allow to toggle columns (thalieht)
+- FEATURE: Add availability column to torrent content model and torrent properties window (evsh)
+- FEATURE: Implemented share limit by seeding time (naikel)
+- FEATURE: Revamp Torrent creator (Chocobo1)
+- FEATURE: Enable drag n drop to create torrent on mainwindow (Chocobo1)
+- FEATURE: Add show/hide statusbar option (takiz)
+- FEATURE: Show number of pieces. Closes #6774. (Chocobo1)
+- FEATURE: Allow to select & delete multiple entries in "Manage Cookies" dialog (Chocobo1)
+- FEATURE: Fetch Favicons via google as a final fallback (KingLucius)
+- FEATURE: Add a Tags (multi-label) feature to the GUI. Closes #13. (tgregerson)
+- FEATURE: Use the system icons for each file type in the Content tab (evsh)
+- FEATURE: Use SVG files for monochrome tray icons. Closes #6085. (evsh)
+- BUGFIX: Adjust icons names to better fit FDO scheme (evsh)
+- BUGFIX: Optimized IP filter parsing, making blazingly fast (sledgehammer999, evsh)
+- BUGFIX: Fix dialogs didn't position on the correct screen which qBittorrent window is on. Closes #1690, #2474, #3538. (Chocobo1)
+- BUGFIX: Refactor and improve StatusBar (glassez)
+- BUGFIX: Set expiration date for newly added cookie to +2 years from now, instead of +99 years. (Chocobo1)
+- BUGFIX: Don't create subfolder inside temp folder (glassez)
+- BUGFIX: Don't replace existing files when relocating torrent (glassez)
+- COSMETIC: Trackerlist: Set text alignment of columns with numbers to the right (thalieht)
+- COSMETIC: Enable alternatingRowColors for "Manage Cookie" dialog (Chocobo1)
+- WEBUI: Allow to load/use ECDSA certificate in webUI. (Chocobo1)
+- WEBUI: Add copy options to webui context menu (addresses #6815) (#7036) (Tom Piccirello)
+- WEBUI: Set torrent location from webui context menu (addresses #6815) (#7062) (Tom Piccirello)
+- SEARCH: Use explicit class for search plugin versions (evsh)
+- SEARCH: Remove all search plugins from repo. There is another repo named 'search-plugins'. (sledgehammer999)
+- SEARCH: Update the backend when a new plugin favicon is downloaded. (sledgehammer999)
+- RSS: Redesigned RSS subsystem (glassez)
+- RSS: Do not use hardcoded colors in RSS feed view (evsh)
+- WINDOWS: Installer detects running process when it is 64-bit (vlakoff)
+- MACOS: Various macOS UI improvements (vit9696)
+- MACOS: Fix main menu item location on macOS (vit9696)
+- OTHER: Use new classes/methods from libtorrent and stop using deprecate ones. (glassez)
+- OTHER: Various string fixes (Allan Nordhøy, sledgehammer999)
+
 ### Thursday August 3rd 2017 - qBittorrent v3.3.15 release
 
 qBittorrent v3.3.15 was released. Very minor release to fix a possibly annoying problem.
