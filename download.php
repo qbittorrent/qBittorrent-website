@@ -33,8 +33,8 @@
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <p>
-      Current <strong>beta</strong> version: qBittorrent v3.4.0beta_20170807_0320f9d5b5e
-      <br/><strong>Windows XP isn't supported in the beta version</strong>
+      <strong>Current beta version: qBittorrent v3.4.0beta_20170807_0320f9d5b5e
+      <br/>Windows XP isn't supported in the beta version</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
