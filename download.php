@@ -46,19 +46,19 @@
           <td><strong>SHA2-256</strong></td>
         </tr>
         <tr>
-          <td>32-bit installer(stable)</td>
+          <td>32-bit installer (stable)</td>
           <td><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
         </tr>
         <tr>
-          <td>64-bit installer(stable)</td>
+          <td>64-bit installer (stable)</td>
           <td><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
         </tr>
         <tr>
-          <td>32-bit installer(beta)</td>
+          <td>32-bit installer (beta)</td>
           <td><code>94caea2498420a3243e0216155343223d4fc5baa44c5cd435163153039a84d34</code></td>
         </tr>
         <tr>
-          <td>64-bit installer(beta)</td>
+          <td>64-bit installer (beta)</td>
           <td><code>28db86816a62d7e67150adb70697ba2e137e5b040dcd81a2a4e9662c1613fb02</code></td>
         </tr>
       </tbody>
@@ -69,11 +69,11 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.0.11+git1c6025e6120d(stable) / 1.1.4+git2b98951ace(beta)</td>
+          <td>1.0.11+git1c6025e6120d (stable) / 1.1.4+git2b98951ace (beta)</td>
         </tr>
         <tr>
           <td>Qt</td>
-          <td>5.7.1(32-bit) / 5.9.1(64-bit)</td>
+          <td>5.7.1 (32-bit) / 5.9.1 (64-bit)</td>
         </tr>
         <tr>
           <td>Boost</td>
