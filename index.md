@@ -36,7 +36,7 @@ Donation info [here](donate).
 
   <!-- Google + -->
   <script src="https://apis.google.com/js/platform.js" async defer></script>
-  <div class="g-plusone" data-annotation="inline"></div>
+  <div class="g-plusone" data-size="medium"></div>
   <br>
 
   <!-- Twitter -->
