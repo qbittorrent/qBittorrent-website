@@ -25,16 +25,15 @@
   </div>
   <div>
     <p>
-      <strong>Current stable version: qBittorrent v3.3.15</strong>
+      <strong>Current stable version: qBittorrent v3.3.16</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.15/qbittorrent_3.3.15_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.16/qbittorrent_3.3.16_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.16/qbittorrent_3.3.16_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.16/qbittorrent_3.3.16_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-3.3.16/qbittorrent_3.3.16_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <p>
-      <strong>Current beta version: qBittorrent v3.4.0beta_20170807_0320f9d5b5e
-      <br/>Windows XP isn't supported in the beta version</strong>
+      <strong>Current beta version: qBittorrent 3.4.0beta2_20170709_cbfbae14090</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
@@ -47,19 +46,19 @@
         </tr>
         <tr>
           <td>32-bit installer (stable)</td>
-          <td class="wordBreak"><code>b28b9ac9996c0216374cc287ba63ed1391ff668fc6a2eaf1062a304245a84cce</code></td>
+          <td class="wordBreak"><code>5950cc5147a9f0f6f682776d3b3af69a85f8f169bece160b8d3c7f4932046f4f</code></td>
         </tr>
         <tr>
           <td>64-bit installer (stable)</td>
-          <td class="wordBreak"><code>6d36c62cc5c184c00f8893bbb4146bb3cfb1448c1877084f1c880da9576cc3b1</code></td>
+          <td class="wordBreak"><code>62d0be1a5ed7a3d2043be42de79cbec8bbcb5872ba0198aecefe11b335a88367</code></td>
         </tr>
         <tr>
           <td>32-bit installer (beta)</td>
-          <td class="wordBreak"><code>94caea2498420a3243e0216155343223d4fc5baa44c5cd435163153039a84d34</code></td>
+          <td class="wordBreak"><code>83bb1b3931eef224b6dc305de0c4979373913efaad17df28c18691686209652d</code></td>
         </tr>
         <tr>
           <td>64-bit installer (beta)</td>
-          <td class="wordBreak"><code>28db86816a62d7e67150adb70697ba2e137e5b040dcd81a2a4e9662c1613fb02</code></td>
+          <td class="wordBreak"><code>fb1d20fea56b471798517012c8d2f43e1ad8d739f768913cc57fcf57ab30095d</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -70,8 +69,8 @@
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
           <td>
-            1.0.11+git1c6025e6120d (stable)<br/>
-            1.1.4+git2b98951ace (beta)
+            1.0.11+gitc074e87885a6 (stable)<br/>
+            1.1.5+git1280361236 (beta)
           </td>
         </tr>
         <tr>
@@ -103,12 +102,18 @@
   </div>
   <div>
     <p>
-      <strong>Current version: qBittorrent v3.3.15</strong><br/><br/>
+      <strong>Current version: qBittorrent v3.3.16</strong><br/><br/>
       <strong>May work on older OSX versions. If not, recompile with older Qt version.</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.15/qbittorrent-3.3.15.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.16/qbittorrent-3.3.16.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-3.3.16/qbittorrent-3.3.16.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
+    </p>
+    <p>
+      <strong>Current beta version: qBittorrent 3.4.0beta2_20170709_cbfbae14090</strong>
+    </p>
+    <p>
+      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
     </p>
     <table>
       <tbody>
@@ -117,8 +122,12 @@
           <td><strong>SHA2-256</strong></td>
         </tr>
         <tr>
-          <td>DMG</td>
-          <td class="wordBreak"><code>10b9f6afc250de301ef95f65107539296d8ebb93df776245bec2f57b5598f85e</code></td>
+          <td>DMG (stable)</td>
+          <td class="wordBreak"><code>a936369ed8ecfee7f7d87132288b454a15b203b2eaa26c487dc41e86fa0b28b2</code></td>
+        </tr>
+        <tr>
+          <td>DMG (beta)</td>
+          <td class="wordBreak"><code>d425c6b234ad46d6c923d9042491a4e0f030d1ff5f572e27c020fb6aac20f7d5</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -128,7 +137,9 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.0.11+git1c6025e6120d</td>
+          <td>1.0.11+git1c6025e6120d (stable)<br/>
+            1.1.5+git1280361236 (beta)
+            </td>
         </tr>
         <tr>
           <td>Qt</td>
@@ -155,8 +166,8 @@
       <strong>Current version: qBittorrent v3.3.15</strong>
     </p>
     <p>
-      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
-      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.15/qbittorrent-3.3.15.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
+      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.16/qbittorrent-3.3.16.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.16/qbittorrent-3.3.16.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
+      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.16/qbittorrent-3.3.16.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.16/qbittorrent-3.3.16.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
     </p>
     <p>
       Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>.
@@ -169,11 +180,11 @@
         </tr>
         <tr>
           <td>TAR.GZ</td>
-          <td class="wordBreak"><code>78068f8088325655c1bbf1c81dd04c67ac5e09a96ffcb3ea908f29f7f35bd1fc</code></td>
+          <td class="wordBreak"><code>41c20ceac21dcb3ecb062c24fe76a36d96cd4733defaad97e7c36f39d3a1bc0d</code></td>
         </tr>
         <tr>
           <td>TAR.XZ</td>
-          <td class="wordBreak"><code>a7bbc08a39912a15a496702e736a98c083011bbb14fe5f04440880d7e6b2ceae</code></td>
+          <td class="wordBreak"><code>ea08a61872c397258c2627780f6e09fe777189d9a57cc5e02a656da9aeb0be57</code></td>
         </tr>
       </tbody>
       <tbody>

@@ -1,3 +1,32 @@
+### Thursday September 7th 2017 - qBittorrent v3.3.16 and 3.4.0beta2_20170709_cbfbae14090 release
+
+Since it was a month since the last stable and v3.4.0 seems to be delayed just a bit, it was a good time to backport critical fixes and do another v3.3.x release.<br>
+Alongside v3.3.16 I offer beta2 of v3.4.0. It contains various fixes for the things mentioned in the first plus a few new additions. See changelog. This beta works on Windows XP (32-bit) too. macOS packages are ready too.<br>
+Finally, the future stable version will be **v4.0.0 not v3.4.0**<br>
+v3.3.16 changelog:
+- BUGFIX: Better memory footprint when using libtorrent 1.1.x. The cache is turned off by default(`0 (disabled)` value in the settings). The value `-1 (auto)` makes it use 1/8 of your RAM. (sledgehammer999)
+- BUGFIX: Skip user input events when adding torrent. Closes #7327. (glassez)
+- BUGFIX: Avoid memory leak in the speed graph. (Chocobo1)
+- WEBUI: Fix validating wrong header field. X-Forwarded-Host is a foreign proxy setting, it isn't the same as qbt's local setting and thus it makes no sense to verify it. Closes #7311. (Chocobo1)
+- WINDOWS: Fix connection problems when a specific interface/ip is configured. (sledgehammer999)
+- WINDOWS: Disable skipping of loopback interfaces. This fixes the absence of VPN tunnel interfaces under Windows and works around the QTBUG-32349. Fixes #7291. (Evengard)
+- WINDOWS: The installer detects the 64bit running process too. (vlakoff)
+
+3.4.0beta2_20170709_cbfbae14090 changelog:
+- FEATURE: Prefill torrent name when creating a new torrent. Closes #7229. (Chocobo1)
+- FEATURE: Expose more libtorrent options in advanced settings (Chocobo1)
+- BUGFIX: Fix explicit Torrent Management Mode in Add New Torrent dialog. Closes #5602. (sledgehammer999)
+- BUGFIX: Fix calculation of 'Average time in queue' stat under libtorrent 1.1.x (sledgehammer999)
+- BUGFIX: Don't disable bandwidth scheduler when manually switching speed limits. Closes #7306. (glassez)
+- COSMETIC: Remove indentation for category/tag filter widgets in all platforms (thalieht)
+- COSMETIC: Add space between widgets in left side panel. Closes #7224. (Chocobo1, glassez)
+- COSMETIC: Unify preference window borders across the tabs (vit9696)
+- WEBUI: Add option to rename torrent from WebUI (Thomas Piccirello)
+- WEBUI: Add auto torrent management to webui context menu (addresses #6815) (Thomas Piccirello)
+- WINDOWS: Use dpiawareness=1 on Windows. Closes #5393. (sledgehammer999)
+- MACOS: Fix macOS window restoration after using hide icon (vit9696)
+- MACOS: Fix notification display on macOS (vit9696)
+
 ### Monday August 7th 2017 - qBittorrent v3.4.0beta_20170807_0320f9d5b5e release
 
 Windows packages for v3.4.0beta_20170807_0320f9d5b5e are released.<br>
