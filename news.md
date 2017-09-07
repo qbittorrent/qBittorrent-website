@@ -1,7 +1,7 @@
 ### Thursday September 7th 2017 - qBittorrent v3.3.16 and 3.4.0beta2_20170709_cbfbae14090 release
 
 Since it was a month since the last stable and v3.4.0 seems to be delayed just a bit, it was a good time to backport critical fixes and do another v3.3.x release.<br>
-Alongside v3.3.16 I offer beta2 of v3.4.0. It contains various fixes for the things mentioned in the first plus a few new additions. See changelog. This beta works on Windows XP (32-bit) too. macOS packages are ready too.<br>
+Alongside v3.3.16 there is beta2 of v3.4.0. It contains various fixes for the things mentioned in the first beta plus a few new additions. See changelog. This beta works on Windows XP (32-bit) too. macOS packages are ready too.<br>
 Finally, the future stable version will be **v4.0.0 not v3.4.0**<br>
 v3.3.16 changelog:
 - BUGFIX: Better memory footprint when using libtorrent 1.1.x. The cache is turned off by default(`0 (disabled)` value in the settings). The value `-1 (auto)` makes it use 1/8 of your RAM. (sledgehammer999)
