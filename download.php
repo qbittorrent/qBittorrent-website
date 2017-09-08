@@ -163,7 +163,7 @@
   </div>
   <div>
     <p>
-      <strong>Current version: qBittorrent v3.3.15</strong>
+      <strong>Current version: qBittorrent v3.3.16</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.16/qbittorrent-3.3.16.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-3.3.16/qbittorrent-3.3.16.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
