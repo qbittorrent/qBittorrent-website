@@ -46,6 +46,11 @@ Donation info [here](donate).
   <!-- VK -->
   <script type="text/javascript" src="https://vk.com/js/api/share.js?94" charset="windows-1251"></script>
   <script type="text/javascript">document.write(VK.Share.button(false,{type: "round", text: "Share"}));</script>
+
+  <!-- LINE -->
+  <br style="margin-top: 3px; display: block;">
+  <div class="line-it-button" style="display: none;" data-type="share-a" data-url="https://www.qbittorrent.org/"></div>
+  <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async defer></script>
 </div>
 
 
