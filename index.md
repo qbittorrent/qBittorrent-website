@@ -78,6 +78,6 @@ Donation info [here](donate).
 * IPv6 compliant
 * UPnP / NAT-PMP port forwarding support
 * Available on all platforms: Windows, Linux, Mac OS X, FreeBSD, OS/2
-* Available in [~70 languages](https://www.transifex.com/sledgehammer999/qbittorrent/)
+* Available in [~73 languages](https://www.transifex.com/sledgehammer999/qbittorrent/)
 
 ** Go ahead and try qBittorrent, you won't regret it! **
