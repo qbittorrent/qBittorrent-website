@@ -15,6 +15,8 @@ If you like this piece of software, please make a donation and help it survive.
 
 Donation info [here](donate).
 
+If you want to help in translating qBittorrent, see these [instructions](http://wiki.qbittorrent.org/How-to-translate-qBittorrent).
+
 
 ### Recommend qBittorrent
 <div>

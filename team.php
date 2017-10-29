@@ -116,7 +116,7 @@
 
 <h3>Translators</h3>
 <ul>
-<li>See <a href="localization.php">internationalization</a> page</li>
+<li>See our Transifex <a href="https://www.transifex.com/sledgehammer999/qbittorrent/">page</a></li>
 </ul>
 
 <?php require_once('footer.inc.php');
