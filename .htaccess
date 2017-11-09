@@ -16,7 +16,7 @@
 
 	# redirect from top level domain to www
 	RewriteCond %{HTTP_HOST} !^www\. [NC]
-	RewriteRule ^(.*)$ //www.%{HTTP_HOST}/$1 [L,R=301]
+	RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
 
 	<IfModule mod_headers.c>
 		Header always set Strict-Transport-Security "max-age=31536000" env=HTTPS
