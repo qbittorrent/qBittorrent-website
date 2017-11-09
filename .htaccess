@@ -19,7 +19,7 @@
 	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 	<IfModule mod_headers.c>
-		Header always set Strict-Transport-Security "max-age=31536000;"
+		Header always set Strict-Transport-Security "max-age=31536000" env=HTTPS
 
 		Header always set X-Frame-Options "SAMEORIGIN"
 		Header always set X-XSS-Protection "1; mode=block"
