@@ -11,7 +11,7 @@
     <ul>
       <li><b>Nickname:</b> sledgehammer999</li>
       <li><b>Role:</b> Project maintainer and main developer</li>
-      <li><b>Country:</b> <img src="img/flags/greece.png" alt="Greek" class="flag"/></li>
+      <li><b>Country:</b> <img src="img/flags/gr.svg" alt="Greek" class="flag"/></li>
       <li><b>Mail:</b> sledgehammer999 (at) qbittorrent (dot) org</li>
     </ul>
   </div>
@@ -26,7 +26,7 @@
     <ul>
       <li><b>Name:</b> Zsolt Peter Basak</li>
       <li><b>Role:</b> Forum administrator and owner</li>
-      <li><b>Country:</b> <img src="img/flags/hungary.png" alt="Hungarian" class="flag"/></li>
+      <li><b>Country:</b> <img src="img/flags/hu.svg" alt="Hungarian" class="flag"/></li>
       <li><b>Mail:</b> zsoltpeterbasak (at) gmail (dot) com</li>
     </ul>
   </div>
@@ -41,7 +41,7 @@
     <ul>
       <li><b>Name:</b> Christophe Dumez</li>
       <li><b>Role:</b> Project founder and developer (inactive)</li>
-      <li><b>Country:</b> <img src="img/flags/france.png" alt="French" class="flag"/></li>
+      <li><b>Country:</b> <img src="img/flags/fr.svg" alt="French" class="flag"/></li>
       <li><b>Mail:</b> chris (at) qbittorrent (dot) org</li>
     </ul>
   </div>
@@ -66,7 +66,7 @@
     <ul>
       <li><b>Name:</b> Mateusz Toboła (aka "Tobejodok")</li>
       <li><b>Role:</b> Software and website artwork</li>
-      <li><b>Country:</b> <img src="img/flags/poland.png" alt="Polish" class="flag"/></li>
+      <li><b>Country:</b> <img src="img/flags/pl.svg" alt="Polish" class="flag"/></li>
       <li><b>Mail:</b> tobejodok (at) qbittorrent (dot) org</li>
     </ul>
   </div>

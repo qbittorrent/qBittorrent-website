@@ -39,10 +39,9 @@ img {
   border: 0;
 }
 
-img .flag {
-  float: left;
-  margin-right: 10px;
-  padding-right: 10px;
+img.flag {
+  height: 1.1em;
+  vertical-align: middle;
 }
 
 p.copyright {
