@@ -35,6 +35,10 @@ div .flexbox .box1 {
   min-width: 135px
 }
 
+div .teamInfo {
+  float: left;
+}
+
 img {
   border: 0;
 }
@@ -42,6 +46,14 @@ img {
 img.flag {
   height: 1.1em;
   vertical-align: middle;
+}
+
+img.teamUserIcon {
+  height: 96px;
+}
+
+fieldset.teamFieldset {
+  background-color: #efefef;
 }
 
 p.copyright {

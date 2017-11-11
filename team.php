@@ -3,11 +3,11 @@
 <h2>Team Members</h2>
 
 <h3>Project Maintainer</h3>
-<fieldset style="background-color: #efefef">
-  <div class="myface" style="float: left;">
-    <img src="img/team/unknown.png" alt="sledgehammer999"/>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
   </div>
-  <div class="info" style="float:left;">
+  <div class="teamInfo">
     <ul>
       <li><b>Nickname:</b> sledgehammer999</li>
       <li><b>Role:</b> Project maintainer and main developer</li>
@@ -18,11 +18,11 @@
 </fieldset>
 
 <h3>Forum Administrator</h3>
-<fieldset style="background-color: #efefef">
-  <div class="myface" style="float: left;">
-    <img src="img/team/unknown.png" alt="Zsolt Peter Basak"/>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
   </div>
-  <div class="info" style="float:left;">
+  <div class="teamInfo">
     <ul>
       <li><b>Name:</b> Zsolt Peter Basak</li>
       <li><b>Role:</b> Forum administrator and owner</li>
@@ -33,11 +33,11 @@
 </fieldset>
 
 <h3>Project Founder (Inactive)</h3>
-<fieldset style="background-color: #efefef">
-  <div class="myface" style="float: left;">
-    <img src="img/team/chris.png" alt="Christophe Dumez ('chris')"/>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/team/chris.png" alt="Christophe Dumez image" class="teamUserIcon"/>
   </div>
-  <div class="info" style="float:left;">
+  <div class="teamInfo">
     <ul>
       <li><b>Name:</b> Christophe Dumez</li>
       <li><b>Role:</b> Project founder and developer (inactive)</li>
@@ -48,21 +48,35 @@
 </fieldset>
 
 <h3>Project Contributors</h3>
-<fieldset style="background-color: #efefef">
-  See <a href="https://github.com/qbittorrent/qBittorrent/graphs/contributors">GitHub contributors page</a>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/github.svg" alt="github icon" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li>See <a href="https://github.com/qbittorrent/qBittorrent/graphs/contributors">GitHub contributors page</a></li>
+    </ul>
+  </div>
 </fieldset>
 
 <h3>Project Translators</h3>
-<fieldset style="background-color: #efefef">
-  See <a href="https://www.transifex.com/sledgehammer999/teams/">Transifex team page</a>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/translate.svg" alt="translation icon" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li>See <a href="https://www.transifex.com/sledgehammer999/teams/">Transifex team page</a></li>
+    </ul>
+  </div>
 </fieldset>
 
 <h3>Project Graphist</h3>
-<fieldset style="background-color: #efefef">
-  <div class="myface" style="float: left;">
-    <img src="img/team/unknown.png" alt="Mateusz Tobola"/>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
   </div>
-  <div class="info" style="float:left;">
+  <div class="teamInfo">
     <ul>
       <li><b>Name:</b> Mateusz Toboła (aka "Tobejodok")</li>
       <li><b>Role:</b> Software and website artwork</li>
