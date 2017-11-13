@@ -35,14 +35,25 @@ div .flexbox .box1 {
   min-width: 135px
 }
 
+div .teamInfo {
+  float: left;
+}
+
 img {
   border: 0;
 }
 
-img .flag {
-  float: left;
-  margin-right: 10px;
-  padding-right: 10px;
+img.flag {
+  height: 1.1em;
+  vertical-align: middle;
+}
+
+img.teamUserIcon {
+  height: 96px;
+}
+
+fieldset.teamFieldset {
+  background-color: #efefef;
 }
 
 p.copyright {
@@ -91,9 +102,7 @@ h3 {
 }
 
 .stretcher a {
-  color: #a4a2a2;
-  font-weight: bold;
-  text-decoration: underline;
+  color: #0E4FB0;
 }
 
 .stretcher a:hover {

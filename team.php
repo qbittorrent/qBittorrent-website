@@ -1,122 +1,89 @@
 <?php require_once('header.inc.php'); ?>
 
 <h2>Team Members</h2>
+
 <h3>Project Maintainer</h3>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 96px; float: left;">
-<img src="img/team/unknown.png" alt="sledgehammer999"/>
-</span>
-<span class="info" style="height: 96px; float:left;">
-<ul>
-<li><b>Nickname:</b> sledgehammer999</li>
-<li><b>Role:</b> Project maintainer and main developer</li>
-<li><b>Country:</b> <img src="img/flags/greece.png" alt="Greek" class="flag"/></li>
-<li><b>Mail:</b> sledgehammer999 (at) qbittorrent (dot) org</li>
-</ul>
-</span>
-</fieldset>
-<h3>Active Contributors</h3>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 96px; float: left;">
-<img src="img/team/unknown.png" alt="Nick Tiskov"/>
-</span>
-<span class="info" style="height: 96px; float:left;">
-<ul>
-<li><b>Name:</b> Nick Tiskov</li>
-<li><b>Role:</b> Development, Unofficial Windows 64bit builds</li>
-<li><b>Country:</b> <img src="img/flags/russia.png" alt="Russian" class="flag"/></li>
-<li><b>Mail:</b> daymansmail (at) gmail (dot) com</li>
-</ul>
-</span>
-</fieldset>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 96px; float: left;">
-<img src="img/team/unknown.png" alt="Zsolt Peter Basak"/>
-</span>
-<span class="info" style="height: 96px; float:left;">
-<ul>
-<li><b>Name:</b> Zsolt Peter Basak</li>
-<li><b>Role:</b> Forum administrator and owner</li>
-<li><b>Country:</b> <img src="img/flags/hungary.png" alt="Hungarian" class="flag"/></li>
-<li><b>Mail:</b> zsoltpeterbasak (at) gmail (dot) com</li>
-</ul>
-</span>
-</fieldset>
-<h3>Original Author (Inactive)</h3>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 116px; float: left;">
-<img src="img/team/chris.png" alt="Christophe Dumez ('chris')"/>
-</span>
-<span class="info" style="height: 118px; float:left;">
-<ul>
-<li><b>Name:</b> Christophe Dumez</li>
-<li><b>Role:</b> Original author (no longer active)</li>
-<li><b>Country:</b> <img src="img/flags/france.png" alt="French" class="flag"/></li>
-<li><b>Mail:</b> chris (at) qbittorrent (dot) org</li>
-</ul>
-</span>
-</fieldset>
-<h3>Inactive Contributors</h3>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 96px; float: left;">
-<img src="img/team/ishan.jpg" alt="Ishan Arora"/>
-</span>
-<span class="info" style="height: 96px; float:left;">
-<ul>
-<li><b>Name:</b> Ishan Arora</li>
-<li><b>Role:</b> Development</li>
-<li><b>Country:</b> <img src="img/flags/india.png" alt="Indian" class="flag"/></li>
-<li><b>Mail:</b> ishan (at) qbittorrent (dot) org</li>
-<li><b>Homepage:</b> <a href="http://www.ishanarora.com/">here</a></li>
-</ul>
-</span>
-</fieldset>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 96px; float: left;">
-<img src="img/team/santaris.jpg" alt="Stefanos Antaris"/>
-</span>
-<span class="info" style="height: 96px; float:left;">
-<ul>
-<li><b>Name:</b> Stefanos Antaris (aka "Santaris")</li>
-<li><b>Role:</b> Development, Mac OS maintainer</li>
-<li><b>Country:</b> <img src="img/flags/greece.png" alt="Greece" class="flag"/></li>
-<li><b>Mail:</b> santaris (at) qbittorrent (dot) org</li>
-<li><b>LinkedIn:</b> <a href="http://www.linkedin.com/in/stefanosantaris">here</a></li>
-</ul>
-</span>
-</fieldset>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 96px; float: left;">
-<img src="img/team/mdib.jpg" alt="Mohammad Dib"/>
-</span>
-<span class="info" style="height: 96px; float:left;">
-<ul>
-<li><b>Name:</b> Mohammad Dib</li>
-<li><b>Role:</b> Windows maintainer</li>
-<li><b>Country:</b> <img src="img/flags/lebanon.png" alt="Lebanon" class="flag"/></li>
-<li><b>Mail:</b> mdib (at) qbittorrent (dot) org</li>
-<li><b>Homepage:</b> <a href="http://mkdib.free.fr">here</a></li>
-</ul>
-</span>
-</fieldset>
-<h3>Project Graphist</h3>
-<fieldset style="background-color: #efefef">
-<span class="myface" style="width: 96px; height: 96px; float: left;">
-<img src="img/team/unknown.png" alt="Mateusz Tobola"/>
-</span>
-<span class="info" style="height: 96px; float:left;">
-<ul>
-<li><b>Name:</b> Mateusz Toboła (aka "Tobejodok")</li>
-<li><b>Role:</b> Software and Website artwork</li>
-<li><b>Country:</b> <img src="img/flags/poland.png" alt="Polish" class="flag"/></li>
-<li><b>Mail:</b> tobejodok (at) qbittorrent (dot) org</li>
-</ul>
-</span>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li><b>Nickname:</b> sledgehammer999</li>
+      <li><b>Role:</b> Project maintainer and main developer</li>
+      <li><b>Country:</b> <img src="img/flags/gr.svg" alt="Greek" class="flag"/></li>
+      <li><b>Mail:</b> sledgehammer999 (at) qbittorrent (dot) org</li>
+    </ul>
+  </div>
 </fieldset>
 
-<h3>Translators</h3>
-<ul>
-<li>See our Transifex <a href="https://www.transifex.com/sledgehammer999/qbittorrent/">page</a></li>
-</ul>
+<h3>Forum Administrator</h3>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li><b>Name:</b> Zsolt Peter Basak</li>
+      <li><b>Role:</b> Forum administrator and owner</li>
+      <li><b>Country:</b> <img src="img/flags/hu.svg" alt="Hungarian" class="flag"/></li>
+      <li><b>Mail:</b> zsoltpeterbasak (at) gmail (dot) com</li>
+    </ul>
+  </div>
+</fieldset>
+
+<h3>Project Founder (Inactive)</h3>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/team/chris.png" alt="Christophe Dumez image" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li><b>Name:</b> Christophe Dumez</li>
+      <li><b>Role:</b> Project founder and developer (inactive)</li>
+      <li><b>Country:</b> <img src="img/flags/fr.svg" alt="French" class="flag"/></li>
+      <li><b>Mail:</b> chris (at) qbittorrent (dot) org</li>
+    </ul>
+  </div>
+</fieldset>
+
+<h3>Project Contributors</h3>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/github.svg" alt="github icon" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li>See <a href="https://github.com/qbittorrent/qBittorrent/graphs/contributors">GitHub contributors page</a></li>
+    </ul>
+  </div>
+</fieldset>
+
+<h3>Project Translators</h3>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/translate.svg" alt="translation icon" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li>See <a href="https://www.transifex.com/sledgehammer999/teams/">Transifex team page</a></li>
+    </ul>
+  </div>
+</fieldset>
+
+<h3>Project Graphist</h3>
+<fieldset class="teamFieldset">
+  <div class="teamInfo">
+    <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
+  </div>
+  <div class="teamInfo">
+    <ul>
+      <li><b>Name:</b> Mateusz Toboła (aka "Tobejodok")</li>
+      <li><b>Role:</b> Software and website artwork</li>
+      <li><b>Country:</b> <img src="img/flags/pl.svg" alt="Polish" class="flag"/></li>
+      <li><b>Mail:</b> tobejodok (at) qbittorrent (dot) org</li>
+    </ul>
+  </div>
+</fieldset>
 
 <?php require_once('footer.inc.php');
