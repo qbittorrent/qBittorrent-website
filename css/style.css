@@ -49,7 +49,8 @@ img.flag {
 }
 
 img.teamUserIcon {
-  height: 96px;
+  height: 8em;
+  width: 8em;
 }
 
 fieldset.teamFieldset {

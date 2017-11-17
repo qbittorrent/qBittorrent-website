@@ -50,7 +50,7 @@ If you want to help in translating qBittorrent, see these [instructions](http://
   <script type="text/javascript">document.write(VK.Share.button(false,{type: "round", text: "Share"}));</script>
 
   <!-- LINE -->
-  <br style="margin-top: 3px; display: block;">
+  <div style="margin-top:3px;"></div>
   <div class="line-it-button" style="display: none;" data-type="share-a" data-url="https://www.qbittorrent.org/"></div>
   <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async defer></script>
 </div>
