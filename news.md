@@ -1,6 +1,6 @@
 ### Monday November 20th 2017 - qBittorrent v4.0.0 release
 
-This is a major new release with a huge changelog. Enjoy!
+This is a major new release with a huge changelog. Enjoy!<br>
 v4.0.0 changelog:
 - FEATURE: Change qbittorrent logo. Issue #6467. (HVS, Atif Afzal, sledgehammer999)
 - FEATURE: New icon theme with SVG source, so we can scale it appropriately in the future. (Bert Verhelst)
