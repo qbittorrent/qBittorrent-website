@@ -1,3 +1,17 @@
+### Wednesday November 22th 2017 - qBittorrent v4.0.1 release
+
+This is a hotfix release. It is also build against newer libtorrent code that fixes connectivity issues with proxies.<br>
+v4.0.1 changelog:
+- BUGFIX: Fix crash on opening torrent/magnet (uninitialized pointer). Closes #7739 #7723. (sledgehammer999)
+- BUGFIX: Enable preferences Apply button when ip banlist is modified (Thomas Piccirello)
+- BUGFIX: Allow drag-n-drop magnet links to mainwindow. Closes #7742. (Chocobo1)
+- BUGFIX: Fix crash when aborting a torrent creation process. Closes #7783. (Chocobo1)
+- BUGFIX: Correctly check if torrent passed during application start already exists. (sledgehammer999)
+- WEBUI: Add ip subnet whitelist for bypassing webui auth (Thomas Piccirello)
+- WEBUI: Fix logo missing in login page (Chocobo1)
+- COSMETIC: Fix english typo. (sledgehammer999)
+- OTHER: cmake: qtsingleapplication should always be built statically (luigino)
+
 ### Monday November 20th 2017 - qBittorrent v4.0.0 release
 
 This is a major new release with a huge changelog. Enjoy!<br>
