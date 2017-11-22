@@ -1,4 +1,4 @@
-### Wednesday November 22th 2017 - qBittorrent v4.0.1 release
+### Wednesday November 22nd 2017 - qBittorrent v4.0.1 release
 
 This is a hotfix release. It is also build against newer libtorrent code that fixes connectivity issues with proxies.<br>
 v4.0.1 changelog:
@@ -297,6 +297,7 @@ qBittorrent v3.3.12 was released. This a bugfix release not a major one.
 - OTHER: cmake: fix OSX bundle creation (evsh)
 
 ### Tuesday March 7th 2017 - NOTICE to tracker operators: User agent change
+
 Starting from the next version (v3.3.12) qBittorrent will use the following user-agent format:
 ```
 qBittorrent/A.B.C.DE
