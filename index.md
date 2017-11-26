@@ -34,12 +34,12 @@ If you want to help in translating qBittorrent, see these [instructions](http://
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
   <div class="fb-like" data-href="https://www.qbittorrent.org/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-  <br style="margin: 3px 0;">
+  <div style="margin-top:3px;"></div>
 
   <!-- Google + -->
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <div class="g-plusone" data-size="medium"></div>
-  <br>
+  <div></div>
 
   <!-- Twitter -->
   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a>
