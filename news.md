@@ -1,3 +1,20 @@
+### Friday December 1st 2017 - qBittorrent v4.0.2 release
+
+This is a hotfix release too. It addresses some important RSS issues. macOS builds will follow.<br>
+**NOTICE:** If you find your torrents being paused instead of seeding, then right click on your torrent, choose `Limit shario ratio...` and adjust the setting.<br>
+v4.0.2 changelog:
+- BUGFIX: Fix crash on some systems when creating address object for 255.255.255.255. Closes #7735. (sledgehammer999)
+- PERFORMANCE: Change MixedModeAlgorithm default to TCP. This was the v3_3_x default and should sustain higher speeds. Closes #7779. (Chocobo1)
+- PERFORMANCE: Stop logging IP filter parsing errors after a while, otherwise the GUI freezes or qBittorrent doesn't start. (sledgehammer999)
+- GUI: Implement stable sort. Rows in transfer list shouldn't flicker anymore. (Chocobo1)
+- WEBUI: Fix build when webui is disabled. (Heiko Becker)
+- RSS: Fix build because of missing header. Closes #7805. (thoradia)
+- RSS: Fix RSS parser. (glassez)
+- RSS: Implement Import/Export RSS rules in legacy(aka v3_3_x) format. (glassez)
+- RSS: Implement Import/Export RSS rules in JSON format. (glassez)
+- WINDOWS: Fixed blurry text under Windows by setting DPI awareness to default. (TheNicker)
+- LINUX: Fix i386 build. (Evgeny Lensky)
+
 ### Wednesday November 22nd 2017 - qBittorrent v4.0.1 release
 
 This is a hotfix release. It is also build against newer libtorrent code that fixes connectivity issues with proxies.<br>
