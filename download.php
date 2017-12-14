@@ -169,11 +169,11 @@
         </tr>
         <tr>
           <td>Qt</td>
-          <td>5.9 branch latest release</td>
+          <td>Latest stable release</td>
         </tr>
         <tr>
           <td>Boost</td>
-          <td>latest release</td>
+          <td>Latest stable release</td>
         </tr>
         <tr>
           <td>OpenSSL</td>
@@ -181,7 +181,7 @@
         </tr>
         <tr>
           <td>zlib</td>
-          <td>latest release</td>
+          <td>Latest stable release</td>
         </tr>
       </tbody>
     </table>
