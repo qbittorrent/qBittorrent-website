@@ -1,3 +1,17 @@
+### Sunday December 17th 2017 - qBittorrent v4.0.3 release
+
+Some more bugs fixed.<br>
+macOS builds are available now too. Check the **4.0.0** changelog for the macOS specific new features.<br>
+v4.0.3 changelog:
+- BUGFIX: Add height padding to the transfer list icons. Closes #7951. (sledgehammer999)
+- BUGFIX: Allow to drag-n-drop URLs into mainwindow to initiate download. (Chocobo1)
+- BUGFIX: Fix crash when fitlering search results. Stable sorting is removed. Closes #7952.(Chocobo1)
+- WEBUI: Fix missing qbt logo on login page in webUI. Closes #7953. (Chocobo1)
+- WEBUI: Add check to avoid type error after logout. (Chocobo1)
+- WEBUI: Use POST for logout command. This is to avoid browser being smart to prefetch the link then logging out the user. (Chocobo1)
+- WEBUI: Fix WebUI is not reachable via IPv6. (glassez)
+- WINDOWS: Disable the "?" help button in all dialogs on Windows. Closes #7365. Requires Qt 5.10. (Chocobo1)
+
 ### Friday December 1st 2017 - qBittorrent v4.0.2 release
 
 This is a hotfix release too. It addresses some important RSS issues. macOS builds will follow.<br>
