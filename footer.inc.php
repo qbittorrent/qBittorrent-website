@@ -12,7 +12,7 @@
         Copyright &copy;2006-2018 <a href="mailto:sledgehammer999@qbittorrent.org" style="color: #FFFFFF;">The qBittorrent project</a> - All rights reserved<br/>
         <br/>
         <a href="donate"><img src="https://sourceforge.net/images/project-support.jpg" height="32" alt="Support this project"/></a>
-        <a href="https://sourceforge.net/projects/qbittorrent"><img src="https://sourceforge.net/sflogo.php?type=14&group_id=274282" height="32" alt="SourceForge.net logo"/></a>
+        <a href="https://sourceforge.net/projects/qbittorrent"><img src="https://sourceforge.net/sflogo.php?type=14&group_id=163414" height="32" alt="SourceForge.net logo"/></a>
       </p>
     </div>
   </body>
