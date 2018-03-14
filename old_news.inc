@@ -91,12 +91,12 @@
 <li>FEATURE: Add option to automatically remove .torrent files upon adding (Eugene Shalygin)</li>
 <li>FEATURE: Add option to bind directly to an IP instead of using a network Interface (Sjoerd van der Berg, sledgehammer999)</li>
 <li>FEATURE: Detailed tooltips on the progress and availability bars in the General button of each torrent. (Eugene Shalygin)</li>
-<li>FEATURE: Let user able to specifiy a filter when choosing an IP filter file (Chocobo1)</li>
+<li>FEATURE: Let user able to specify a filter when choosing an IP filter file (Chocobo1)</li>
 <li>FEATURE: Improve usability of "Run External Program". Users can write (platform dependent) shell scripts now. (Chocobo1)</li>
 <li>PERFORMANCE: Optimize drawing in speed graph (Anton Lashkov, Chocobo1)</li>
 <li>BUGFIX: Fix memory leak. (sledgehammer999)</li>
 <li>BUGFIX: Fix resizing bug in "add torrent dialog". Closes #5036. (Chocobo1)</li>
-<li>BUGFIX: Fix qBittorrent doesn't exit immediately when "all donwloads are done -> exit" option enabled. (glassez, Chocobo1)</li>
+<li>BUGFIX: Fix qBittorrent doesn't exit immediately when "all downloads are done -> exit" option enabled. (glassez, Chocobo1)</li>
 <li>BUGFIX: Display the filepath when a torrent fails to load. Closes #100 and #805. (sledgehammer999)</li>
 <li>BUGFIX: Fix Add tracker dialog empty trackers (ngosang)</li>
 <li>BUGFIX: Fix Add tracker dialog URL download (ngosang)</li>
@@ -149,7 +149,7 @@
 <li>OTHER: Enable access to shutdown functions when configured with `--disable-gui` option (Chocobo1)</li>
 <li>OTHER: Delete Import Torrent Dialog. Just use the "add new torrent" dialog. (glassez)</li>
 <li>OTHER: Optimize code for natural sorting (Chocobo1)</li>
-<li>OTHER: Use new alert dispathing API for libtorrent 1.1.x (glassez)</li>
+<li>OTHER: Use new alert dispatching API for libtorrent 1.1.x (glassez)</li>
 <li>OTHER: Fix gcc 6 compilation with qmake. See #5237. (sledgehammer999)</li>
 </ul>
 
@@ -514,7 +514,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>SEARCH: Fix thepiratebay. Closes #3012 (ngosang)</li>
 <li>SEARCH: Improve torrentz engine to return more results (ngosang)</li>
 <li>SEARCH: Change width of columns in search tab. Closes #764 (ngosang)</li>
-<li>SEARCH: Make strings translatable in seach engine (ngosang)</li>
+<li>SEARCH: Make strings translatable in search engine (ngosang)</li>
 <li>SEARCH: Aborting search engine process during closure. Close #2671 (DoumanAsh)</li>
 <li>SEARCH: Perform searches in parallel (DoumanAsh)</li>
 <li>SEARCH: Add Demonoid search engine (ngosang)</li>
@@ -647,7 +647,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <p>As you may have noticed already our Ubuntu PPAs were broken for quite some time now. Chris Dumez, who maintained them, was unable to fix them. Today I managed to create new and working PPAs. Head over to the <a href="download.php">download page</a> and find the new PPAs. You should remove the old ones to avoid conflicts.</p>
 
 <h3>Wednesday October 22nd 2014 - qBittorrent v3.1.11 release</h3>
-<p>qBittorrent v3.1.11 was released. I know I said that v3.1.10 would be the last of the v3.1.x series. However there were 2-3 regressions that warranted a new release. In the meantime, more bugfixes and features were commited by others. So v3.1.11 <b>should be</b> the last unless we find some serious issues with it.</p>
+<p>qBittorrent v3.1.11 was released. I know I said that v3.1.10 would be the last of the v3.1.x series. However there were 2-3 regressions that warranted a new release. In the meantime, more bugfixes and features were committed by others. So v3.1.11 <b>should be</b> the last unless we find some serious issues with it.</p>
 <p>Also some Windows 7 users experienced freezing of the GUI. We tracked it down to a specific commit in boost 1.56. So until boost fixes it, I am going to use boost 1.55 for Windows releases.</p>
 <ul>
 <li>FEATURE: Allow relative torrent paths when qBittorrent is already running (pmzqla)</li>
@@ -701,7 +701,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>WEBUI: Removed broken 'Documentation'. Improves fix for #1343 (Benjamin Hutchins)</li>
 <li>WEBUI: Removed essentially useless 'Visit website' iframe and changed it to a regular link. Improves fix for #1343 (Benjamin Hutchins)</li>
 <li>BUGFIX: Fix RSS feed icon. The tmp file gets deleted in the feed destructor. Closes #1639 (sledgehammer999)</li>
-<li>BUGFIX: fix issue #1674: AddNewTorrentDialog is shown again and again even if checkbox "dont ask me again" is set (Ivan Sorokin)</li>
+<li>BUGFIX: fix issue #1674: AddNewTorrentDialog is shown again and again even if checkbox "don't ask me again" is set (Ivan Sorokin)</li>
 <li>BUGFIX: Don't show availability bar for magnet links (Ivan Sorokin)</li>
 <li>BUGFIX: Fix crash when the selected torrent disappears from the transfer list. Closes #1661 (sledgehammer999)</li>
 <li>BUGFIX: Fix tracker announcing problem(hit-and-run) when many torrents are being active. Closes #1571 (sledgehammer999)</li>
@@ -878,7 +878,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>FEATURE: Show external IP in the log. Closes #968. (sledgehammer999)</li>
 <li>FEATURE: Enable gzip compression in the webui. It should be faster now. (sledgehammer999)</li>
 <li>FEATURE: Torrents show more states(queued for checking, downloading metadata, allocating, checking resume). (sledgehammer999)</li>
-<li>FEATURE: Reenable "force reannounce" to all trackers. (sledgehammer999)</li>
+<li>FEATURE: Re-enable "force reannounce" to all trackers. (sledgehammer999)</li>
 <li>FEATURE: Allow to clear the UI lock password. Closes #973. (sledgehammer999)</li>
 <li>FEATURE: New translations: English(Australia) and English(United Kingdom)</li>
 <li>BUGFIX: Expose all available translation in the WebUI. Closes #976. (sledgehammer999)</li>
@@ -930,8 +930,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>OTHER: Make peer tab sortable by ip too (Gelmir)</li>
 <li>OTHER: Translations moved to Transifex(https://www.transifex.com/projects/p/qbittorrent/)</li>
 <li>OTHER: New Translation - Vietnamese (Anh Phan)</li>
-<li>PERFORMANCE: Impove drawing speed of tranferlist when there are many torrents(>100)</li>
-<li>PERFORMANCE: Impove drawing speed of peers list when there are many peers</li>
+<li>PERFORMANCE: Improve drawing speed of tranferlist when there are many torrents(>100)</li>
+<li>PERFORMANCE: Improve drawing speed of peers list when there are many peers</li>
 </ul>
 
 <h3>Monday July 29th 2013 - qBittorrent v3.0.11 release</h3>
@@ -977,12 +977,12 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>LIBTORRENT: SOCKS5 fixes (0.16.10)</li>
 <li>LIBTORRENT: Fix hanging issue on Windows when closing files (0.16.10)</li>
 <li>LIBTORRENT: Cache can now be returned to the OS (0.16.10)</li>
-<li>PERFORMANCE: Impove drawing speed of tranferlist when there are many torrents(>100) (sledgehammer999)</li>
-<li>PERFORMANCE: Impove drawing speed of peers list when there are many peers (sledgehammer999)</li>
+<li>PERFORMANCE: Improve drawing speed of tranferlist when there are many torrents(>100) (sledgehammer999)</li>
+<li>PERFORMANCE: Improve drawing speed of peers list when there are many peers (sledgehammer999)</li>
 </ul>
 
 <h3>July 7th 2013 - New qBittorrent maintainer</h3>
-<p>qBittorrent from June 23rd 2013 has a new maintainer. Christophe Dumez, the original author, has stepped down and transfered the project maintenance to sledgehammer999. Read more <a href="http://qbforums.shiki.hu/index.php/topic,2009.0.html">here</a>.</p>
+<p>qBittorrent from June 23rd 2013 has a new maintainer. Christophe Dumez, the original author, has stepped down and transferred the project maintenance to sledgehammer999. Read more <a href="http://qbforums.shiki.hu/index.php/topic,2009.0.html">here</a>.</p>
 
 <h3>April 7th 2013 - New qBittorrent Ubuntu PPAs</h3>
 <p>qBittorrent now has new Ubuntu PPA repositories with daily builds of qBittorrent, for both stable branch and trunk (development branch).</p>
@@ -1021,7 +1021,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>BUGFIX: Fix "Couldn't set environment variable..." message on start up (closes #245)</li>
 <li>BUGFIX: Use right path separator in torrent addition dialog on Windows</li>
 <li>BUGFIX: Fix "Set as default save path" setting (closes #254)</li>
-<li>BUGFIX: Reenable disk cache on Windows since the memory issue seems to be gone</li>
+<li>BUGFIX: Re-enable disk cache on Windows since the memory issue seems to be gone</li>
 <li>BUGFIX: Fixed several search engine plugins and removed the dead ones</li>
 <li>BUGFIX: Use https links in search plugins when possible</li>
 <li>BUGFIX: Bump Mootools to v1.4.5 (Web UI)</li>
@@ -1191,7 +1191,7 @@ recently.</p>
 <p>qBittorrent v2.9.2 has just been uploaded to fix an annoying issue with the torrent addition dialog dimensions and to reduce the number of dependencies.</p>
 <p>Changelog:</p>
 <ul>
-<li>BUGFIX: Fix mimimum dimensions for torrent addition dialog</li>
+<li>BUGFIX: Fix minimum dimensions for torrent addition dialog</li>
 <li>BUGFIX: Remove dependency on boost-datetime</li>
 <li>BUGFIX: Remove dependency on boost-filesystem (libtorrent v0.16.x)</li>
 </ul>
@@ -1649,7 +1649,7 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
 <ul>
 <li>BUGFIX: Display the priority column when the queueing system gets enabled</li>
 <li>BUGFIX: Fix encoding problem in file renaming</li>
-<li>BUGFIX: Delete uneeded files on torrent "soft" deletion</li>
+<li>BUGFIX: Delete unneeded files on torrent "soft" deletion</li>
 <li>BUGFIX: Fix issues when marking a file as 'not downloaded' causes the torrent to complete</li>
 <li>BUGFIX: Improved "Set Location" and "Change save path" dialogs</li>
 <li>BUGFIX: Fix display of queued seeding torrents</li>
@@ -1774,7 +1774,7 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.</p>
 
 <h3>June 4th 2010 - qBittorrent back on Mac OS X and making its debut on Windows</h3>
 <p>qBittorrent had been unmaintained on Mac platform for a while because our package maintainer was temporarily unavailable. We have excellent news: he is back! Furthermore, we welcome an additional Mac maintainer in our team: Mirco Chinelli. Both worked really hard and uploaded today qBittorrent v2.2.8 dmg for Snow Leopard. Please find it on our download page.</p>
-<p>Another great news is that I am currently working very actively on the Windows port with a new member: Mohammad Dib. As a consequence, qBittorrent v2.2.9 will be released and supported on all threee major platforms: Linux, Mac and Windows. We are currently working hard on Windows bug fixing, in collaboration with beta testers (Please contact <a href="mailto:chris@qbittorrent.org">me</a> if you wish to help with the testing), in order to make a polished and stable release really soon! Stay put :)</p>
+<p>Another great news is that I am currently working very actively on the Windows port with a new member: Mohammad Dib. As a consequence, qBittorrent v2.2.9 will be released and supported on all three major platforms: Linux, Mac and Windows. We are currently working hard on Windows bug fixing, in collaboration with beta testers (Please contact <a href="mailto:chris@qbittorrent.org">me</a> if you wish to help with the testing), in order to make a polished and stable release really soon! Stay put :)</p>
 
 <h3>March 14th 2010 - qBittorrent v2.2.0</h3>
 <p>qBittorrent v2.2.0 final has been released today. This new major release brings a few interesting features such as a bandwidth scheduler and more advanced feature settings. There was also a great deal of code cleanup and optimization.</p>

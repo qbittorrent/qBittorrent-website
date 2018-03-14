@@ -138,7 +138,7 @@ v4.0.0 changelog:
 - BUGFIX: Optimize code for SpeedWidget. (dzmat)
 - BUGFIX: Disable processing events when adding torrents(prevents crashes). Closes #7436. (Chocobo1)
 - BUGFIX: Open links in browser. Closes #7651. (Chocobo1)
-- BUGFIX: Change default settings for tracker/tier announces to mimick μTorrent behavior. (sledgehammer999)
+- BUGFIX: Change default settings for tracker/tier announces to mimic μTorrent behavior. (sledgehammer999)
 - BUGFIX: Explicitly set UPnP state on start-up. Closes #7338. (Chocobo1)
 - BUGFIX: Include/print caught signal in stackdump (Chocobo1)
 - COSMETIC: Trackerlist: Set text alignment of columns with numbers to the right (thalieht)
@@ -220,7 +220,7 @@ v3.3.16 changelog:
 ### Monday August 7th 2017 - qBittorrent v3.4.0beta_20170807_0320f9d5b5e release
 
 Windows packages for v3.4.0beta_20170807_0320f9d5b5e are released.<br>
-macOS packges might follow.<br>
+macOS packages might follow.<br>
 **CAVEAT:** The 32bit build doesn't work on Windows XP. Apparently the libtorrent 1.1.x series have dropped the support for that OS.<br>
 Here is the current changelog:
 - FEATURE: New icon theme with SVG source, so we can scale it appropriately in the future. (Bert Verhelst)
@@ -404,7 +404,7 @@ This will be the last release in the v3.3.x series. Next release will have a new
 - FEATURE: Use Ctrl+F to search torrents. Closes #5797. (Tim Delaney)
 - FEATURE: Transferlist: add hotkeys for double click and recheck selected torrents (thalieht)
 - FEATURE: Add hotkey for execution log tab, Trackerlist, Peerlist etc (thalieht)
-- FEATURE: Seperate seeds from peers for DHT, PeX and LSD (thalieht)
+- FEATURE: Separate seeds from peers for DHT, PeX and LSD (thalieht)
 - BUGFIX: Do not remove added files unconditionally. Closes #6248 (Eugene Shalygin)
 - BUGFIX: Ignore mouse wheel events in Advanced Settings. Closes #866. (Chocobo1)
 - BUGFIX: Add queue repair code. It should fix missing torrents after restarting. (Eugene Shalygin, nxd4)
@@ -416,7 +416,7 @@ This will be the last release in the v3.3.x series. Next release will have a new
 - BUGFIX: TransferListWidget: keep columns width even if they are hidden on qBittorrent startup (unless something goes wrong) (thalieht)
 - BUGFIX: fix index overflow for torrents with invalid meta data or empty progress (Falco)
 - BUGFIX: Immediately update torrent_status after manipulating super seeding mode. Partially fixes #6072. (sledgehammer999)
-- BUGFIX: Use case-insensitive comparsion for torrent content window. Closes #6327. (Chocobo1)
+- BUGFIX: Use case-insensitive comparison for torrent content window. Closes #6327. (Chocobo1)
 - BUGFIX: Fixed sort order for datetime columns with empty values (closes #2988) (Vladimir Sinenko)
 - BUGFIX: Disable proxy in WebUI HTTP server. Closes #6349. (Eugene Shalygin)
 - COSMETIC: Use a disabled progressbar's palette for unselected files. (sledgehammer999)
