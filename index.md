@@ -43,10 +43,10 @@ If you want to help in translating qBittorrent, see these [instructions](http://
 
   <!-- Twitter -->
   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script async src="https://platform.twitter.com/widgets.js"></script>
 
   <!-- VK -->
-  <script src="https://vk.com/js/api/share.js?94" charset="windows-1251"></script>
+  <script src="https://vk.com/js/api/share.js?94"></script>
   <script>document.write(VK.Share.button(false,{type: "round", text: "Share"}));</script>
 
   <!-- LINE -->

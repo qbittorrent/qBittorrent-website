@@ -381,7 +381,7 @@
 <br/><br/>
 
 
-<script type="text/javascript">
+<script>
   OSSelect.value = "emptyOS"
   distroSelect.value = "emptyDist"
 
