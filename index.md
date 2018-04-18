@@ -21,7 +21,7 @@ If you want to help in translating qBittorrent, see these [instructions](http://
 ### Recommend qBittorrent
 <div>
   <!-- GitHub -->
-  <script src="https://buttons.github.io/buttons.js" async defer></script>
+  <script src="https://buttons.github.io/buttons.js" defer></script>
   <a class="github-button" href="https://github.com/qbittorrent/qBittorrent" data-show-count="true" aria-label="Star qBittorrent on GitHub">Star</a>
 
   <!-- Facebook -->
@@ -37,13 +37,13 @@ If you want to help in translating qBittorrent, see these [instructions](http://
   <div style="margin-top:3px;"></div>
 
   <!-- Google + -->
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="https://apis.google.com/js/platform.js" defer></script>
   <div class="g-plusone" data-size="medium"></div>
   <div></div>
 
   <!-- Twitter -->
   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a>
-  <script async src="https://platform.twitter.com/widgets.js"></script>
+  <script src="https://platform.twitter.com/widgets.js" defer></script>
 
   <!-- VK -->
   <script src="https://vk.com/js/api/share.js?94"></script>
@@ -52,7 +52,7 @@ If you want to help in translating qBittorrent, see these [instructions](http://
   <!-- LINE -->
   <div style="margin-top:3px;"></div>
   <div class="line-it-button" style="display: none;" data-type="share-a" data-url="https://www.qbittorrent.org/"></div>
-  <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async defer></script>
+  <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" defer></script>
 </div>
 
 
