@@ -110,7 +110,7 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.1.6+git8808eb7cdd</td>
+          <td>1.1.7+git8808eb7cdd</td>
         </tr>
         <tr>
           <td>Qt</td>
