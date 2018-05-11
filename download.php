@@ -25,7 +25,9 @@
   </div>
   <div>
     <p>
-      <strong>Current stable version: qBittorrent v4.1.0</strong>
+      <strong>Current stable version: qBittorrent v4.1.0</strong><br/><br/>
+      <strong>The 64-bit version is only compatible with Windows 7 and later versions.</strong><br/>
+      Also you <em>might</em> experience increased memory usage compared to the 32-bit version.
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
@@ -71,10 +73,6 @@
     </table>
   </div>
 </div>
-<p>
-  <strong>64-bit NOTICE:</strong> The 64-bit version is only compatible with Windows Vista+.<br/>
-  Also you <em>might</em> experience increased memory usage compared to the 32-bit version.
-</p>
 <br/>
 
 
