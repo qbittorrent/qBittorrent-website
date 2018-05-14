@@ -84,7 +84,7 @@
   <div>
     <p>
       <strong>Current version: qBittorrent v4.1.0</strong><br/><br/>
-      <strong>May work on older OSX versions. If not, recompile with older Qt version.</strong>
+      <strong>May work on older macOS versions. If not, recompile with older Qt version.</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>

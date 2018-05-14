@@ -3,7 +3,7 @@
 <a href="download.php"><img src="img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
 The qBittorrent project aims to provide an open-source software alternative to µTorrent.
 
-Additionally, qBittorrent runs and provides the same features on all major platforms (Linux, Mac OS X, Windows, OS/2, FreeBSD).
+Additionally, qBittorrent runs and provides the same features on all major platforms (Linux, macOS, Windows, OS/2, FreeBSD).
 
 qBittorrent is based on the Qt toolkit and [libtorrent-rasterbar](http://www.libtorrent.org) library.
 
@@ -79,7 +79,7 @@ If you want to help in translating qBittorrent, see these [instructions](http://
 * IP Filtering (eMule & PeerGuardian format compatible)
 * IPv6 compliant
 * UPnP / NAT-PMP port forwarding support
-* Available on all platforms: Windows, Linux, Mac OS X, FreeBSD, OS/2
+* Available on all platforms: Windows, Linux, macOS, FreeBSD, OS/2
 * Available in [~70 languages](https://www.transifex.com/sledgehammer999/qbittorrent/)
 
 ** Go ahead and try qBittorrent, you won't regret it! **
