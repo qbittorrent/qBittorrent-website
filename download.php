@@ -272,7 +272,7 @@
 
 <div id="gentooDiv" class="invisible">
   <h4>Gentoo ebuilds</h4>
-  <img src="img/os/gentoo.png" alt="Gentoo" style="float: left; margin-right: 5px;"/>qBittorrent is officially available in portage. You can install it easily on your system using emerge command. These ebuilds are maintained by <a href="mailto:hwoarang@gentoo.org">Markos Chandras</a>. See <a href="https://packages.gentoo.org/packages/net-p2p/qbittorrent">this page</a> for more information.
+  <img src="img/os/gentoo.png" alt="Gentoo" style="float: left; margin-right: 5px;"/>qBittorrent is officially available in portage. You can install it easily on your system using emerge command. These ebuilds are maintained by <a href="mailto:zlogene@gentoo.org">Mikle Kolyada</a>. See <a href="https://packages.gentoo.org/packages/net-p2p/qbittorrent">this page</a> for more information.
 </div>
 
 <div id="opensuseDiv" class="invisible">
