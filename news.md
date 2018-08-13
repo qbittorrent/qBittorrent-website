@@ -1,4 +1,4 @@
-### Sunday August 13th 2018 - qBittorrent v4.1.2 release
+### Sunday August 12th 2018 - qBittorrent v4.1.2 release
 
 qBittorrent v4.1.2 was released.<br>
 - FEATURE: New options for "inhibit sleep" (Lukas Greib)
