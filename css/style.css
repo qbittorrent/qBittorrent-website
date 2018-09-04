@@ -1,28 +1,168 @@
-/*
- * CSS By Christophe Dumez <chris@dchris.eu>
- * Copyright (c) 2006
- */
-
 body {
-  background-color: #2f67ba;
-  color: #282F33;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #455A64;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-div #LogoChris {
-  margin-top: 0;
-  padding-top: 0;
-  width: 800px;
-  margin: 0 auto;
+p{
+  margin: 0.5em 0 0 0;
 }
 
-div #mainBox {
-  width: 800px;
+h2 {
+  margin: 1em 0;
+  color: #282F33;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  margin: 1em 0;
+  color: #282F33;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4em;
+}
+
+ol {
+  padding-left: 2em;
+}
+
+ul {
+  padding-left: 2em;
+}
+
+ul li {
+  margin-top: 0.25em;
+}
+
+strong {
+  color: #263238;
+}
+
+/* Header */
+#header {
+  background-color: #294051;
+  padding: 3em 0 2em 0;
+}
+
+#brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 2em;
+}
+
+#brand .description {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: auto 0 0.8em;
+}
+
+#brand .description h1 {
+  color: #ffffff;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+#brand .description h1 span {
+  color: #FDD835;
+}
+
+#brand .description p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 0 1em;
+}
+
+#logo {
+  margin-right: 2em;
+}
+
+#logo img {
+  width: 80px;
+  height: auto;
+}
+
+/* End of header */
+/* Menu */
+.menu {
+  background-color: transparent;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline;
+  margin-left: 5px;
+}
+
+.menu ul li a {
+  color: rgba(255, 255, 255, 0.85);
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.menu ul li a:hover,
+.menu ul li a.active {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 2px solid #ffffff;
+}
+
+#download-menu-button {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+#download-menu-button a {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0;
+  padding: 8px;
+}
+
+#download-menu-button img {
+  vertical-align: text-top;
+  width: 22px;
+  height: 22px;
+}
+
+/* End of menu */
+/* Layout */
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-side {
+  flex: 25%;
+  margin: 0;
+}
+
+.content-main {
+  flex: 75%;
+  padding: 2em 0 3em 3em;
+}
+
+/* End of layout */
+/* Content */
+.container {
+  max-width: 1140px;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 div .flexbox {
@@ -53,18 +193,24 @@ img.teamUserIcon {
   width: 8em;
 }
 
-fieldset.teamFieldset {
-  background-color: #efefef;
+fieldset.team-fieldset {
+  background-color: #ECEFF1;
+  border: 2px solid #90A4AE;
+  border-radius: 4px;
 }
 
-p.copyright {
-  color: #FFFFFF;
-  font-size: 0.65em;
-  margin: 0;
+.copyright {
+  background-color: #294051;
+  padding: 2em 1em;
+  margin-top: 3em;
+}
+
+.copyright p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8em;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
-  width: 800px;
-  margin: 0 auto;
 }
 
 div .codePart {
@@ -76,117 +222,31 @@ div .codePart {
   border-color: #2f67ba;
 }
 
-h2 {
-  color: #4394E8;  /* background-color: #ADD15A; */
-  display: block;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 2em;
-  margin: 0;
-}
-
-h3 {
-  border-bottom: 1px solid #D9DEE1;
-  clear: both;
-  color: #282F33;  /* background-color: #ADD15A; */
-  display: block;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 1.4em;
-   /*font-weight: lighter;*/
-  margin: 15px 0 10px 0;
-}
-
-ol {
-  padding-left: 2em;
-}
-
-ul {
-  padding-left: 2em;
-}
-
-/* Stretcher */
-
 .stretcher {
-  font-size: 0.75em;
-  padding: 0 30px 0 30px;
+  overflow-wrap: break-word;
+  font-size: 0.9em;
+  min-height: 432px;
 }
 
 .stretcher a {
-  color: #0E4FB0;
+  color: #455A64;
 }
 
 .stretcher a:hover {
   text-decoration: none;
 }
 
-.wrapper {
-  background-color: #FFFFFF;
-  background-image: url(../img/corpo.gif);
-  background-position: center;
-  background-repeat: repeat-y;
-  margin: 0 auto;
-  text-align: left;
-  width: 800px;
+#social {
+  min-height: 140px;
 }
 
-.wrapper-bottom {
-  background-image: url(../img/footer.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  padding-bottom: 30px;
+#social span,
+#social iframe {
+  max-width: 150px;
 }
 
-.wrapper-top {
-  background: transparent url(../img/header.png) no-repeat top;
-  padding-top: 30px;
-}
-
-/* End stretcher */
-
-/* Menu */
-
-.menu {
-  background-color: transparent;
-}
-
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.menu ul li {
-  border-left: 1px solid #49565D;
-  display: inline;
-  margin-left: 5px;
-  padding-left: 10px;
-}
-
-.menu ul li a {
-  color: #FFFFFF;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 1.05em;
-  text-decoration: none;
-}
-
-.menu ul li a:hover {
-  color: #AAD5FF;
-}
-
-.menu ul li.first {
-  border-left: 0px solid #49565D;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-
-.menu ul li.last {
-  border-right: 0px solid #49565D;
-  margin-right: 0px;
-  padding-right: 0px;
-}
-
-.nobr	{
-  white-space:nowrap;
+.nobr {
+  white-space: nowrap;
 }
 
 .invisible {
@@ -195,4 +255,75 @@ ul {
 
 .wordBreak {
   word-break: break-all;
+}
+
+.dlv {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0 3em 0;
+}
+
+.dlv strong {
+  font-size: 2em;
+}
+
+.dlv a {
+  font-size: 1.25em;
+}
+
+.dlv-button {
+  max-width: 75px;
+  background: linear-gradient(0deg, rgba(88, 152, 50, 1) 5%, rgba(122, 173, 87, 1) 60%);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  padding: 1em 4.5em;
+  outline: 0;
+  margin-bottom: 1em;
+}
+
+.dlv-button img {
+  width: 75px;
+  height: 75px;
+}
+
+/* End of content */
+/* 992px or smaller */
+@media (max-width: 992px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .content-side {
+    flex: 100%;
+    margin: 0 0 0 2em;
+  }
+
+  .content-main {
+    flex: 100%;
+    padding: 1em;
+  }
+
+  #brand .description {
+    flex-direction: column;
+  }
+
+  #brand .description p {
+    margin: 0;
+  }
+
+  #download-menu-button {
+    margin-top: 1em;
+  }
+}
+
+/* 576px or smaller */
+@media (max-width: 576px) {
+  .content-side {
+    margin: auto;
+  }
+  .content-main {
+    padding: 0.5em;
+  }
 }

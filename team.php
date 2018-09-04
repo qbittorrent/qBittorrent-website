@@ -3,7 +3,7 @@
 <h2>Team Members</h2>
 
 <h3>Project Maintainer</h3>
-<fieldset class="teamFieldset">
+<fieldset class="team-fieldset">
   <div class="teamInfo">
     <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
   </div>
@@ -18,7 +18,7 @@
 </fieldset>
 
 <h3>Forum Administrator</h3>
-<fieldset class="teamFieldset">
+<fieldset class="team-fieldset">
   <div class="teamInfo">
     <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
   </div>
@@ -33,7 +33,7 @@
 </fieldset>
 
 <h3>Project Founder (Inactive)</h3>
-<fieldset class="teamFieldset">
+<fieldset class="team-fieldset">
   <div class="teamInfo">
     <img src="img/team/chris.png" alt="Christophe Dumez image" class="teamUserIcon"/>
   </div>
@@ -48,7 +48,7 @@
 </fieldset>
 
 <h3>Project Contributors</h3>
-<fieldset class="teamFieldset">
+<fieldset class="team-fieldset">
   <div class="teamInfo">
     <img src="img/github.svg" alt="github icon" class="teamUserIcon"/>
   </div>
@@ -60,7 +60,7 @@
 </fieldset>
 
 <h3>Project Translators</h3>
-<fieldset class="teamFieldset">
+<fieldset class="team-fieldset">
   <div class="teamInfo">
     <img src="img/translate.svg" alt="translation icon" class="teamUserIcon"/>
   </div>
@@ -72,7 +72,7 @@
 </fieldset>
 
 <h3>Project Graphist</h3>
-<fieldset class="teamFieldset">
+<fieldset class="team-fieldset">
   <div class="teamInfo">
     <img src="img/user_font_awesome.svg" alt="no image" class="teamUserIcon"/>
   </div>
