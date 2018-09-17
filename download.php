@@ -181,6 +181,10 @@
           <td>zlib</td>
           <td>Latest stable release</td>
         </tr>
+        <tr>
+          <td>Python (optional, runtime only)</td>
+          <td>Versions later than 2.7.9 / 3.3.0</td>
+        </tr>
       </tbody>
     </table>
   </div>
