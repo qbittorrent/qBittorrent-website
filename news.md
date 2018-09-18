@@ -1,3 +1,31 @@
+### Tuesday September 18th 2018 - qBittorrent v4.1.3 release
+
+qBittorrent v4.1.3 was released.<br>
+- FEATURE: Preselect name without extension when renaming files (thalieht)
+- FEATURE: Allow setting seq & first/last from context menu without metadata (thalieht)
+- BUGFIX: Show "N/A" if there is no scrape (thalieht)
+- BUGFIX: Save option about tracker favicons under correct key (sledgehammer999)
+- BUGFIX: When file data are unreachable pause torrent and show "Missing Files" status (temporary fix) (sledgehammer999)
+- BUGFIX: Don't disable DHT when using force proxy (Thomas Piccirello)
+- BUGFIX: Correctly save torrent queue position/state/priority changes in fastresume (glassez, thalieht, sledgehammer999)
+- BUGFIX: Fix icon height/width ratio (Chocobo1)
+- BUGFIX: Fix values sorted wrong in "Last Activity" column (Chocobo1)
+- BUGFIX: Replace png icons with svg (Chocobo1)
+- WEBUI: Allow WebUI sidebar filters to be hidden (Thomas Piccirello)
+- WEBUI: Increase WebUI Options initial height (Thomas Piccirello)
+- WEBUI: Adjust WebUI Options form alignment (Thomas Piccirello)
+- WEBUI: Fix WebUI unreachable issue (Chocobo1)
+- WEBUI: Require torrent category creation to be explicit (Thomas Piccirello)
+- WEBUI: Include category save path in web api sync data (Thomas Piccirello)
+- WEBUI: Add save path and editing to WebUI new category dialog (Thomas Piccirello)
+- WEBUI: Bump Web API version
+- SEARCH: Refactor in searchjob to always color visited entries (thalieht)
+- SEARCH: Set "enter" as shortcut to download the selected torrents in search job (thalieht)
+- SEARCH: Add regex option in the search filter's context menu (thalieht)
+- LINUX: Fix GUI scaling issue on Linux (Chocobo1)
+- LINUX: Fix regression that broke installing desktop file (Eli Schwartz)
+- OPENBSD: Better filesystem support for filewatcher (Elias M. Mariani)
+
 ### Sunday August 12th 2018 - qBittorrent v4.1.2 release
 
 qBittorrent v4.1.2 was released.<br>
