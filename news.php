@@ -7,7 +7,4 @@
 require_once('lib/helpers.php');
 readMarkdown('news.md');
 
-// earlier news still retain its original format
-require_once('old_news.inc');
-
 require_once('footer.inc.php');
