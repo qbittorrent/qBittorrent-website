@@ -43,12 +43,12 @@
         <ul>
           <li class="first"><a href="/">Home</a></li>
           <li><a href="news.php">News</a></li>
-          <li><a href="http://forum.qbittorrent.org">Forum</a></li>
+          <li><a href="http://forum.qbittorrent.org" target="_blank">Forum</a></li>
           <li><a href="download.php">Download</a></li>
           <li><a href="https://sourceforge.net/projects/qbittorrent/#screenshots">Screenshots</a></li>
-          <li><a href="http://wiki.qbittorrent.org">Wiki</a></li>
-          <li><a href="http://git.qbittorrent.org">Development</a></li>
-          <li><a href="http://bugs.qbittorrent.org">Bugs</a></li>
+          <li><a href="http://wiki.qbittorrent.org" target="_blank">Wiki</a></li>
+          <li><a href="http://git.qbittorrent.org" target="_blank">Development</a></li>
+          <li><a href="http://bugs.qbittorrent.org" target="_blank">Bugs</a></li>
         </ul>
       </div>
 

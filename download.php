@@ -7,9 +7,9 @@
   Starting from v3.3.4 all source tarballs and binaries are signed.
 </p>
 <p>
-  The key currently used is: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x6E4A2D025B7CC9A2"><code>4096R/5B7CC9A2</code></a><br/>
+  The key currently used is: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x6E4A2D025B7CC9A2" target="_blank"><code>4096R/5B7CC9A2</code></a><br/>
   Fingerprint: <code>D8F3DA77AAC6741053599C136E4A2D025B7CC9A2</code><br/>
-  You can also download it from <a href="https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc">here</a>
+  You can also download it from <a href="https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc" target="_blank">here</a>
 </p>
 <p>
   Previously the following key was used to sign the v3.3.4 source tarballs and v3.3.4 Windows installer <strong>only</strong>: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0xA1ACCAE4520EC6F6"><code>4096R/520EC6F6</code></a><br/>
@@ -139,7 +139,7 @@
       <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.1.3/qbittorrent-4.1.3.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.1.3/qbittorrent-4.1.3.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
     </p>
     <p>
-      Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation">here</a>.
+      Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation" target="_blank">here</a>.
     </p>
     <table>
       <tbody>

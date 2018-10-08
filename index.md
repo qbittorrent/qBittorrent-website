@@ -15,7 +15,7 @@ If you like this piece of software, please make a donation and help it survive.
 
 Donation info [here](donate).
 
-If you want to help in translating qBittorrent, see these [instructions](http://wiki.qbittorrent.org/How-to-translate-qBittorrent).
+If you want to help in translating qBittorrent, see these <a href="http://wiki.qbittorrent.org/How-to-translate-qBittorrent" target="_blank">instructions</a>.
 
 
 ### Recommend qBittorrent
@@ -80,6 +80,6 @@ If you want to help in translating qBittorrent, see these [instructions](http://
 * IPv6 compliant
 * UPnP / NAT-PMP port forwarding support
 * Available on all platforms: Windows, Linux, macOS, FreeBSD, OS/2
-* Available in [~70 languages](https://www.transifex.com/sledgehammer999/qbittorrent/)
+* Available in <a href="https://www.transifex.com/sledgehammer999/qbittorrent/" target="_blank">~70 languages</a>
 
 ** Go ahead and try qBittorrent, you won't regret it! **
