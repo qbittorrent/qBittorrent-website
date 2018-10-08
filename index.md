@@ -5,7 +5,7 @@ The qBittorrent project aims to provide an open-source software alternative to Â
 
 Additionally, qBittorrent runs and provides the same features on all major platforms (Linux, macOS, Windows, OS/2, FreeBSD).
 
-qBittorrent is based on the Qt toolkit and [libtorrent-rasterbar](http://www.libtorrent.org) library.
+qBittorrent is based on the [Qt](https://www.qt.io/) toolkit and [libtorrent-rasterbar](https://www.libtorrent.org/) library.
 
 
 ### Help qBittorrent
