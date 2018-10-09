@@ -12,7 +12,7 @@
   You can also download it from <a href="https://github.com/qbittorrent/qBittorrent/raw/master/5B7CC9A2.asc" target="_blank">here</a>
 </p>
 <p>
-  Previously the following key was used to sign the v3.3.4 source tarballs and v3.3.4 Windows installer <strong>only</strong>: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0xA1ACCAE4520EC6F6"><code>4096R/520EC6F6</code></a><br/>
+  Previously the following key was used to sign the v3.3.4 source tarballs and v3.3.4 Windows installer <strong>only</strong>: <a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0xA1ACCAE4520EC6F6" target="_blank"><code>4096R/520EC6F6</code></a><br/>
   Fingerprint: <code>F4A5FD201B117B1C2AB590E2A1ACCAE4520EC6F6</code>
 </p>
 <br/>
