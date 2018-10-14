@@ -76,7 +76,7 @@
 <br/>
 
 
-<h3>Mavericks / Yosemite / El&nbsp;Capitan / Sierra / High Sierra</h3>
+<h3>Mavericks / Yosemite / El&nbsp;Capitan / Sierra / High Sierra / Mojave</h3>
 <div class="flexbox">
   <div class="box1">
     <img src="img/os/macoslogo.png" alt="macOS icon"/>
