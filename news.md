@@ -1,3 +1,46 @@
+### Monday November 19th 2018 - qBittorrent v4.1.4 release
+
+qBittorrent v4.1.4 was released.<br>
+The macOS builds will follow in a couple of days.<br>
+There will be 1-2 more releases in the 4.1.x series. After that we will switch to 4.2.x. The 4.2.x series will drop support for versions of Windows before Windows 7.
+- FEATURE: Recognize *.ts files as previewable (silver)
+- FEATURE: Allow to disable speed graphs (dzmat)
+- FEATURE: Clear LineEdit on ESC (silverqx)
+- BUGFIX: Fix divide-by-zero crash (Chocobo1)
+- BUGFIX: Remove speed limit checkbox in Options dialog (Chocobo1)
+- BUGFIX: Fix speed graph "high speeds" bug (dzmat)
+- BUGFIX: Don't update torrent status unnecessarily (glassez)
+- BUGFIX: Improve force recheck of paused torrent (glassez)
+- BUGFIX: Restore torrent in two steps (glassez)
+- BUGFIX: Improve scaling of speed graphs (dzmat)
+- BUGFIX: Add isNetworkFileSystem() detection on Windows. This allows network mounts to be monitored correctly by polling timer. (Chocobo1)
+- BUGFIX: Reduce horizontal graphs resolution. Improves perfomance. (dzmat)
+- BUGFIX: Don't recheck just checked torrent (mj-p, glassez)
+- BUGFIX: Add SMB2 magic number (Chocobo1)
+- BUGFIX: Restore startup perfomance to v4.1.2 times. Needs at least libtorrent 1.1.10 (sledgehammer999)
+- BUGFIX: Make strings actually translatable (sledgehammer999)
+- WEBUI: Handle downloading .torrent file as success (Tom Piccirello)
+- WEBUI: Fix Alternative Web UI to be available (glassez)
+- WEBUI: Consider empty locale setting as not set (glassez)
+- WEBUI: Add free disk space to WebUI status bar (Thomas Piccirello)
+- WEBUI: Add WebUI search API controller (Thomas Piccirello)
+- WEBUI: Fix WebUI Auto TMM context menu bug (Thomas Piccirello)
+- WEBUI: Use independent translation for WebUI (glassez)
+- WEBUI: Add categories WebAPI (Thomas Piccirello)
+- WEBUI: Fix minor JavaScript defects (Thomas Piccirello)
+- WEBUI: Add locale to js file path (Thomas Piccirello)
+- WEBUI: Translate WebUI torrents Status column (Thomas Piccirello)
+- WEBUI: Bump Web API version
+- RSS: Allow to disable downloading REPACK/PROPER matches (Stephen Dawkins)
+- RSS: Improve RSS Feed updating (glassez)
+- SEARCH: Allow resizing search filter in search job (thalieht)
+- SEARCH: Improve parser for search engine versions.txt (Chocobo1)
+- SEARCH: Update Python URLs (Chocobo1)
+- SEARCH: Fix asking to install Python (Chocobo1)
+- SEARCH: Reformat python code to be compliant with PEP8 (Chocobo1)
+- OTHER: cmake: restore out-of-source build (Eugene Shalygin)
+- OTHER: cmake: cmake: use C++14 when available (Eugene Shalygin)
+
 ### Tuesday September 18th 2018 - qBittorrent v4.1.3 release
 
 qBittorrent v4.1.3 was released.<br>
