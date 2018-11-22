@@ -3,7 +3,8 @@
 qBittorrent v4.1.4 was released.<br>
 The macOS builds will follow in a couple of days.<br>
 There will be 1-2 more releases in the 4.1.x series. After that we will switch to 4.2.x. The 4.2.x series will drop support for versions of Windows before Windows 7.<br>
-**EDIT(2018-11-20):** The installers for 4.1.4 were deleted almost immediately after release. Crashes were reported on Windows 10 for the 64bit installer. See bug [#9865](https://github.com/qbittorrent/qBittorrent/issues/9865). New installers will be uploaded when the problem is fixed.
+**EDIT(2018-11-20):** The installers for 4.1.4 were deleted almost immediately after release. Crashes were reported on Windows 10 for the 64bit installer. See bug [#9865](https://github.com/qbittorrent/qBittorrent/issues/9865). New installers will be uploaded when the problem is fixed.<br>
+**EDIT(2018-11-22):** The crash issue has been resolved. The installers are available now.
 - FEATURE: Recognize *.ts files as previewable (silver)
 - FEATURE: Allow to disable speed graphs (dzmat)
 - FEATURE: Clear LineEdit on ESC (silverqx)
