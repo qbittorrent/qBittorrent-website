@@ -292,7 +292,7 @@
   <h4>Fedora packages</h4>
   <img src="img/os/fedoralogo.png" alt="Fedora" style="float: left; margin-right: 5px; width: 65px;"/>
   <p>qBittorrent is officially packaged on Fedora. RPM packages are maintained by <a href="mailto:leigh123linux@googlemail.com">Leigh Scott</a>.</p>
-  <p>See this <a href="https://admin.fedoraproject.org/pkgdb/package/qbittorrent/">page</a> for more information.</p>
+  <p>See this <a href="https://apps.fedoraproject.org/packages/qbittorrent/">page</a> for more information.</p>
 </div>
 
 <div id="slackwareDiv" class="invisible">
