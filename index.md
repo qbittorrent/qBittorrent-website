@@ -18,44 +18,6 @@ Donation info [here](donate).
 If you want to help in translating qBittorrent, see these <a href="http://wiki.qbittorrent.org/How-to-translate-qBittorrent" target="_blank">instructions</a>.
 
 
-### Recommend qBittorrent
-<div>
-  <!-- GitHub -->
-  <script src="https://buttons.github.io/buttons.js" defer></script>
-  <a class="github-button" href="https://github.com/qbittorrent/qBittorrent" data-show-count="true" aria-label="Star qBittorrent on GitHub">Star</a>
-
-  <!-- Facebook -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-  <div class="fb-like" data-href="https://www.qbittorrent.org/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
-  <div style="margin-top:3px;"></div>
-
-  <!-- Google + -->
-  <script src="https://apis.google.com/js/platform.js" defer></script>
-  <div class="g-plusone" data-size="medium"></div>
-  <div></div>
-
-  <!-- Twitter -->
-  <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"></a>
-  <script src="https://platform.twitter.com/widgets.js" defer></script>
-
-  <!-- VK -->
-  <script src="https://vk.com/js/api/share.js?94"></script>
-  <script>document.write(VK.Share.button(false,{type: "round", text: "Share"}));</script>
-
-  <!-- LINE -->
-  <div style="margin-top:3px;"></div>
-  <div class="line-it-button" style="display: none;" data-type="share-a" data-url="https://www.qbittorrent.org/"></div>
-  <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" defer></script>
-</div>
-
-
 ### qBittorrent Features
 * Polished µTorrent-like User Interface
 * Well-integrated and extensible Search Engine
