@@ -191,7 +191,6 @@
 </div>
 <br/>
 
-
 <h3>Other Binary Packages</h3>
 <p>
   Select operating system:
@@ -380,8 +379,14 @@
 </div>
 
 <hr class="invisible clear"/>
-<br/><br/>
+<br/>
 
+<h3>Old Release Archive</h3>
+<ul>
+  <li><a href="https://www.fosshub.com/qBittorrent-old.html">FossHub</a></li>
+  <li><a href="https://sourceforge.net/projects/qbittorrent/files/">SourceForge</a></li>
+</ul>
+<br/>
 
 <script>
   OSSelect.value = "emptyOS"
@@ -411,6 +416,5 @@
     setIdClassAttr(elem.value + "Div", "");  // display selected element
   }
 </script>
-
 
 <?php require_once('footer.inc.php');
