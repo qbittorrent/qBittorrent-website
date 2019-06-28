@@ -17,7 +17,7 @@ class Parsedown
 {
     # ~
 
-    const version = '1.7.1';
+    const version = '1.7.3';
 
     # ~
 
@@ -429,7 +429,21 @@ class Parsedown
 
             if (isset($matches[1]))
             {
-                $class = 'language-'.$matches[1];
+                /**
+                 * https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#classes
+                 * Every HTML element may have a class attribute specified.
+                 * The attribute, if specified, must have a value that is a set
+                 * of space-separated tokens representing the various classes
+                 * that the element belongs to.
+                 * [...]
+                 * The space characters, for the purposes of this specification,
+                 * are U+0020 SPACE, U+0009 CHARACTER TABULATION (tab),
+                 * U+000A LINE FEED (LF), U+000C FORM FEED (FF), and
+                 * U+000D CARRIAGE RETURN (CR).
+                 */
+                $language = substr($matches[1], 0, strcspn($matches[1], " \t\n\f\r"));
+
+                $class = 'language-'.$language;
 
                 $Element['attributes'] = array(
                     'class' => $class,
@@ -1142,14 +1156,8 @@ class Parsedown
 
     protected function inlineEmailTag($Excerpt)
     {
-        $hostnameLabel = '[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?';
-
-        $commonMarkEmail = '[a-zA-Z0-9.!#$%&\'*+\/=?^_`{|}~-]++@'
-            . $hostnameLabel . '(?:\.' . $hostnameLabel . ')*';
-
-        if (strpos($Excerpt['text'], '>') !== false
-            and preg_match("/^<((mailto:)?$commonMarkEmail)>/i", $Excerpt['text'], $matches)
-        ){
+        if (strpos($Excerpt['text'], '>') !== false and preg_match('/^<((mailto:)?\S+?@\S+?)>/i', $Excerpt['text'], $matches))
+        {
             $url = $matches[1];
 
             if ( ! isset($matches[2]))
@@ -1485,7 +1493,7 @@ class Parsedown
         {
             $markup .= '>';
 
-            if (!isset($Element['nonNestables']))
+            if (!isset($Element['nonNestables'])) 
             {
                 $Element['nonNestables'] = array();
             }
