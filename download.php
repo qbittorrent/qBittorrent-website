@@ -389,6 +389,8 @@
 <br/>
 
 <script>
+  'use strict';
+
   OSSelect.value = "emptyOS"
   distroSelect.value = "emptyDist"
 
