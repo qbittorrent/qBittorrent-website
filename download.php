@@ -25,7 +25,7 @@
   </div>
   <div>
     <p>
-      <strong>Current stable version: qBittorrent v4.1.7</strong><br/><br/>
+      Current <strong>stable</strong> version: <strong>qBittorrent v4.1.7</strong><br/><br/>
       <strong>The 64-bit version is only compatible with Windows 7 and later versions.</strong><br/>
       Also you <em>might</em> experience increased memory usage compared to the 32-bit version.
     </p>
@@ -35,13 +35,15 @@
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.7/qbittorrent_4.1.7_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.1.7/qbittorrent_4.1.7_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <p>
-      Current <strong>alpha</strong> version: qBittorrent v4.2.0alpha1_20190824_69f665ed016
-      <br/><strong>The 64-bit version is only compatible with Windows 7 and later versions. A 32-bit version will not be available for the alpha releases.</strong>
+      <br/><br/>
+      Current <strong>alpha</strong> version: <strong>qBittorrent v4.2.0alpha1_20190824_69f665ed016</strong><br/><br/>
+      <strong>The 64-bit version is only compatible with Windows 7 and later versions. A 32-bit version will not be available for the alpha releases.</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">64-bit installer</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
     </p>
     <table>
+       <br/><br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
@@ -94,7 +96,7 @@
   </div>
   <div>
     <p>
-      <strong>Current version: qBittorrent v4.1.7</strong><br/><br/>
+      Current <strong>stable</strong> version: <strong>qBittorrent v4.1.7</strong><br/><br/>
       <strong>May work on older macOS versions. If not, recompile with older Qt version.</strong>
     </p>
     <p>
@@ -102,11 +104,14 @@
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.1.7/qbittorrent-4.1.7.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.1.7/qbittorrent-4.1.7.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <p>
-      Current <strong>alpha</strong> version: qBittorrent v4.2.0alpha1_20190824_69f665ed016</p>
+      <br/><br/>
+      Current <strong>alpha</strong> version: <strong>qBittorrent v4.2.0alpha1_20190824_69f665ed016</strong>
+    </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
     </p>
     <table>
+      <br/><br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
