@@ -43,7 +43,7 @@
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">64-bit installer</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
     </p>
     <table>
-       <br/><br/>
+      <br/><br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
