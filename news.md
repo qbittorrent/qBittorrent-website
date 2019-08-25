@@ -25,7 +25,7 @@ For Windows only the 64-bit build is available for the alpha release. Changes in
 - BUGFIX: Remove the max half-open connections option (thalieht)
 - BUGFIX: Center align the section labels in advanced settings (thalieht)
 - BUGFIX: Add documentation links to some advanced settings (thalieht)
-- BUGFIX: Impove DownloadManager code (glassez)
+- BUGFIX: Improve DownloadManager code (glassez)
 - BUGFIX: Limit DownloadHandler max redirection to 20 (Chocobo1)
 - BUGFIX: Log DownloadManager SSL errors (Chocobo1)
 - BUGFIX: Force recheck multiple torrents one by one (glassez)
@@ -258,10 +258,10 @@ There will be 1-2 more releases in the 4.1.x series. After that we will switch t
 - BUGFIX: Restore torrent in two steps (glassez)
 - BUGFIX: Improve scaling of speed graphs (dzmat)
 - BUGFIX: Add isNetworkFileSystem() detection on Windows. This allows network mounts to be monitored correctly by polling timer. (Chocobo1)
-- BUGFIX: Reduce horizontal graphs resolution. Improves perfomance. (dzmat)
+- BUGFIX: Reduce horizontal graphs resolution. Improves performance. (dzmat)
 - BUGFIX: Don't recheck just checked torrent (mj-p, glassez)
 - BUGFIX: Add SMB2 magic number (Chocobo1)
-- BUGFIX: Restore startup perfomance to v4.1.2 times. Needs at least libtorrent 1.1.10 (sledgehammer999)
+- BUGFIX: Restore startup performance to v4.1.2 times. Needs at least libtorrent 1.1.10 (sledgehammer999)
 - BUGFIX: Make strings actually translatable (sledgehammer999)
 - WEBUI: Handle downloading .torrent file as success (Tom Piccirello)
 - WEBUI: Fix Alternative Web UI to be available (glassez)
@@ -336,7 +336,7 @@ qBittorrent v4.1.2 was released.<br>
 - BUGFIX: Improve torrent initialization (glassez)
 - BUGFIX: Save resume data on torrent change events (glassez)
 - BUGFIX: Increase default resume data save interval (Chocobo1)
-- BUGFIX: Work around crash when procesing recursive download. Closes #9086 (Chocobo1)
+- BUGFIX: Work around crash when processing recursive download. Closes #9086 (Chocobo1)
 - BUGFIX: Reduce queries to python version (Chocobo1)
 - BUGFIX: Disable certain mouse wheel events in Options dialog (Chocobo1)
 - WEBUI: Send all rechecks in one request (Thomas Piccirello)
@@ -846,23 +846,23 @@ Starting from the next version (v3.3.12) qBittorrent will use the following user
 ```
 qBittorrent/A.B.C.DE
 ```
-`A`, `B`, `C` and `D` are numbers indicating `VERSION_MAJOR`, `VERSION_MINOR`, `VERSION_BUGFIX` and `VERSION_BUILD` respectively.  
-If `D` is zero it will be omitted. The 3rd dot(`.`) will be omitted in this case.  
-`A`, `B` and `C` will always be present.  
-`E` is a string and possible values of it are `alpha`, `beta` and `rc`. They might not appear in all lowercase. Also they might appear numbered eg `alpha2`.  
-If `E` is empty it will be omitted. This indicates a stable release.  
+`A`, `B`, `C` and `D` are numbers indicating `VERSION_MAJOR`, `VERSION_MINOR`, `VERSION_BUGFIX` and `VERSION_BUILD` respectively.<br/>
+If `D` is zero it will be omitted. The 3rd dot(`.`) will be omitted in this case.<br/>
+`A`, `B` and `C` will always be present.<br/>
+`E` is a string and possible values of it are `alpha`, `beta` and `rc`. They might not appear in all lowercase. Also they might appear numbered eg `alpha2`.<br/>
+If `E` is empty it will be omitted. This indicates a stable release.<br/>
 There is no connection between `D` and `E`. One might be present even if the other isn't.
 To sum up and give an example, the user agent that v3.3.12 will use is `qBittorrent/3.3.12`.
 
 ### Monday March 6th 2017 - "qBittorrent is the best BitTorrent client": a guide by TurboLab.it
 
-The Italian techzine *TurboLab.it* published a new long-form BitTorrent tutorial titled [La Grande Guida a BitTorrent](https://turbolab.it/bittorrent-973/grande-guida-bittorrent-669) (literally: *The big guide to BitTorrent*). **The author recommends *qBittorrent* as "the best BitTorrent client for Windows"**, citing the lightweight footprint, the no-crapware bundled installer and the clean interface among the top reasons for his choice.  
-Those who understand Italian can read the full guide here: [La Grande Guida a BitTorrent](https://turbolab.it/bittorrent-973/grande-guida-bittorrent-669).  
+The Italian techzine *TurboLab.it* published a new long-form BitTorrent tutorial titled [La Grande Guida a BitTorrent](https://turbolab.it/bittorrent-973/grande-guida-bittorrent-669) (literally: *The big guide to BitTorrent*). **The author recommends *qBittorrent* as "the best BitTorrent client for Windows"**, citing the lightweight footprint, the no-crapware bundled installer and the clean interface among the top reasons for his choice.<br/>
+Those who understand Italian can read the full guide here: [La Grande Guida a BitTorrent](https://turbolab.it/bittorrent-973/grande-guida-bittorrent-669).<br/>
 TurboLab.it team welcomes hints, tips and tricks to make the guide even better: comments can be left using the guide own commenting system (free registration required).
 
 ### Friday March 3rd 2017 - qBittorrent v3.3.11 release
 
-qBittorrent v3.3.11 was released. There are a few WebUI security fixes.  
+qBittorrent v3.3.11 was released. There are a few WebUI security fixes.<br/>
 This will be the last release in the v3.3.x series. Next release will have a new icon theme(at least) and will drop Qt4 support. Also Qt 5.7.1 seems to be the last release supporting Windows XP. It is unknown how long I am going to still support it.
 - FEATURE: Always show progress and remaining bytes for unselected files. (sledgehammer999)
 - FEATURE: Allow to change priority for unselected files through the combobox like it is done via the context menu. (sledgehammer999)
