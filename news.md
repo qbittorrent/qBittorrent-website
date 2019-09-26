@@ -1,3 +1,22 @@
+### Thursday September 26th 2019 - qBittorrent v4.1.8 and v4.2.0alpha2_20190923_918ccefdc4a release
+
+qBittorrent v4.1.8 and v4.2.0alpha2_20190923_918ccefdc4a release were released.<br>
+For Windows only the 64-bit build is available for the alpha release. Changes included in the stable series aren't mentioned below.<br>
+After about ~2 weeks another release of the v4.2.x series will be made. Stay tuned to download and test. But remember to read the `News` section before testing. Known incompatibilities will be mentioned.<br>
+**Changes in v4.1.8:**
+- BUGFIX: Fix filename validation on non-Windows OS (Chocobo1)
+- BUGFIX: ScanFolders/FileSystemWatcher now detect magnet files with case insensitivity in filename (Chocobo1)
+- BUGFIX: Fix failed seeding after creating a torrent and auto-adding it to the session (Chocobo1)
+
+**Changes in v4.2.0alpha2_20190923_918ccefdc4a after the previous alpha:**
+- FEATURE: Add option to align file to piece boundary when creating new torrent (Chocobo1)
+- BUGFIX: Move "Check for program updates" checkbox to the Behavior settings (Chocobo1)
+- BUGFIX: Improve error messages for URL seed (Chocobo1)
+- PERFORMANCE: Faster/efficient way of handling updates in the Transfer list (Chocobo1)
+- WEBUI: Disable port selection when "Use different port on each startup" is selected (Chocobo1)
+- WEBUI: Remove max character limit of location path (Clément Pera)
+- RSS: Allow to cancel/retry the fetching of feeds (glassez)
+
 ### Saturday August 24th 2019 - qBittorrent v4.2.0alpha1_20190824_69f665ed016 release
 
 qBittorrent v4.2.0alpha1_20190824_69f665ed016 was released.<br>
