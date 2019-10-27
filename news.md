@@ -1,3 +1,18 @@
+### Sunday October 27th 2019 - qBittorrent v4.1.9 and v_4.2.0beta1_20191027_9c466d84ec0 release
+
+qBittorrent v4.1.9 and v_4.2.0beta1_20191027_9c466d84ec0 release were released.<br>
+For Windows only the 64-bit build is available for the beta release. Changes included in the stable series aren't mentioned below.<br>
+**ATTENTION:** This beta release uses the libtorrent 1.2.x series. It saves fastresumes a bit differently than the 1.1.x series, which are used so far in the stable versions (and alpha releases). If you run it and then downgrade to a previous qBittorrent version then your torrents will probably start rechecking.<br>
+**Changes in v4.1.9:**
+- BUGFIX: Preserve relative order when moving to top/bottom in queue (Chocobo1)
+- WINDOWS: Use real physical screen DPI (Chocobo1)
+- WEBUI: Bump Web API version
+
+**Changes in v_4.2.0beta1_20191027_9c466d84ec0 after the previous alpha:**
+- FEATURE: Ability to open file or trigger torrect action via keypad Enter (Chocobo1)
+- FEATURE: Add "Remove torrent and its files" option to share ratio limiting (thalieht)
+- BUGFIX: Rename share ratio limiting options (thalieht)
+
 ### Thursday September 26th 2019 - qBittorrent v4.1.8 and v4.2.0alpha2_20190923_918ccefdc4a release
 
 qBittorrent v4.1.8 and v4.2.0alpha2_20190923_918ccefdc4a release were released.<br>
