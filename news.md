@@ -1,3 +1,8 @@
+### Thursday October 31st 2019 - qBittorrent v4.1.9.1 release
+
+qBittorrent v4.1.9.1 was released to fix a Windows only regression. Builds for other OSes won't be made.<br>
+- WINDOWS: Fix a problem with bigger dialogs due to wrong DPI reported by the system (Chocobo1)
+
 ### Sunday October 27th 2019 - qBittorrent v4.1.9 and v_4.2.0beta1_20191027_9c466d84ec0 release
 
 qBittorrent v4.1.9 and v_4.2.0beta1_20191027_9c466d84ec0 release were released.<br>
