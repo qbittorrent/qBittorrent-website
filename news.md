@@ -5,7 +5,7 @@ For Windows only the 64-bit build is available for the RC release. Changes inclu
 The macOS build will follow.<br>
 The final version of 4.2.0 will be released at the end of the month.<br>
 **ATTENTION:** This RC release uses the libtorrent 1.2.x series. It saves fastresumes a bit differently than the 1.1.x series, which are used so far in the stable versions (and alpha releases). If you run it and then downgrade to a previous qBittorrent version then your torrents will probably start rechecking.<br>
-**Changes in v4.2.0RC_20191121_9c1617b9778 after the previous alpha:**
+**Changes in v4.2.0RC_20191121_9c1617b9778 after the previous beta:**
 - FEATURE: Allow to select multiple entries in "banned IP" dialog (Chocobo1)
 - FEATURE: Reallow to pause checking torrents (thalieht)
 - FEATURE: Reallow to force recheck torrents that aren't fully started (thalieht)
