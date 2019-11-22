@@ -36,7 +36,7 @@
     </p>
     <p>
       <br/><br/>
-      Current <strong>beta</strong> version: <strong>qBittorrent v_4.2.0beta1_20191027_9c466d84ec0</strong><br/><br/>
+      Current <strong>beta</strong> version: <strong>qBittorrent v4.2.0RC_20191121_9c1617b9778</strong><br/><br/>
       <strong>The 64-bit version is only compatible with Windows 7 and later versions. A 32-bit version will not be available for the beta releases.</strong>
     </p>
     <p>
@@ -58,8 +58,8 @@
           <td class="wordBreak"><code>b981598f9e4d43630b65c17a9fac7a1c1ebe5211a51b3699c7afda1cf04a13b2</code></td>
         </tr>
         <tr>
-          <td>64-bit installer(beta)</td>
-          <td><code>853f3d274ef27e711aa2bb28a1f4a83d70e4811b85d3d75f791d7672d396d5d8</code></td>
+          <td>64-bit installer(RC)</td>
+          <td><code>449bd6a8d41e7ebf933561be461fe7380216f7f2ca181ff27388b35ddb20bcbc</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -69,13 +69,13 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.1.13+git909211888e / 1.2.2+gitb26629885b(beta)</td>
+          <td>1.1.13+git909211888e / 1.2.2+git33d006df99(RC)</td>
         </tr>
         <tr>
           <td>Qt</td>
           <td>
             5.6.3 (32-bit)<br/>
-            5.13.1 (64-bit)
+            5.13.1 (64-bit) / 5.13.2 (RC)
           </td>
         </tr>
         <tr>
