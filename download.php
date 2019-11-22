@@ -36,8 +36,8 @@
     </p>
     <p>
       <br/><br/>
-      Current <strong>beta</strong> version: <strong>qBittorrent v4.2.0RC_20191121_9c1617b9778</strong><br/><br/>
-      <strong>The 64-bit version is only compatible with Windows 7 and later versions. A 32-bit version will not be available for the beta releases.</strong>
+      Current <strong>RC</strong> version: <strong>qBittorrent v4.2.0RC_20191121_9c1617b9778</strong><br/><br/>
+      <strong>The 64-bit version is only compatible with Windows 7 and later versions. A 32-bit version will not be available for the RC releases.</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">64-bit installer</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
