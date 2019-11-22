@@ -105,7 +105,7 @@
     </p>
     <p>
       <br/><br/>
-      Current <strong>beta</strong> version: <strong>qBittorrent v_4.2.0beta1_20191027_9c466d84ec0</strong>
+      Current <strong>RC</strong> version: <strong>qBittorrent v4.2.0RC_20191121_9c1617b9778</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
@@ -122,8 +122,8 @@
           <td class="wordBreak"><code>8e0a541bde6394398075b36799c00daca0c68c981ef033098d7f941ff08c06b3</code></td>
         </tr>
         <tr>
-          <td>DMG (beta)</td>
-          <td class="wordBreak"><code>c787a9b5019acd424e791ce1347dc1fcaf303b401d323e66cad34092a4bc4882</code></td>
+          <td>DMG (RC)</td>
+          <td class="wordBreak"><code>2b9a4fe5bfd15cb8043f2ab82e9e019d5655b769dceec6abfb9a3546e4a6dc29</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -133,11 +133,11 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.1.13+git909211888e / 1.2.2+gitb26629885b(beta)</td>
+          <td>1.1.13+git909211888e / 1.2.2+git33d006df99(RC)</td>
         </tr>
         <tr>
           <td>Qt</td>
-          <td>5.13.1</td>
+          <td>5.13.1 / 5.13.2(RC)</td>
         </tr>
         <tr>
           <td>Boost</td>
