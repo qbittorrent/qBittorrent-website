@@ -26,8 +26,7 @@
   <div>
     <p>
       Current <strong>stable</strong> version: <strong>qBittorrent v4.1.9.1</strong><br/><br/>
-      <strong>The 64-bit version is only compatible with Windows 7 and later versions.</strong><br/>
-      Also you <em>might</em> experience increased memory usage compared to the 32-bit version.
+      <strong>The 64-bit version is only compatible with Windows 7 and later versions.</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
