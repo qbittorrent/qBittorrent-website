@@ -20,6 +20,7 @@ If you want to help in translating qBittorrent, see these <a href="http://wiki.q
 
 ### qBittorrent Features
 * Polished µTorrent-like User Interface
+* No Ads
 * Well-integrated and extensible Search Engine
   * Simultaneous search in many Torrent search sites
   * Category-specific search requests (e.g. Books, Music, Software)
