@@ -1,3 +1,27 @@
+### Wednesday December 18th 2019 - qBittorrent v4.2.1 release
+
+qBittorrent v4.2.1 was released.<br>
+Due to libtorrent fixes, UDP through proxies should work again. In some cases it also caused crashes.<br>
+v4.2.1 changelog:
+- FEATURE: Enable portable mode if "profile" directory exists (Tester798)
+- FEATURE: Enable "Apply rate limit to peers on LAN" option by default (Chocobo1)
+- BUGFIX: Sync translations from Transifex and run lupdate (sledgehammer999)
+- BUGFIX: Don't unnecessarily delete OS files in folders (sledgehammer999)
+- BUGFIX: Use the incomplete folder where appropriate (sledgehammer999)
+- BUGFIX: Align Properties tab bar correctly on window resize (Prince Gupta)
+- BUGFIX: Rework the listening IP/interface selection code (sledgehammer999)
+- BUGFIX: Fix inconsistent icon for deleting torrent (Chocobo1)
+- BUGFIX: Show torrent error message in transfer list (Chocobo1)
+- BUGFIX: Fix stuck in wrong torrent state (Chocobo1)
+- BUGFIX: Expand single-item folders in torrent content (warren)
+- WEBUI: Bump Web API version (sledgehammer999)
+- WEBUI: Add ability to rename torrent files from the WebUI (Thomas Piccirello)
+- WEBUI: Mention lack of HTTPS in WebUI magnet link warning (nl6720)
+- WEBUI: Fix HTML elements size in search tab (Chocobo1)
+- SEARCH: Fix incorrect translation displayed after language change (Chocobo1)
+- SEARCH: Fix missing translations in search plugins dialog (Chocobo1)
+- WINDOWS: Update russian translation of the installer (Andrei Stepanov)
+
 ### Tuesday December 3rd 2019 - qBittorrent v4.2.0 release
 
 qBittorrent v4.2.0 was released.<br>
