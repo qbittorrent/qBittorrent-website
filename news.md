@@ -2,6 +2,7 @@
 
 qBittorrent v4.2.1 was released.<br>
 Due to libtorrent fixes, UDP through proxies should work again. In some cases it also caused crashes.<br>
+**ATTENTION:** There's a slight change in the way network interfaces are configured. If you have a specific network interface/local address set in the Advanced Settings, go and make sure that your settings have stayed the same. The extra setting for `Listen on IPv6 address` has been removed.
 v4.2.1 changelog:
 - FEATURE: Enable portable mode if "profile" directory exists (Tester798)
 - FEATURE: Enable "Apply rate limit to peers on LAN" option by default (Chocobo1)
