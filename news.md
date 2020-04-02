@@ -1,3 +1,26 @@
+### Wednesday April 1st 2020 - qBittorrent v4.2.3 release
+
+qBittorrent v4.2.3 was released.<br>
+It contains various fixes from v4.2.2 regarding scaling on HiDPI monitors, some VPN issues and UNC path handling. Torrents with broken UNC paths will be fixed when you run this release.<br>
+On Windows, Qt 5.13.2 is used because of a regression regarding VPNs that affects RSS and Search functionality. Due to this, the scaling behavior on HiDPI monitors will be the same as in v4.2.1 too.<br>
+**ATTENTION WINDOWS USERS:** There's a "qBittorrent" app on the Windows Store which costs money. It isn't an official release nor it is coming from us. The person publicizing it doesn't have permission to use the qBittorrent name/logo.<br>
+v4.2.3 changelog:
+- FEATURE: Add logging for SOCKS5 proxy errors (Chocobo1)
+- FEATURE: Add UPnP lease duration advanced option (NotTsunami)
+- BUGFIX: Allow to translate error messages (Chocobo1)
+- BUGFIX: Don't round scaling factor (Nick Korotysh)
+- BUGFIX: Save log file in UTF-8 encoding (Chocobo1)
+- BUGFIX: Avoid log file excessive flushing (Chocobo1)
+- BUGFIX: Fix regression when fastresume contains network path (Tester798)
+- BUGFIX: Fix broken UNC paths in fastresumes on Windows (sledgehammer999)
+- BUGFIX: Prevent multiple instances for the same app config (glassez)
+- BUGFIX: Fix unexpected torrent resume after app restart with libtorrent 1.1.x (glassez)
+- WEBUI: Add alt and title tags for WebUI footer (LameLemon)
+- WINDOWS: Installer: Update Finnish translation (Roope Jukkara)
+- WINDOWS: Installer: Update Japanese translation (maboroshin)
+- WINDOWS: Installer: Update Turkish translation (Burak Yavuz)
+- WINDOWS: Installer: Update Russian translation (Andrei Stepanov)
+
 ### Tuesday March 24th 2020 - qBittorrent v4.2.2 release
 
 qBittorrent v4.2.2 was released.<br>
