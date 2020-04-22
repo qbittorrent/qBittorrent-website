@@ -1,3 +1,28 @@
+### Wednesday April 22nd 2020 - qBittorrent v4.2.4 release
+
+qBittorrent v4.2.4 was released.<br>
+It contains various qbittorrent and libtorrent networking fixes. Now most issues with VPNs should be fixed.<br>
+**ATTENTION WINDOWS USERS:** There's a "qBittorrent" app on the Windows Store which costs money. It isn't an official release nor it is coming from us. The person publicizing it doesn't have permission to use the qBittorrent name/logo.<br>
+v4.2.4 changelog:
+- BUGFIX: Fix sub-sorting of Transfer list (glassez)
+- BUGFIX: Fix wrong logic that disables "prevent sleeping" timer (Chocobo1)
+- BUGFIX: Set disk cache size for older libtorrent versions (NotTsunami)
+- BUGFIX: Sort locale language list (Chocobo1)
+- BUGFIX: Remove white outline around mascot.png (adem)
+- BUGFIX: Various fixes in configuring the chosen network interface and not leaking the IP (Raif Atef, an0n666)
+- BUGFIX: Save "resume data" when torrent storage is moved (glassez)
+- BUGFIX: Avoid holding encoded resume data in memory (Chocobo1)
+- BUGFIX: Fix date format for "Last seen complete" (Chocobo1)
+- BUGFIX: Remove deprecated strict super seeding mode from advanced settings (an0n666)
+- BUGFIX: Change default stop_tracker_timeout settings (an0n666)
+- BUGFIX: Convert the Log widget to use custom View/Model (jagannatharjun)
+- BUGFIX: Change default upload slot choking limits (an0n666)
+- BUGFIX: Don't uncheck Authentication checkbox when changing proxy type (thalieht)
+- BUGFIX: Reduce ambiguity for selecting tray icons (Chocobo1)
+- WEBUI: Fix unable to add multiple peers in WebUI (Sepro)
+- WEBUI: Fix UPnP lease duration get/set (NotTsunami)
+- SEARCH: Detect python3 executable on Windows (József Sallai)
+
 ### Wednesday April 1st 2020 - qBittorrent v4.2.3 release
 
 qBittorrent v4.2.3 was released.<br>
