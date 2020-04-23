@@ -1,7 +1,7 @@
 ### Wednesday April 22nd 2020 - qBittorrent v4.2.4 release
 
 qBittorrent v4.2.4 was released.<br>
-It contains various qbittorrent and libtorrent networking fixes. Now most issues with VPNs should be fixed.<br>
+It contains various qbittorrent and libtorrent networking fixes. Now most issues with VPNs and SOCKS5 proxies should be fixed.<br>
 **ATTENTION WINDOWS USERS:** There's a "qBittorrent" app on the Windows Store which costs money. It isn't an official release nor it is coming from us. The person publicizing it doesn't have permission to use the qBittorrent name/logo.<br>
 v4.2.4 changelog:
 - BUGFIX: Fix sub-sorting of Transfer list (glassez)
