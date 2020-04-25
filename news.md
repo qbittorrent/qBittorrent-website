@@ -3,7 +3,7 @@
 qBittorrent v4.2.5 was released.<br>
 It contains fixes for two crashes.<br>
 **ATTENTION WINDOWS USERS:** There's a "qBittorrent" app on the Windows Store which costs money. It isn't an official release nor it is coming from us. The person publicizing it doesn't have permission to use the qBittorrent name/logo.<br>
-v4.2.4 changelog:
+v4.2.5 changelog:
 - BUGFIX: Fix crash when torrent is deleted on limit reached (glassez)
 - BUGFIX: Register datatype properly (Chocobo1)
 - WEBUI: Add ability to send custom HTTP headers (Chocobo1)
