@@ -27,7 +27,7 @@ If you want to help in translating qBittorrent, see these <a href="http://wiki.q
 * RSS feed support with advanced download filters (incl. regex)
 * Many Bittorrent extensions supported:
   * Magnet links
-  * Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery (LSD)
+  * Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery (LPD)
   * Private torrents
   * Encrypted connections
   * and many more...
