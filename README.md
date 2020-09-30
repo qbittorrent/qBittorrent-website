@@ -1,4 +1,4 @@
-qBittorrrent-website
+qBittorrrent-website - An Amazing Project
 ===
 [![TravisCI status](https://travis-ci.org/qbittorrent/qBittorrent-website.svg?branch=master)](https://travis-ci.org/qbittorrent/qBittorrent-website)
 
