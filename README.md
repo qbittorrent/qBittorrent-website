@@ -1,4 +1,4 @@
-qBittorrrent-website
+new qBittorrrent-website
 ===
 [![TravisCI status](https://travis-ci.org/qbittorrent/qBittorrent-website.svg?branch=master)](https://travis-ci.org/qbittorrent/qBittorrent-website)
 
