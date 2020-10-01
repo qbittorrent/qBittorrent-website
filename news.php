@@ -1,5 +1,5 @@
 <?php require_once('header.inc.php'); ?>
-
+//i did any changes
 <h2>News</h2>
 
 <?php
