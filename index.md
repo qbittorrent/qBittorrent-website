@@ -1,5 +1,5 @@
 <!-- ## qBittorrent: An Advanced BitTorrent Client -->
-### About qBittorrent
+### About qBittorrent:
 <a href="download.php"><img src="img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
 The qBittorrent project aims to provide an open-source software alternative to µTorrent.
 
@@ -8,7 +8,7 @@ Additionally, qBittorrent runs and provides the same features on all major platf
 qBittorrent is based on the <a href="https://www.qt.io/" target="_blank">Qt</a> toolkit and <a href="https://www.libtorrent.org/" target="_blank">libtorrent-rasterbar</a> library.
 
 
-### Help qBittorrent
+### Help qBittorrent:
 qBittorrent is developed by [volunteers](team.php) in their spare time.
 
 If you like this piece of software, please make a donation and help it survive.
@@ -18,7 +18,7 @@ Donation info [here](donate).
 If you want to help in translating qBittorrent, see these <a href="http://wiki.qbittorrent.org/How-to-translate-qBittorrent" target="_blank">instructions</a>.
 
 
-### qBittorrent Features
+### qBittorrent Features:
 * Polished µTorrent-like User Interface
 * No Ads
 * Well-integrated and extensible Search Engine
