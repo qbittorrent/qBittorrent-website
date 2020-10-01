@@ -1,4 +1,5 @@
-# rewrite rules
+<.htaccess>
+rewrite rules
 <IfModule mod_rewrite.c>
 	# these are required for "per-directory rewrites"
 	Options FollowSymLinks
