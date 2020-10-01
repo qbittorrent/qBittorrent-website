@@ -1,4 +1,4 @@
-qBittorrrent-website
+qBittorrrent-a free and open source website
 ===
 [![TravisCI status](https://travis-ci.org/qbittorrent/qBittorrent-website.svg?branch=master)](https://travis-ci.org/qbittorrent/qBittorrent-website)
 
