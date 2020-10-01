@@ -97,6 +97,7 @@ h3 {
 
 ol {
   padding-left: 2em;
+  display:flex;
 }
 
 ul {
