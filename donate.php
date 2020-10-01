@@ -1,7 +1,7 @@
 <?php require_once('header.inc.php'); ?>
 
-<h3>Donation options</h3>
-<p>qBittorrent is developed by <a href="team.php">volunteers</a> on their spare time. If you like this piece of software, please make a donation and help it survive.</p>
+<h3>Donation Here:</h3>
+<p>qBittorrent is developed by <a href="team.php">volunteers</a> on their spare time. If you like this piece of software, please make a donation and help it for survival for free softwares.</p>
 <p>Bitcoin donations are preferred.</p>
 <ul>
   <li><a href="bitcoin:1PuTGwQvCF5hjp1uMKy7PPJqbM8uTjRtvU">Bitcoin</a></li>
