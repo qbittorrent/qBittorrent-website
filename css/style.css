@@ -68,7 +68,6 @@ p.copyright {
 }
 
 div .codePart {
-  /*border: solid double rgb(47,103,186);*/
   font-style: italic;
   width: 400px;
   margin: 0 auto;
@@ -77,7 +76,7 @@ div .codePart {
 }
 
 h2 {
-  color: #4394E8;  /* background-color: #ADD15A; */
+  color: #4394E8;
   display: block;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 2em;
@@ -87,11 +86,10 @@ h2 {
 h3 {
   border-bottom: 1px solid #D9DEE1;
   clear: both;
-  color: #282F33;  /* background-color: #ADD15A; */
+  color: #282F33;
   display: block;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
-   /*font-weight: lighter;*/
   margin: 15px 0 10px 0;
 }
 
@@ -139,8 +137,6 @@ ul {
   background: transparent url(../img/header.png) no-repeat top;
   padding-top: 30px;
 }
-
-/* End stretcher */
 
 /* Menu */
 
