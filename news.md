@@ -243,7 +243,7 @@ There were no significant user facing changes since the previous RC release. The
 - BUGFIX: Remove the max half-open connections option (thalieht)
 - BUGFIX: Center align the section labels in advanced settings (thalieht)
 - BUGFIX: Add documentation links to some advanced settings (thalieht)
-- BUGFIX: Impove DownloadManager code (glassez)
+- BUGFIX: Improve DownloadManager code (glassez)
 - BUGFIX: Limit DownloadHandler max redirection to 20 (Chocobo1)
 - BUGFIX: Log DownloadManager SSL errors (Chocobo1)
 - BUGFIX: Force recheck multiple torrents one by one (glassez)

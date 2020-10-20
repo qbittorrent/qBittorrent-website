@@ -48,7 +48,7 @@
 <li>COSMETIC: Change RSS view layout to horizontal. Closes #5920. (Chocobo1)</li>
 <li>OSX: Fix crash on exit using Qt4. (Yez Ezey)</li>
 <li>OSX: Change QSettings to IniFormat on macOS. Closes #5770 #5808. (Yez Ezey)</li>
-<li>LINUX: Workaround a Qt5 bug which results in a flood of network interface change singals. (Eugene Shalygin)</li>
+<li>LINUX: Workaround a Qt5 bug which results in a flood of network interface change signals. (Eugene Shalygin)</li>
 <li>OTHER: Turkish translation for installer. (Burak Yavuz)</li>
 <li>OTHER: Update portugueseBR for installer. (DaRKSoM)</li>
 <li>OTHER: Update portuguese for installer. (EdwardLinux)</li>
