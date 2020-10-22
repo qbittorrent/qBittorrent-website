@@ -5,7 +5,7 @@ This is a minor release to address crashes on Windows related to torrents with U
 The rest of the release is almost the same as v4.3.0 (see changelog). Since other platforms weren't affected only Windows builds will be made available for this version.<br>
 
 v4.3.0.1 changelog:
-- WINDOWS: NSIS: Update Dutch translation (bovirus)
+- WINDOWS: NSIS: Update Italian translation (bovirus)
 
 ### Sunday October 18th 2020 - qBittorrent v4.3.0 release
 
