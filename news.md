@@ -1,3 +1,12 @@
+### Thursday October 22nd 2020 - qBittorrent v4.3.0.1 release
+
+qBittorrent v4.3.0.1 was released.<br>
+This is a minor release to address crashes on Windows related to torrents with URL seeds (`HTTP Sources` in the qbittorrent window). These crashes were exposed due to boost 1.74. Boost 1.73 doesn't have this problem. However, libtorrent also fixed the issue on their end so the Windows installers use the newer libtorrent code.<br>
+The rest of the release is almost the same as v4.3.0 (see changelog). Since other platforms weren't affected only Windows builds will be made available for this version.<br>
+
+v4.3.0.1 changelog:
+- WINDOWS: NSIS: Update Dutch translation (bovirus)
+
 ### Sunday October 18th 2020 - qBittorrent v4.3.0 release
 
 qBittorrent v4.3.0 was released.<br>
