@@ -1,3 +1,16 @@
+### Monday November 16th 2020 - Donation info updates
+
+The donation info has been updated to better reflect the expectations of donating to the project. Donations are made as a "Thank You" and with no expectation of any kind of obligation by us, eg having to implement feature X or Y.<br>
+The development of qbittorrent is done by volunteers and we don't employ programmers or other people to work on the project. There are a few lead programmers that coordinate most things on github and also contribute code.<br>
+Donations are appreciated as a "Thank You". You can choose to help with the server costs (website, forum, domain) and/or donate to lead programmers.
+
+Because the development is volunteer driven, we can't set very specific goals. At the end of the day a volunteer will fix/implement whatever pleases him/her. We can't dictate to volunteers to work on specific things if they don't want to. The same applies to lead programmers. We are volunteers too.<br>
+However, if you want specific features implemented or issues solved you may look at our [Bountysource page](https://www.bountysource.com/teams/qbittorrent/issues). There you can post a monetary bounty for an issue/feature and **maybe** someone is incentivized enough to fix/implement it.
+
+For details, see [donation page](/donate).
+
+PS: The old cryptocoin addresses have been retired. Please don't continue sending funds there. Accumulated funds will be used as reserves mostly for covering server costs in the future.
+
 ### Thursday October 22nd 2020 - qBittorrent v4.3.0.1 release
 
 qBittorrent v4.3.0.1 was released.<br>
