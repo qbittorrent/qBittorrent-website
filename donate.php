@@ -11,5 +11,11 @@ If you want to give money for specific features being implemented, take a look a
   <li>glassez (lead programmer): Uses PayPal with address: glassez@yandex.ru</li>
   <li>Chocobo1 (lead programmer): Take a look at his donation <a href="https://myprojects.tzou.me/donation/">page</a>.</li>
 </ul>
+<p></br></br><b>BountySource DISCLAIMER:</b> A feature implementation or a bug fix might not get accepted and instead be rejected.
+Some of those reasons might be code quality that isn't up to par with the rest of the project, poor code architecture/engineering, implementing a feature that doesn't actually fit with qBittorrent or we don't want to have it.
+Generally objective reasons. The only subjective reason is rejecting a feature simply because we don't want it in qBittorrent (however we take the community's desires into consideration too).
+We won't reject a feature/bugfix simply to deny a person a bounty or to claim the bounty for ourselves or another affiliated person.
+Lastly, due to workload and our limited time `Pull Requests` may not be reviewed/merged in a timely manner.
+</p>
 
 <?php require_once('footer.inc.php');
