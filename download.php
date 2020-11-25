@@ -115,7 +115,7 @@
         </tr>
         <tr>
           <td>Boost</td>
-          <td>1.73.0</td>
+          <td>1.74.0</td>
         </tr>
       </tbody>
     </table>
