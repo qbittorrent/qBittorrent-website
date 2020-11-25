@@ -1,3 +1,27 @@
+### Wednesday November 25th 2020 - qBittorrent v4.3.1 release
+
+qBittorrent v4.3.1 was released.<br>
+Also take note of the previous `news` entry regarding updated donation info.
+
+v4.3.1 changelog:
+- FEATURE: Allow progress bar styling from custom themes (jagannatharjun)
+- FEATURE: Allow adding torrents using "Paste" key sequence (Chocobo1)
+- FEATURE: Add Latgalian translation (sledgehammer999)
+- BUGFIX: Prevent resume data to be saved for removed torrent (glassez)
+- BUGFIX: Clarify connection protocol choice label (FranciscoPombal)
+- BUGFIX: Fix crash when clicked outside the table of torrent content view (jagannatharjun)
+- BUGFIX: Don't resume "paused" torrents when put into "checking" state by libtorrent (glassez)
+- BUGFIX: Fix torrent state calculation (glassez)
+- BUGFIX: Align integer data to right in torrent content view (jagannatharjun)
+- WEBUI: Place WebUI RSS description in sandboxed iframe (Sepro)
+- WEBUI: Avoid settings being reset via WebAPI (Chocobo1)
+- WEBUI: Fix toggling advanced option in WebUI (thalieht)
+- WEBUI: Expose contentPath in WebAPI torrents/info (FranciscoPombal)
+- WEBUI: Fix the issue that IPv6 address can't be banned (brvphoenix)
+- RSS: Fix confusion in date format description (Thomas De Rocker)
+- WINDOWS: Update dutch.nsi (Thomas De Rocker)
+- LINUX: Update .desktop file translations (sledgehammer999)
+
 ### Monday November 16th 2020 - Donation info updates
 
 The donation info has been updated to better reflect the expectations of donating to the project. Donations are made as a "Thank You" and with no expectation of any kind of obligation by us, eg having to implement feature X or Y.<br>
