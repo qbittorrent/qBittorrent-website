@@ -119,6 +119,7 @@ ul {
   margin: 0 auto;
   text-align: left;
   max-width: 920px;
+  border: 2px solid white;
   border-radius: 20px;
   box-shadow: inset 0px 55px 25px -25px #E6E6E6;
 }
