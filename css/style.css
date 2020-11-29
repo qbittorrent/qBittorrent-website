@@ -144,7 +144,7 @@ ul {
 .menu ul {
   list-style-type: none;
   margin: 0;
-  padding-bottom: 15px;
+  padding: 0 0 15px 0;
   text-align: center;
 }
 
