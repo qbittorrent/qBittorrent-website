@@ -37,7 +37,7 @@
 
     <div id="MainBox">
       <div id="LogoChris">
-        <img src="img/qb_banner.png" alt="qBittorrent" style="margin: 0 auto; max-width: 100%;"/>
+        <img src="img/qb_banner.png" alt="qBittorrent" style="transform: translateY(-50%);" class="banner"/>
       </div>
 
       <div class="menu">
