@@ -340,7 +340,7 @@
   <h4>FreeBSD packages</h4>
   <img src="img/os/freebsd.png" alt="FreeBSD" style="float: left; margin-right: 5px; width: 65px;"/>
   <p>qBittorrent is officially packaged for FreeBSD. <br/>
-    More information about the port can he found <a href="http://www.freebsdsoftware.org/net-p2p/qbittorrent.html">here</a>.<br/><br/>
+    More information about the port can be found on the <a href="https://www.freshports.org/net-p2p/qbittorrent">FreshPorts website</a>.<br/><br/>
     To install qBittorrent, you should issue the following commands:
   </p>
   <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
