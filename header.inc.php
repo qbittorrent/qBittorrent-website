@@ -12,6 +12,7 @@
     <meta name="author" content="qBittorrent Development Team: https://github.com/qbittorrent">
     <meta name="robots" content="NOODP">
     <meta name="google-site-verification" content="2P14de1zV_NTk03Ebnc0wpPKWaeJoj7B9Tc_HtRkOfE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>qBittorrent Official Website</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" sizes="16x16 32x32 64x64">
@@ -36,7 +37,7 @@
 
     <div id="MainBox">
       <div id="LogoChris">
-        <img src="img/qb_banner.png" alt="qBittorrent" style="margin: 0; padding: 0;"/>
+        <img src="img/qb_banner.png" alt="qBittorrent" style="transform: translateY(-50%);" class="banner"/>
       </div>
 
       <div class="menu">
