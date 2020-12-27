@@ -1,3 +1,29 @@
+### Sunday December 27th 2020 - qBittorrent v4.3.2 release
+
+qBittorrent v4.3.2 was released.<br>
+
+v4.3.2 changelog:
+- FEATURE: Allow to add root folder to torrent content (glassez)
+- FEATURE: "HTTPS tracker validation" option is available on all platforms with latest libtorrent (Chocobo1)
+- FEATURE: Option for supporting internationalized domain names (IDNs) (Chocobo1)
+- BUGFIX: Fix broken sorting on some columns (Chocobo1)
+- BUGFIX: Fix availability per file value (Chocobo1)
+- BUGFIX: Fix status of torrents without metadata (sledgehammer999)
+- BUGFIX: Don't try to remove folders for a torrent without metadata (sledgehammer999)
+- BUGFIX: Lift upper limit of "Max concurrent HTTP announces" option (Chocobo1)
+- BUGFIX: Add links to libtorrent documentation (Chocobo1)
+- BUGFIX: Move "embedded tracker" options to qbt section (Chocobo1)
+- BUGFIX: Properly handle "Append extension" option changing (glassez)
+- BUGFIX: Correctly save paused torrent state (glassez)
+- BUGFIX: Fix bug of "move storage job" can be performed multiple times (glassez)
+- WEBUI: Add ability to use 'shift+delete' to delete torrents (Chocobo1)
+- WEBUI: Allow to attach tags while adding torrents (Jesse Chan)
+- WEBUI: Bump version to 2.6.2 (Jesse Chan)
+- WEBUI: Remove unnecessary restriction on input length (Chocobo1)
+- WINDOWS: NSIS: Update Russian translation (Andrei Stepanov)
+- WINDOWS:  NSIS: Update Italian translation (Alessandro Simonelli)
+- OTHER: Drop support for building with libtorrent < 1.2.11 (Vladimir Golovnev)
+
 ### Wednesday November 25th 2020 - qBittorrent v4.3.1 release
 
 qBittorrent v4.3.1 was released.<br>
