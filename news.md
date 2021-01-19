@@ -1,7 +1,7 @@
 ### Thursday January 19th 2021 - qBittorrent v4.3.1 release
 
 qBittorrent v4.3.3 was released.<br>
-Support for macOS 10.13 (High Sierra) was dropped because it Xcode doesn't support C++17 for that version.<br>
+Support for macOS 10.13 (High Sierra) was dropped because Xcode doesn't support C++17 for that version.<br>
 For the same reason it is highly likely that support for Ubuntu 18.04 (Bionic Beaver) will be dropped in the next releases.
 
 v4.3.3 changelog:
