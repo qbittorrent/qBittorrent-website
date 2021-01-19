@@ -1,3 +1,27 @@
+### Thursday January 19th 2021 - qBittorrent v4.3.1 release
+
+qBittorrent v4.3.3 was released.<br>
+Support for macOS 10.13 (High Sierra) was dropped because it Xcode doesn't support C++17 for that version.<br>
+For the same reason it is highly likely that support for Ubuntu 18.04 (Bionic Beaver) will be dropped in the next releases.
+
+v4.3.3 changelog:
+- FEATURE: New languages: Azerbaijani, Estonian
+- BUGFIX: Unify global speed dialogs for normal/alternative speeds (thalieht)
+- BUGFIX: Increase maximum global speed limits ~2 GiB/s (thalieht)
+- BUGFIX: Save fastresume when setting torrent speed limits (thalieht)
+- BUGFIX: Group several torrent options into one dialog (thalieht)
+- BUGFIX: Capitalize locale names (Chocobo1)
+- BUGFIX: Improve content file/folder names handling (glassez)
+- BUGFIX: Drop notification about move storage finished or failed (glassez)
+- BUGFIX: Reload "missing files" torrent instead of re-checking (glassez)
+- BUGFIX: Remember dialog sizes (Chocobo1)
+- BUGFIX: Improve detection of file extension string (Chocobo1)
+- WEBUI: Don't call non-existent elements (glassez)
+- WEBUI: Update "Keep top-level folder" in WebUI options (thalieht)
+- MACOS: QMake: Raise minimal macOS target version to 10.14 (glassez)
+- LINUX: Use legacy 'data' directory only as a fallback (lbilli)
+- OTHER: Bump project requirement to C++17 (Chocobo1)
+
 ### Sunday December 27th 2020 - qBittorrent v4.3.2 release
 
 qBittorrent v4.3.2 was released.<br>
