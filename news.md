@@ -1,4 +1,4 @@
-### Thursday January 19th 2021 - qBittorrent v4.3.1 release
+### Thursday January 19th 2021 - qBittorrent v4.3.3 release
 
 qBittorrent v4.3.3 was released.<br>
 Support for macOS 10.13 (High Sierra) was dropped because Xcode doesn't support C++17 for that version.<br>
