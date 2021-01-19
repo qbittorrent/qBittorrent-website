@@ -8,7 +8,7 @@ If you want to give money for specific features being implemented, take a look a
 <p>Donation info(lead programmers are mentioned by their github username):</p>
 <ul>
   <li>Server(website, forum, domain): <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W7S74UXAZKNXU&source=url">PayPal</a></li>
-  <li>glassez (lead programmer): Uses PayPal with address: glassez@yandex.ru and <a href="bitcoin:bc1qm2e0uhad7dhdwtljvxrxnqup9k8v0zr0g94p5p">Bitcoin</a></li>
+  <li>glassez (lead programmer): Uses PayPal with address: glassez@yandex.ru. More donation options are on his <a href="https://glassez.github.io">page</a>.</li>
   <li>Chocobo1 (lead programmer): Take a look at his donation <a href="https://myprojects.tzou.me/donation/">page</a>.</li>
 </ul>
 <p></br></br><b>BountySource DISCLAIMER:</b> A feature implementation or a bug fix might not get accepted and instead be rejected.
