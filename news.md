@@ -1,6 +1,7 @@
 ### Wednesday March 24th 2021 - qBittorrent v4.3.4 release
 
 qBittorrent v4.3.4 was released.<br>
+**WEBUI: It is accidentally broken in this release. A new release will be posted quickly. If you use the WebUI skip v4.3.4 for now.**<br>
 The sorting logic has been reworked. To get the old sorting order for the "queue number" column, first sort on the "Completed On" column and then sort on the "#"(queue number) column.<br>
 Support for Ubuntu 18.04 (Bionic Beaver) has been dropped.
 
