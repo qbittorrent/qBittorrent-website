@@ -1,7 +1,7 @@
 ### Sunday May 2nd 2021 - qBittorrent v4.3.5 release
 
-qBittorrent v4.35 was released.<br>
-This is the last release in the 4.3.x series. The next series will probably drop support for Ubuntu 20.04 (Focal Fossa) because the Qt5 version is tool old now.
+qBittorrent v4.3.5 was released.<br>
+This is the last release in the 4.3.x series. The next series will probably drop support for Ubuntu 20.04 (Focal Fossa) because the Qt5 version is too old now.
 
 v4.3.5 changelog:
 - BUGFIX: Move cursor to the end when autofilling URL/hash in "Download from URLs" dialog (Chocobo1)
