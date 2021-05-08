@@ -1,6 +1,17 @@
 <!-- ## qBittorrent: An Advanced BitTorrent Client -->
+### Download qBittorrent
+<!-- line #3 here, Download buttons light and dark-->
+<a href="download.php"><img src="img/qb_download_button.svg" width=35% alt="download link" img style="margin:0px auto;" class="icon"/></a>
+
+<a href="download.php"><img src="img/qb_download_button_dark.svg" width=35% alt="download link" img style="margin:0px auto;" class="icondark"/></a>
+
+<p style="text-align: center;">Windows · MacOS · Linux · Tarball</p>
+<p style="text-align: center;">Latest Version: 4.3.5</p>
+<a href="news.php"><p style="text-align: center;">Changelog</p></a>
+
+
 ### About qBittorrent
-<a href="download.php"><img src="img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
+<img src="img/qb_logo.svg" alt="download link" style="float: left; margin-right: 20px;margin-bottom: 5px; height: 100px;" img style="display: block;" class="icon2"/>
 The qBittorrent project aims to provide an open-source software alternative to µTorrent.
 
 Additionally, qBittorrent runs and provides the same features on all major platforms (FreeBSD, Linux, macOS, OS/2, Windows).

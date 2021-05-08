@@ -11,8 +11,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  transition: 0.5s;
 }
-
 div #LogoChris {
   margin: auto;
   max-width: 600px;
@@ -124,6 +124,7 @@ ul {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 1.05em;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .menu ul li a:hover {
@@ -135,6 +136,7 @@ ul {
   display: inline;
   margin-left: 5px;
   padding-left: 10px;
+  cursor: default;
 }
 
 .menu ul li.first {
@@ -154,6 +156,7 @@ ul {
   margin: 0;
   padding: 0 0 15px 0;
   text-align: center;
+  cursor: pointer;
 }
 
 .menu {
@@ -180,7 +183,6 @@ ul {
 .wordBreak {
   word-break: break-all;
 }
-
 .wrapper {
   background-color: #FFFFFF;
   border: 2px solid white;
@@ -190,7 +192,6 @@ ul {
   max-width: 920px;
   text-align: left;
 }
-
 .wrapper-bottom {
   padding-bottom: 15px;
 }
@@ -198,3 +199,39 @@ ul {
 .wrapper-top {
   padding-top: 15px;
 }
+
+/*dark mode overrides 203*/
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #d7d0cc;
+    background: #292929;
+  }
+  .wrapper {
+    background-color: #423D46;
+    border: 2px solid #423D46;
+    box-shadow: inset 0 55px 25px -25px #e6e6e62f;
+  }
+  h2,h3 {
+    color: #d7d0cc;
+    display: block;
+  }
+  .stretcher a, .stretcher a:hover {
+    color: #6CADF0
+  }
+  .menu ul li a {
+    color: #d7d0cc;
+  }
+  #forkongithub a {
+    background: #535353 !important;
+  }
+  #forkongithub a:hover {
+    background: #2F67BA !important;
+  }
+  p.copyright, p.copyright a {
+    color: #d7d0cc !important;
+  }
+  .banner, .icon2, .box1 {
+    filter:grayscale(100%) brightness(95%) ;
+  }
+}
+

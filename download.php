@@ -21,7 +21,7 @@
 <h3>Windows 7 / 8 / 10</h3>
 <div class="flexbox">
   <div class="box1">
-    <img src="img/os/winlogo.png" alt="Windows icon"/>
+    <img src="img/os/winlogo.svg" alt="Windows icon"/>
   </div>
   <div>
     <p>
@@ -77,7 +77,7 @@
 <h3>Mojave / Catalina / Big Sur</h3>
 <div class="flexbox">
   <div class="box1">
-    <img src="img/os/macoslogo.png" alt="macOS icon"/>
+    <img src="img/os/macoslogo.svg" alt="macOS icon"/>
   </div>
   <div>
     <p>
@@ -126,7 +126,7 @@
 <h3>Source Tarball</h3>
 <div class="flexbox">
   <div class="box1">
-    <img src="img/tar-logo.jpg" alt="tarball icon" width="100"/>
+    <img src="img/tar-logo.svg" alt="tarball icon" width="100"/>
   </div>
   <div>
     <p>

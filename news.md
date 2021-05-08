@@ -14,7 +14,7 @@ v4.3.5 changelog:
 - WEBUI: Revise folder monitoring functions (Chocobo1)
 - WEBUI: Fix magnet url from the browser (brvphoenix)
 - WEBUI: Allow to specify file indexes in torrents/files API (glassez)
-- WINDOWS: NSIS: Allow more strings to translated (bovirus, Chocobo1)
+- WINDOWS: NSIS: Allow more strings to be translated (bovirus, Chocobo1)
 - WINDOWS: NSIS: Update Italian, German, Estonian, Russian, PortugueseBR translations (bovirus, Henry Water, PriitUring, Долматов Алексей, Felipe)
 - LINUX: Fix D-Bus Notification `desktop-entry` field (Chocobo1)
 - MACOS: Don't use executable name as CFBundleName value (Nick Korotysh)

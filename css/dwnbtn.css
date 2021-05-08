@@ -1,0 +1,23 @@
+/* main download button */
+/*non svg img style*/
+.icon {
+    display: block;
+    transition: 0.5s;
+}
+.icon:hover, .icondark:hover , .icondark:focus,
+.icon:focus {
+    filter: brightness(115%);
+  }
+.icondark {
+    display: none;
+    transition: 0.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+    .icon {
+        display: none;
+    }
+    .icondark {
+        display: block;
+    }
+}

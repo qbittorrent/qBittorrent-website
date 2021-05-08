@@ -15,7 +15,7 @@
     position: relative;
     transition: 0.5s;
 }
-#forkongithub a:hover {
+#forkongithub a:hover, #forkongithub a:focus {
     background: #c11;
     color: #fff;
 }
