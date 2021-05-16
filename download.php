@@ -305,7 +305,7 @@
   qBittorrent is officially packaged on <a href="https://www.archlinux.org/">ArchLinux</a>.
   To install, simply type the following commands:
   <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-    sudo pacman -Sy qbittorrent
+    sudo pacman -S qbittorrent
   </div>
   Package information <a href="https://www.archlinux.org/packages/?q=qbittorrent">here</a>.<br/><br/>
   For development, you can get PKGBUILD from Arch User Repository (AUR) and build it yourself:<br/>
