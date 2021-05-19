@@ -35,13 +35,23 @@ div .codePart {
 }
 
 div .flexbox .box1 {
-  min-width: 135px
+  min-width: 135px;
 }
 
 div .flexbox {
   align-items: flex-start;
   display: flex;
   justify-content: flex-start;
+}
+
+@media only screen and (max-width: 760px) and (orientation: portrait){
+  div .flexbox .box1 {
+    min-width: auto;
+  }
+  div .flexbox {
+    width: auto;
+    flex-direction:column;
+  }
 }
 
 div .teamInfo {
