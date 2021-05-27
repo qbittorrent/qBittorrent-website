@@ -1,0 +1,18 @@
+{
+  "name": "qBittorrent-website",
+  "description": "qBittorrent website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qbittorrent/qBittorrent-website.git"
+  },
+  "scripts": {
+    "format": "prettier --write **.css",
+    "lint": "stylelint **/*.css"
+  },
+  "devDependencies": {
+    "prettier": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*",
+    "stylelint-order": "*"
+  }
+}

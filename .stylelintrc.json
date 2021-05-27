@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "color-hex-length": null,
+    "comment-empty-line-before": null,
+    "comment-whitespace-inside": null,
+    "declaration-colon-newline-after": null,
+    "function-name-case": null,
+    "length-zero-no-unit": null,
+    "no-descending-specificity": null,
+    "value-keyword-case": null,
+    "order/properties-alphabetical-order": true
+  }
+}
