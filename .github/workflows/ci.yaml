@@ -22,14 +22,14 @@ jobs:
         done
 
   nodejs:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     - name: checkout repository
       uses: actions/checkout@v2
     - name: setup nodejs
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
     - name: install tools
       run: npm install
     - name: lint code
