@@ -3,24 +3,37 @@ name: CI
 on: [pull_request, push]
 
 jobs:
-  main:
-    runs-on: ubuntu-20.04
-
+  php:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php_versions: ["5.6", "latest"]
     steps:
     - name: checkout repository
       uses: actions/checkout@v2
+    - name: setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ matrix.php_versions }}
+    - name: compile
+      run: |
+        for file in *.php
+          do php -f "$file" > /dev/null
+        done
 
+  nodejs:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: checkout repository
+      uses: actions/checkout@v2
     - name: setup nodejs
       uses: actions/setup-node@v2
       with:
         node-version: '14'
-
     - name: install tools
       run: npm install
-
     - name: lint code
       run: npm run lint
-
     - name: format code
       run: |
         npm run format
