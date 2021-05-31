@@ -1,6 +1,6 @@
 qBittorrrent-website
 ===
-[![TravisCI status](https://travis-ci.org/qbittorrent/qBittorrent-website.svg?branch=master)](https://travis-ci.org/qbittorrent/qBittorrent-website)
+[![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent-website/workflows/CI/badge.svg)](https://github.com/qbittorrent/qBittorrent-website/actions)
 
 This repository contains the official qBittorrent website: https://www.qbittorrent.org
 
