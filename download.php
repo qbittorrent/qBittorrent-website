@@ -34,7 +34,7 @@
     </p>
     <p>
       <br/><br/>
-      Current <strong>beta</strong> version: <strong>qBittorrent v4.4.0beta1</strong><br/><br/>
+      Current <strong>beta</strong> version: <strong>qBittorrent v4.4.0beta1</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
