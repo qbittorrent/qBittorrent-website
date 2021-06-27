@@ -1,3 +1,22 @@
+### Saturday June 26th 2021 - qBittorrent v4.3.6 and v4.4.0beta1 release
+
+qBittorrent v4.3.6 and v4.4.0beta1 were released.<br>
+The v4.3.x releases will continue strictly with important fixes only and until the v4.4.0 is properly tested to be released as stable.
+In the meantime there will be a few beta releases of v4.4.0 until it hits stable status. If you use the betas then keep checking back for new betas
+because you won't get a program notification for them. Check once per week.<br>
+The v4.4.0beta1 uses the libtorrent 2.0.x series. A more detailed changelog may be filled later.
+
+v4.3.6 changelog:
+- FEATURE: New languages: Mongolian, Persian, Thai
+- BUGFIX: Provide correct error description in "upload mode" (glassez)
+- BUGFIX: Allow adding torrents with relative save path (glassez)
+- BUGFIX: Fix main window turns blank after restoring from tray (#15031) (Chocobo1)
+- BUGFIX: Remove the lockfile on exit (#14997) (brvphoenix)
+- BUGFIX: Improve "Watched folders" feature (glassez)
+- BUGFIX: Keep sub-sorting order (#15074) (Dmitry Khlestkov)
+- BUGFIX: Properly add torrent with new tags (glassez)
+- WINDOWS: NSIS: Update Japanese, Turkish, Hungarian, Swedish translation (maboroshin, Burak Yavuz, xkrstudio, nonew-star)
+
 ### Sunday May 2nd 2021 - qBittorrent v4.3.5 release
 
 qBittorrent v4.3.5 was released.<br>
