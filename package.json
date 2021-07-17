@@ -7,12 +7,16 @@
   },
   "scripts": {
     "format": "prettier --write **.css",
-    "lint": "stylelint **/*.css"
+    "lint": "stylelint **/*.css",
+    "build": "webpack"
   },
   "devDependencies": {
+    "handlebars-webpack-plugin": "^2.2.1",
     "prettier": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*",
-    "stylelint-order": "*"
+    "stylelint-order": "*",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
   }
 }
