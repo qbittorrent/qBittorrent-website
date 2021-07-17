@@ -8,14 +8,11 @@
 {{> partials/old_news}}
 
 <script>
-    (async () => {
-        const response = await fetch('news.md');
-        const text = await response.text();
-        const script = document.getElementById('helpers');
-        script.addEventListener('load', () => {
-            transformMarkdownAndReplaceId(text, 'news-placeholder');
-        });
-    })();
+    const responsePromise = fetch('news.md');
+    const script = document.getElementById('helpers');
+    script.addEventListener('load', () => {
+        transformMarkdownAndReplaceId(responsePromise, 'news-placeholder');
+    });
 </script>
 
 {{> partials/footer}}
