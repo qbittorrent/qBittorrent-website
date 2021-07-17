@@ -1,6 +1,10 @@
-<?php require_once('header.inc.php');
+{{> partials/header}}
 
-require_once('lib/helpers.php');
-readMarkdown('index.md');
+<script>
+    const script = document.querySelector('#helpers');
+    script.addEventListener('load', () => {
+        fetchMarkdownAndReplaceId('/index.md', 'index-placeholder');
+    });
+</script>
 
-require_once('footer.inc.php');
+{{> partials/footer}}
