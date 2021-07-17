@@ -21,4 +21,4 @@ jobs:
         npm run format
         git diff --exit-code
     - name: build html
-      run: npm run build --if-present
+      run: npm run build
