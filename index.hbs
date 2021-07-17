@@ -3,10 +3,14 @@
 <div id="index-placeholder"></div>
 
 <script>
-    const script = document.querySelector('#helpers');
-    script.addEventListener('load', () => {
-        fetchMarkdownAndReplaceId('index.md', 'index-placeholder');
-    });
+    (async () => {
+        const response = await fetch('index.md');
+        const text = await response.text();
+        const script = document.getElementById('helpers');
+        script.addEventListener('load', () => {
+            transformMarkdownAndReplaceId(text, 'index-placeholder');
+        });
+    })();
 </script>
 
 {{> partials/footer}}
