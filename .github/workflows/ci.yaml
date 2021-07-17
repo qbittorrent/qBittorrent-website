@@ -3,24 +3,6 @@ name: CI
 on: [pull_request, push]
 
 jobs:
-  php:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        php_versions: ["5.6", "latest"]
-    steps:
-    - name: checkout repository
-      uses: actions/checkout@v2
-    - name: setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: ${{ matrix.php_versions }}
-    - name: compile
-      run: |
-        for file in *.php
-          do php -f "$file" > /dev/null
-        done
-
   nodejs:
     runs-on: ubuntu-latest
     steps:
@@ -38,3 +20,5 @@ jobs:
       run: |
         npm run format
         git diff --exit-code
+    - name: build html
+      run: npm run build --if-present
