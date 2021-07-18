@@ -13,7 +13,7 @@ jobs:
       with:
         node-version: '16'
     - name: install tools
-      run: npm install
+      run: npm install --legacy-peer-deps
     - name: lint code
       run: npm run lint
     - name: format code
