@@ -9,7 +9,8 @@
     "format": "prettier --write **.css",
     "lint": "stylelint **/*.css",
     "md2hbs": "node js/md-to-partials.mjs",
-    "build": "webpack --config webpack.hbs.js"
+    "hbs2html": "webpack --config webpack.hbs.js",
+    "build": "webpack --config webpack.dist.js"
   },
   "devDependencies": {
     "handlebars-webpack-plugin": "^2.2.1",
