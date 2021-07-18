@@ -8,10 +8,12 @@
   "scripts": {
     "format": "prettier --write **.css",
     "lint": "stylelint **/*.css",
-    "build": "webpack"
+    "md2hbs": "node js/md-to-partials.mjs",
+    "build": "webpack --config webpack.hbs.js"
   },
   "devDependencies": {
     "handlebars-webpack-plugin": "^2.2.1",
+    "marked": "^2.1.3",
     "prettier": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*",
