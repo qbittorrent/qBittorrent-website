@@ -15,4 +15,4 @@ fileNames.forEach(async fileName => {
     const md = await readFile(join(mdDirPath, fileName), "utf8");
     const html = marked(md);
     writeFile(join(genPartialsPath, fileName.replace("md", "hbs")), html);
-})
+});
