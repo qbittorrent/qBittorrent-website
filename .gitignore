@@ -1,2 +1,9 @@
 node_modules
 package-lock.json
+# md2hbs script output
+/handlebars/partials/gen
+
+# hbs2html script output
+/html
+
+dist
