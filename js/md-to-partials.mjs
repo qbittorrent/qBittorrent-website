@@ -1,10 +1,12 @@
 import marked from "marked";
-import { readdir, readFile, writeFile } from "fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "fs/promises";
 import { join } from "path";
 
 const mdDirPath = "markdown";
 
 const genPartialsPath = "handlebars/partials/gen";
+
+await mkdir(genPartialsPath, { recursive: true });
 
 marked.setOptions({
     headerIds: false,
