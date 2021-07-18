@@ -2,12 +2,6 @@
 
 <div id="index-placeholder"></div>
 
-<script>
-    const responsePromise = fetch('index.md');
-    const script = document.getElementById('helpers');
-    script.addEventListener('load', () => {
-        transformMarkdownAndReplaceId(responsePromise, 'index-placeholder');
-    });
-</script>
+{{> gen/index}}
 
 {{> partials/footer}}

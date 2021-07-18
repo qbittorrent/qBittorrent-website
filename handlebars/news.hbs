@@ -7,12 +7,6 @@
 {{!-- earlier news still retain its original format --}}
 {{> partials/old_news}}
 
-<script>
-    const responsePromise = fetch('news.md');
-    const script = document.getElementById('helpers');
-    script.addEventListener('load', () => {
-        transformMarkdownAndReplaceId(responsePromise, 'news-placeholder');
-    });
-</script>
+{{> gen/news}}
 
 {{> partials/footer}}
