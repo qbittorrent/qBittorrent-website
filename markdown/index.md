@@ -1,6 +1,6 @@
 <!-- ## qBittorrent: An Advanced BitTorrent Client -->
 ### About qBittorrent
-<a href="download.php"><img src="img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
+<a href="download.html"><img src="../img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
 The qBittorrent project aims to provide an open-source software alternative to µTorrent.
 
 Additionally, qBittorrent runs and provides the same features on all major platforms (FreeBSD, Linux, macOS, OS/2, Windows).
@@ -9,7 +9,7 @@ qBittorrent is based on the <a href="https://www.qt.io/" target="_blank">Qt</a> 
 
 
 ### Help qBittorrent
-qBittorrent is developed by [volunteers](team.php) in their spare time.
+qBittorrent is developed by [volunteers](team.html) in their spare time.
 
 If you like this piece of software, please make a donation and help it survive.
 
@@ -45,4 +45,4 @@ If you want to help in translating qBittorrent, see these <a href="http://wiki.q
 * Available on all platforms: Windows, Linux, macOS, FreeBSD, OS/2
 * Available in <a href="https://www.transifex.com/sledgehammer999/qbittorrent/" target="_blank">~70 languages</a>
 
-** Go ahead and try qBittorrent, you won't regret it! **
+**Go ahead and try qBittorrent, you won't regret it!**
