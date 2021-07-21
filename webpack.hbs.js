@@ -2,6 +2,7 @@ const path = require("path");
 const HandlebarsPlugin = require("handlebars-webpack-plugin");
 
 const webpackConfig = {
+    mode: 'production',
 
     plugins: [
 
