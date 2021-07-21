@@ -31,22 +31,27 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'html/index.html',
+            minify: {},
         }),
         new HtmlWebpackPlugin({
             filename: 'news.html',
             template: 'html/news.html',
+            minify: {},
         }),
         new HtmlWebpackPlugin({
             filename: 'download.html',
             template: 'html/download.html',
+            minify: {},
         }),
         new HtmlWebpackPlugin({
             filename: 'team.html',
             template: 'html/team.html',
+            minify: {},
         }),
         new HtmlWebpackPlugin({
             filename: 'donate.html',
             template: 'html/donate.html',
+            minify: {},
         }),
     ],
     output: {
