@@ -1,3 +1,16 @@
+### Tuesday August 03rd 2021 - qBittorrent v4.3.7 and v4.4.0beta2 release
+
+qBittorrent v4.3.7 and v4.4.0beta7 were released.
+
+v4.3.7 changelog:
+- BUGFIX: Don't forget to start Watched folders timer (glassez)
+- BUGFIX: Don't close tags menu when toggling items (tgregerson)
+- BUGFIX: Don't overwrite tracker message (glassez)
+- BUGFIX: Bump file pool size (#14966) (An0n)
+- BUGFIX: Properly create "clean path" for watched folder (glassez)
+- WEBUI: Disconnect comment links (Daniel Aleksandersen)
+- WINDOWS: NSIS: Update Danish translation (scootergrisen)
+
 ### Saturday June 26th 2021 - qBittorrent v4.3.6 and v4.4.0beta1 release
 
 qBittorrent v4.3.6 and v4.4.0beta1 were released.<br>
