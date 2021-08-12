@@ -23,7 +23,7 @@ jobs:
           done
 
   nodejs:
-    name: Check JS
+    name: Check CSS
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
