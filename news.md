@@ -1,6 +1,21 @@
+### Sunday August 29th 2021 - qBittorrent v4.3.8 and v4.4.0beta3 release
+
+qBittorrent v4.3.8 and v4.4.0beta3 were released.<br>
+Also we moved our IRC channel to `irc.libera.chat`. The channel is `#qbittorrent`.
+
+v4.3.8 changelog:
+- BUGFIX: Delay processing of watched folders (#15282) (glassez)
+- BUGFIX: Use the same icon for selecting folders/files (Chocobo1)
+- BUGFIX: Use default upper limits for ddns entries (Chocobo1)
+- WEBUI: Expose SSRF mitigation (#15247) (Sylvain Finot)
+- WEBUI: Update webui libraries (Chocobo1)
+- WEBUI: Group trackers by hostname (#15264) (Mengyang Li)
+- WEBUI: Improve "last activity" calculation in WebAPI (#15339) (Chocobo1)
+- WINDOWS: NSIS: Add Polish translation (#15262) (Matthaiks)
+
 ### Tuesday August 03rd 2021 - qBittorrent v4.3.7 and v4.4.0beta2 release
 
-qBittorrent v4.3.7 and v4.4.0beta7 were released.
+qBittorrent v4.3.7 and v4.4.0beta2 were released.
 
 v4.3.7 changelog:
 - BUGFIX: Don't forget to start Watched folders timer (glassez)
