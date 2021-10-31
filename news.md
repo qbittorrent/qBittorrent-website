@@ -1,3 +1,17 @@
+### Sunday October 31st 2021 - qBittorrent v4.3.9 and v4.4.0rc1 release
+
+qBittorrent v4.3.9 and v4.4.0rc1 were released.<br>
+The next stable release will probably be 4.4.0.<br>
+**NOTE:** Windows 10 users can also use the Qt6 build for 4.4.0rc1. This build is considered experimental compared to the Qt5 one.
+
+v4.3.9 changelog:
+- BUGFIX: Fix "no action" option on torrent double click (Jose M. Abuin)
+- BUGFIX: Fix broken behavior of "priority by shown file order" (Chocobo1)
+- WEBUI: Fix WebUI crash when tracker URL is invalid (Chocobo1)
+- WEBUI: Revert "WebUI: group trackers by hostname" (Chocobo1)
+- WINDOWS: Remove Windows Vista support from manifest (xavier2k6)
+- WINDOWS: NSIS: Update Korean, Indonesian and Traditional Chinese translation (JungHee Lee, Faisal Al-Munawar Fathur Rahman, SiderealArt)
+
 ### Sunday August 29th 2021 - qBittorrent v4.3.8 and v4.4.0beta3 release
 
 qBittorrent v4.3.8 and v4.4.0beta3 were released.<br>
