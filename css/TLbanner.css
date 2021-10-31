@@ -52,15 +52,11 @@
   }
 
   #forkongithub a {
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 10px rgba(0 0 0 80%);
     left: -70px;
     pointer-events: auto;
     position: absolute;
     top: 50px;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     width: 200px;
   }
