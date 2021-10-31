@@ -211,7 +211,7 @@
         </tr>
         <tr>
           <td>Python (optional, runtime only)</td>
-          <td>Versions later than 3.3.0</td>
+          <td>Versions later than 3.5.0</td>
         </tr>
       </tbody>
     </table>
