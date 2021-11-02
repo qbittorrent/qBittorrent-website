@@ -21,7 +21,7 @@
 <h3>Windows 7 / 8 / 10</h3>
 <div class="flexbox">
   <div class="box1">
-    <img src="img/os/winlogo.png" alt="Windows icon"/>
+    <img src="img/os/winlogo.png" width="100" alt="Windows icon"/>
   </div>
   <div>
     <p>
