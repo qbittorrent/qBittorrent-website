@@ -18,7 +18,7 @@
 <br/>
 
 
-<h3>Windows 7 / 8 / 10</h3>
+<h3>Windows 7 / 8 / 10 / 11</h3>
 <div class="flexbox">
   <div class="box1">
     <img src="img/os/winlogo.png" alt="Windows icon"/>
@@ -93,7 +93,7 @@
 <br/>
 
 
-<h3>Mojave / Catalina / Big Sur</h3>
+<h3>macOS Mojave / Catalina / Big Sur</h3>
 <div class="flexbox">
   <div class="box1">
     <img src="img/os/macoslogo.png" alt="macOS icon"/>
