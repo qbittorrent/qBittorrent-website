@@ -25,7 +25,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
 
-    <link rel="dns-prefetch" href="http://git.qbittorrent.org">
+    <link rel="dns-prefetch" href="https://github.com">
     <link rel="dns-prefetch" href="http://bugs.qbittorrent.org">
     <link rel="dns-prefetch" href="http://wiki.qbittorrent.org">
     <link rel="dns-prefetch" href="http://forum.qbittorrent.org">
@@ -48,7 +48,7 @@
           <li><a href="download.php">Download</a></li>
           <li><a href="https://sourceforge.net/projects/qbittorrent/#screenshots">Screenshots</a></li>
           <li><a href="http://wiki.qbittorrent.org" target="_blank">Wiki</a></li>
-          <li><a href="http://git.qbittorrent.org" target="_blank">Development</a></li>
+          <li><a href="http://github.com/qbittorrent/qBittorrent" target="_blank">Development</a></li>
           <li><a href="http://bugs.qbittorrent.org" target="_blank">Bugs</a></li>
         </ul>
       </div>
