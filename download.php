@@ -153,12 +153,12 @@
     <p>
       Current <strong>stable</strong> version: <strong>qBittorrent v4.4.0</strong><br/><br/>
       The AppImage is created on Ubuntu 20.04. It should work on any other similarly aged distro.<br/>
-      For native packages and Ubuntu PPAs take a look at the `Other Binary Packages` section.<br/>
+      For native packages and Ubuntu PPAs take a look at the <code>Other Binary Packages</code> section.<br/>
       The AppImage will use the latest version for Qt6, libtorrent, boost and openssl at the time of creation.
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">AppImage</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.0/qbittorrent-4.4.0_x86_64.AppImage/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.0/qbittorrent-4.4.0_x86_64.AppImage.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.0/qbittorrent-4.4.0_x86_64.AppImage/download">AppImage</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.0/qbittorrent-4.4.0_x86_64.AppImage.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <table>
       <br/><br/>
