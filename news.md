@@ -1,3 +1,66 @@
+### Thursday January 06th 2022 - qBittorrent v4.4.0 release
+
+qBittorrent v4.4.0 was released.<br>
+**WINDOWS:** Users of Windows 10+ can also use the Qt6 version of the installer. Qt6 offers better HiDPI compatibility. Known issue: The text on the progress bar may have wrong color or not appear at all. You may switch to the regular version(Qt5 based) until it is resolved. The Qt6 version isn't tested much. The v4.4.x series will probably be the last one that supports Qt5 and therefore Windows 7 and 8. It will see releases at least until the summer of 2022.<br>
+**LINUX:** An AppImage is now offered. It uses the latest versions of Qt6, libtorrent, boost, openssl. It is created on Ubuntu 20.04 and it should work on any other similarly aged distro. It isn't well tested. Also Ubuntu 20.04 is dropped from the PPAs because it doesn't have the minimum required Qt5 version (5.15.2). The AppImage should cover any users left on that version.<br>
+**MACOS:** Builds will be uploaded in the next days. This entry will be updated to contain relevant info, so check back here too.
+
+v4.4.0 changelog:
+- FEATURE: Support for v2 torrents along with libtorrent 2.0.x support (glassez, Chocobo1)
+- FEATURE: Support for Qt6 (glassez)
+- FEATURE: Expose libtorrent hashing_threads settings (Anton Bershanskiy)
+- FEATURE: Add "Notification timeout" option (kevtechxx)
+- FEATURE: Add `connection_speed` to advanced settings (Chocobo1)
+- FEATURE: Announce to all trackers if IP changed (#15001) (zhuangzi926)
+- FEATURE: Add tooltip for various columns (Chocobo1)
+- FEATURE: Add context menu to toggle content tab columns (#15164) (AbeniMatteo)
+- FEATURE: Add filter "Checking" to side panel (#15166) (AbeniMatteo)
+- FEATURE: Add "Forced metadata downloading" state (#15185) (AbeniMatteo)
+- FEATURE: Remember last viewed page in Options dialog (#15230) (Chocobo1)
+- FEATURE: Add tooltip to listening port spinbox (Chocobo1)
+- FEATURE: Add "Skip hash check" option for watched folders (glassez)
+- FEATURE: Add "Show torrent options" double-click action (glassez)
+- FEATURE: Allow setting temp folder per torrent/catergory (glassez)
+- FEATURE: Support folder based UI Themes (Prince Gupta)
+- BUGFIX: Save "resume data" once file priority is changed (glassez)
+- BUGFIX: Show priority menu at top level if there is no other in Add New Torrent dialog (FozzeY)
+- BUGFIX: Capitalize "peer flags" descriptions (Chocobo1)
+- BUGFIX: Reorder peer flags (Chocobo1)
+- BUGFIX: Show "last activity" value under all circumstances (Chocobo1)
+- BUGFIX: Elide text from the right for all columns' header (smigii)
+- BUGFIX: Fix startup with different profiles (jagannatharjun)
+- BUGFIX: Move a few torrent context menu actions into "Torrent options" dialog (thalieht)
+- BUGFIX: Allow deselecting radio buttons in "Torrent options" for mixed torrents (thalieht)
+- BUGFIX: Apply file priority changes correctly (a-sum-duma, Chocobo1)
+- BUGFIX: Use proper string for Korean language (OctopusET)
+- BUGFIX: Disable "add peers" menu items instead of hiding it (Chocobo1)
+- BUGFIX: Disable system tray icon menu when app is exiting (Chocobo1)
+- BUGFIX: Show GUI lock icon after system tray icon is initialized (Chocobo1)
+- BUGFIX: Apply selected layout to displayed torrent content in "Add New Torrent" dialog (glassez)
+- WEBUI: Add reverse proxy source IP resolution (#15047) (HiFiPhile)
+- WEBUI: Support navigating UI tables with arrow keys (Thomas Piccirello)
+- WEBUI: Support expanding/collapsing UI folders with arrow keys (Thomas Piccirello)
+- WEBUI: Support sorting UI tables via touch (#15205) (Tom Piccirello)
+- WEBUI: Add pieces progress bar to General tab (Jesse Smick)
+- WEBUI: Update authors page (Chocobo1)
+- WEBUI: Set icon sizes attribute (Daniel Aleksandersen)
+- WEBUI: Add meta application name (Daniel Aleksandersen)
+- WEBUI: Sort WebUI language selection values (Chocobo1)
+- WEBUI: Use correct URL scheme in user prompt when HTTPS is enabled (Chocobo1)
+- RSS: Stick Unread row to top in RSS feed list (Prince Gupta)
+- RSS: Correctly use fallback icons for RSS feed in GUI (jagannatharjun)
+- SEARCH: Add context menu for tabs in search widget (#14926) (Anton)
+- SEARCH: Add more download options to torrent search result right-click menu (a-sum-duma)
+- WINDOWS: Add windows-clang support (#15115) (Biswapriyo Nath)
+- WINDOWS: Update python installer URL for Windows (xavier2k6)
+- WINDOWS: NSIS: Update Simplified Chinese translation (Losiki)
+- LINUX: Prolong wait time for shutdown for qbittorrent-nox (Chocobo1)
+- LINUX: Install vector program icon (Chocobo1)
+- LINUX: Add detection for OpenBSD, Haiku in configure script (Chocobo1)
+- MACOS: Update Mac icons for Big Sur (17jiangz1)
+- EXPERIMENTAL: Setting to store/load fastresume/torrent files in an SQLite database (glassez)
+- OTHER: Many internal code refactorings and bug fixing by many people
+
 ### Sunday October 31st 2021 - qBittorrent v4.3.9 and v4.4.0rc1 release
 
 qBittorrent v4.3.9 and v4.4.0rc1 were released.<br>
