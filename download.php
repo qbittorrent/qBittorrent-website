@@ -25,12 +25,12 @@
   </div>
   <div>
     <p>
-      Current <strong>stable</strong> version: <strong>qBittorrent v4.4.0</strong>
+      Current <strong>stable</strong> version: <strong>qBittorrent v4.4.1</strong>
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.0/qbittorrent_4.4.0_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.0/qbittorrent_4.4.0_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.0/qbittorrent_4.4.0_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.0/qbittorrent_4.4.0_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.1/qbittorrent_4.4.1_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.1/qbittorrent_4.4.1_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.1/qbittorrent_4.4.1_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.1/qbittorrent_4.4.1_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <p>
       <br/><br/>
@@ -38,7 +38,7 @@
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">64-bit installer</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.0/qbittorrent_4.4.0_qt6_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.0/qbittorrent_4.4.0_qt6_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.1/qbittorrent_4.4.1_qt6_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.1/qbittorrent_4.4.1_qt6_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <table>
       <br/><br/>
@@ -49,14 +49,14 @@
         </tr>
         <tr>
           <td>32-bit installer</td>
-          <td class="wordBreak"><code>32b271a8fc75a22fef7dc9158faba520d4441fdb59eaee3611cd79e1c5eda92c</code></td>
+          <td class="wordBreak"><code>5a03dd0b65f84bc7ff11a36361d043016531dc3a4fe395ea89873ed2b5e17c0d</code></td>
         </tr>
         <tr>
           <td>64-bit installer</td>
-          <td class="wordBreak"><code>e114cc035b422d7377958ed0e86f5524db719dfb2166b70fbe66c3685756d99f</code></td>
+          <td class="wordBreak"><code>d75395193afcd161281a24b01ef523aa012b8cb2c116579081d7c6664425acfe</code></td>
         <tr>
           <td>64-bit installer (qt6)</td>
-          <td class="wordBreak"><code>9ce629e70754895a45b21159acff68306e763e56dae9a20484213f805a2c594f</code></td>
+          <td class="wordBreak"><code>5c03c6404cb8a02d6a9a248577fe5918c6569e2609ad860a079ad7bfbc2b4f53</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -66,12 +66,12 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>2.0.5+gitd0f7a09adb</td>
+          <td>2.0.5+giteda4baa041</td>
         </tr>
         <tr>
           <td>Qt</td>
           <td>
-            5.15.2 / 6.2.2 (qt6)
+            5.15.2 / 6.2.3 (qt6)
           </td>
         </tr>
         <tr>
@@ -151,14 +151,14 @@
   </div>
   <div>
     <p>
-      Current <strong>stable</strong> version: <strong>qBittorrent v4.4.0</strong><br/><br/>
+      Current <strong>stable</strong> version: <strong>qBittorrent v4.4.1</strong><br/><br/>
       The AppImage is created on Ubuntu 20.04. It should work on any other similarly aged distro.<br/>
       For native packages and Ubuntu PPAs take a look at the <code>Other Binary Packages</code> section.<br/>
       The AppImage will use the latest version for Qt6, libtorrent, boost and openssl at the time of creation.
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">AppImage</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.0/qbittorrent-4.4.0_x86_64.AppImage/download">AppImage</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.0/qbittorrent-4.4.0_x86_64.AppImage.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.1/qbittorrent-4.4.1_x86_64.AppImage/download">AppImage</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.1/qbittorrent-4.4.1_x86_64.AppImage.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <table>
       <br/><br/>
@@ -169,7 +169,7 @@
         </tr>
         <tr>
           <td>AppImage</td>
-          <td class="wordBreak"><code>8171cbc32b1e4da8d224a9286d1b3e34ff944de866b509751040d6e69b5b12d3</code></td>
+          <td class="wordBreak"><code>c74e4bd68eb208f7abee7a43b96ea6adb085514692ae1d68cc25e3ea4f1fea35</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -179,11 +179,11 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>2.0.5+gitd0f7a09adb</td>
+          <td>2.0.5+giteda4baa041</td>
         </tr>
         <tr>
           <td>Qt</td>
-          <td>6.2.2</td>
+          <td>6.2.3</td>
         </tr>
         <tr>
           <td>Boost</td>
@@ -203,11 +203,11 @@
   </div>
   <div>
     <p>
-      <strong>Current version: qBittorrent v4.4.0</strong>
+      <strong>Current version: qBittorrent v4.4.1</strong>
     </p>
     <p>
-      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.0/qbittorrent-4.4.0.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.0/qbittorrent-4.4.0.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
-      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.0/qbittorrent-4.4.0.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.0/qbittorrent-4.4.0.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
+      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.1/qbittorrent-4.4.1.tar.gz/download">TAR.GZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.1/qbittorrent-4.4.1.tar.gz.asc/download">PGP signature</a></strong> (SourceForge)<br/>
+      <strong>Download link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.1/qbittorrent-4.4.1.tar.xz/download">TAR.XZ</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent/qbittorrent-4.4.1/qbittorrent-4.4.1.tar.xz.asc/download">PGP signature</a></strong> (SourceForge)
     </p>
     <p>
       Compile instructions over <a href="https://github.com/qbittorrent/qBittorrent/wiki#compilation" target="_blank">here</a>.
@@ -220,11 +220,11 @@
         </tr>
         <tr>
           <td>TAR.GZ</td>
-          <td class="wordBreak"><code>9268d898757ccde8ff8c8b9e2f134a262016df54475a434d2815ce483349aff8</code></td>
+          <td class="wordBreak"><code>581c81806da12b681332901e8ac90d878d132b085dcd011763972541eeac08d2</code></td>
         </tr>
         <tr>
           <td>TAR.XZ</td>
-          <td class="wordBreak"><code>6b783a88c7bd567e48cd9f20c67b788776ee2a6d474fe3df4af216acbdfe501b</code></td>
+          <td class="wordBreak"><code>1386f000ce1d791469c3ea03e3951ca25f67f534e66896592bd12357dda9a8ec</code></td>
         </tr>
       </tbody>
       <tbody>

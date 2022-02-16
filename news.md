@@ -1,3 +1,32 @@
+### Tuesday February 15th 2022 - qBittorrent v4.4.1 release
+
+qBittorrent v4.4.1 was released.<br>
+**WINDOWS:** Users of Windows 10+ can also use the Qt6 version of the installer. Qt6 offers better HiDPI compatibility. Known issue: The text on the progress bar may have wrong color or not appear at all. You may switch to the regular version(Qt5 based) until it is resolved. The Qt6 version isn't tested much. The v4.4.x series will probably be the last one that supports Qt5 and therefore Windows 7 and 8. It will see releases at least until the summer of 2022.<br>
+**LINUX:** An AppImage is now offered. It uses the latest versions of Qt6, libtorrent, boost, openssl. It is created on Ubuntu 20.04 and it should work on any other similarly aged distro. It isn't well tested. Also Ubuntu 20.04 is dropped from the PPAs because it doesn't have the minimum required Qt5 version (5.15.2). The AppImage should cover any users left on that version.<br>
+**MACOS:** Builds will take a few days to be uploaded.
+
+v4.4.1 changelog:
+- FEATURE: Restore all torrent settings to the torrent's main context menu (thalieht)
+- FEATURE: Add confirmation for enabling Auto TMM from context menu (thalieht)
+- FEATURE: Add tooltip to Automatic Torrent Management context menu action (thalieht)
+- FEATURE: Add Select All/None buttons in new torrent dialog (thalieht)
+- BUGFIX: Keep "torrent info" alive while generate .torrent file (glassez)
+- BUGFIX: Correctly handle Auto TMM in Torrent Files Watcher (glassez)
+- BUGFIX: Correctly track the root folder name change (glassez)
+- BUGFIX: Various fixes to the moving torrent code (glassez)
+- BUGFIX: Update the torrent's download path field when changing category (thalieht)
+- BUGFIX: Correctly handle received metadata (glassez)
+- BUGFIX: Store hybrid torrents using legacy filenames (glassez)
+- BUGFIX: Open correct directory when clicked on Browse button (glassez)
+- BUGFIX: Fix crash when shutting down and clicing on system tray icon (Chocobo1)
+- BUGFIX: Fix "Free space on disk" in new torrent dialog (thalieht)
+- BUGFIX: Optimize completed files handling (Prince Gupta)
+- BUGFIX: Migrate proxy settings (sledgehammer999)
+- BUGFIX: Try to recover missing categories (glassez)
+- WEBUI: WebAPI: fix wrong key used for categories (Chocobo1)
+- WEBUI: Remove hack for outdated IE 6 browser (Chocobo1)
+- RSS: Correctly handle XML parsing errors (glassez)
+
 ### Thursday January 06th 2022 - qBittorrent v4.4.0 release
 
 qBittorrent v4.4.0 was released.<br>
