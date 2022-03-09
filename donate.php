@@ -26,8 +26,7 @@ If you want to give money for specific features being implemented, take a look a
     <tr>
       <td>glassez</td>
       <td>Lead programmer</td>
-      <td>Uses PayPal with address: glassez@yandex.ru.<br/>
-      More donation options are on his <a href="https://glassez.github.io">page</a>.</td>
+      <td>Take a look at his donation <a href="https://glassez.github.io">page</a>.</td>
     </tr>
     <tr>
       <td>Chocobo1</td>
