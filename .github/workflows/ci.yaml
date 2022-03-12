@@ -11,7 +11,7 @@ jobs:
         php_versions: ["5.6", "latest"]
     steps:
       - name: checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -27,11 +27,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: setup nodejs
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 'lts/*'
       - name: install tools
         run: npm install
       - name: lint code
