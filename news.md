@@ -1,3 +1,21 @@
+### Thursday March 24th 2022 - qBittorrent v4.4.2 release
+
+qBittorrent v4.4.2 was released.<br>
+**WINDOWS:** Users of Windows 10+ can also use the Qt6 version of the installer. Qt6 offers better HiDPI compatibility. The Qt6 version isn't tested much. The v4.4.x series will probably be the last one that supports Qt5 and therefore Windows 7 and 8. It will see releases at least until the summer of 2022.<br>
+**LINUX:** An AppImage is now offered. It uses the latest versions of Qt6, libtorrent, boost, openssl. It is created on Ubuntu 20.04 and it should work on any other similarly aged distro. It isn't well tested. Also Ubuntu 20.04 is dropped from the PPAs because it doesn't have the minimum required Qt5 version (5.15.2). The AppImage should cover any users left on that version.<br>
+**MACOS:** Universal DMGs are now offered. They should work natively on both M1 and Intel devices. Minimum supported OS version is macOS 10.15 Catalina.<br>
+**Known Issue(all platforms):** The text on the progress bar may have wrong color or not appear at all when using the Qt6 version. You may switch to the Qt5 version(if available) until it is resolved. Qt6 has fixed the issue upstream but hasn't made a release with it yet.
+
+v4.4.2 changelog:
+- FEATURE: Allow to limit max memory working set size (glassez)
+- BUGFIX: Fix UI crash when torrent is in a non-existent category (Kevin Cox)
+- BUGFIX: Correctly handle changing of global save paths (glassez)
+- BUGFIX: Disable performance alert (Chocobo1)
+- BUGFIX: Prevent loading resume data with inconsistent ID (glassez)
+- BUGFIX: Properly handle metadata download for an existing torrent (glassez)
+- BUGFIX: Prevent crash when open torrent destination folder (glassez)
+- WINDOWS: NSIS: Update Spanish, Spanish International and French translations(Juanjo Jiménez, RqndomHax)
+
 ### Tuesday February 15th 2022 - qBittorrent v4.4.1 release
 
 qBittorrent v4.4.1 was released.<br>
