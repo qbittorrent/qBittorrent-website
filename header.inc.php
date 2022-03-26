@@ -31,16 +31,16 @@
     <link rel="dns-prefetch" href="http://forum.qbittorrent.org">
   </head>
   <body>
-    <span id="forkongithub">
-      <a href="download.php">Latest: v4.4.2</a>
-    </span>
 
     <div id="MainBox">
       <div id="LogoChris">
+        <span id="forkongithub">
+          <a href="download.php" alt="Download latest">Latest: v4.4.2</a>
+        </span>
         <img src="img/qb_banner.png" alt="qBittorrent" style="transform: translateY(-50%);" class="banner"/>
       </div>
 
-      <div class="menu">
+      <nav class="menu">
         <ul>
           <li class="first"><a href="/">Home</a></li>
           <li><a href="news.php">News</a></li>
@@ -51,10 +51,11 @@
           <li><a href="http://git.qbittorrent.org" target="_blank">Development</a></li>
           <li><a href="http://bugs.qbittorrent.org" target="_blank">Bugs</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="wrapper">
-        <div class="wrapper-top">
-          <div class="wrapper-bottom">
-            <div id="content">
-              <div class="stretcher" id="StretchHome">
+      <main>
+        <div class="wrapper">
+          <div class="wrapper-top">
+            <div class="wrapper-bottom">
+              <div id="content">
+                <div class="stretcher" id="StretchHome">
