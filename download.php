@@ -308,8 +308,8 @@
   <p>qBittorrent is now available in official Ubuntu repositories since v9.04 "Jaunty".
   <p>More up-to-date packages are published on our <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable">stable</a>
     and <a href="https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-unstable">unstable</a> PPAs.
-    <br/>The <b>stable</b> PPA supports Ubuntu 16.04 LTS (only the libtorrent-rasterbar package), 18.04 LTS, 18.10, 19.10 and 20.04 LTS.
-    <br/>The <b>unstable</b> PPA supports Ubuntu 16.04 LTS, 18.04 LTS, 19.04, 19.10 and 20.04 LTS.
+    <br/>The <b>stable</b> PPA supports Ubuntu 16.04 LTS (only the libtorrent-rasterbar package), 18.04 LTS, 18.10, 19.10, 20.04 LTS and 21.04.
+    <br/>The <b>unstable</b> PPA supports Ubuntu 16.04 LTS, 18.04 LTS, 19.04, 19.10, 20.04 LTS and 21.04.
   </p>
   <h5>Quick instructions</h5>
   <p>To use these PPAs please use the following command and make sure your version is supported:</p>
