@@ -154,7 +154,7 @@
 <h3>Linux</h3>
 <div class="flexbox">
   <div class="box1">
-    <img src="img/os/tux.png" alt="linux icon"/>
+    <img src="img/os/tux.svg" alt="linux icon"/>
   </div>
   <div>
     <p>

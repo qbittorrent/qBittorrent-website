@@ -1087,7 +1087,7 @@ to address a few issues that were reported after the v3.0.0 release.</p>
 <li>BUGFIX: Make uTP connections rate limited by default</li>
 </ul>
 
-<h3>August 9th 2012 - qBittorrent v3.0.0 final release</h3>
+<h3><a name="v3.0.0"></a>August 9th 2012 - qBittorrent v3.0.0 final release</h3>
 <p>qBittorrent v3.0.0 was finally released as stable today thanks to our team's hard work.</p>
 <ul>
 <li>FEATURE: Brand new torrent addition dialog</li>
@@ -1107,7 +1107,7 @@ qBittorrent v3.0.0, the next major release of qBittorrent.</p>
 <p>We encourage people to start testing this release candidate and help us iron out
 the issues so that we can make a final release as soon as possible.</p>
 
-<h3>July 1st 2012 - qBittorrent v2.9.11 release</h3>
+<h3><a name="v2.9.11"></a>July 1st 2012 - qBittorrent v2.9.11 release</h3>
 <p>qBittorrent v2.9.11 was released today to bring a few bug fixes.</p>
 <ul>
 <li>BUGFIX: Fix unreversible "Minimize to tray" on some window managers</li>
@@ -1908,7 +1908,7 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.</p>
 <li>BUGFIX: Added Hex Magnet Links support (Thanks Haypo)</li>
 </ul>
 
-<h3>December 10th 2009 - qBittorrent v2.0.0 final release</h3>
+<h3><a name="v2.0.0"></a>December 10th 2009 - qBittorrent v2.0.0 final release</h3>
 <p>As planned, qBittorrent v2.0.0 final was released today after a rather long period of test, which was necessary due to the large number of features/changes introduced. We really received a lot of feedback regarding v2.0.0 betas and release candidates and we would like to thank the brave people who tested it.</p>
 <p>qBittorrent v2.0.0 changelog is available <a href="http://qbittorrent.svn.sourceforge.net/viewvc/qbittorrent/trunk/Changelog?revision=3083&amp;view=markup">here</a>.</p>
 

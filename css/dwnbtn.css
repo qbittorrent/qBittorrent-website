@@ -1,23 +1,42 @@
 /* main download button */
 /*non svg img style*/
 .icon {
-    display: block;
-    transition: 0.5s;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  transition: 0.5s;
 }
-.icon:hover, .icondark:hover , .icondark:focus,
+
+.icon:hover,
+.icondark:hover,
+.icondark:focus,
 .icon:focus {
-    filter: brightness(115%);
-  }
+  filter: brightness(115%);
+}
+
 .icondark {
-    display: none;
-    transition: 0.5s;
+  display: none;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  transition: 0.5s;
 }
 
 @media (prefers-color-scheme: dark) {
-    .icon {
-        display: none;
-    }
-    .icondark {
-        display: block;
-    }
+  .icon {
+    display: none;
+  }
+
+  .icondark {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 760px) and (orientation: portrait) {
+  .icon,
+  .icondark {
+    max-width: 75%;
+    width: auto;
+  }
 }

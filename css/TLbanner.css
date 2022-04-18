@@ -16,7 +16,8 @@
   transition: 0.5s;
 }
 
-#forkongithub a:hover, #forkongithub a:focus {
+#forkongithub a:hover,
+#forkongithub a:focus {
   background: #c11;
   color: #fff;
 }
@@ -59,5 +60,12 @@
     top: 50px;
     transform: rotate(-45deg);
     width: 200px;
+  }
+}
+
+@media only screen and (max-width: 760px) and (orientation: portrait) {
+  #forkongithub a {
+    left: -96px;
+    top: 29px;
   }
 }

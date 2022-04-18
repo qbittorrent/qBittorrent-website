@@ -6,12 +6,13 @@
 <a href="download.php"><img src="img/qb_download_button_dark.svg" width=35% alt="download link" img style="margin:0px auto;" class="icondark"/></a>
 
 <p style="text-align: center;">Windows · MacOS · Linux · Tarball</p>
-<p style="text-align: center;">Latest Version: 4.3.5</p>
+<p style="text-align: center;">Latest Version: 4.4.2</p>
 <a href="news.php"><p style="text-align: center;">Changelog</p></a>
 
 
 ### About qBittorrent
 <img src="img/qb_logo.svg" alt="download link" style="float: left; margin-right: 20px;margin-bottom: 5px; height: 100px;" img style="display: block;" class="icon2"/>
+<img src="img/qb_logo_dark.svg" alt="download link" style="float: left; margin-right: 20px;margin-bottom: 5px; height: 100px;" img style="display: block;" class="icon2dark"/>
 The qBittorrent project aims to provide an open-source software alternative to µTorrent.
 
 Additionally, qBittorrent runs and provides the same features on all major platforms (FreeBSD, Linux, macOS, OS/2, Windows).

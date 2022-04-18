@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/TLbanner.css">
     <link rel="stylesheet" type="text/css" href="css/dwnbtn.css">
+    <link rel="stylesheet" type="text/css" href="css/newspage.css">
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
@@ -38,6 +39,7 @@
     <div id="MainBox">
       <div id="LogoChris">
         <img src="img/qb_banner.svg" alt="qBittorrent" style="transform: translateY(-50%);" class="banner"/>
+        <img src="img/qb_banner_dark.svg" alt="qBittorrent" style="transform: translateY(-50%);" class="bannerdark"/>
       </div>
 
       <div class="menu">

@@ -1314,7 +1314,7 @@ v4.0.1 changelog:
 - COSMETIC: Fix english typo. (sledgehammer999)
 - OTHER: cmake: qtsingleapplication should always be built statically (luigino)
 
-### Monday November 20th 2017 - qBittorrent v4.0.0 release
+###  <a name="v4.0.0"></a>Monday November 20th 2017 - qBittorrent v4.0.0 release
 
 This is a major new release with a huge changelog. Enjoy!<br>
 v4.0.0 changelog:
@@ -1418,7 +1418,7 @@ v4.0.0 changelog:
 - OTHER: Optimize file size of PNG and SVG files. (sledgehammer999)
 - OTHER: Add new translators in the About page.
 
-### Thursday September 7th 2017 - qBittorrent v3.3.16 and 3.4.0beta2_20170709_cbfbae14090 release
+### <a name="v3.3.16"></a>Thursday September 7th 2017 - qBittorrent v3.3.16 and 3.4.0beta2_20170709_cbfbae14090 release
 
 Since it was a month since the last stable and v3.4.0 seems to be delayed just a bit, it was a good time to backport critical fixes and do another v3.3.x release.<br>
 Alongside v3.3.16 there is beta2 of v3.4.0. It contains various fixes for the things mentioned in the first beta plus a few new additions. See changelog. This beta works on Windows XP (32-bit) too. macOS packages are ready too.<br>
