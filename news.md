@@ -1,3 +1,24 @@
+### Sunday March 22th 2022 - qBittorrent v4.4.3 release
+
+qBittorrent v4.4.3 was released.<br>
+The issue with white/invisible text on the progress bar is now fixed with Qt 6.3.0.<br>
+**WINDOWS:** Users of Windows 10+ can also use the Qt6 version of the installer. Qt6 offers better HiDPI compatibility. The Qt6 version isn't tested much. The v4.4.x series will probably be the last one that supports Qt5 and therefore Windows 7 and 8. It will see releases at least until the summer of 2022.<br>
+**LINUX:** An AppImage is now offered. It uses the latest versions of Qt6, libtorrent, boost, openssl. It is created on Ubuntu 20.04 and it should work on any other similarly aged distro. It isn't well tested. Also Ubuntu 20.04 is dropped from the PPAs because it doesn't have the minimum required Qt5 version (5.15.2). The AppImage should cover any users left on that version.<br>
+**MACOS:** Universal DMGs are now offered. They should work natively on both M1 and Intel devices. Minimum supported OS version is macOS 10.15 Catalina.<br>version(if available) until it is resolved. Qt6 has fixed the issue upstream but hasn't made a release with it yet.
+
+v4.4.3 changelog:
+- BUGFIX: Correctly handle changing of temp save path (glassez)
+- BUGFIX: Fix storage in SQLite (glassez)
+- BUGFIX: Correctly apply content layout when "Skip hash check" is enabled (glassez)
+- BUGFIX: Don't corrupt IDs of v2 torrents (glassez)
+- BUGFIX: Reduce the number of hashing threads by default (improves hashing speed on HDDs) (summer)
+- BUGFIX: Prevent the "update dialog" from blocking input on other windows (summer)
+- BUGFIX: Add trackers in exported .torrent files (glassez)
+- BUGFIX: Fix wrong GUI behavior in "Optional IP address to bind to" setting (Chocobo1)
+- WEBUI: Fix WebUI crash due to missing tags from config (An0n)
+- WEBUI: Show correct location path (Chocobo1)
+- MACOS: Fix main window freezing after opening a files dialog (glassez)
+
 ### Thursday March 24th 2022 - qBittorrent v4.4.2 release
 
 qBittorrent v4.4.2 was released.<br>
