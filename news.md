@@ -3,7 +3,7 @@
 qBittorrent v4.4.3.1 was released.<br>
 Translations were broken with v4.4.3 and now are fixed.<br>
 
-### Sunday May 22th 2022 - qBittorrent v4.4.3 release
+### Sunday May 22nd 2022 - qBittorrent v4.4.3 release
 
 qBittorrent v4.4.3 was released.<br>
 The issue with white/invisible text on the progress bar is now fixed with Qt 6.3.0.<br>
