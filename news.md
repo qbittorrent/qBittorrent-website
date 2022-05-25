@@ -1,3 +1,8 @@
+### Wednesday May 25th 2022 - qBittorrent v4.4.3.1 release
+
+qBittorrent v4.4.3.1 was released.<br>
+Translations were broken with v4.4.3 and now are fixed.<br>
+
 ### Sunday May 22th 2022 - qBittorrent v4.4.3 release
 
 qBittorrent v4.4.3 was released.<br>
