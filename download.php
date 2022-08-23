@@ -28,7 +28,7 @@
       Current <strong>stable</strong> version: <strong>qBittorrent v4.4.4</strong>
     </p>
     <p>
-      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers (plus RC_1_2)</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
+      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.4/qbittorrent_4.4.4_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.4/qbittorrent_4.4.4_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.4/qbittorrent_4.4.4_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.4/qbittorrent_4.4.4_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.4/qbittorrent_4.4.4_RC_1_2_qt5_x64_setup.exe/download">64-bit (RC_1_2) installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.4/qbittorrent_4.4.4_RC_1_2_qt5_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
@@ -107,7 +107,7 @@
       The project is in need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
     </p>
     <p>
-      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG (plus RC_1_2)</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
+      <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">DMG</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.4.4/qbittorrent-4.4.4.dmg/download">DMG</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.4.41/qbittorrent-4.4.4.dmg.asc/download">PGP signature</a> (SourceForge)</sub><br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.4.4/qbittorrent-4.4.4_RC_1_2.dmg/download">DMG (RC_1_2)</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.4.41/qbittorrent-4.4.4_RC_1_2.dmg.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
