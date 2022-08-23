@@ -1,7 +1,7 @@
 ### Monday Aug 22nd 2022 - qBittorrent v4.4.4 release
 
 qBittorrent v4.4.4 was released.<br>
-**MACOS:** Now a build based on libtorrent 1.2.x (RC_1_2 branch) is offered too. The macOS version is not well supported, because we don't have active macOS developers/contributors. The project is need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
+**MACOS:** Now a build based on libtorrent 1.2.x (RC_1_2 branch) is offered too. The macOS version is not well supported, because we don't have active macOS developers/contributors. The project is in need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
 
 v4.4.4 changelog:
 - BUGFIX: Correctly handle data decompression with Qt 6.3 (brvphoenix)
