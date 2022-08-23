@@ -1,3 +1,21 @@
+### Monday Aug 22nd 2022 - qBittorrent v4.4.4 release
+
+qBittorrent v4.4.4 was released.<br>
+**MACOS:** Now a build based on libtorrent 1.2.x (RC_1_2 branch) is offered too. The macOS version is not well supported, because we don't have active macOS developers/contributors. The project is need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
+
+v4.4.4 changelog:
+- BUGFIX: Correctly handle data decompression with Qt 6.3 (brvphoenix)
+- BUGFIX: Fix wrong file names displayed in tooltip (Chocobo1)
+- BUGFIX: Fix incorrect "max outgoing port" setting (glassez)
+- BUGFIX: Make working set limit available only on libtorrent 2.0.x builds (summer)
+- BUGFIX: Try to recover missing tags (summer)
+- RSS: Clear RSS parsing error after use (glassez)
+- WEBAPI: Set HTTP method restriction on WebAPI actions (Chocobo1)
+- WINDOWS: Work around application stuttering on Windows (Chocobo1)
+- WINDOWS: NSIS: Update Portuguese, Italian, Korean, Latvian translations(Blackspirits, bovirus, Minseo Lee, Coool)
+- LINUX: Improve D-Bus notifications handling (glassez)
+- MACOS: Open destination folders on macOS in separate thread (Nick Korotysh)
+
 ### Wednesday May 25th 2022 - qBittorrent v4.4.3.1 release
 
 qBittorrent v4.4.3.1 was released.<br>
