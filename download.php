@@ -31,7 +31,7 @@
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">32-bit &amp; 64-bit installers</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_setup.exe/download">32-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_x64_setup.exe/download">64-bit installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub><br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_RC_2_0_qt5_setup.exe/download">64-bit (RC_2_0) installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_RC_2_0_qt5_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_RC_2_0_qt5_setup.exe/download">64-bit (RC_2_0) installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_RC_2_0_qt5_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>><br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_RC_2_0_qt5_x64_setup.exe/download">64-bit (RC_2_0) installer</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.4.5/qbittorrent_4.4.5_RC_2_0_qt5_x64_setup.exe.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <p>
@@ -169,7 +169,7 @@
     </p>
     <p>
       <strong>Download link: <a href="https://www.fosshub.com/qBittorrent.html">AppImage</a> / <a href="https://www.fosshub.com/qBittorrent.html">PGP signature</a></strong> (FossHub)<br/>
-      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.5/qbittorrent-4.4.5_x86_64.AppImage/download">AppImage</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.5/qbittorrent-4.4.5_x86_64.AppImage.asc/download">PGP signature</a> (SourceForge)</sub>
+      <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.5/qbittorrent-4.4.5_x86_64.AppImage/download">AppImage</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.5/qbittorrent-4.4.5_x86_64.AppImage.asc/download">PGP signature</a> (SourceForge)</sub>><br/>
       <sub>Mirror link: <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.5/qbittorrent-4.4.5_RC_2_0_x86_64.AppImage/download">AppImage (RC_2_0)</a> / <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-4.4.5/qbittorrent-4.4.5_RC_2_0_x86_64.AppImage.asc/download">PGP signature</a> (SourceForge)</sub>
     </p>
     <table>
