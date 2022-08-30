@@ -1,3 +1,12 @@
+### Tuesday Aug 30th 2022 - qBittorrent v4.4.5 release
+
+qBittorrent v4.4.5 was released.<br>
+**NOTE:** The default builds for all OSs switched to libtorrent 1.2.x (`RC_1_2`) from 2.0.x (`RC_2_0`). Builds for libtorrent 2.0.x are also offered and are tagged with `RC_2_0`. The switch happened due to user demand and perceived performance issues. If until now you didn't experience any performance issue then go ahead and use the `RC_2_0` builds.<br>
+**MACOS:** The macOS version is not well supported, because we don't have active macOS developers/contributors. The project is in need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
+
+v4.4.5 changelog:
+- BUGFIX: Fix missing trackers when adding magnet link. Affects libtorrent 2.0.x builds. (glassez)
+
 ### Monday Aug 22nd 2022 - qBittorrent v4.4.4 release
 
 qBittorrent v4.4.4 was released.<br>
