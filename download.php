@@ -250,7 +250,7 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>2.0 branch latest release</td>
+          <td>1.2 branch latest release</td>
         </tr>
         <tr>
           <td>Qt</td>
