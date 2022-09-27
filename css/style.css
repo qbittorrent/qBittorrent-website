@@ -206,3 +206,35 @@ ul {
 .wrapper-top {
   padding-top: 15px;
 }
+
+.releaseParagraph {
+  font-size: 130%;
+  margin-bottom: 3pt;
+}
+
+summary:hover {
+  cursor: pointer;
+}
+
+.downloadsOptions {
+  font-size: 85%;
+}
+
+.downloads-table {
+  width: 100%;
+}
+
+.downloads-table, .downloads-table th, .downloads-table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.downloads-table tr:not(:first-child):hover {
+  background-color: #cfe0f3;
+}
+
+.downloadNotesDiv {
+  border-left: 4pt solid gold;
+  background-color: lemonchiffon;
+  padding: 1em;
+}
