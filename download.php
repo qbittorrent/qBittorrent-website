@@ -137,6 +137,114 @@
           The builds based on Qt6 are <strong>semi-experimental</strong>. They also need Windows 10+ (64-bit only).
         </p>
     </div>
+    <br/>
+    <p class="releaseParagraph">
+      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.0beta1</a></strong> (multiple installer choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br/>
+    <table class="downloads-table">
+      <tr>
+        <th>Installer type</th>
+        <th>Info</th>
+        <th>Mirrors</th>
+        <th>PGP Signature</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">32-bit installer</a></td>
+        <td>Uses Qt5 and libtorrent 1.2.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_setup.exe/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_setup.exe.asc/download">SourceForge</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">64-bit installer</a></td>
+        <td>Uses Qt5 and libtorrent 1.2.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_x64_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_x64_setup.exe/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_x64_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_x64_setup.exe.asc/download">SourceForge</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">32-bit installer (lt20 qt5)</a></td>
+        <td>Uses Qt5 and libtorrent 2.0.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_lt20_qt5_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_lt20_qt5_setup.exe/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_lt20_qt5_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_lt20_qt5_setup.exe.asc/download">SourceForge</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">64-bit installer (lt20 qt5)</a></td>
+        <td>Uses Qt5 and libtorrent 2.0.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_lt20_qt5_x64_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_lt20_qt5_x64_setup.exe/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_lt20_qt5_x64_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_lt20_qt5_x64_setup.exe.asc/download">SourceForge</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">64-bit installer (qt6)</a></td>
+        <td><strong>Semi-expiremental.</strong> For Windows 10+. Uses Qt6 and libtorrent 1.2.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_qt6_x64_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_qt6_x64_setup.exe/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_qt6_x64_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_qt6_x64_setup.exe.asc/download">SourceForge</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">64-bit installer (lt20 qt6)</a></td>
+        <td><strong>Semi-expiremental.</strong> For Windows 10+. Uses Qt6 and libtorrent 2.0.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_lt20_qt6_x64_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_lt20_qt6_x64_setup.exe/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0beta1_lt20_qt6_x64_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent_4.5.0beta1_lt20_qt6_x64_setup.exe.asc/download">SourceForge</a></td>
+      </tr>
+    </table>
+    </details>
+    <br/><br/>
+    <details>
+    <summary>Checksums and Library versions</summary>
+    <table>
+      <br/>
+      <tbody>
+        <tr>
+          <td><strong>Checksum</strong></td>
+          <td><strong>SHA2-256</strong></td>
+        </tr>
+        <tr>
+          <td>32-bit installer</td>
+          <td class="wordBreak"><code>0a5eef7b0e958b82d156e18c9839cc8694e8c8d8e2b191ffb1e2aa9647c4f2c6</code></td>
+        </tr>
+        <tr>
+          <td>64-bit installer</td>
+          <td class="wordBreak"><code>7b7b5363ee593dc47d50b1f0f006f1eedcf33ddfe8a0e1bd8c0964c4922d2653</code></td>
+        <tr>
+          <td>32-bit installer (lt20 qt5)</td>
+          <td class="wordBreak"><code>d5724f18997c46886ae997deaff0516aafa23df06574098088c64e686f05c053</code></td>
+        </tr>
+        <tr>
+          <td>64-bit installer (lt20 qt5)</td>
+          <td class="wordBreak"><code>fca85397b26e9b1230e80d084fcbb78bdfc92e4271cbc0a2d5259d634f747b46</code></td>
+        </tr>
+        <tr>
+          <td>64-bit installer (qt6)</td>
+          <td class="wordBreak"><code>627bda92612839381f0519be6bda029b5d852b70fd0550e1a5de22c4a63f7c83</code></td>
+        </tr>
+        <tr>
+          <td>64-bit installer (lt20 qt6)</td>
+          <td class="wordBreak"><code>4d34822e9dfa2c385007ed8fa400131b17e33d6fb57a7977193619bf2ecd4f5b</code></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><strong>Library</strong></td>
+          <td><strong>Version</strong></td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>1.2.17+git700bba089f / 2.0.7+git8786d17e59</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>
+            5.15.6 / 6.3.0 (qt6)
+          </td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.80.0</td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
   </div>
 </div>
 <br/>
@@ -221,6 +329,73 @@
         The project is in need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
       </p>
     </div>
+    <br/>
+    <p class="releaseParagraph">
+      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.0beta1</a></strong> (multiple DMG choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br/>
+    <table class="downloads-table">
+      <tr>
+        <th>DMG type</th>
+        <th>Info</th>
+        <th>Mirrors</th>
+        <th>PGP Signature</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">DMG</a></td>
+        <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1.dmg/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1.dmg.asc/download">SourceForge</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">DMG (lt20)</a></td>
+        <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1_lt20.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1_lt20.dmg/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1_lt20.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1_lt20.dmg.asc/download">SourceForge</a></td>
+      </tr>
+    </table>
+    </details>
+    <br/><br/>
+    <details>
+    <summary>Checksums and Library versions</summary>
+    <table>
+      <br/>
+      <tbody>
+        <tr>
+          <td><strong>Checksum</strong></td>
+          <td><strong>SHA2-256</strong></td>
+        </tr>
+        <tr>
+          <td>DMG</td>
+          <td class="wordBreak"><code>97bd74bb1d47590a2bad79e283311a382a115005ce0007c74460e54c130b6979</code></td>
+        </tr>
+        <tr>
+          <td>DMG (lt20)</td>
+          <td class="wordBreak"><code>9b6b2cc91d8c7f3b0e77d253e55a0a4a44fead0aec143f9f59c2eea06f161f64</code></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><strong>Library</strong></td>
+          <td><strong>Version</strong></td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>1.2.17+git700bba089f / 2.0.7+git8786d17e59</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>6.3.0</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.80.0</td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
   </div>
 </div>
 <br/>
@@ -304,6 +479,73 @@
         For native packages and Ubuntu PPAs take a look at the <code>Other Binary Packages</code> section below.
       </p>
     </div>
+    <br/>
+    <p class="releaseParagraph">
+      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.0beta1</a></strong> (multiple AppImage choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br/>
+    <table class="downloads-table">
+      <tr>
+        <th>AppImage type</th>
+        <th>Info</th>
+        <th>Mirrors</th>
+        <th>PGP Signature</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">AppImage</a></td>
+        <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1_x86_64.AppImage">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1_x86_64.AppImage/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1_x86_64.AppImage.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1_x86_64.AppImage.asc/download">SourceForge</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fosshub.com/qBittorrent.html">AppImage (lt20)</a></td>
+        <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1_lt20_x86_64.AppImage">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1_lt20_x86_64.AppImage/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0beta1_lt20_x86_64.AppImage.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-unstable/qbittorrent-4.5.0/qbittorrent-4.5.0beta1_lt20_x86_64.AppImage.asc/download">SourceForge</a></td>
+      </tr>
+    </table>
+    </details>
+    <br/><br/>
+    <details>
+    <summary>Checksums and Library versions</summary>
+    <table>
+      <br/>
+      <tbody>
+        <tr>
+          <td><strong>Checksum</strong></td>
+          <td><strong>SHA2-256</strong></td>
+        </tr>
+        <tr>
+          <td>AppImage</td>
+          <td class="wordBreak"><code>c31cff63e66bf1935d4a7734b1803d4bcbbe47c9849051efdc71758b164d327c</code></td>
+        </tr>
+        <tr>
+          <td>AppImage (lt20)</td>
+          <td class="wordBreak"><code>6657578afa174d276124cd074a1e6f94122c34862feb85f00c34557d9dbfee35</code></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><strong>Library</strong></td>
+          <td><strong>Version</strong></td>
+        </tr>
+        <tr>
+          <td class="nobr">libtorrent-rasterbar</td>
+          <td>1.2.17+git700bba089f / 2.0.7+git8786d17e59</td>
+        </tr>
+        <tr>
+          <td>Qt</td>
+          <td>6.3.0</td>
+        </tr>
+        <tr>
+          <td>Boost</td>
+          <td>1.80.0</td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
   </div>
 </div>
 <br/>

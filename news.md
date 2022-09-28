@@ -1,3 +1,35 @@
+### Thursday Sep 29th 2022 - qBittorrent v4.5.0beta1 release
+
+qBittorrent v4.5.0beta1 was released.<br>
+This is the fist beta release for the upcoming 4.5.x series. More beta releases will follow.<br>
+At this point, no changelog is provided. Also no source tarballs. If you want build from source then just use the relevant git tag.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+    </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.17+git700bba089f / 2.0.7+git8786d17e59</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.6 / 6.3.0</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.80</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
 ### Tuesday Aug 30th 2022 - qBittorrent v4.4.5 release
 
 qBittorrent v4.4.5 was released.<br>
