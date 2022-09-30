@@ -224,7 +224,9 @@ summary:hover {
   width: 100%;
 }
 
-.downloads-table, .downloads-table th, .downloads-table td {
+.downloads-table,
+.downloads-table th,
+.downloads-table td {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -234,7 +236,7 @@ summary:hover {
 }
 
 .downloadNotesDiv {
-  border-left: 4pt solid gold;
   background-color: lemonchiffon;
+  border-left: 4pt solid gold;
   padding: 1em;
 }
