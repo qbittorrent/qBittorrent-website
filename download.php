@@ -729,7 +729,7 @@
 <div id="slackwareDiv" class="invisible">
   <h4>Slackware scripts</h4>
   <img src="img/os/slackware.png" alt="Slackware" style="float: left; margin-right: 5px; width: 65px;"/>
-  <p>qBittorrent is available for Slackware through <a href="https://slackbuilds.org/">slackbuilds.org</a>. The slackbuild script is maintained by <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>. See this <a href="https://slackbuilds.org/repository/13.0/network/qbittorrent/">page</a> for more information.</p>
+  <p>qBittorrent is available for Slackware through <a href="https://slackbuilds.org/">slackbuilds.org</a>. The slackbuild script is maintained by <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>. See this <a href="https://slackbuilds.org/result/?search=qBittorrent&sv=">page</a> for more information.</p>
   <p><a href="mailto:alien@slackware.com">Eric Hameleers</a> is also maintaining binary packages for slackware. Those are available <a href="http://slackware.com/~alien/slackbuilds/qbittorrent/">there</a>.</p>
 </div>
 
@@ -748,7 +748,7 @@
 
 <div id="altlinuxDiv" class="invisible">
   <h4>Alt Linux packages</h4>
-  <img src="img/os/altlinux.png" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.altlinux.com">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
+  <img src="img/os/altlinux.png" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="https://www.altlinux.org">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
   <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
     sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
   </div>
