@@ -639,6 +639,7 @@
       <option value="debian">Debian</option>
       <option value="docker">Docker</option>
       <option value="fedora">Fedora</option>
+      <option value="flatpak">Flatpak</option>
       <option value="gentoo">Gentoo</option>
       <option value="mageia">Mageia</option>
       <option value="opensuse">OpenSuse</option>
@@ -716,6 +717,13 @@
   <img src="img/os/fedoralogo.png" alt="Fedora" style="float: left; margin-right: 5px; width: 65px;"/>
   <p>qBittorrent is officially packaged on Fedora. RPM packages are maintained by <a href="mailto:leigh123linux@googlemail.com">Leigh Scott</a>.</p>
   <p>See this <a href="https://apps.fedoraproject.org/packages/qbittorrent/">page</a> for more information.</p>
+</div>
+
+<div id="flatpakDiv" class="invisible">
+  <h4>Flatpak app</h4>
+  <img src="img/os/flatpak.svg" alt="Flatpak" style="float: left; margin-right: 5px; width: 8em;"/>
+  <p>For installation, head over to FlatHub page: <a href="https://flathub.org/apps/details/org.qbittorrent.qBittorrent">https://flathub.org/apps/details/org.qbittorrent.qBittorrent</a></p>
+  <p>For reporting bugs, head over to the issue tracker: <a href="https://github.com/flathub/org.qbittorrent.qBittorrent/issues">https://github.com/flathub/org.qbittorrent.qBittorrent/issues</a></p>
 </div>
 
 <div id="slackwareDiv" class="invisible">
