@@ -638,6 +638,7 @@
       <option value="archlinux">ArchLinux</option>
       <option value="blackpanther">blackPanther OS</option>
       <option value="debian">Debian</option>
+      <option value="docker">Docker</option>
       <option value="fedora">Fedora</option>
       <option value="gentoo">Gentoo</option>
       <option value="mageia">Mageia</option>
@@ -676,6 +677,12 @@
   <h4>Debian packages</h4>
   <img src="img/os/debianlogo.png" alt="Debian" style="float: left; margin-right: 5px;"/>
   <p>qBittorrent and libtorrent-rasterbar are now officially included in Debian. Packages are maintained by <a href="mailto:cristian.debian@gmail.com">Cristian Greco</a>. See this <a href="https://packages.debian.org/search?keywords=qbittorrent&searchon=names&suite=all&section=all">page</a> for more information.</p>
+</div>
+
+<div id="dockerDiv" class="invisible">
+  <h4>Docker images</h4>
+  <img src="img/os/docker.png" alt="Docker" style="float: left; width: 7em; margin-right: 5px;"/>
+  <p>Currently the image needs to be built manually, follow the instructions <a href="https://github.com/qbittorrent/qBittorrent/tree/master/dist/docker#readme">here</a>.</p>
 </div>
 
 <div id="mandrivaDiv" class="invisible">
