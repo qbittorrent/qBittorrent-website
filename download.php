@@ -633,7 +633,6 @@
     Select distribution:
     <select id="distroSelect" onchange="showOption(this)">
       <option value="emptyDist" selected>Choose...</option>
-      <option value="agilialinux">AgiliaLinux</option>
       <option value="altlinux">Alt Linux</option>
       <option value="archlinux">ArchLinux</option>
       <option value="blackpanther">blackPanther OS</option>
@@ -642,7 +641,6 @@
       <option value="fedora">Fedora</option>
       <option value="gentoo">Gentoo</option>
       <option value="mageia">Mageia</option>
-      <option value="mandriva">Mandriva</option>
       <option value="opensuse">OpenSuse</option>
       <option value="pardus">Pardus</option>
       <option value="slackware">Slackware</option>
@@ -683,12 +681,6 @@
   <h4>Docker images</h4>
   <img src="img/os/docker.png" alt="Docker" style="float: left; width: 7em; margin-right: 5px;"/>
   <p>Currently the image needs to be built manually, follow the instructions <a href="https://github.com/qbittorrent/qBittorrent/tree/master/dist/docker#readme">here</a>.</p>
-</div>
-
-<div id="mandrivaDiv" class="invisible">
-  <h4>Mandriva Linux packages</h4>
-  <img src="img/os/mandrivalogo.png" alt="Mandriva" style="float: left; margin-right: 5px;"/>
-  <p>qBittorrent is currently officially included in Mandriva Cooker. You can find more information <a href="http://doc4.mandriva.org/bin/view/d4/component/qbittorrent?d=cooker">here</a>.</p>
 </div>
 
 <div id="mageiaDiv" class="invisible">
@@ -754,14 +746,6 @@
   </div>
 </div>
 
-<div id="agilialinuxDiv" class="invisible">
-  <h4>AgiliaLinux packages</h4>
-  <img src="img/os/agilialinux.png" alt="AgiliaLinux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.agilialinux.ru/">AgiliaLinux</a>. Packages are available <a href="http://packages.agilialinux.ru/search.php?lname=qbittorrent&version=&arch=&build=&hasfile=&which=&desc=">here</a>. To install, simply type the following command:
-  <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-    mpkg-install qbittorrent
-  </div>
-</div>
-
 <div id="blackpantherDiv" class="invisible">
   <h4>blackPanther OS packages</h4>
   <img src="img/os/blackPanther-dark.png" alt="blackPanther OS" style="float: left; margin-right: 5px; width: 65px;"/>
@@ -790,7 +774,7 @@
 
 <div id="pardusDiv" class="invisible">
   <h4>Pardus packages</h4>
-  <img src="img/os/pardus.png" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="http://www.pardus.org.tr/eng/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
+  <img src="img/os/pardus.png" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="https://www.pardus.org.tr/en/home/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
   <br/>To install, simply type the following command:
   <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
     #Ensure the contrib repo is present on your system:<br/>
