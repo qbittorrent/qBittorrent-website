@@ -633,15 +633,15 @@
     Select distribution:
     <select id="distroSelect" onchange="showOption(this)">
       <option value="emptyDist" selected>Choose...</option>
-      <option value="agilialinux">AgiliaLinux</option>
       <option value="altlinux">Alt Linux</option>
       <option value="archlinux">ArchLinux</option>
       <option value="blackpanther">blackPanther OS</option>
       <option value="debian">Debian</option>
+      <option value="docker">Docker</option>
       <option value="fedora">Fedora</option>
+      <option value="flatpak">Flatpak</option>
       <option value="gentoo">Gentoo</option>
       <option value="mageia">Mageia</option>
-      <option value="mandriva">Mandriva</option>
       <option value="opensuse">OpenSuse</option>
       <option value="pardus">Pardus</option>
       <option value="slackware">Slackware</option>
@@ -678,10 +678,10 @@
   <p>qBittorrent and libtorrent-rasterbar are now officially included in Debian. Packages are maintained by <a href="mailto:cristian.debian@gmail.com">Cristian Greco</a>. See this <a href="https://packages.debian.org/search?keywords=qbittorrent&searchon=names&suite=all&section=all">page</a> for more information.</p>
 </div>
 
-<div id="mandrivaDiv" class="invisible">
-  <h4>Mandriva Linux packages</h4>
-  <img src="img/os/mandrivalogo.png" alt="Mandriva" style="float: left; margin-right: 5px;"/>
-  <p>qBittorrent is currently officially included in Mandriva Cooker. You can find more information <a href="http://doc4.mandriva.org/bin/view/d4/component/qbittorrent?d=cooker">here</a>.</p>
+<div id="dockerDiv" class="invisible">
+  <h4>Docker images</h4>
+  <img src="img/os/docker.png" alt="Docker" style="float: left; width: 7em; margin-right: 5px;"/>
+  <p>Currently the image needs to be built manually, follow the instructions <a href="https://github.com/qbittorrent/qBittorrent/tree/master/dist/docker#readme">here</a>.</p>
 </div>
 
 <div id="mageiaDiv" class="invisible">
@@ -719,10 +719,17 @@
   <p>See this <a href="https://apps.fedoraproject.org/packages/qbittorrent/">page</a> for more information.</p>
 </div>
 
+<div id="flatpakDiv" class="invisible">
+  <h4>Flatpak app</h4>
+  <img src="img/os/flatpak.svg" alt="Flatpak" style="float: left; margin-right: 5px; width: 8em;"/>
+  <p>For installation, head over to FlatHub page: <a href="https://flathub.org/apps/details/org.qbittorrent.qBittorrent">https://flathub.org/apps/details/org.qbittorrent.qBittorrent</a></p>
+  <p>For reporting bugs, head over to the issue tracker: <a href="https://github.com/flathub/org.qbittorrent.qBittorrent/issues">https://github.com/flathub/org.qbittorrent.qBittorrent/issues</a></p>
+</div>
+
 <div id="slackwareDiv" class="invisible">
   <h4>Slackware scripts</h4>
   <img src="img/os/slackware.png" alt="Slackware" style="float: left; margin-right: 5px; width: 65px;"/>
-  <p>qBittorrent is available for Slackware through <a href="https://slackbuilds.org/">slackbuilds.org</a>. The slackbuild script is maintained by <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>. See this <a href="https://slackbuilds.org/repository/13.0/network/qbittorrent/">page</a> for more information.</p>
+  <p>qBittorrent is available for Slackware through <a href="https://slackbuilds.org/">slackbuilds.org</a>. The slackbuild script is maintained by <a href="mailto:info@davidwoodfall.co.uk">David Woodfall</a>. See this <a href="https://slackbuilds.org/result/?search=qBittorrent&sv=">page</a> for more information.</p>
   <p><a href="mailto:alien@slackware.com">Eric Hameleers</a> is also maintaining binary packages for slackware. Those are available <a href="http://slackware.com/~alien/slackbuilds/qbittorrent/">there</a>.</p>
 </div>
 
@@ -741,17 +748,9 @@
 
 <div id="altlinuxDiv" class="invisible">
   <h4>Alt Linux packages</h4>
-  <img src="img/os/altlinux.png" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.altlinux.com">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
+  <img src="img/os/altlinux.png" alt="Alt Linux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="https://www.altlinux.org">Alt Linux</a>. These packages are maintained by <a href="http://sisyphus.ru/en/packager/swi">Alexey Morsov</a>. Packages are available <a href="http://sisyphus.ru/en/srpm/Branch5/qbittorrent/">here</a>. To install, simply type the following commands:
   <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
     sudo apt-get update &amp;&amp; sudo apt-get install qbittorrent
-  </div>
-</div>
-
-<div id="agilialinuxDiv" class="invisible">
-  <h4>AgiliaLinux packages</h4>
-  <img src="img/os/agilialinux.png" alt="AgiliaLinux" style="float: left; margin-right: 5px; width: 65px;"/>qBittorrent is officially packaged on <a href="http://www.agilialinux.ru/">AgiliaLinux</a>. Packages are available <a href="http://packages.agilialinux.ru/search.php?lname=qbittorrent&version=&arch=&build=&hasfile=&which=&desc=">here</a>. To install, simply type the following command:
-  <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
-    mpkg-install qbittorrent
   </div>
 </div>
 
@@ -783,7 +782,7 @@
 
 <div id="pardusDiv" class="invisible">
   <h4>Pardus packages</h4>
-  <img src="img/os/pardus.png" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="http://www.pardus.org.tr/eng/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
+  <img src="img/os/pardus.png" alt="Pardus" style="float: left; margin-right: 5px; width: 100px;"/>qBittorrent is officially available on <a href="https://www.pardus.org.tr/en/home/">Pardus</a> via the contrib repository. These packages are maintained by <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/packager/H.%20%C4%B0brahim%20G%C3%BCng%C3%B6r.html">H. İbrahim Güngör</a>. Packages are available <a href="http://packages.pardus.org.tr/info/contrib/2009/stable/source/qbittorrent.html">here</a>. <br/>
   <br/>To install, simply type the following command:
   <div class="codePart" style="width:540px; margin:10px 10px 10px 5px; padding:5px;">
     #Ensure the contrib repo is present on your system:<br/>
