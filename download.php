@@ -92,15 +92,16 @@
         <tr>
           <td>64-bit installer</td>
           <td class="wordBreak"><code>efb0298fae1578033a334ba3adbe0e93ea15239d623a26ce11f230eb0af8654a</code></td>
-        <tr>
+        </tr>
         <tr>
           <td>32-bit installer (RC_2_0 qt5)</td>
           <td class="wordBreak"><code>e83e67c370cd7e4a0cd712786a347db96ab5a867ee444800ca7e09d284c2c8bb</code></td>
         </tr>
-         <tr>
+        <tr>
           <td>64-bit installer (RC_2_0 qt5)</td>
           <td class="wordBreak"><code>448ebf9162ff32b40d873ee390184b904c2b4cd7247eca6bdfcb7aae8b1e757f</code></td>
         </tr>
+        <tr>
           <td>64-bit installer (qt6)</td>
           <td class="wordBreak"><code>ebae478003a7a4de22190b4822cf984227ac8f93890b3ceb2494b02628c5612b</code></td>
         </tr>
