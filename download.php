@@ -78,8 +78,8 @@
     <br/><br/>
     <details>
     <summary>Checksums and Library versions</summary>
+    <br/>
     <table>
-      <br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
@@ -192,8 +192,8 @@
     <br/><br/>
     <details>
     <summary>Checksums and Library versions</summary>
+    <br/>
     <table>
-      <br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
@@ -286,8 +286,8 @@
     <br/><br/>
     <details>
     <summary>Checksums and Library versions</summary>
+    <br/>
     <table>
-      <br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
@@ -360,8 +360,8 @@
     <br/><br/>
     <details>
     <summary>Checksums and Library versions</summary>
+    <br/>
     <table>
-      <br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
@@ -436,8 +436,8 @@
     <br/><br/>
     <details>
     <summary>Checksums and Library versions</summary>
+    <br/>
     <table>
-      <br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
@@ -510,8 +510,8 @@
     <br/><br/>
     <details>
     <summary>Checksums and Library versions</summary>
+    <br/>
     <table>
-      <br/>
       <tbody>
         <tr>
           <td><strong>Checksum</strong></td>
