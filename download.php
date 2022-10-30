@@ -251,7 +251,7 @@
 <br/>
 
 
-<h3>macOS Catalina / Big Sur / Monterey</h3>
+<h3>macOS Catalina / Big Sur / Monterey / Ventura</h3>
 <div class="flexbox">
   <div class="box1">
     <img src="img/os/macoslogo.png" alt="macOS icon"/>
