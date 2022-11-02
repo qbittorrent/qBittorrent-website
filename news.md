@@ -280,7 +280,7 @@ v4.3.5 changelog:
 ### Wednesday March 24th 2021 - qBittorrent v4.3.4.1 release
 
 qBittorrent v4.3.4.1 was released.<br>
-**WINDOWS:** Windows Defender is being incredibly annoying lately marking us as unwanted software/malicious/trojan/virus. If you experience problems with the installer not starting or not finishing, check that Defender hasn't silenty deleted it or the files it extracts. See [this](https://github.com/qbittorrent/qBittorrent/issues/10045), [this](https://github.com/qbittorrent/qBittorrent/issues/14603) and [this](https://github.com/qbittorrent/qBittorrent/issues/14601).<br>
+**WINDOWS:** Windows Defender is being incredibly annoying lately marking us as unwanted software/malicious/trojan/virus. If you experience problems with the installer not starting or not finishing, check that Defender hasn't silently deleted it or the files it extracts. See [this](https://github.com/qbittorrent/qBittorrent/issues/10045), [this](https://github.com/qbittorrent/qBittorrent/issues/14603) and [this](https://github.com/qbittorrent/qBittorrent/issues/14601).<br>
 Read the v4.3.4 changelog too because this is a hotfix release.
 
 v4.3.4.1 changelog:

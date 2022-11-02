@@ -1301,7 +1301,7 @@ a few regressions that needed fixing.</p>
 <li>FEATURE: Added HTTPS support to Web UI (Ishan Arora)</li>
 <li>BUGFIX: Change systray icon on the fly (no restart needed)</li>
 <li>BUGFIX: Remember peer-level rate limits (requires libtorrent v0.16)</li>
-<li>BUGFIX: Stop annoncing to trackers an all tiers (more respectful)</li>
+<li>BUGFIX: Stop announcing to trackers an all tiers (more respectful)</li>
 <li>BUGFIX: Stop sharing private trackers with other peers</li>
 <li>BUGFIX: Tracker exchange extension can be disabled</li>
 <li>BUGFIX: Cleaner program exit on system log out</li>
