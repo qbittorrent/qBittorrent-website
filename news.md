@@ -12,7 +12,7 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
       <th>Library</th>
       <th>Version</th>
     </tr>
-    </thead>
+  </thead>
   <tbody>
     <tr>
       <td>libtorrent</td>

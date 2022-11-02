@@ -1,4 +1,4 @@
-<?php require_once('header.inc.php'); ?>
+<?php require_once 'header.inc.php'; ?>
 
 <h2>Downloads</h2>
 
@@ -844,4 +844,4 @@
   }
 </script>
 
-<?php require_once('footer.inc.php');
+<?php require_once 'footer.inc.php';

@@ -1,4 +1,4 @@
-<?php require_once('header.inc.php'); ?>
+<?php require_once 'header.inc.php'; ?>
 
 <h3>Donation options</h3>
 <p>qBittorrent is developed by <a href="team.php">volunteers</a> on their spare time. If you like this piece of software, consider making a donation.<br/>
@@ -43,4 +43,4 @@ We won't reject a feature/bugfix simply to deny a person a bounty or to claim th
 Lastly, due to workload and our limited time `Pull Requests` may not be reviewed/merged in a timely manner.
 </p>
 
-<?php require_once('footer.inc.php');
+<?php require_once 'footer.inc.php';

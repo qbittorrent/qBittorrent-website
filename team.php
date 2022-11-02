@@ -1,4 +1,4 @@
-<?php require_once('header.inc.php'); ?>
+<?php require_once 'header.inc.php'; ?>
 
 <h2>Team Members</h2>
 
@@ -86,4 +86,4 @@
   </div>
 </fieldset>
 
-<?php require_once('footer.inc.php');
+<?php require_once 'footer.inc.php';
