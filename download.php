@@ -56,7 +56,7 @@
       </tr>
       <tr>
         <td><a href="https://www.fosshub.com/qBittorrent.html">64-bit installer (lt20 qt6)</a></td>
-        <td><strong>For Windows 10+. Uses Qt6 and libtorrent 2.0.x series.</td>
+        <td>For Windows 10+. Uses Qt6 and libtorrent 2.0.x series.</td>
         <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0_lt20_qt6_x64_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.5.0/qbittorrent_4.5.0_lt20_qt6_x64_setup.exe/download">SourceForge</a></td>
         <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_4.5.0_lt20_qt6_x64_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.5.0/qbittorrent_4.5.0_lt20_qt6_x64_setup.exe.asc/download">SourceForge</a></td>
       </tr>
