@@ -1,7 +1,7 @@
 ### Sunday Nov 27th 2022 - qBittorrent v4.5.0 release
 
 qBittorrent v4.5.0 was released.<br>
-A lot of work has gone into this release which isn't necessarily reflected in the changelog below (code improvements, rewritings, refactirings). Special thank you to people that were helpful in other useful areas like testing and bug hunting: [@thalieht](https://github.com/thalieht), [@xavier2k6](https://github.com/xavier2k6), [@PriitUring](https://github.com/PriitUring), [@oorzkws](https://github.com/oorzkws)<br>
+A lot of work has gone into this release which isn't necessarily reflected in the changelog below (code improvements, rewritings and refactorings). Special thank you to people that were helpful in other useful areas like testing and bug hunting: [@thalieht](https://github.com/thalieht), [@xavier2k6](https://github.com/xavier2k6), [@PriitUring](https://github.com/PriitUring), [@oorzkws](https://github.com/oorzkws)<br>
 Notable features: New icon theme, new color theme and better startup time when using many torrents.<br>
 **WINDOWS:** Only 64-bit builds will offered from now on.<br>
 **NOTE:** The default builds for all OSs switched to libtorrent 1.2.x from 2.0.x. Builds for libtorrent 2.0.x are also offered and are tagged with `lt20`. The switch happened due to user demand and perceived performance issues. If until now you didn't experience any performance issue then go ahead and use the `lt20` builds.
