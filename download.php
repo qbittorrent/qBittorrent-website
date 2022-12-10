@@ -451,7 +451,10 @@
 <div id="dockerDiv" class="invisible">
   <h4>Docker images</h4>
   <img src="img/os/docker.png" alt="Docker" loading="lazy" style="float: left; margin-right: 5px; width: 7em;"/>
-  <p>Currently the image needs to be built manually, follow the instructions <a href="https://github.com/qbittorrent/qBittorrent/tree/master/dist/docker#readme">here</a>.</p>
+  <p>
+    Official docker images are provided. Please follow the instructions <a href="https://github.com/qbittorrent/docker-qbittorrent-nox#usage">here</a>.<br/>
+    Docker hub <a href="https://hub.docker.com/r/qbittorrentofficial/qbittorrent-nox">link</a>.
+  </p>
 </div>
 
 <div id="fedoraDiv" class="invisible">
