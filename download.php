@@ -201,6 +201,10 @@
         <strong>The macOS version is not well supported,</strong> because we don't have active macOS developers/contributors.<br/>
         The project is in need of macOS developers. If you are a macOS developer willing to help, just go to our bug tracker for a list of macOS related issues. Or try to fix bugs that you yourself have discovered and annoy you.
       </p>
+      <p>
+        The macOS application is <strong>not signed</strong> at this moment. As a result, macOS will <strong>refuse</strong> to open the application by default.
+        To open the application, right click (or double-finger-tap) to open up the context menu, and hold <kbd>option</kbd> while you click "Open". This only needs to be done once.
+      </p>
     </div>
   </div>
 </div>
