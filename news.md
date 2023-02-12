@@ -1,3 +1,65 @@
+### Sunday Feb 12th 2023 - qBittorrent v4.5.1 release
+
+qBittorrent v4.5.1 was released.<br>
+**NOTE:** macOS builds will be provided at a later date.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.18+gitd22612ca1b / 2.0.8+gited3c8a920e</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.8 / 6.4.2</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.81</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.5.1 changelog:
+- FEATURE: Re-allow to use icons from system theme (glassez)
+- BUGFIX: Fix Speed limit icon size (Nowshed H. Imran)
+- BUGFIX: Revise and fix some text colors (Chocobo1, Nowshed H. Imran)
+- BUGFIX: Correctly load folder based UI theme (glassez)
+- BUGFIX: Fix crash due to invalid encoding of tracker URLs (glassez)
+- BUGFIX: Don't drop !qB extension when renaming incomplete file (glassez)
+- BUGFIX: Correctly count the number of torrents in subcategories (glassez)
+- BUGFIX: Use "additional trackers" when metadata retrieving (glassez)
+- BUGFIX: Apply correct tab order to Category options dialog (glassez)
+- BUGFIX: Add all torrents passed via the command line (glassez)
+- BUGFIX: Fix startup performance on Qt5 (glassez)
+- BUGFIX: Automatic move will now overwrite existing files (aka previous behavior) (glassez)
+- BUGFIX: Some fixes for loading Chinese locales (sledgehammer999)
+- BUGFIX: New Pause icon color for toolbar/menu (Nowshed H. Imran, sledgehammer999)
+- BUGFIX: Adjust env variable for PDB discovery (sledgehammer999)
+- WEBUI: Fix missing "queued" icon (thalieht)
+- WEBUI: Return paths using platform-independent separator format (glassez)
+- WEBUI: Change order of accepted types of file input (Jason Carr)
+- WEBUI: Add missing icons (brvphoenix)
+- WEBUI: Add "Resume data storage type" option (thalieht)
+- WEBUI: Make rename file dialog resizable (Torsten Schwarz)
+- WEBUI: Prevent incorrect line breaking (David Xuang)
+- WEBUI: Improve hotkeys (Fidel Selva)
+- WEBUI: Remove suggestions while searching for torrents (Midhun V Nadh)
+- WEBUI: Expose "IS PRIVATE" flag (sotiris-bos)
+- WEBUI: Return name/hash/infohash_v1/infohash_v2 torrent properties (qbittorrentfan)
+- WINDOWS: Correctly detect drive letter in path (glassez)
+- WINDOWS: NSIS: Update Swedish, Lithuanian translations (Jonatan, Deividas)
+- LINUX: Fix tray icon issues (glassez)
+
 ### Sunday Nov 27th 2022 - qBittorrent v4.5.0 release
 
 qBittorrent v4.5.0 was released.<br>
