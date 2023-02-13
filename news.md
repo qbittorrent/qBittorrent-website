@@ -31,8 +31,8 @@ qBittorrent v4.5.1 was released.<br>
 
 v4.5.1 changelog:
 - FEATURE: Re-allow to use icons from system theme (glassez)
-- BUGFIX: Fix Speed limit icon size (Nowshed H. Imran)
-- BUGFIX: Revise and fix some text colors (Chocobo1, Nowshed H. Imran)
+- BUGFIX: Fix Speed limit icon size (now-im)
+- BUGFIX: Revise and fix some text colors (Chocobo1, now-im)
 - BUGFIX: Correctly load folder based UI theme (glassez)
 - BUGFIX: Fix crash due to invalid encoding of tracker URLs (glassez)
 - BUGFIX: Don't drop !qB extension when renaming incomplete file (glassez)
@@ -43,7 +43,7 @@ v4.5.1 changelog:
 - BUGFIX: Fix startup performance on Qt5 (glassez)
 - BUGFIX: Automatic move will now overwrite existing files (aka previous behavior) (glassez)
 - BUGFIX: Some fixes for loading Chinese locales (sledgehammer999)
-- BUGFIX: New Pause icon color for toolbar/menu (Nowshed H. Imran, sledgehammer999)
+- BUGFIX: New Pause icon color for toolbar/menu (now-im, sledgehammer999)
 - BUGFIX: Adjust env variable for PDB discovery (sledgehammer999)
 - WEBUI: Fix missing "queued" icon (thalieht)
 - WEBUI: Return paths using platform-independent separator format (glassez)
