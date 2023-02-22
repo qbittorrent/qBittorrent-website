@@ -1,7 +1,7 @@
 ### Sunday Feb 12th 2023 - qBittorrent v4.5.1 release
 
 qBittorrent v4.5.1 was released.<br>
-**NOTE:** macOS builds will be provided at a later date.
+**NOTE:** macOS builds are self-signed now.
 
 <details>
 <summary>Library versions</summary>

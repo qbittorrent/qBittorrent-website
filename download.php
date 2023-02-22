@@ -130,7 +130,7 @@
   </div>
   <div>
     <p class="releaseParagraph">
-      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.0</a></strong> (multiple DMG choice)
+      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v4.5.1</a></strong> (multiple DMG choice)
     </p>
     <details>
     <summary class="downloadsOptions">(Additional download options)</summary>
@@ -145,14 +145,14 @@
       <tr>
         <td><a href="https://www.fosshub.com/qBittorrent.html">DMG</a></td>
         <td>Uses Qt6 and libtorrent 1.2.x series.</td>
-        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.0/qbittorrent-4.5.0.dmg/download">SourceForge</a></td>
-        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.0/qbittorrent-4.5.0.dmg.asc/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.1.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.1/qbittorrent-4.5.1.dmg/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.1.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.1/qbittorrent-4.5.1.dmg.asc/download">SourceForge</a></td>
       </tr>
       <tr>
         <td><a href="https://www.fosshub.com/qBittorrent.html">DMG (lt20)</a></td>
         <td>Uses Qt6 and libtorrent 2.0.x series.</td>
-        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0_lt20.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.0/qbittorrent-4.5.0_lt20.dmg/download">SourceForge</a></td>
-        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.0_lt20.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.0/qbittorrent-4.5.0_lt20.dmg.asc/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.1_lt20.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.1/qbittorrent-4.5.1_lt20.dmg/download">SourceForge</a></td>
+        <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-4.5.1_lt20.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-4.5.1/qbittorrent-4.5.1_lt20.dmg.asc/download">SourceForge</a></td>
       </tr>
     </table>
     </details>
@@ -168,11 +168,11 @@
         </tr>
         <tr>
           <td>DMG</td>
-          <td class="wordBreak"><code>9979e1013ea02b41ff09e9881c2702876e5bf290f5b724e0239060e61a31d6a7</code></td>
+          <td class="wordBreak"><code>627654be6dc51010908e1f8472320f97d0b19e8795cf6b455243371ffbcc26e0</code></td>
         </tr>
         <tr>
           <td>DMG (lt20)</td>
-          <td class="wordBreak"><code>4c6a66f10db82b0f72728f14432c733d1a608b1edc845d69373e8749cb244844</code></td>
+          <td class="wordBreak"><code>f9a95119eebab419d4943d623d72c531e11bcc795e35c88d289abb6e85272bec</code></td>
         </tr>
       </tbody>
       <tbody>
@@ -182,15 +182,15 @@
         </tr>
         <tr>
           <td class="nobr">libtorrent-rasterbar</td>
-          <td>1.2.18+gitcd05e947f6 / 2.0.8+git64817e0e87</td>
+          <td>1.2.18+gitd22612ca1b / 2.0.8+gited3c8a920e</td>
         </tr>
         <tr>
           <td>Qt</td>
-          <td>6.4.0</td>
+          <td>6.4.2</td>
         </tr>
         <tr>
           <td>Boost</td>
-          <td>1.80.0</td>
+          <td>1.81.0</td>
         </tr>
       </tbody>
     </table>
