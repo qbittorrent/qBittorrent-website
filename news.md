@@ -1,7 +1,7 @@
 ### Tuesday Feb 28th 2023 - qBittorrent v4.5.2 release
 
 qBittorrent v4.5.2 was released.<br>
-**SECURITY:** This version contains a security bugfix in the web server. The bug allowed for any file on the user's filesystem to be served without any authentication. This affects users that have enabled the WebUI/WebAPI. It seems to affect only v4.5.0 and v4.5.1.<br>
+**SECURITY:** This version contains a security bugfix in the web server. The bug allowed for any file on the user's filesystem to be served without any authentication. This affects users that have enabled the WebUI/WebAPI. It seems to affect only v4.5.0 and v4.5.1 on Windows.<br>
 NOTE: macOS builds are self-signed now. It should help with macOS permissions dialogs.
 
 <details>
