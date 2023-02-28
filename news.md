@@ -1,3 +1,47 @@
+### Tuesday Feb 28th 2023 - qBittorrent v4.5.2 release
+
+qBittorrent v4.5.2 was released.<br>
+**SECURITY:** This version contains a security bugfix in the web server. The bug allowed for any file on the user's filesystem to be served without any authentication. This affects users that have enabled the WebUI/WebAPI. It seems to affect only v4.5.0 and v4.5.1.<br>
+NOTE: macOS builds are self-signed now. It should help with macOS permissions dialogs.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.18+gitd22612ca1b / 2.0.8+git06f98369cb</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.8 / 6.4.2</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.81</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.5.2 changelog:
+- BUGFIX: Don't unexpectedly activate queued torrents when prefetching metadata for added magnets (glassez)
+- BUGFIX: Update the cached torrent state once recheck is started (glassez)
+- BUGFIX: Be more likely to allow the system to use power saving modes (glassez)
+- WEBUI: Migrate away from unsafe function (Chocobo1)
+- WEBUI: Blacklist bad ciphers for TLS in the server (sledgehammer999)
+- WEBUI: Allow only TLS 1.2+ in the server (sledgehammer999)
+- WEBUI: Allow to set read-only directory as torrent location (glassez)
+- WEBUI: Reject requests that contain backslash in path (glassez)
+- RSS: Prevent RSS folder from being moved into itself (glassez)
+- WINDOWS: NSIS: Update Turkish, Uzbek translation (Burak Yavuz, shitcod3r)
+
 ### Sunday Feb 12th 2023 - qBittorrent v4.5.1 release
 
 qBittorrent v4.5.1 was released.<br>
