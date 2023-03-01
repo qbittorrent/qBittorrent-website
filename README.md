@@ -1,4 +1,4 @@
-qBittorrrent-website
+qBittorrent-website
 ===
 [![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent-website/workflows/CI/badge.svg)](https://github.com/qbittorrent/qBittorrent-website/actions)
 
