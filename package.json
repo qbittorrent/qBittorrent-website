@@ -13,6 +13,7 @@
     "prettier": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*",
-    "stylelint-order": "*"
+    "stylelint-order": "*",
+    "@11ty/eleventy": "^2.0.0"
   }
 }

@@ -1,0 +1,63 @@
+/*
+ * https://codepo8.github.io/css-fork-on-github-ribbon/
+*/
+
+#forkongithub a {
+  background: #235092;
+  color: #fff;
+  font-family: arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  padding: 5px 40px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#forkongithub a:hover {
+  background: #c11;
+  color: #fff;
+}
+
+#forkongithub a::before,
+#forkongithub a::after {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+}
+
+#forkongithub a::after {
+  bottom: 1px;
+  top: auto;
+}
+
+@media screen and (min-width: 0px) {
+  #forkongithub {
+    display: block;
+    height: 200px;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 9999;
+  }
+
+  #forkongithub a {
+    box-shadow: 4px 4px 10px rgba(0 0 0 80%);
+    left: -70px;
+    pointer-events: auto;
+    position: absolute;
+    top: 50px;
+    transform: rotate(-45deg);
+    width: 200px;
+  }
+}

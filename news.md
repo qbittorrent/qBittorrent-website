@@ -1,3 +1,7 @@
+---
+layout: old_news.liquid
+permalink: "{{ page.filePathStem }}.php"
+---
 ### Tuesday Feb 28th 2023 - qBittorrent v4.5.2 release
 
 qBittorrent v4.5.2 was released.<br>

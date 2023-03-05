@@ -7,3 +7,12 @@ This repository contains the official qBittorrent website: https://www.qbittorre
 Anyone is welcome to submit PRs that fix problems and improve things.
 
 You can also submit redesigns but first open a bug report informing us and maybe show some mockups. Otherwise, you run the risk of wasting your time in case we won't agree with the redesign.
+
+### How to build
+The site uses [11ty](https://www.11ty.dev/) as a static site generator.
+In the git repo folder do:
+```
+npm install
+npx @11ty/eleventy
+```
+Then the site is generated under the `_site` subfolder.

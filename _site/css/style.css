@@ -1,0 +1,242 @@
+/*
+ * CSS By Christophe Dumez <chris@dchris.eu>
+ * Copyright (c) 2006
+ */
+
+body {
+  background-color: #2f67ba;
+  color: #282f33;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div #LogoChris {
+  margin: auto;
+  max-width: 600px;
+  min-height: 200px;
+  position: relative;
+}
+
+div #mainBox {
+  margin: 0 auto;
+  width: 800px;
+}
+
+div .codePart {
+  /*border: solid double rgb(47,103,186);*/
+  border-color: #2f67ba;
+  border-style: solid double groove;
+  font-style: italic;
+  margin: 0 auto;
+  width: 400px;
+}
+
+div .flexbox .box1 {
+  min-width: 135px;
+}
+
+div .flexbox {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 760px) and (orientation: portrait) {
+  div .flexbox .box1 {
+    min-width: auto;
+  }
+
+  div .flexbox {
+    flex-direction: column;
+    width: auto;
+  }
+}
+
+div .teamInfo {
+  float: left;
+}
+
+fieldset.teamFieldset {
+  background-color: #efefef;
+}
+
+h2 {
+  /* background-color: #ADD15A; */
+  color: #4394e8;
+  display: block;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 0;
+}
+
+h3 {
+  /* background-color: #ADD15A; */
+  border-bottom: 1px solid #d9dee1;
+  clear: both;
+  color: #282f33;
+  display: block;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  /*font-weight: lighter;*/
+  margin: 15px 0 10px;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+img.banner {
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+img.flag {
+  height: 1.1em;
+  vertical-align: middle;
+}
+
+img.teamUserIcon {
+  height: 8em;
+  width: 8em;
+}
+
+ol {
+  padding-left: 2em;
+}
+
+p.copyright {
+  color: #ffffff;
+  font-size: 0.75em;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 2em;
+}
+
+.invisible {
+  display: none;
+}
+
+.menu ul li a {
+  color: #ffffff;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.05em;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: #aad5ff;
+}
+
+.menu ul li {
+  border-left: 1px solid #49565d;
+  display: inline;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+.menu ul li.first {
+  border-left: 0 solid #49565d;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.menu ul li.last {
+  border-right: 0 solid #49565d;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 15px;
+  text-align: center;
+}
+
+.menu {
+  background-color: transparent;
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+.stretcher a {
+  color: #0e4fb0;
+}
+
+.stretcher a:hover {
+  text-decoration: none;
+}
+
+.stretcher {
+  font-size: 0.875em;
+  padding: 0 30px;
+}
+
+.wordBreak {
+  word-break: break-all;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: inset 0 55px 25px -25px #e6e6e6;
+  margin: 0 auto;
+  max-width: 920px;
+  text-align: left;
+}
+
+.wrapper-bottom {
+  padding-bottom: 15px;
+}
+
+.wrapper-top {
+  padding-top: 15px;
+}
+
+.releaseParagraph {
+  font-size: 130%;
+  margin-bottom: 3pt;
+}
+
+summary:hover {
+  cursor: pointer;
+}
+
+.downloadsOptions {
+  font-size: 85%;
+}
+
+.downloads-table {
+  width: 100%;
+}
+
+.downloads-table,
+.downloads-table th,
+.downloads-table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.downloads-table tr:not(:first-child):hover {
+  background-color: #cfe0f3;
+}
+
+.downloadNotesDiv {
+  background-color: lemonchiffon;
+  border-left: 4pt solid gold;
+  padding: 1em;
+}

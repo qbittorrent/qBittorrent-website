@@ -1,3 +1,6 @@
+---
+layout: base.html
+---
 <!-- ## qBittorrent: An Advanced BitTorrent Client -->
 ### About qBittorrent
 <a href="download.php"><img src="img/QBt-download-150.png" alt="download link" style="float: left; margin-right: 10px; height: 115px;"/></a>
@@ -45,4 +48,4 @@ If you want to help in translating qBittorrent, see these <a href="http://wiki.q
 * Available on all platforms: Windows, Linux, macOS, FreeBSD, OS/2
 * Available in <a href="https://www.transifex.com/sledgehammer999/qbittorrent/" target="_blank">~70 languages</a>
 
-** Go ahead and try qBittorrent, you won't regret it! **
+**Go ahead and try qBittorrent, you won't regret it!**

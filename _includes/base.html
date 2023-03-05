@@ -1,8 +1,6 @@
-<?php
-  //session_start();
-  ob_start();
-?>
-
+﻿---
+latest_ver: 4.5.2
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,7 +30,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download.php">Latest: v4.5.2</a>
+      <a href="download.php">Latest: v{{latest_ver}}</a>
     </span>
 
     <div id="MainBox">
@@ -58,3 +56,18 @@
           <div class="wrapper-bottom">
             <div id="content">
               <div class="stretcher" id="StretchHome">
+              {{content}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        Help us improve the <a href="https://github.com/qbittorrent/qBittorrent-website" style="color: #FFFFFF;">website</a><br/>
+        <br/>
+        Copyright &copy;2006-{{ "now" | date: "%Y" }} <a href="mailto:sledgehammer999@qbittorrent.org" style="color: #FFFFFF;">The qBittorrent project</a> - All rights reserved<br/>
+        <br/>
+      </p>
+    </div>
+  </body>
+</html>
