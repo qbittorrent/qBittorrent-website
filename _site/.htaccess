@@ -17,16 +17,16 @@
 	# redirect from top level domain to www
 	RewriteCond %{HTTP_HOST} !^www\. [NC]
 	RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
+</IfModule>
 
-	<IfModule mod_headers.c>
-		Header always set Strict-Transport-Security "max-age=31536000"
+<IfModule mod_headers.c>
+	Header always set Strict-Transport-Security "max-age=31536000"
 
-		Header always set X-Frame-Options "SAMEORIGIN"
-		Header always set X-XSS-Protection "1; mode=block"
-		Header always set X-Content-Type-Options "nosniff"
+	Header always set X-Frame-Options "SAMEORIGIN"
+	Header always set X-XSS-Protection "1; mode=block"
+	Header always set X-Content-Type-Options "nosniff"
 
-		Header always set Referrer-Policy "same-origin"
-	</IfModule>
+	Header always set Referrer-Policy "same-origin"
 </IfModule>
 
 # control "max-age" & "Cache-Control" in HTTP header
