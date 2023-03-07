@@ -7,7 +7,7 @@
 	# uncomment following line if your webserver's URL is not directly related to physical file paths.
 	RewriteBase /
 
-	# remove the need for .php extension
+	# remove the need for .html extension
 	RewriteRule ^donate$ donate.html [NC]
 
 	# redirect http -> https
