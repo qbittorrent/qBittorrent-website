@@ -1,6 +1,6 @@
 ---
 layout: old_news.liquid
-permalink: "{{ page.filePathStem }}.php"
+permalink: "{{ page.filePathStem }}.html"
 ---
 ### Tuesday Feb 28th 2023 - qBittorrent v4.5.2 release
 

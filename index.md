@@ -1,5 +1,5 @@
 ---
-layout: base.html
+layout: base.liquid
 ---
 <!-- ## qBittorrent: An Advanced BitTorrent Client -->
 ### About qBittorrent

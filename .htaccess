@@ -10,6 +10,15 @@
 	# remove the need for .html extension
 	RewriteRule ^donate$ donate.html [NC]
 
+	# The .php extension is used to avoid breaking
+	# old links by 3rd party sites.
+	# 11ty isn't made to directly output the files
+	# with a .php extension to avoid apache from
+	# parsing them as PHP files.
+	RewriteRule ^download.php$ download.html [NC]
+	RewriteRule ^news.php$ news.html [NC]
+	RewriteRule ^team.php$ team.html [NC]
+
 	# redirect http -> https
 	RewriteCond %{HTTPS} off
 	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [END,R=301]
