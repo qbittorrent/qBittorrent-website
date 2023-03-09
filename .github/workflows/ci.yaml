@@ -4,22 +4,31 @@ on: [pull_request, push]
 
 permissions: {}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: ${{ github.head_ref != '' }}
+
 jobs:
-  nodejs:
-    name: Check CSS
+  ci:
+    name: Check
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
-      - name: setup nodejs
+      - name: Setup nodejs
         uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
-      - name: install tools
+      - name: Install tools
         run: npm install
-      - name: lint code
+      - name: Lint code
         run: npm run lint
-      - name: format code
+      - name: Format code
         run: |
           npm run format
+          git diff --exit-code
+      - name: Build code
+        run: |
+          rm -r _site
+          npm run build
           git diff --exit-code
