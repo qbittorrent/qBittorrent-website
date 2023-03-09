@@ -6,8 +6,10 @@
     "url": "https://github.com/qbittorrent/qBittorrent-website.git"
   },
   "scripts": {
+    "build": "eleventy",
     "format": "prettier --write **.css",
-    "lint": "stylelint **/*.css"
+    "lint": "stylelint **/*.css",
+    "serve": "eleventy --serve"
   },
   "devDependencies": {
     "prettier": "*",

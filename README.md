@@ -11,8 +11,13 @@ You can also submit redesigns but first open a bug report informing us and maybe
 ### How to build
 The site uses [11ty](https://www.11ty.dev/) as a static site generator.
 In the git repo folder do:
-```
+```shell
 npm install
-npx @11ty/eleventy
+npm run build
 ```
 Then the site is generated under the `_site` subfolder.
+
+You can also run the following to start up a local development server:
+```shell
+npm run serve
+```
