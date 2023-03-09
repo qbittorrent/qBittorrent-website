@@ -2,7 +2,8 @@ qBittorrent-website
 ===
 [![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent-website/workflows/CI/badge.svg)](https://github.com/qbittorrent/qBittorrent-website/actions)
 
-This repository contains the official qBittorrent website: https://www.qbittorrent.org
+This repository contains the official qBittorrent website: https://www.qbittorrent.org/ \
+A backup mirror is hosted at: https://qbittorrent.github.io/qBittorrent-website/
 
 Anyone is welcome to submit PRs that fix problems and improve things.
 
