@@ -7,7 +7,6 @@
     "color-hex-length": null,
     "comment-empty-line-before": null,
     "comment-whitespace-inside": null,
-    "declaration-colon-newline-after": null,
     "function-name-case": null,
     "length-zero-no-unit": null,
     "no-descending-specificity": null,
