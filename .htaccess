@@ -7,17 +7,13 @@
 	# uncomment following line if your webserver's URL is not directly related to physical file paths.
 	RewriteBase /
 
-	# remove the need for .html extension
-	RewriteRule ^donate$ donate.html [NC]
+	# redirect `/file.php` to `/file`
+	RewriteCond %{REQUEST_URI} ^/([^.]+)\.php$ [NC]
+	RewriteRule ^(.*)$ /%1 [L,R=301]
 
-	# The .php extension is used to avoid breaking
-	# old links by 3rd party sites.
-	# 11ty isn't made to directly output the files
-	# with a .php extension to avoid apache from
-	# parsing them as PHP files.
-	RewriteRule ^download.php$ download.html [NC]
-	RewriteRule ^news.php$ news.html [NC]
-	RewriteRule ^team.php$ team.html [NC]
+	# under the hood, map `/file` back to `/file.html`
+	RewriteCond %{REQUEST_FILENAME}.html -f [NC]
+	RewriteRule ^(.*)$ %{REQUEST_URI}.html
 
 	# redirect http -> https
 	RewriteCond %{HTTPS} off
