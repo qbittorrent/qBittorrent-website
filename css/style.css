@@ -119,6 +119,10 @@ p.copyright {
   text-align: center;
 }
 
+.copyright a {
+  color: #ffffff;
+}
+
 ul {
   padding-left: 2em;
 }
