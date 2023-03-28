@@ -32,3 +32,6 @@ jobs:
           rm -r _site
           npm run build
           git diff --exit-code
+      - name: Check html
+        run: |
+          npm run check-html

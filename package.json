@@ -7,15 +7,17 @@
   },
   "scripts": {
     "build": "eleventy",
+    "check-html": "html-validate _site/*.html",
     "format": "prettier --write **.css",
     "lint": "stylelint **/*.css",
     "serve": "eleventy --serve"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "html-validate": "*",
     "prettier": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*",
-    "stylelint-order": "*",
-    "@11ty/eleventy": "^2.0.0"
+    "stylelint-order": "*"
   }
 }
