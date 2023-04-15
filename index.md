@@ -18,7 +18,7 @@ If you like this piece of software, please make a donation and help it survive.
 
 Donation info [here](donate).
 
-If you want to help in translating qBittorrent, see these <a href="http://wiki.qbittorrent.org/How-to-translate-qBittorrent" target="_blank">instructions</a>.
+If you want to help in translating qBittorrent, see these <a href="https://github.com/qbittorrent/qBittorrent/wiki/How-to-translate-qBittorrent" target="_blank">instructions</a>.
 
 
 ### qBittorrent Features
