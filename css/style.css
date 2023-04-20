@@ -44,7 +44,7 @@ div .flexbox {
   justify-content: flex-start;
 }
 
-@media only screen and (max-width: 760px) and (orientation: portrait) {
+@media only screen and (width <= 760px) and (orientation: portrait) {
   div .flexbox .box1 {
     min-width: auto;
   }

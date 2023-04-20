@@ -38,7 +38,7 @@
   top: auto;
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (width >= 0px) {
   #forkongithub {
     display: block;
     height: 200px;
