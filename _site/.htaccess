@@ -17,7 +17,7 @@
 	RewriteRule ^(.*)$ /%1 [L,R=301]
 
 	# under the hood, map `/file` back to `/file.html`
-	RewriteCond %{REQUEST_FILENAME}.html -f [NC]
+	RewriteCond %{REQUEST_FILENAME}.html -f
 	RewriteRule ^(.*)$ %{REQUEST_URI}.html
 
 	# redirect http -> https
