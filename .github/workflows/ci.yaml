@@ -35,3 +35,8 @@ jobs:
       - name: Check html
         run: |
           npm run check-html
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: website
+          path: _site
