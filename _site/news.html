@@ -27,7 +27,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v4.5.2</a>
+      <a href="download">Latest: v4.5.4</a>
     </span>
 
     <div id="MainBox">
@@ -54,6 +54,85 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 
+<h3>Sunday Jun 18th 2023 - qBittorrent v4.5.4 and v4.6.0beta1 release</h3>
+<p>qBittorrent v4.5.4 and v4.6.0beta1 were released.<br>
+For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 is unstable on macOS and has theming issues on Windows.<br>
+<strong>NOTE:</strong> macOS builds are self-signed now. It should help with macOS permissions dialogs.<br>
+<strong>v4.6.0beta1</strong>: For the source code look at the <a href="https://github.com/qbittorrent/qBittorrent/releases/tag/release-4.6.0beta1"><code>release-4.6.0beta1</code></a> git tag.<br></p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.10 / 6.4.3 (Windows, macOS) / 6.5.1 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.82</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v4.5.4 changelog:</p>
+<ul>
+<li>BUGFIX: Allow to disable confirmation of Pause/Resume All (glassez)</li>
+<li>BUGFIX: Sync flag icons with upstream (Priit Uring)</li>
+<li>WEBUI: Fix category save path (Raymond Ha)</li>
+</ul>
+<h3>Monday May 29th 2023 - qBittorrent v4.5.3 and v4.6.0alpha1 release</h3>
+<p>qBittorrent v4.5.3 and v4.6.0alpha1 were released.<br>
+<strong>NOTE:</strong> macOS builds are self-signed now. It should help with macOS permissions dialogs.<br>
+<strong>v4.6.0alpha1</strong>: There are a lot of changes but a changelog isn't compiled at the moment. It will be provided in later releases. Also, only the Qt6 version will be available for Windows. For the source code look at the <a href="https://github.com/qbittorrent/qBittorrent/releases/tag/release-4.6.0alpha1"><code>release-4.6.0alpha1</code></a> git tag.<br></p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitadac0d0843 / 2.0.9+git73089332ab</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.9 / 6.5.1</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.82</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v4.5.3 changelog:</p>
+<ul>
+<li>BUGFIX: Correctly check if database needs to be updated (glassez)</li>
+<li>BUGFIX: Prevent incorrect log message about torrent content deletion (glassez)</li>
+<li>BUGFIX: Improve finished torrent handling (glassez)</li>
+<li>BUGFIX: Correctly initialize group box children as disabled in Preferences (thalieht)</li>
+<li>BUGFIX: Don't miss saving &quot;download path&quot; in SQLite storage (glassez)</li>
+<li>BUGFIX: Improve logging of running external program (glassez)</li>
+<li>WEBUI: Disable UPnP for web UI by default (glassez)</li>
+<li>WEBUI: Use workaround for IOS file picker (DivineHawk)</li>
+<li>WEBUI: Work around Chrome download limit (Chocobo1)</li>
+<li>WEBUI: Improve 'exporting torrent' behavior (Chocobo1)</li>
+<li>WINDOWS: NSIS: Add Slovak translation (Christian Danížek)</li>
+</ul>
 <h3>Tuesday Feb 28th 2023 - qBittorrent v4.5.2 release</h3>
 <p>qBittorrent v4.5.2 was released.<br>
 <strong>SECURITY:</strong> This version contains a security bugfix in the web server. The bug allowed for any file on the user's filesystem to be served without any authentication. This affects users that have enabled the WebUI/WebAPI. It seems to affect only v4.5.0 and v4.5.1 on Windows.<br>

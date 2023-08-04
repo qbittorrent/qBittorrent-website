@@ -2,6 +2,90 @@
 layout: old_news.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+### Sunday Jun 18th 2023 - qBittorrent v4.5.4 and v4.6.0beta1 release
+
+qBittorrent v4.5.4 and v4.6.0beta1 were released.<br>
+For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 is unstable on macOS and has theming issues on Windows.<br>
+**NOTE:** macOS builds are self-signed now. It should help with macOS permissions dialogs.<br>
+**v4.6.0beta1**: For the source code look at the [`release-4.6.0beta1`](https://github.com/qbittorrent/qBittorrent/releases/tag/release-4.6.0beta1) git tag.<br>
+
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitadac0d0843 / 2.0.9+gitc2012b084c</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.10 / 6.4.3 (Windows, macOS) / 6.5.1 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.82</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.5.4 changelog:
+- BUGFIX: Allow to disable confirmation of Pause/Resume All (glassez)
+- BUGFIX: Sync flag icons with upstream (Priit Uring)
+- WEBUI: Fix category save path (Raymond Ha)
+
+### Monday May 29th 2023 - qBittorrent v4.5.3 and v4.6.0alpha1 release
+
+qBittorrent v4.5.3 and v4.6.0alpha1 were released.<br>
+**NOTE:** macOS builds are self-signed now. It should help with macOS permissions dialogs.<br>
+**v4.6.0alpha1**: There are a lot of changes but a changelog isn't compiled at the moment. It will be provided in later releases. Also, only the Qt6 version will be available for Windows. For the source code look at the [`release-4.6.0alpha1`](https://github.com/qbittorrent/qBittorrent/releases/tag/release-4.6.0alpha1) git tag.<br>
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitadac0d0843 / 2.0.9+git73089332ab</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.9 / 6.5.1</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.82</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.5.3 changelog:
+- BUGFIX: Correctly check if database needs to be updated (glassez)
+- BUGFIX: Prevent incorrect log message about torrent content deletion (glassez)
+- BUGFIX: Improve finished torrent handling (glassez)
+- BUGFIX: Correctly initialize group box children as disabled in Preferences (thalieht)
+- BUGFIX: Don't miss saving "download path" in SQLite storage (glassez)
+- BUGFIX: Improve logging of running external program (glassez)
+- WEBUI: Disable UPnP for web UI by default (glassez)
+- WEBUI: Use workaround for IOS file picker (DivineHawk)
+- WEBUI: Work around Chrome download limit (Chocobo1)
+- WEBUI: Improve 'exporting torrent' behavior (Chocobo1)
+- WINDOWS: NSIS: Add Slovak translation (Christian Danížek)
+
 ### Tuesday Feb 28th 2023 - qBittorrent v4.5.2 release
 
 qBittorrent v4.5.2 was released.<br>
