@@ -7,7 +7,7 @@
   color: white;
   cursor: pointer;
   display: none;
-  fill-opacity: 75%;
+  fill-opacity: 0.75;
   font-size: 18px;
   outline: none;
   padding: 18px;
@@ -20,7 +20,7 @@
   background-color: #aad5ff;
 }
 
-@media only screen and (max-width: 760px) and (orientation: portrait) {
+@media only screen and (width <= 760px) and (orientation: portrait) {
   .pagination a {
     padding: 15px 0px;
   }
@@ -35,7 +35,7 @@
   }
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (width <= 1600px) {
   #TopBtn {
     opacity: 0.75;
     right: 8.25%;
@@ -43,7 +43,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-
   .stretcher a:hover {
     color: #838383;
   }
