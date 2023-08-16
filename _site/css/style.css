@@ -89,7 +89,8 @@ img {
   display: block;
 }
 
-img.banner,img.bannerdark {
+img.banner,
+img.bannerdark {
   max-width: 100%;
   position: absolute;
   top: 50%;
@@ -307,7 +308,7 @@ summary:hover {
   }
 
   .downloadNotesDiv {
-    background-color: #383838/*#636363*/;
+    background-color: #383838 /*#636363*/;
     border-left: 4pt solid #2f67ba;
     color: #b7b7b7;
   }
