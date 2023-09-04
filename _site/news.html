@@ -43,7 +43,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v4.5.4</a>
+      <a href="download">Latest: v4.5.5</a>
     </span>
 
     <div id="MainBox">
@@ -119,6 +119,49 @@
   }
 </script>
 
+<h3>Tue Aug 29th 2023 - qBittorrent v4.5.5 and v4.6.0RC2 release</h3>
+<p>qBittorrent v4.5.5 and v4.6.0RC2 were released.<br>
+This will be the <strong>last</strong> release of the v4.5.x series. Users running the Qt5 edition will not be notified for new updates if they are running on older Windows versions than Windows 10.<br>
+For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 is unstable on macOS and has theming issues on Windows.<br>
+<strong>NOTE:</strong> macOS builds are self-signed now. It should help with macOS permissions dialogs.<br>
+<strong>v4.6.0RC2</strong>: For the source code look at the <a href="https://github.com/qbittorrent/qBittorrent/releases/tag/release-4.6.0rc2"><code>release-4.6.0rc2</code></a> git tag. The RC1 was <a href="https://github.com/qbittorrent/qBittorrent/releases/tag/release-4.6.0rc1">tagged on git</a> but builds weren't provided.<br></p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitd28ee4eee8 / 2.0.9+git3a44a5a78e</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>5.15.10 / 6.4.3 (Windows, macOS) / 6.5.2 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.83</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v4.5.5 changelog:</p>
+<ul>
+<li>BUGFIX: Fix transfer list tab hotkey (thalieht)</li>
+<li>BUGFIX: Don't forget to enable the Apply button in the Options dialog (glassez)</li>
+<li>BUGFIX: Immediately update torrent status on moving files (glassez)</li>
+<li>BUGFIX: Improve performance when scrolling the file list of large torrents (gdim47)</li>
+<li>BUGFIX: Don't operate on random torrents when multiple are selected and a sort/filter is applied (glassez)</li>
+<li>RSS: Fix overwriting feeds.json with an incomplete load of it (Omar Abdul Azeez)</li>
+<li>WINDOWS: Software update check logic is disabled for &lt; Win10 (sledgehammer999)</li>
+<li>WINDOWS: NSIS: Update Turkish and French translations (Burak Yavuz, MarcDrieu)</li>
+<li>WINDOWS: NSIS: Add Romanian translation (rusu-afanasie)</li>
+</ul>
 <h3>Sunday Jun 18th 2023 - qBittorrent v4.5.4 and v4.6.0beta1 release</h3>
 <p>qBittorrent v4.5.4 and v4.6.0beta1 were released.<br>
 For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 is unstable on macOS and has theming issues on Windows.<br>
