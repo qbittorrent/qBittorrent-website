@@ -89,8 +89,7 @@ img {
   display: block;
 }
 
-img.banner,
-img.bannerdark {
+img.banner {
   max-width: 100%;
   position: absolute;
   top: 50%;
