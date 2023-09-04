@@ -41,13 +41,3 @@
     right: 8.25%;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  .stretcher a:hover {
-    color: #838383;
-  }
-
-  #TopBtn {
-    background-color: #292929;
-  }
-}
