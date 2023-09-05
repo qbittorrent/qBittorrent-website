@@ -1,0 +1,43 @@
+/* main download button */
+
+.dwnbtn {
+  background: linear-gradient(
+    to right,
+    #208fff 50%,
+    #2f67baff 100%
+  ); /*rgb(32, 143, 255)*/
+
+  background-position: right 0;
+  background-size: 200%;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  filter: drop-shadow(0px 3px 5px rgb(0 0 0 / 30%));
+  font-family: sans-serif;
+  font-size: 55px;
+  font-weight: 400;
+  left: 50%;
+  letter-spacing: 0.05em; /*2px*/
+  margin: 2px 2px 2px 0px;
+  opacity: 0.85;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translateX(-50%);
+  transition:
+    opacity 100ms ease-in,
+    filter 100ms ease-in;
+  width: auto;
+}
+
+.dwnbtn:hover {
+  filter: drop-shadow(0px 3px 5px rgb(0 0 0 / 60%));
+  opacity: 1;
+}
+
+.dwnbtn:active {
+  filter: drop-shadow(0px 3px 5px rgb(0 0 0 / 90%));
+}

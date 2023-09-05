@@ -1,0 +1,43 @@
+/* news page */
+#TopBtn {
+  background-color: #2f67ba;
+  border: 2px solid white;
+  border-radius: 10px;
+  bottom: 20px;
+  color: white;
+  cursor: pointer;
+  display: none;
+  fill-opacity: 0.75;
+  font-size: 18px;
+  outline: none;
+  padding: 18px;
+  position: fixed;
+  right: 300px;
+  z-index: 99;
+}
+
+#TopBtn:hover {
+  background-color: #aad5ff;
+}
+
+@media only screen and (width <= 760px) and (orientation: portrait) {
+  .pagination a {
+    padding: 15px 0px;
+  }
+
+  .pagination {
+    padding-bottom: 10%;
+    padding-top: 10px;
+  }
+
+  .wrapper {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (width <= 1600px) {
+  #TopBtn {
+    opacity: 0.75;
+    right: 8.25%;
+  }
+}

@@ -177,7 +177,7 @@ ul {
 }
 
 .stretcher a {
-  color: #0e4fb0;
+  /*color: #0e4fb0;*/
 }
 
 .stretcher a:hover {
@@ -243,4 +243,9 @@ summary:hover {
   background-color: lemonchiffon;
   border-left: 4pt solid gold;
   padding: 1em;
+}
+
+.icon2,
+.banner {
+  display: block;
 }
