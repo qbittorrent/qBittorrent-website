@@ -2,6 +2,102 @@
 layout: old_news.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+### Sun Oct 22th 2023 - qBittorrent v4.6.0 release
+
+qBittorrent v4.6.0 was released.<br>
+A lot of work has been done for version 4.6.0. The changelog below includes the most notable changes for end users along with the author for each change. Also, I want to thank all the users, like [**thalieht**](https://github.com/thalieht) and [**xavier2k6**](https://github.com/xavier2k6), who constantly help with testing PRs and doing bug triaging.<br>
+**WINDOWS:** Only Windows 10+ is now supported.<br>
+**SECURITY NOTICE:** WebUI users YOU MUST change the default Webui credentials (aka "adminadmin") when exposing the WebUI to the Internet. There are reports([1](https://github.com/qbittorrent/qBittorrent/issues/13833), [2](https://github.com/qbittorrent/qBittorrent/issues/18731), [3](https://github.com/qbittorrent/qBittorrent/issues/16529), [4](https://github.com/qbittorrent/qBittorrent/issues/19738)) that this is possibly exploited in the wild. This will be remedied in a followup release where the default credentials will be disabled and a credentials change will be forced.<br>
+**macOS:** Builds are self-signed now. It should help with macOS permissions dialogs.<br>
+
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitd28ee4eee8 / 2.0.9+git5ce4c51647</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.0 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.83</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.0 changelog:
+- FEATURE: Add (experimental) I2P support (glassez)
+- FEATURE: Provide UI editor for the default theme (glassez)
+- FEATURE: Various UI theming improvements (glassez)
+- FEATURE: Implement torrent tags editing dialog (glassez)
+- FEATURE: Revamp "Watched folder options" and "Automated RSS downloader" dialog (glassez)
+- FEATURE: Allow to use another icons in dark mode (glassez)
+- FEATURE: Allow to add new torrents to queue top (glassez)
+- FEATURE: Allow to filter torrent list by save path (Tom)
+- FEATURE: Expose 'socket send/receive buffer size' options (Chocobo1)
+- FEATURE: Expose 'max torrent file size' setting (Chocobo1)
+- FEATURE: Expose 'bdecode limits' settings (Chocobo1)
+- FEATURE: Add options to adjust behavior of merging trackers to existing torrent (glassez)
+- FEATURE: Add option to stop seeding when torrent has been inactive (Christopher)
+- FEATURE: Allow to use proxy per subsystem (glassez)
+- FEATURE: Expand the scope of "Proxy hostname lookup" option (glassez)
+- FEATURE: Add shortcut for "Ban peer permanently" function (Luka Čelebić)
+- FEATURE: Add option to auto hide zero status filters (glassez)
+- FEATURE: Allow to disable confirmation of Pause/Resume All (glassez)
+- FEATURE: Add alternative shortcut CTRL+E for CTRL+F (Luka Čelebić)
+- FEATURE: Show filtered port numbers in logs (Hanabishi)
+- FEATURE: Add button to copy library versions to clipboard (Chocobo1)
+- BUGFIX: Ensure ongoing storage moving job will be completed when shutting down (Chocobo1)
+- BUGFIX: Refactored many areas to call non UI blocking code (glassez)
+- BUGFIX: Various improvements to the SQLite backend (glassez)
+- BUGFIX: Improve startup window state handling (glassez)
+- BUGFIX: Use tray icon from system theme only if option is set (glassez)
+- BUGFIX: Inhibit system sleep while torrents are moving (Sentox6)
+- BUGFIX: Use hostname instead of domain name in tracker filter list (tearfur)
+- BUGFIX: Visually validate input path in torrent creator dialog (Chocobo1)
+- BUGFIX: Disable symlink resolving in Torrent creator (Ignat Loskutov)
+- BUGFIX: Change default value for `file pool size` and `stop tracker timeout` settings (stalkerok)
+- BUGFIX: Log when duplicate torrents are being added (glassez)
+- BUGFIX: Inhibit suspend instead of screen idle (axet)
+- BUGFIX: Ensure file name is valid when exporting torrents (glassez)
+- BUGFIX: Open "Save path" if torrent has no metadata (Xu Chao)
+- BUGFIX: Prevent torrent starting unexpectedly edge case with magnet (Xu Chao)
+- BUGFIX: Better ergonomics of the "Add new torrent" dialog (Xu Chao, glassez)
+- WEBUI: Add log viewer (brvphoenix)
+- WEBUI: WebAPI: Allow to specify session cookie name (glassez)
+- WEBUI: Improve sync API performance (glassez)
+- WEBUI: Add filelog settings (brvphoenix)
+- WEBUI: Add multi-file renaming (loligans)
+- WEBUI: Add "Add to top of queue" option (thalieht)
+- WEBUI: Implement subcategories (Bartu Özen)
+- WEBUI: Set "SameSite=None" if CSRF Protection is disabled (七海千秋)
+- WEBUI: Show only hosts in tracker filter list (ttys3)
+- WEBUI: Set Connection status and Speed limits tooltips (Raymond Ha)
+- WEBUI: set Cross Origin Opener Policy to `same-origin` (Chocobo1)
+- WEBUI: Fix response for HTTP HEAD method (Chocobo1)
+- WEBUI: Preserve the network interfaces when connection is down (Fabricio Silva)
+- WEBUI: Add "Add Tags" field for RSS rules (Matic Babnik)
+- WEBUI: Fix missing error icon (Trim21)
+- RSS: Add "Rename rule" button to RSS Downloader (BallsOfSpaghetti)
+- RSS: Allow to edit RSS feed URL (glassez)
+- RSS: Allow to assign priority to RSS download rule (glassez)
+- SEARCH: Use python isolate mode (Chocobo1)
+- SEARCH: Bump python version minimum requirement to 3.7.0 (Chocobo1)
+- OTHER: Enable DBUS cmake option on FreeBSD (yuri@FreeBSD)
+- OTHER: Numerous code improvements and refactorings (glassez, Chocobo1)
+
 ### Tue Aug 29th 2023 - qBittorrent v4.5.5 and v4.6.0RC2 release
 
 qBittorrent v4.5.5 and v4.6.0RC2 were released.<br>
