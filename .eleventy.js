@@ -4,7 +4,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy(".htaccess");
   eleventyConfig.addPassthroughCopy("favicon.ico");
-  
+  eleventyConfig.addPassthroughCopy("favicon.svg");
+
   // Ignore files
   eleventyConfig.ignores.add("README.md");
 };
