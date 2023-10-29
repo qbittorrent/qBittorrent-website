@@ -6,6 +6,7 @@
     "no-conditional-comment": "off",
     "no-inline-style": "off",
     "prefer-tbody": "off",
+    "valid-id": ["error", {"relaxed": true}],
     "wcag/h63": "off",
     "wcag/h71": "off"
   }
