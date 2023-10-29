@@ -15,6 +15,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "html-validate": "*",
+    "markdown-it-anchor": "*",
     "prettier": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*",

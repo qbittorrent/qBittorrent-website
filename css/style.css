@@ -72,6 +72,11 @@ h2 {
   margin: 0;
 }
 
+h2 a.header-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
 h3 {
   /* background-color: #ADD15A; */
   border-bottom: 1px solid #d9dee1;
@@ -82,6 +87,11 @@ h3 {
   font-size: 1.4em;
   /*font-weight: lighter;*/
   margin: 15px 0 10px;
+}
+
+h3 a.header-anchor {
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
