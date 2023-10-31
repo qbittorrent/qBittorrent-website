@@ -1,4 +1,4 @@
-const markdownItAnchor = require("markdown-it-anchor");
+const MarkdownItAnchor = require("markdown-it-anchor");
 
 module.exports = (eleventyConfig) => {
   // Copy files as-is
@@ -9,13 +9,14 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("favicon.svg");
 
   // Ignored files
+  eleventyConfig.ignores.add("old_news.md");
   eleventyConfig.ignores.add("README.md");
 
   eleventyConfig.amendLibrary("md", (mdLib) => {
-      // https://github.com/valeriangalliat/markdown-it-anchor#usage
-      const options = {
-        permalink: markdownItAnchor.permalink.headerLink()
-      };
-      mdLib.use(markdownItAnchor, options);
+    // https://github.com/valeriangalliat/markdown-it-anchor#usage
+    const options = {
+      permalink: MarkdownItAnchor.permalink.headerLink()
+    };
+    mdLib.use(MarkdownItAnchor, options);
   });
 };

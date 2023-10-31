@@ -1,5 +1,5 @@
 ---
-layout: old_news.liquid
+layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
 ### Sun Oct 22th 2023 - qBittorrent v4.6.0 release
@@ -2240,3 +2240,5 @@ This will be the last release in the v3.3.x series. Next release will have a new
 
 Now the mainsite is served over HTTPS. Thanks to [Let's Encrypt](https://letsencrypt.org/) and to shiki (forum admin).<br>
 Also the mainsite is available as a git repo now for (almost) anyone to hack, fix bugs and maybe [redesign](https://github.com/qbittorrent/qBittorrrent-website/issues/5). Look [here](https://github.com/qbittorrent/qBittorrrent-website).
+
+{% render "old_news.md" %}
