@@ -34,7 +34,8 @@ div .codePart {
   width: 400px;
 }
 
-div .flexbox .box1 {
+div .flexbox .osIcon {
+  margin-top: 20px;
   min-width: 135px;
 }
 
