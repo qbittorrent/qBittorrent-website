@@ -2,6 +2,60 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+### Mon Nov 20th 2023 - qBittorrent v4.6.1 release
+
+qBittorrent v4.6.1 was released.<br>
+The most important change has to do with WebUI. It affects users that haven't set their own credentials and are use the default ones. Those will not be accepted now and qBittorrent will generate a random password and output it in the console for you to use. Then you can login and configure a password.<br>
+Secondly, there is an option (in Advanced section) to control the behavior of the `Add New Torrent` dialog regarding position on top of the main window.<br>
+
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitfda40ea66b / 2.0.9+git9c18976452</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.0 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.83</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.1 changelog:
+- FEATURE: Add option to enable previous Add new torrent dialog behavior (glassez)
+- BUGFIX: Prevent crash due to race condition when adding magnet link (glassez)
+- BUGFIX: Fix Enter key behavior when add new torrent (glassez)
+- BUGFIX: Add missing main window icon (iomezk)
+- BUGFIX: Update size of selected files when selection is changed (glassez)
+- BUGFIX: Correctly handle changing save path of torrent w/o metadata (glassez)
+- BUGFIX: Use appropriate icon for "moving" torrents in transfer list (xavier2k6)
+- WEBUI: Drop WebUI default credentials (glassez)
+- WEBUI: Add I2P settings to WebUI (thalieht)
+- WEBUI: Fix duplicate scrollbar on Transfer List (AgentConDier)
+- WEBUI: Fix .torrent file upload on iPadOS (Vitaly Cheptsov)
+- WEBUI: Fix incorrect subcategory sorting (Bartu Özen)
+- WEBUI: Correctly set save path in RSS rules (glassez)
+- WEBUI: Allow to request torrents count via WebAPI (glassez)
+- WEBUI: Improve performance of getting torrent numbers via WebAPI (Chocobo1)
+- WEBUI: Improve free disk space checking for WebAPI (glassez)
+- WINDOWS: NSIS: Fixed typo in the installer's hungarian translation (MartinKing01)
+- LINUX: Fix invisible tray icon with Qt5 in Linux (thalieht)
+- MACOS: Remove "Physical memory (RAM) usage limit" option (Chocobo1)
+
 ### Sun Oct 22th 2023 - qBittorrent v4.6.0 release
 
 qBittorrent v4.6.0 was released.<br>
