@@ -5,8 +5,8 @@ permalink: "{{ page.filePathStem }}.html"
 ### Mon Nov 20th 2023 - qBittorrent v4.6.1 release
 
 qBittorrent v4.6.1 was released.<br>
-The most important change has to do with WebUI. It affects users that haven't set their own credentials and are use the default ones. Those will not be accepted now and qBittorrent will generate a random password and output it in the console for you to use. Then you can login and configure a password.<br>
-Secondly, there is an option (in Advanced section) to control the behavior of the `Add New Torrent` dialog regarding position on top of the main window.<br>
+The most important change has to do with WebUI. It affects users who haven't set their own credentials and who have been using the default ones. Those aren't accepted anymore and qBittorrent will generate a random password and output it in the console for you to use. Then you can login and configure a new password.<br>
+Secondly, there is an option (in Advanced section) to control the behavior of the `Add New Torrent` dialog regarding the position on top of the main window.<br>
 
 
 <details>
@@ -56,7 +56,7 @@ v4.6.1 changelog:
 - LINUX: Fix invisible tray icon with Qt5 in Linux (thalieht)
 - MACOS: Remove "Physical memory (RAM) usage limit" option (Chocobo1)
 
-### Sun Oct 22th 2023 - qBittorrent v4.6.0 release
+### Sun Oct 22nd 2023 - qBittorrent v4.6.0 release
 
 qBittorrent v4.6.0 was released.<br>
 A lot of work has been done for version 4.6.0. The changelog below includes the most notable changes for end users along with the author for each change. Also, I want to thank all the users, like [**thalieht**](https://github.com/thalieht) and [**xavier2k6**](https://github.com/xavier2k6), who constantly help with testing PRs and doing bug triaging.<br>
