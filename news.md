@@ -2,6 +2,47 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+### Mon Nov 27th 2023 - qBittorrent v4.6.2 release
+
+qBittorrent v4.6.2 was released.<br>
+It contains a hotfix for WebUI users that use the default credentials and couldn't see the temporary password printed in the console.<br>
+
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitfda40ea66b / 2.0.9+git9c18976452</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.1 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.83</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.2 changelog:
+- BUGFIX: Do not apply share limit if the previous one was applied (glassez)
+- BUGFIX: Show Add new torrent dialog on main window screen (glassez)
+- WEBUI: Fix JS memory leak (brvphoenix)
+- WEBUI: Disable stdout buffering for qbt-nox (Chocobo1)
+- WINDOWS: NSIS: Display correct Minimum Windows OS requirement (xavier2k6)
+- WINDOWS: NSIS: Add Hebrew translation (avivmu)
+- LINUX: WAYLAND: Fix parent widget of "Lock qBittorrent" submenu (Vlad Zahorodnii)
+
 ### Mon Nov 20th 2023 - qBittorrent v4.6.1 release
 
 qBittorrent v4.6.1 was released.<br>

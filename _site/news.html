@@ -23,7 +23,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v4.6.1</a>
+      <a href="download">Latest: v4.6.2</a>
     </span>
 
     <div id="MainBox">
@@ -49,6 +49,44 @@
           <div class="wrapper-bottom">
             <div id="content">
               <div class="stretcher" id="StretchHome">
+<h3 id="mon-nov-27th-2023---qbittorrent-v4.6.2-release" tabindex="-1"><a class="header-anchor" href="#mon-nov-27th-2023---qbittorrent-v4.6.2-release">Mon Nov 27th 2023 - qBittorrent v4.6.2 release</a></h3>
+<p>qBittorrent v4.6.2 was released.<br>
+It contains a hotfix for WebUI users that use the default credentials and couldn't see the temporary password printed in the console.<br></p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+gitfda40ea66b / 2.0.9+git9c18976452</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.1 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.83</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v4.6.2 changelog:</p>
+<ul>
+<li>BUGFIX: Do not apply share limit if the previous one was applied (glassez)</li>
+<li>BUGFIX: Show Add new torrent dialog on main window screen (glassez)</li>
+<li>WEBUI: Fix JS memory leak (brvphoenix)</li>
+<li>WEBUI: Disable stdout buffering for qbt-nox (Chocobo1)</li>
+<li>WINDOWS: NSIS: Display correct Minimum Windows OS requirement (xavier2k6)</li>
+<li>WINDOWS: NSIS: Add Hebrew translation (avivmu)</li>
+<li>LINUX: WAYLAND: Fix parent widget of &quot;Lock qBittorrent&quot; submenu (Vlad Zahorodnii)</li>
+</ul>
 <h3 id="mon-nov-20th-2023---qbittorrent-v4.6.1-release" tabindex="-1"><a class="header-anchor" href="#mon-nov-20th-2023---qbittorrent-v4.6.1-release">Mon Nov 20th 2023 - qBittorrent v4.6.1 release</a></h3>
 <p>qBittorrent v4.6.1 was released.<br>
 The most important change has to do with WebUI. It affects users that haven't set their own credentials and are use the default ones. Those will not be accepted now and qBittorrent will generate a random password and output it in the console for you to use. Then you can login and configure a password.<br>
