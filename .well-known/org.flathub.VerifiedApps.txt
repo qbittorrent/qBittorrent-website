@@ -1,0 +1,4 @@
+# https://docs.flathub.org/docs/for-app-authors/verification
+
+# org.qbittorrent.qBittorrent
+dc1eb2a8-a568-4d09-a974-8365f33dc01f

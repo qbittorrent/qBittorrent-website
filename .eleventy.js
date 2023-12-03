@@ -1,9 +1,11 @@
 const MarkdownItAnchor = require("markdown-it-anchor");
 
 module.exports = (eleventyConfig) => {
-  // Copy files as-is
-  eleventyConfig.addPassthroughCopy("img");
+  // Copy folders as-is
+  eleventyConfig.addPassthroughCopy(".well-known");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("img");
+  // Copy files as-is
   eleventyConfig.addPassthroughCopy(".htaccess");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("favicon.svg");
