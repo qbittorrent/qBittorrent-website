@@ -2,6 +2,47 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+### Tue Jan 16th 2024 - qBittorrent v4.6.3 release
+
+qBittorrent v4.6.3 was released.<br>
+Keep an eye out for an alpha release of qBittorrent 5.0.0 sometime this week or the next one.<br>
+
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git359ef9045c / 2.0.9+git18f821ea1a</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.1 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.83</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.3 changelog:
+- BUGFIX: Correctly update number of filtered items (glassez)
+- BUGFIX: Don't forget to store Stop condition value (glassez)
+- BUGFIX: Show correctly decoded filename in log (glassez)
+- BUGFIX: Specify a locale if none is set (Chocobo1)
+- BUGFIX: Apply inactive seeding time limit set on new torrents (glassez)
+- BUGFIX: Show URL seeds for torrents that have no metadata (glassez)
+- BUGFIX: Don't get stuck loading on mismatched info-hashes in resume data (glassez)
+
 ### Mon Nov 27th 2023 - qBittorrent v4.6.2 release
 
 qBittorrent v4.6.2 was released.<br>
