@@ -1,18 +1,19 @@
 const MarkdownItAnchor = require("markdown-it-anchor");
 
 module.exports = (eleventyConfig) => {
+  const sourceDir = "src";
+
   // Copy folders as-is
-  eleventyConfig.addPassthroughCopy(".well-known");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/.well-known`);
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/css`);
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/img`);
   // Copy files as-is
-  eleventyConfig.addPassthroughCopy(".htaccess");
-  eleventyConfig.addPassthroughCopy("favicon.ico");
-  eleventyConfig.addPassthroughCopy("favicon.svg");
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/.htaccess`);
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/favicon.ico`);
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/favicon.svg`);
 
   // Ignored files
-  eleventyConfig.ignores.add("old_news.md");
-  eleventyConfig.ignores.add("README.md");
+  eleventyConfig.ignores.add(`${sourceDir}/old_news.md`);
 
   eleventyConfig.amendLibrary("md", (mdLib) => {
     // https://github.com/valeriangalliat/markdown-it-anchor#usage
@@ -21,4 +22,10 @@ module.exports = (eleventyConfig) => {
     };
     mdLib.use(MarkdownItAnchor, options);
   });
+
+  return {
+    dir: {
+      input: sourceDir
+    }
+  };
 };
