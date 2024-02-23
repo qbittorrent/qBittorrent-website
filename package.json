@@ -9,11 +9,13 @@
     "build": "eleventy",
     "check-html": "html-validate _site/*.html",
     "format": "js-beautify -r src/**.js && prettier --write **.css",
-    "lint": "stylelint **/*.css",
+    "lint": "eslint src/scripts/**.js && stylelint **/*.css",
     "serve": "eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
+    "eslint": "*",
+    "eslint-plugin-html": "*",
     "html-validate": "*",
     "js-beautify": "*",
     "markdown-it-anchor": "*",
