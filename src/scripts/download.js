@@ -24,14 +24,16 @@ function showOption(element) {
     setIdClassAttr(`${element.value}Div`, ""); // display selected element
 }
 
-const osSelect = document.getElementById("OSSelect");
-osSelect.addEventListener("change", (event) => {
-    showOption(event.target);
-});
-osSelect.value = "emptyOS";
+document.addEventListener("DOMContentLoaded", () => {
+    const osSelect = document.getElementById("OSSelect");
+    osSelect.addEventListener("change", (event) => {
+        showOption(event.target);
+    });
+    osSelect.value = "emptyOS";
 
-const distroSelect = document.getElementById("distroSelect");
-distroSelect.addEventListener("change", (event) => {
-    showOption(event.target);
+    const distroSelect = document.getElementById("distroSelect");
+    distroSelect.addEventListener("change", (event) => {
+        showOption(event.target);
+    });
+    distroSelect.value = "emptyDist";
 });
-distroSelect.value = "emptyDist";
