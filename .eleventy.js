@@ -7,6 +7,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy(`${sourceDir}/.well-known`);
   eleventyConfig.addPassthroughCopy(`${sourceDir}/css`);
   eleventyConfig.addPassthroughCopy(`${sourceDir}/img`);
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/scripts`);
   // Copy files as-is
   eleventyConfig.addPassthroughCopy(`${sourceDir}/.htaccess`);
   eleventyConfig.addPassthroughCopy(`${sourceDir}/favicon.ico`);

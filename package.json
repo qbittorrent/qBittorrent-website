@@ -8,13 +8,14 @@
   "scripts": {
     "build": "eleventy",
     "check-html": "html-validate _site/*.html",
-    "format": "prettier --write **.css",
+    "format": "js-beautify -r src/**.js && prettier --write **.css",
     "lint": "stylelint **/*.css",
     "serve": "eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "html-validate": "*",
+    "js-beautify": "*",
     "markdown-it-anchor": "*",
     "prettier": "*",
     "stylelint": "*",

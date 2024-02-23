@@ -49,6 +49,8 @@
           <div class="wrapper-bottom">
             <div id="content">
               <div class="stretcher" id="StretchHome">
+<script defer src="scripts/download.js"></script>
+
 <h2>Downloads</h2>
 
 <h3 id="pgp">
@@ -405,7 +407,7 @@
 </h3>
 <p>
   Select operating system:
-  <select id="OSSelect" onchange="showOption(this)">
+  <select id="OSSelect">
     <option value="emptyOS" selected>Choose...</option>
     <option value="os2">eComStation (OS/2)</option>
     <option value="freebsd">FreeBSD</option>
@@ -416,7 +418,7 @@
 <div id="linuxDiv" class="invisible">
   <p>
     Select distribution:
-    <select id="distroSelect" onchange="showOption(this)">
+    <select id="distroSelect">
       <option value="emptyDist" selected>Choose...</option>
       <option value="altlinux">Alt Linux</option>
       <option value="archlinux">ArchLinux</option>
@@ -602,37 +604,6 @@
   <li><a href="https://sourceforge.net/projects/qbittorrent/files/">SourceForge</a></li>
 </ul>
 <br>
-
-<script>
-  'use strict';
-
-  OSSelect.value = "emptyOS"
-  distroSelect.value = "emptyDist"
-
-  function setIdClassAttr(id, v)
-  {
-    var docElem = document.getElementById(id);
-    if (docElem) docElem.className = v;
-  }
-
-  function showOption(elem)
-  {
-    var resetClassAttr = function(id, v) {
-      var opts = document.getElementById(id).options;
-      for (var i = 0; i < opts.length; ++i)
-        setIdClassAttr(opts[i].value + "Div", v);
-    };
-
-    // reset all
-    if (elem.id == "OSSelect") {
-      resetClassAttr("OSSelect", "invisible");
-      distroSelect.value = "emptyDist"
-    }
-    resetClassAttr("distroSelect", "invisible");
-
-    setIdClassAttr(elem.value + "Div", "");  // display selected element
-  }
-</script>
 
               </div>
             </div>

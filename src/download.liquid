@@ -28,6 +28,8 @@ src:
     hash_gz: "a64ae0cd6c784d74e30b6dbc64414599737cf83ee72273cb76a02ee85fe7164f"
     hash_xz: "5f9f3e0b89861e8bae1894656f8b8f76feddb3c92e228065c8173632af6e544e"
 ---
+<script defer src="scripts/download.js"></script>
+
 <h2>Downloads</h2>
 
 <h3 id="pgp">
@@ -384,7 +386,7 @@ src:
 </h3>
 <p>
   Select operating system:
-  <select id="OSSelect" onchange="showOption(this)">
+  <select id="OSSelect">
     <option value="emptyOS" selected>Choose...</option>
     <option value="os2">eComStation (OS/2)</option>
     <option value="freebsd">FreeBSD</option>
@@ -395,7 +397,7 @@ src:
 <div id="linuxDiv" class="invisible">
   <p>
     Select distribution:
-    <select id="distroSelect" onchange="showOption(this)">
+    <select id="distroSelect">
       <option value="emptyDist" selected>Choose...</option>
       <option value="altlinux">Alt Linux</option>
       <option value="archlinux">ArchLinux</option>
@@ -581,34 +583,3 @@ src:
   <li><a href="https://sourceforge.net/projects/qbittorrent/files/">SourceForge</a></li>
 </ul>
 <br>
-
-<script>
-  'use strict';
-
-  OSSelect.value = "emptyOS"
-  distroSelect.value = "emptyDist"
-
-  function setIdClassAttr(id, v)
-  {
-    var docElem = document.getElementById(id);
-    if (docElem) docElem.className = v;
-  }
-
-  function showOption(elem)
-  {
-    var resetClassAttr = function(id, v) {
-      var opts = document.getElementById(id).options;
-      for (var i = 0; i < opts.length; ++i)
-        setIdClassAttr(opts[i].value + "Div", v);
-    };
-
-    // reset all
-    if (elem.id == "OSSelect") {
-      resetClassAttr("OSSelect", "invisible");
-      distroSelect.value = "emptyDist"
-    }
-    resetClassAttr("distroSelect", "invisible");
-
-    setIdClassAttr(elem.value + "Div", "");  // display selected element
-  }
-</script>
