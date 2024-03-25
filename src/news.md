@@ -2,7 +2,7 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
-### Sun Mar 24th 2024 - qBittorrent v4.6.3 and v5.0.0beta1 releases
+### Sun Mar 24th 2024 - qBittorrent v4.6.4 and v5.0.0beta1 releases
 
 qBittorrent v4.6.4 and v5.0.0beta1 were released.<br>
 **macOS:** The minimum version for v5.0.0beta1 is macOS 11 (Big Sur).<br>
