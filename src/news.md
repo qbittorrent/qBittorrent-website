@@ -2,6 +2,96 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+### Sun Mar 24th 2024 - qBittorrent v4.6.3 and v5.0.0beta1 releases
+
+qBittorrent v4.6.4 and v5.0.0beta1 were released.<br>
+**macOS:** The minimum version for v5.0.0beta1 is macOS 11 (Big Sur).<br>
+**AppImage:** The v5.0.0beta1 AppImage is created on Ubuntu 22.04 (Jammy Jellyfish). It should work on similarly aged distros.<br>
+**KNOWN ISSUE for v5.0.0beta1:** When the Preferences dialog is closed the GUI freezes for several seconds.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git2316136434 / 2.0.11+git8a7aa83113</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.2 (AppImage, Windows beta, macOS beta)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.84</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.4 changelog:
+- BUGFIX: Correctly adjust "Add New torrent" dialog position in all the cases (glassez)
+- BUGFIX: Change "metadata received" stop condition behavior (glassez)
+- BUGFIX: Add a small delay before processing the key input of search boxes (Chocobo1)
+- BUGFIX: Ensure the profile path is pointing to a directory (Chocobo1)
+- RSS: Use better icons for RSS articles (glassez)
+- WINDOWS: NSIS: Update French, Hungarian translations (MarcDrieu, foxi69)
+- LINUX: Fix sorting when ICU isn't used (Chocobo1)
+- LINUX: Fix invisible tray icon on Plasma 6 (tehcneko)
+
+v5.0.0beta1 changelog:
+- FEATURE: Support creating .torrent with larger piece size (Chocobo1)
+- FEATURE: Improve tracker entries handling (glassez)
+- FEATURE: Add separate filter item for tracker errors (glassez)
+- FEATURE: Allow to remove tracker from tracker filter widget menu (glassez)
+- FEATURE: Implement `Reannounce In` column (Hanabishi)
+- FEATURE: Expose `DHT bootstrap nodes` setting (Chocobo1)
+- FEATURE: Add support for [Mark-of-the-Web](https://redcanary.com/threat-detection-report/techniques/mark-of-the-web-bypass/) (Chocobo1)
+- FEATURE: Allow to keep unwanted files in separate folder (glassez)
+- FEATURE: Add `Copy Comment` to the torrent list's context menu (thalieht)
+- FEATURE: Allow relative profile paths (Victor Chernyakin)
+- FEATURE: Enable Ctrl+F hotkey for more inputs (thalieht)
+- FEATURE: Add seeding limits to RSS and Watched folders options UI (glassez)
+- FEATURE: Subcategories implicitly follow the parent category options (glassez)
+- FEATURE: Add support for SSL torrents (Chocobo1, Radu Carpa)
+- FEATURE: Add option to name each qbittorrent instance (Chocobo1)
+- FEATURE: Add button for sending test email (Thomas Piccirello)
+- FEATURE: Allow torrents to override default share limit action (glassez)
+- BUGFIX: Display error message when unrecoverable error occurred (glassez)
+- BUGFIX: Update size of selected files when selection is changed (glassez)
+- BUGFIX: Normalize tags by trimming leading/trailing whitespace (glassez)
+- BUGFIX: Correctly handle share limits in torrent options dialog (glassez)
+- WEBUI: Improve WebUI responsiveness (Chocobo1)
+- WEBUI: Do not exit the app when WebUI has failed to start (Hanabishi)
+- WEBUI: Add `Moving` filter to side panel (xavier2k6)
+- WEBUI: Add dark theme (d47081)
+- WEBUI: Allow to remember torrent content files deletion (David)
+- WEBUI: Leave the fields empty when value is invalid (Chocobo1)
+- WEBUI: Use natural sorting (Chocobo1)
+- WEBUI: Improve WebUI login behavior (JayRet)
+- WEBAPI: Fix wrong timestamp values (Chocobo1)
+- WEBAPI: Send binary data with filename and mime type specified (glassez)
+- WEBAPI: Expose API for the torrent creator (glassez, Radu Carpa)
+- RSS: Show RSS feed title in HTML browser (Jay)
+- RSS: Allow to set delay between requests to the same host (jNullj)
+- SEARCH: Allow users to specify Python executable path (Chocobo1)
+- WINDOWS: Use Fusion style on Windows 10+. It has better compatibility with dark mode (glassez)
+- WINDOWS: Allow to set qBittorrent as default program (glassez)
+- LINUX: Add support for systemd power management (Chocobo1)
+- LINUX: Add support for localized man pages (Victor Chernyakin)
+- LINUX: Specify a locale if none is set (Chocobo1)
+- MACOS: Display download/upload speed in dock icon (Nick Korotysh)
+- MACOS: Add support for quarantine on macOS (Chocobo1)
+- OTHER: Drop support for Qt5, qmake, autotools, Windows < 10, Windows 32-bit
+- OTHER: Minimum supported versions: Qt: 6.5, Boost: 1.76, OpenSSL: 3.0.2
+- OTHER: Switch to C++20
+
 ### Tue Jan 16th 2024 - qBittorrent v4.6.3 release
 
 qBittorrent v4.6.3 was released.<br>

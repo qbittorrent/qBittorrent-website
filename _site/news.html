@@ -23,7 +23,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v4.6.3</a>
+      <a href="download">Latest: v4.6.4</a>
     </span>
 
     <div id="MainBox">
@@ -49,6 +49,95 @@
           <div class="wrapper-bottom">
             <div id="content">
               <div class="stretcher" id="StretchHome">
+<h3 id="sun-mar-24th-2024---qbittorrent-v4.6.3-and-v5.0.0beta1-releases" tabindex="-1"><a class="header-anchor" href="#sun-mar-24th-2024---qbittorrent-v4.6.3-and-v5.0.0beta1-releases">Sun Mar 24th 2024 - qBittorrent v4.6.3 and v5.0.0beta1 releases</a></h3>
+<p>qBittorrent v4.6.4 and v5.0.0beta1 were released.<br>
+<strong>macOS:</strong> The minimum version for v5.0.0beta1 is macOS 11 (Big Sur).<br>
+<strong>AppImage:</strong> The v5.0.0beta1 AppImage is created on Ubuntu 22.04 (Jammy Jellyfish). It should work on similarly aged distros.<br>
+<strong>KNOWN ISSUE for v5.0.0beta1:</strong> When the Preferences dialog is closed the GUI freezes for several seconds.</p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git2316136434 / 2.0.11+git8a7aa83113</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.2 (AppImage, Windows beta, macOS beta)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.84</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v4.6.4 changelog:</p>
+<ul>
+<li>BUGFIX: Correctly adjust &quot;Add New torrent&quot; dialog position in all the cases (glassez)</li>
+<li>BUGFIX: Change &quot;metadata received&quot; stop condition behavior (glassez)</li>
+<li>BUGFIX: Add a small delay before processing the key input of search boxes (Chocobo1)</li>
+<li>BUGFIX: Ensure the profile path is pointing to a directory (Chocobo1)</li>
+<li>RSS: Use better icons for RSS articles (glassez)</li>
+<li>WINDOWS: NSIS: Update French, Hungarian translations (MarcDrieu, foxi69)</li>
+<li>LINUX: Fix sorting when ICU isn't used (Chocobo1)</li>
+<li>LINUX: Fix invisible tray icon on Plasma 6 (tehcneko)</li>
+</ul>
+<p>v5.0.0beta1 changelog:</p>
+<ul>
+<li>FEATURE: Support creating .torrent with larger piece size (Chocobo1)</li>
+<li>FEATURE: Improve tracker entries handling (glassez)</li>
+<li>FEATURE: Add separate filter item for tracker errors (glassez)</li>
+<li>FEATURE: Allow to remove tracker from tracker filter widget menu (glassez)</li>
+<li>FEATURE: Implement <code>Reannounce In</code> column (Hanabishi)</li>
+<li>FEATURE: Expose <code>DHT bootstrap nodes</code> setting (Chocobo1)</li>
+<li>FEATURE: Add support for <a href="https://redcanary.com/threat-detection-report/techniques/mark-of-the-web-bypass/">Mark-of-the-Web</a> (Chocobo1)</li>
+<li>FEATURE: Allow to keep unwanted files in separate folder (glassez)</li>
+<li>FEATURE: Add <code>Copy Comment</code> to the torrent list's context menu (thalieht)</li>
+<li>FEATURE: Allow relative profile paths (Victor Chernyakin)</li>
+<li>FEATURE: Enable Ctrl+F hotkey for more inputs (thalieht)</li>
+<li>FEATURE: Add seeding limits to RSS and Watched folders options UI (glassez)</li>
+<li>FEATURE: Subcategories implicitly follow the parent category options (glassez)</li>
+<li>FEATURE: Add support for SSL torrents (Chocobo1, Radu Carpa)</li>
+<li>FEATURE: Add option to name each qbittorrent instance (Chocobo1)</li>
+<li>FEATURE: Add button for sending test email (Thomas Piccirello)</li>
+<li>FEATURE: Allow torrents to override default share limit action (glassez)</li>
+<li>BUGFIX: Display error message when unrecoverable error occurred (glassez)</li>
+<li>BUGFIX: Update size of selected files when selection is changed (glassez)</li>
+<li>BUGFIX: Normalize tags by trimming leading/trailing whitespace (glassez)</li>
+<li>BUGFIX: Correctly handle share limits in torrent options dialog (glassez)</li>
+<li>WEBUI: Improve WebUI responsiveness (Chocobo1)</li>
+<li>WEBUI: Do not exit the app when WebUI has failed to start (Hanabishi)</li>
+<li>WEBUI: Add <code>Moving</code> filter to side panel (xavier2k6)</li>
+<li>WEBUI: Add dark theme (d47081)</li>
+<li>WEBUI: Allow to remember torrent content files deletion (David)</li>
+<li>WEBUI: Leave the fields empty when value is invalid (Chocobo1)</li>
+<li>WEBUI: Use natural sorting (Chocobo1)</li>
+<li>WEBUI: Improve WebUI login behavior (JayRet)</li>
+<li>WEBAPI: Fix wrong timestamp values (Chocobo1)</li>
+<li>WEBAPI: Send binary data with filename and mime type specified (glassez)</li>
+<li>WEBAPI: Expose API for the torrent creator (glassez, Radu Carpa)</li>
+<li>RSS: Show RSS feed title in HTML browser (Jay)</li>
+<li>RSS: Allow to set delay between requests to the same host (jNullj)</li>
+<li>SEARCH: Allow users to specify Python executable path (Chocobo1)</li>
+<li>WINDOWS: Use Fusion style on Windows 10+. It has better compatibility with dark mode (glassez)</li>
+<li>WINDOWS: Allow to set qBittorrent as default program (glassez)</li>
+<li>LINUX: Add support for systemd power management (Chocobo1)</li>
+<li>LINUX: Add support for localized man pages (Victor Chernyakin)</li>
+<li>LINUX: Specify a locale if none is set (Chocobo1)</li>
+<li>MACOS: Display download/upload speed in dock icon (Nick Korotysh)</li>
+<li>MACOS: Add support for quarantine on macOS (Chocobo1)</li>
+<li>OTHER: Drop support for Qt5, qmake, autotools, Windows &lt; 10, Windows 32-bit</li>
+<li>OTHER: Minimum supported versions: Qt: 6.5, Boost: 1.76, OpenSSL: 3.0.2</li>
+<li>OTHER: Switch to C++20</li>
+</ul>
 <h3 id="tue-jan-16th-2024---qbittorrent-v4.6.3-release" tabindex="-1"><a class="header-anchor" href="#tue-jan-16th-2024---qbittorrent-v4.6.3-release">Tue Jan 16th 2024 - qBittorrent v4.6.3 release</a></h3>
 <p>qBittorrent v4.6.3 was released.<br>
 Keep an eye out for an alpha release of qBittorrent 5.0.0 sometime this week or the next one.<br></p>
