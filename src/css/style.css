@@ -47,10 +47,9 @@ div .flexbox {
 
 div .flexbox_screenshots {
   align-items: flex-start;
-  column-gap: 1em;
   display: flex;
   flex-flow: row wrap;
-  row-gap: 1.5em;
+  gap: 1.5em 1em;
 }
 
 div .flexbox_screenshots div {
