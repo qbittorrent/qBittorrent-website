@@ -45,6 +45,23 @@ div .flexbox {
   justify-content: flex-start;
 }
 
+div .flexbox_screenshots {
+  align-items: flex-start;
+  column-gap: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 1.5em;
+}
+
+div .flexbox_screenshots div {
+  text-align: center;
+}
+
+div .flexbox_screenshots div img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (width <= 760px) and (orientation: portrait) {
   div .flexbox .box1 {
     min-width: auto;
