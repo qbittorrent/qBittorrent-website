@@ -15,8 +15,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@stylistic/eslint-plugin": "*",
-    "eslint": "^8",
-    "eslint-plugin-html": "^8",
+    "eslint": "*",
+    "eslint-plugin-html": "*",
     "html-validate": "*",
     "js-beautify": "*",
     "markdown-it-anchor": "*",
