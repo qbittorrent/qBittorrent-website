@@ -24,6 +24,7 @@ export default [
             Stylistic
         },
         rules: {
+            "eqeqeq": "error",
             "no-undef": "off",
             "no-unused-vars": "off",
             "Stylistic/no-mixed-operators": [
