@@ -9,7 +9,6 @@ export default [
     {
         files: [
             "**/*.html",
-            "**/*.cjs",
             "**/*.js",
             "**/*.mjs"
         ],
