@@ -13,7 +13,7 @@
     "serve": "eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "2",
     "@stylistic/eslint-plugin": "*",
     "eslint": "*",
     "eslint-plugin-html": "*",
