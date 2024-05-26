@@ -2,6 +2,48 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+### Sun May 26th 2024 - qBittorrent v4.6.5 releases
+
+qBittorrent v4.6.5 was released.<br>
+Check back in a week for an RC of v5.0.0.<br>
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git2316136434 / 2.0.11+gitfda33cf509</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.3 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.85</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.5 changelog:
+- BUGFIX: Prevent app from being closed when disabling system tray icon (glassez)
+- BUGFIX: Fix <kbd>Enter</kbd> key behavior in Add new torrent dialog (glassez)
+- BUGFIX: Prevent invalid status filter index from being used (glassez)
+- BUGFIX: Add extra offset for dialog frame (glassez)
+- BUGFIX: Don't overwrite stored layout of main window with incorrect one (glassez)
+- BUGFIX: Don't forget to resume "missing files" torrent when rechecking (glassez)
+- WEBUI: Restore ability to use server-side translation by custom WebUI (glassez)
+- WEBUI: Fix wrong peer number (Chocobo1)
+- LINUX: Improve AppStream metadata (Chocobo1)
+
 ### Sun Mar 24th 2024 - qBittorrent v4.6.4 and v5.0.0beta1 releases
 
 qBittorrent v4.6.4 and v5.0.0beta1 were released.<br>
