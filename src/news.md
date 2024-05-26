@@ -2,7 +2,7 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
-### Sun May 26th 2024 - qBittorrent v4.6.5 releases
+### Sun May 26th 2024 - qBittorrent v4.6.5 release
 
 qBittorrent v4.6.5 was released.<br>
 Check back in a week for an RC of v5.0.0.<br>
