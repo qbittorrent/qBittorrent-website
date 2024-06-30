@@ -43,6 +43,7 @@ v4.6.5 changelog:
 - WEBUI: Restore ability to use server-side translation by custom WebUI (glassez)
 - WEBUI: Fix wrong peer number (Chocobo1)
 - LINUX: Improve AppStream metadata (Chocobo1)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.4...release-4.6.5)
 
 ### Sun Mar 24th 2024 - qBittorrent v4.6.4 and v5.0.0beta1 releases
 
@@ -86,6 +87,7 @@ v4.6.4 changelog:
 - WINDOWS: NSIS: Update French, Hungarian translations (MarcDrieu, foxi69)
 - LINUX: Fix sorting when ICU isn't used (Chocobo1)
 - LINUX: Fix invisible tray icon on Plasma 6 (tehcneko)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.3...release-4.6.4)
 
 v5.0.0beta1 changelog:
 - FEATURE: Support creating .torrent with larger piece size (Chocobo1)
@@ -133,6 +135,7 @@ v5.0.0beta1 changelog:
 - OTHER: Drop support for Qt5, qmake, autotools, Windows < 10, Windows 32-bit
 - OTHER: Minimum supported versions: Qt: 6.5, Boost: 1.76, OpenSSL: 3.0.2
 - OTHER: Switch to C++20
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.4...release-5.0.0beta1)
 
 ### Tue Jan 16th 2024 - qBittorrent v4.6.3 release
 
@@ -174,6 +177,7 @@ v4.6.3 changelog:
 - BUGFIX: Apply inactive seeding time limit set on new torrents (glassez)
 - BUGFIX: Show URL seeds for torrents that have no metadata (glassez)
 - BUGFIX: Don't get stuck loading on mismatched info-hashes in resume data (glassez)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.2...release-4.6.3)
 
 ### Mon Nov 27th 2023 - qBittorrent v4.6.2 release
 
@@ -215,6 +219,7 @@ v4.6.2 changelog:
 - WINDOWS: NSIS: Display correct Minimum Windows OS requirement (xavier2k6)
 - WINDOWS: NSIS: Add Hebrew translation (avivmu)
 - LINUX: WAYLAND: Fix parent widget of "Lock qBittorrent" submenu (Vlad Zahorodnii)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.1...release-4.6.2)
 
 ### Mon Nov 20th 2023 - qBittorrent v4.6.1 release
 
@@ -269,6 +274,7 @@ v4.6.1 changelog:
 - WINDOWS: NSIS: Fixed typo in the installer's hungarian translation (MartinKing01)
 - LINUX: Fix invisible tray icon with Qt5 in Linux (thalieht)
 - MACOS: Remove "Physical memory (RAM) usage limit" option (Chocobo1)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.0...release-4.6.1)
 
 ### Sun Oct 22th 2023 - qBittorrent v4.6.0 release
 
@@ -365,6 +371,7 @@ v4.6.0 changelog:
 - SEARCH: Bump python version minimum requirement to 3.7.0 (Chocobo1)
 - OTHER: Enable DBUS cmake option on FreeBSD (yuri@FreeBSD)
 - OTHER: Numerous code improvements and refactorings (glassez, Chocobo1)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.5.5...release-4.6.0)
 
 ### Tue Aug 29th 2023 - qBittorrent v4.5.5 and v4.6.0RC2 release
 
