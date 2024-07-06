@@ -84,8 +84,8 @@ function generateAtom(path: string): string {
         const endIdx = html.indexOf('<h3 ', (startIdx + 4));
         const post = html.slice(startIdx, ((endIdx >= 0)
             ? endIdx
-            : html.indexOf('</div>', (startIdx + 4)))); // don't include unwanted elements for last post
-        startIdx = (endIdx >= 0) ? endIdx : -1;
+            : html.indexOf('</div>', (startIdx + 4)))); // don't include footer in the last post
+        startIdx = endIdx;
 
         // parse
         const $ = Cheerio.load(post, undefined, false);
