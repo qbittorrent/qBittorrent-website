@@ -2,6 +2,8 @@
 layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 ---
+<a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
+
 ### Sun May 26th 2024 - qBittorrent v4.6.5 release
 
 qBittorrent v4.6.5 was released.<br>

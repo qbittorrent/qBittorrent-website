@@ -1,0 +1,9 @@
+{
+    "compilerOptions":
+    {
+        "module": "nodenext",
+        "noImplicitAny": true,
+        "strict": true,
+        "target": "ES2022"
+    }
+}

@@ -127,6 +127,12 @@ img.flag {
   vertical-align: middle;
 }
 
+img.rss {
+  display: initial;
+  float: right;
+  height: 1.2em;
+}
+
 img.teamUserIcon {
   height: 8em;
   width: 8em;

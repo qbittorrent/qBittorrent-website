@@ -24,5 +24,8 @@
     "stylelint": "*",
     "stylelint-config-standard": "*",
     "stylelint-order": "*"
-  }
+  },
+  "workspaces": [
+    "atom_generator"
+  ]
 }
