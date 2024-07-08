@@ -79,13 +79,13 @@ function generateAtom(path: string): string {
     // process html
     const html: string = Fs.readFileSync(path, { encoding: 'utf8' });
 
-    for (let endIdx = 0; endIdx >= 0; ) {
-        const startIdx = html.indexOf('<h3 ', endIdx);
-        endIdx = html.indexOf('<h3 ', (startIdx + 4));
+    for (let startIdx = html.indexOf('<h3 '); startIdx >= 0; ) {
+        const endIdx = html.indexOf('<h3 ', (startIdx + 4));
         const postEndIdx = ((endIdx >= 0)
             ? endIdx
             : html.indexOf('</div>', (startIdx + 4))); // don't include footer in the last post
         const post = html.slice(startIdx, postEndIdx);
+        startIdx = endIdx;
 
         // parse
         const $ = Cheerio.load(post, undefined, false);
