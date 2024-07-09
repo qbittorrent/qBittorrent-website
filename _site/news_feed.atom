@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2024-07-06T16:56:44.935Z</updated>
+  <updated>2024-07-09T12:59:38.037Z</updated>
   <entry>
     <title>qBittorrent v4.6.5 release</title>
     <id>https://www.qbittorrent.org/news#sun-may-26th-2024---qbittorrent-v4.6.5-release</id>
@@ -468,6 +468,7 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 &lt;li&gt;WINDOWS: Software update check logic is disabled for &lt; Win10 (sledgehammer999)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Update Turkish and French translations (Burak Yavuz, MarcDrieu)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Add Romanian translation (rusu-afanasie)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.5.4...release-4.5.5"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -513,6 +514,7 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 &lt;li&gt;BUGFIX: Allow to disable confirmation of Pause/Resume All (glassez)&lt;/li&gt;
 &lt;li&gt;BUGFIX: Sync flag icons with upstream (Priit Uring)&lt;/li&gt;
 &lt;li&gt;WEBUI: Fix category save path (Raymond Ha)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.5.3...release-4.5.4"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -565,6 +567,7 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 &lt;li&gt;WEBUI: Work around Chrome download limit (Chocobo1)&lt;/li&gt;
 &lt;li&gt;WEBUI: Improve 'exporting torrent' behavior (Chocobo1)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Add Slovak translation (Christian Danížek)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.5.2...release-4.5.3"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -616,6 +619,7 @@ NOTE: macOS builds are self-signed now. It should help with macOS permissions di
 &lt;li&gt;WEBUI: Reject requests that contain backslash in path (glassez)&lt;/li&gt;
 &lt;li&gt;RSS: Prevent RSS folder from being moved into itself (glassez)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Update Turkish, Uzbek translation (Burak Yavuz, shitcod3r)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.5.1...release-4.5.2"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -685,6 +689,7 @@ NOTE: macOS builds are self-signed now. It should help with macOS permissions di
 &lt;li&gt;WINDOWS: Correctly detect drive letter in path (glassez)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Update Swedish, Lithuanian translations (Jonatan, Deividas)&lt;/li&gt;
 &lt;li&gt;LINUX: Fix tray icon issues (glassez)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.5.0...release-4.5.1"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -808,6 +813,7 @@ Notable features: New icon theme, new color theme and better startup time when u
 &lt;li&gt;LINUX: Remove option of using icons from system theme (now-im)&lt;/li&gt;
 &lt;li&gt;MACOS: Fix wrong background color in properties widget (NotTsunami)&lt;/li&gt;
 &lt;li&gt;OTHER: Binary distributions of qbittorrent are GPLv3+ licensed (sledgehammer999)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.4.5...release-4.5.0"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -863,6 +869,7 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
 &lt;p&gt;v4.4.5 changelog:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;BUGFIX: Fix missing trackers when adding magnet link. Affects libtorrent 2.0.x builds. (glassez)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.4.4...release-4.4.5"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -889,6 +896,7 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
 &lt;li&gt;WINDOWS: NSIS: Update Portuguese, Italian, Korean, Latvian translations(Blackspirits, bovirus, Minseo Lee, Coool)&lt;/li&gt;
 &lt;li&gt;LINUX: Improve D-Bus notifications handling (glassez)&lt;/li&gt;
 &lt;li&gt;MACOS: Open destination folders on macOS in separate thread (Nick Korotysh)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.4.3.1...release-4.4.4"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -901,7 +909,8 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
       <name>The qBittorrent project</name>
     </author>
     <content type="html">&lt;p&gt;qBittorrent v4.4.3.1 was released.&lt;br&gt;
-Translations were broken with v4.4.3 and now are fixed.&lt;br&gt;&lt;/p&gt;</content>
+Translations were broken with v4.4.3 and now are fixed.&lt;br&gt;
+&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.4.3...release-4.4.3.1"&gt;Full changes&lt;/a&gt;.&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>qBittorrent v4.4.3 release</title>
@@ -930,6 +939,7 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
 &lt;li&gt;WEBUI: Fix WebUI crash due to missing tags from config (An0n)&lt;/li&gt;
 &lt;li&gt;WEBUI: Show correct location path (Chocobo1)&lt;/li&gt;
 &lt;li&gt;MACOS: Fix main window freezing after opening a files dialog (glassez)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.4.2...release-4.4.3"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -956,6 +966,7 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
 &lt;li&gt;BUGFIX: Properly handle metadata download for an existing torrent (glassez)&lt;/li&gt;
 &lt;li&gt;BUGFIX: Prevent crash when open torrent destination folder (glassez)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Update Spanish, Spanish International and French translations(Juanjo Jiménez, RqndomHax)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.4.1...release-4.4.2"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -993,6 +1004,7 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
 &lt;li&gt;WEBUI: WebAPI: fix wrong key used for categories (Chocobo1)&lt;/li&gt;
 &lt;li&gt;WEBUI: Remove hack for outdated IE 6 browser (Chocobo1)&lt;/li&gt;
 &lt;li&gt;RSS: Correctly handle XML parsing errors (glassez)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.4.0...release-4.4.1"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -1064,6 +1076,7 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
 &lt;li&gt;MACOS: Update Mac icons for Big Sur (17jiangz1)&lt;/li&gt;
 &lt;li&gt;EXPERIMENTAL: Setting to store/load fastresume/torrent files in an SQLite database (glassez)&lt;/li&gt;
 &lt;li&gt;OTHER: Many internal code refactorings and bug fixing by many people&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.3.9...release-4.4.0"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>

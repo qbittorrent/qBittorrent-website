@@ -420,6 +420,7 @@ v4.5.5 changelog:
 - WINDOWS: Software update check logic is disabled for < Win10 (sledgehammer999)
 - WINDOWS: NSIS: Update Turkish and French translations (Burak Yavuz, MarcDrieu)
 - WINDOWS: NSIS: Add Romanian translation (rusu-afanasie)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.5.4...release-4.5.5)
 
 ### Sunday Jun 18th 2023 - qBittorrent v4.5.4 and v4.6.0beta1 release
 
@@ -459,6 +460,7 @@ v4.5.4 changelog:
 - BUGFIX: Allow to disable confirmation of Pause/Resume All (glassez)
 - BUGFIX: Sync flag icons with upstream (Priit Uring)
 - WEBUI: Fix category save path (Raymond Ha)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.5.3...release-4.5.4)
 
 ### Monday May 29th 2023 - qBittorrent v4.5.3 and v4.6.0alpha1 release
 
@@ -504,6 +506,7 @@ v4.5.3 changelog:
 - WEBUI: Work around Chrome download limit (Chocobo1)
 - WEBUI: Improve 'exporting torrent' behavior (Chocobo1)
 - WINDOWS: NSIS: Add Slovak translation (Christian Danížek)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.5.2...release-4.5.3)
 
 ### Tuesday Feb 28th 2023 - qBittorrent v4.5.2 release
 
@@ -548,6 +551,7 @@ v4.5.2 changelog:
 - WEBUI: Reject requests that contain backslash in path (glassez)
 - RSS: Prevent RSS folder from being moved into itself (glassez)
 - WINDOWS: NSIS: Update Turkish, Uzbek translation (Burak Yavuz, shitcod3r)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.5.1...release-4.5.2)
 
 ### Sunday Feb 12th 2023 - qBittorrent v4.5.1 release
 
@@ -610,6 +614,7 @@ v4.5.1 changelog:
 - WINDOWS: Correctly detect drive letter in path (glassez)
 - WINDOWS: NSIS: Update Swedish, Lithuanian translations (Jonatan, Deividas)
 - LINUX: Fix tray icon issues (glassez)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.5.0...release-4.5.1)
 
 ### Sunday Nov 27th 2022 - qBittorrent v4.5.0 release
 
@@ -726,6 +731,7 @@ v4.5.0 changelog:
 - LINUX: Remove option of using icons from system theme (now-im)
 - MACOS: Fix wrong background color in properties widget (NotTsunami)
 - OTHER: Binary distributions of qbittorrent are GPLv3+ licensed (sledgehammer999)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.4.5...release-4.5.0)
 
 ### Thursday Sep 29th 2022 - qBittorrent v4.5.0beta1 release
 
@@ -767,6 +773,7 @@ qBittorrent v4.4.5 was released.<br>
 
 v4.4.5 changelog:
 - BUGFIX: Fix missing trackers when adding magnet link. Affects libtorrent 2.0.x builds. (glassez)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.4.4...release-4.4.5)
 
 ### Monday Aug 22nd 2022 - qBittorrent v4.4.4 release
 
@@ -785,11 +792,13 @@ v4.4.4 changelog:
 - WINDOWS: NSIS: Update Portuguese, Italian, Korean, Latvian translations(Blackspirits, bovirus, Minseo Lee, Coool)
 - LINUX: Improve D-Bus notifications handling (glassez)
 - MACOS: Open destination folders on macOS in separate thread (Nick Korotysh)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.4.3.1...release-4.4.4)
 
 ### Wednesday May 25th 2022 - qBittorrent v4.4.3.1 release
 
 qBittorrent v4.4.3.1 was released.<br>
 Translations were broken with v4.4.3 and now are fixed.<br>
+[Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.4.3...release-4.4.3.1).
 
 ### Sunday May 22nd 2022 - qBittorrent v4.4.3 release
 
@@ -811,6 +820,7 @@ v4.4.3 changelog:
 - WEBUI: Fix WebUI crash due to missing tags from config (An0n)
 - WEBUI: Show correct location path (Chocobo1)
 - MACOS: Fix main window freezing after opening a files dialog (glassez)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.4.2...release-4.4.3)
 
 ### Thursday March 24th 2022 - qBittorrent v4.4.2 release
 
@@ -829,6 +839,7 @@ v4.4.2 changelog:
 - BUGFIX: Properly handle metadata download for an existing torrent (glassez)
 - BUGFIX: Prevent crash when open torrent destination folder (glassez)
 - WINDOWS: NSIS: Update Spanish, Spanish International and French translations(Juanjo Jiménez, RqndomHax)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.4.1...release-4.4.2)
 
 ### Tuesday February 15th 2022 - qBittorrent v4.4.1 release
 
@@ -858,6 +869,7 @@ v4.4.1 changelog:
 - WEBUI: WebAPI: fix wrong key used for categories (Chocobo1)
 - WEBUI: Remove hack for outdated IE 6 browser (Chocobo1)
 - RSS: Correctly handle XML parsing errors (glassez)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.4.0...release-4.4.1)
 
 ### Thursday January 06th 2022 - qBittorrent v4.4.0 release
 
@@ -921,6 +933,7 @@ v4.4.0 changelog:
 - MACOS: Update Mac icons for Big Sur (17jiangz1)
 - EXPERIMENTAL: Setting to store/load fastresume/torrent files in an SQLite database (glassez)
 - OTHER: Many internal code refactorings and bug fixing by many people
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.3.9...release-4.4.0)
 
 ### Sunday October 31st 2021 - qBittorrent v4.3.9 and v4.4.0rc1 release
 
