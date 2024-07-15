@@ -3,7 +3,6 @@
     "html-validate:recommended"
   ],
   "rules": {
-    "no-conditional-comment": "off",
     "no-inline-style": "off",
     "valid-id": ["error", {"relaxed": true}],
     "wcag/h63": "off",
