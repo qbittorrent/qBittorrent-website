@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 function setIdClassAttr(id, value) {
     const element = document.getElementById(id);
