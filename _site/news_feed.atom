@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2024-07-15T10:51:47.667Z</updated>
+  <updated>2024-07-15T11:43:52.033Z</updated>
   <entry>
     <title>qBittorrent v4.6.5 release</title>
     <id>https://www.qbittorrent.org/news#sun-may-26th-2024---qbittorrent-v4.6.5-release</id>
@@ -24,8 +24,8 @@ Check back in a week for an RC of v5.0.0.&lt;br&gt;&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -76,8 +76,8 @@ Check back in a week for an RC of v5.0.0.&lt;br&gt;&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -174,8 +174,8 @@ Keep an eye out for an alpha release of qBittorrent 5.0.0 sometime this week or 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -222,8 +222,8 @@ It contains a hotfix for WebUI users that use the default credentials and couldn
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -271,8 +271,8 @@ Secondly, there is an option (in Advanced section) to control the behavior of th
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -334,8 +334,8 @@ A lot of work has been done for version 4.6.0. The changelog below includes the 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -437,8 +437,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -489,8 +489,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -534,8 +534,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -587,8 +587,8 @@ NOTE: macOS builds are self-signed now. It should help with macOS permissions di
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -638,8 +638,8 @@ NOTE: macOS builds are self-signed now. It should help with macOS permissions di
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -711,8 +711,8 @@ Notable features: New icon theme, new color theme and better startup time when u
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -833,8 +833,8 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Library&lt;/th&gt;
-      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;

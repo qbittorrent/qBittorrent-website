@@ -14,8 +14,8 @@ Check back in a week for an RC of v5.0.0.<br>
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -59,8 +59,8 @@ qBittorrent v4.6.4 and v5.0.0beta1 were released.<br>
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -150,8 +150,8 @@ Keep an eye out for an alpha release of qBittorrent 5.0.0 sometime this week or 
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -192,8 +192,8 @@ It contains a hotfix for WebUI users that use the default credentials and couldn
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -235,8 +235,8 @@ Secondly, there is an option (in Advanced section) to control the behavior of th
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -292,8 +292,8 @@ A lot of work has been done for version 4.6.0. The changelog below includes the 
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -389,8 +389,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -435,8 +435,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -473,8 +473,8 @@ qBittorrent v4.5.3 and v4.6.0alpha1 were released.<br>
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -519,8 +519,8 @@ NOTE: macOS builds are self-signed now. It should help with macOS permissions di
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -563,8 +563,8 @@ qBittorrent v4.5.1 was released.<br>
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -629,8 +629,8 @@ Notable features: New icon theme, new color theme and better startup time when u
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>
@@ -744,8 +744,8 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
 <table>
   <thead>
     <tr>
-      <th>Library</th>
-      <th>Version</th>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
     </tr>
   </thead>
   <tbody>

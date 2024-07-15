@@ -5,7 +5,6 @@
   "rules": {
     "no-inline-style": "off",
     "valid-id": ["error", {"relaxed": true}],
-    "wcag/h63": "off",
     "wcag/h71": "off"
   }
 }
