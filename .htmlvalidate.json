@@ -1,10 +1,13 @@
 {
   "extends": [
+    "html-validate:document",
     "html-validate:recommended"
   ],
   "rules": {
+    "heading-level": "off",
     "no-inline-style": "off",
-    "valid-id": ["error", {"relaxed": true}],
+    "require-sri": ["off", { "target": "crossorigin" }],
+    "valid-id": ["error", { "relaxed": true }],
     "wcag/h71": "off"
   }
 }
