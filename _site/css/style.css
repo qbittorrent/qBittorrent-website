@@ -123,6 +123,7 @@ img.banner {
 }
 
 img.flag {
+  display: inline-block;
   height: 1.1em;
   vertical-align: middle;
 }
