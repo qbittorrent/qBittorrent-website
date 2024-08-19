@@ -7,13 +7,102 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2024-07-15T11:43:52.033Z</updated>
+  <updated>2024-08-19T19:14:06.689Z</updated>
+  <entry>
+    <title>qBittorrent v4.6.6 and v5.0.0rc1 releases</title>
+    <id>https://www.qbittorrent.org/news#sun-aug-18th-2024---qbittorrent-v4.6.6-and-v5.0.0rc1-releases</id>
+    <link href="https://www.qbittorrent.org/news#sun-aug-18th-2024---qbittorrent-v4.6.6-and-v5.0.0rc1-releases"/>
+    <updated>2024-08-17T21:00:00.000Z</updated>
+    <published>2024-08-17T21:00:00.000Z</published>
+    <author>
+      <name>The qBittorrent project</name>
+    </author>
+    <content type="html">&lt;p&gt;qBittorrent v4.6.6 and v5.0.0rc1 were released.&lt;br&gt;
+&lt;strong&gt;macOS:&lt;/strong&gt; The minimum version for v5.0.0rc1 is macOS 11 (Big Sur).&lt;br&gt;
+&lt;strong&gt;AppImage:&lt;/strong&gt; The v5.0.0rc1 AppImage is created on Ubuntu 22.04 (Jammy Jellyfish). It should work on similarly aged distros.&lt;br&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Library versions&lt;/summary&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;libtorrent&lt;/td&gt;
+      &lt;td&gt;1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qt&lt;/td&gt;
+      &lt;td&gt;6.4.3 (Windows, macOS) / 6.6.3 (AppImage) / 6.7.2 (Windows rc, macOS rc, AppImage rc)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boost&lt;/td&gt;
+      &lt;td&gt;1.86&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/details&gt;
+&lt;p&gt;v4.6.6 changelog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BUGFIX: Fix handling of tags containing '&amp;' character (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Show scroll bar in Torrent Tags dialog (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Apply bulk changes to correct content widget items (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Hide zero status filters when torrents are removed (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix &lt;code&gt;Incomplete Save Path&lt;/code&gt; cannot be changed for torrents without metadata (glassez)&lt;/li&gt;
+&lt;li&gt;WEBUI: Correctly apply changed &quot;save path&quot; of RSS rules (glassez)&lt;/li&gt;
+&lt;li&gt;WEBUI: Clear tracker list on full update (skomerko)&lt;/li&gt;
+&lt;li&gt;OTHER: Update User-Agent string for internal downloader and search engines (cayenne17)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.6.5...release-4.6.6"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;v5.0.0rc1 changelog (since beta1):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FEATURE: Use Start/Stop instead of Resume/Pause (thalieht)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add the Popularity metric (Aliaksei Urbanski)&lt;/li&gt;
+&lt;li&gt;FEATURE: Focus on Download button if torrent link retrieved from the clipboard (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add ability to pause/resume entire BitTorrent session (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add an option to set BitTorrent session shutdown timeout (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Apply &quot;Excluded file names&quot; to folder names as well (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to use regular expression to filter torrent content (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to move content files to Trash instead of deleting them (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add ability to display torrent &quot;privateness&quot; in UI (ManiMatter)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add a flag in &lt;code&gt;Peers&lt;/code&gt; tab denoting a connection using NAT hole punching (stalkerok)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Adjust tracker tier when adding additional trackers (Chocobo1)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix inconsistent naming between &lt;code&gt;Done/Progress&lt;/code&gt; column (luzpaz)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Sanitize peer client names (Hanabishi)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Apply share limits immediately when torrent downloading is finished (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Show download progress for folders with zero byte size as 100 instead of 0 (vikas_c)&lt;/li&gt;
+&lt;li&gt;WEBUI: Conditionally show filters sidebar (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add support for running concurrent searches (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Improve accuracy of trackers list (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix error when category doesn't exist (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Improve table scrolling and selection on mobile (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Restore search tabs on load (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Restore previously used tab on load (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Increase default height of 'Share ratio limit' dialog (thalieht)&lt;/li&gt;
+&lt;li&gt;WEBUI: Use enabled search plugins by default (Thomas Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add columns &lt;code&gt;Incomplete Save Path&lt;/code&gt;, &lt;code&gt;Info Hash v1&lt;/code&gt;, &lt;code&gt;Info Hash v2&lt;/code&gt; (thalieht)&lt;/li&gt;
+&lt;li&gt;WEBUI: Always create generic filter items (skomerko)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Provide endpoint for listing directory content (Paweł Kotiuk)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Provide &quot;private&quot; flag via &quot;torrents/info&quot; endpoint (ManiMatter)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Add a way to download .torrent file using search plugin (glassez)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Add &quot;private&quot; filter for &quot;torrents/info&quot; endpoint (ManiMatter)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Add root_path to &quot;torrents/info&quot; result (David Newhall)&lt;/li&gt;
+&lt;li&gt;SEARCH: Lazy load search plugins (milahu)&lt;/li&gt;
+&lt;li&gt;SEARCH: Add date column to the built-in search engine (ducalex)&lt;/li&gt;
+&lt;li&gt;SEARCH: Allow to rearrange search tabs (glassez)&lt;/li&gt;
+&lt;li&gt;WINDOWS: Don't access &quot;Favorites&quot; folder unexpectedly (glassez)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.0.0beta1...release-5.0.0rc1"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>qBittorrent v4.6.5 release</title>
     <id>https://www.qbittorrent.org/news#sun-may-26th-2024---qbittorrent-v4.6.5-release</id>
     <link href="https://www.qbittorrent.org/news#sun-may-26th-2024---qbittorrent-v4.6.5-release"/>
-    <updated>2024-05-25T16:00:00.000Z</updated>
-    <published>2024-05-25T16:00:00.000Z</published>
+    <updated>2024-05-25T21:00:00.000Z</updated>
+    <published>2024-05-25T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -62,8 +151,8 @@ Check back in a week for an RC of v5.0.0.&lt;br&gt;&lt;/p&gt;
     <title>qBittorrent v4.6.4 and v5.0.0beta1 releases</title>
     <id>https://www.qbittorrent.org/news#sun-mar-24th-2024---qbittorrent-v4.6.4-and-v5.0.0beta1-releases</id>
     <link href="https://www.qbittorrent.org/news#sun-mar-24th-2024---qbittorrent-v4.6.4-and-v5.0.0beta1-releases"/>
-    <updated>2024-03-23T16:00:00.000Z</updated>
-    <published>2024-03-23T16:00:00.000Z</published>
+    <updated>2024-03-23T22:00:00.000Z</updated>
+    <published>2024-03-23T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -162,8 +251,8 @@ Check back in a week for an RC of v5.0.0.&lt;br&gt;&lt;/p&gt;
     <title>qBittorrent v4.6.3 release</title>
     <id>https://www.qbittorrent.org/news#tue-jan-16th-2024---qbittorrent-v4.6.3-release</id>
     <link href="https://www.qbittorrent.org/news#tue-jan-16th-2024---qbittorrent-v4.6.3-release"/>
-    <updated>2024-01-15T16:00:00.000Z</updated>
-    <published>2024-01-15T16:00:00.000Z</published>
+    <updated>2024-01-15T22:00:00.000Z</updated>
+    <published>2024-01-15T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -210,8 +299,8 @@ Keep an eye out for an alpha release of qBittorrent 5.0.0 sometime this week or 
     <title>qBittorrent v4.6.2 release</title>
     <id>https://www.qbittorrent.org/news#mon-nov-27th-2023---qbittorrent-v4.6.2-release</id>
     <link href="https://www.qbittorrent.org/news#mon-nov-27th-2023---qbittorrent-v4.6.2-release"/>
-    <updated>2023-11-26T16:00:00.000Z</updated>
-    <published>2023-11-26T16:00:00.000Z</published>
+    <updated>2023-11-26T22:00:00.000Z</updated>
+    <published>2023-11-26T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -258,8 +347,8 @@ It contains a hotfix for WebUI users that use the default credentials and couldn
     <title>qBittorrent v4.6.1 release</title>
     <id>https://www.qbittorrent.org/news#mon-nov-20th-2023---qbittorrent-v4.6.1-release</id>
     <link href="https://www.qbittorrent.org/news#mon-nov-20th-2023---qbittorrent-v4.6.1-release"/>
-    <updated>2023-11-19T16:00:00.000Z</updated>
-    <published>2023-11-19T16:00:00.000Z</published>
+    <updated>2023-11-19T22:00:00.000Z</updated>
+    <published>2023-11-19T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -319,8 +408,8 @@ Secondly, there is an option (in Advanced section) to control the behavior of th
     <title>qBittorrent v4.6.0 release</title>
     <id>https://www.qbittorrent.org/news#sun-oct-22th-2023---qbittorrent-v4.6.0-release</id>
     <link href="https://www.qbittorrent.org/news#sun-oct-22th-2023---qbittorrent-v4.6.0-release"/>
-    <updated>2023-10-21T16:00:00.000Z</updated>
-    <published>2023-10-21T16:00:00.000Z</published>
+    <updated>2023-10-21T21:00:00.000Z</updated>
+    <published>2023-10-21T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -422,8 +511,8 @@ A lot of work has been done for version 4.6.0. The changelog below includes the 
     <title>qBittorrent v4.5.5 and v4.6.0RC2 release</title>
     <id>https://www.qbittorrent.org/news#tue-aug-29th-2023---qbittorrent-v4.5.5-and-v4.6.0rc2-release</id>
     <link href="https://www.qbittorrent.org/news#tue-aug-29th-2023---qbittorrent-v4.5.5-and-v4.6.0rc2-release"/>
-    <updated>2023-08-28T16:00:00.000Z</updated>
-    <published>2023-08-28T16:00:00.000Z</published>
+    <updated>2023-08-28T21:00:00.000Z</updated>
+    <published>2023-08-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -475,8 +564,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
     <title>qBittorrent v4.5.4 and v4.6.0beta1 release</title>
     <id>https://www.qbittorrent.org/news#sunday-jun-18th-2023---qbittorrent-v4.5.4-and-v4.6.0beta1-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-jun-18th-2023---qbittorrent-v4.5.4-and-v4.6.0beta1-release"/>
-    <updated>2023-06-17T16:00:00.000Z</updated>
-    <published>2023-06-17T16:00:00.000Z</published>
+    <updated>2023-06-17T21:00:00.000Z</updated>
+    <published>2023-06-17T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -521,8 +610,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
     <title>qBittorrent v4.5.3 and v4.6.0alpha1 release</title>
     <id>https://www.qbittorrent.org/news#monday-may-29th-2023---qbittorrent-v4.5.3-and-v4.6.0alpha1-release</id>
     <link href="https://www.qbittorrent.org/news#monday-may-29th-2023---qbittorrent-v4.5.3-and-v4.6.0alpha1-release"/>
-    <updated>2023-05-28T16:00:00.000Z</updated>
-    <published>2023-05-28T16:00:00.000Z</published>
+    <updated>2023-05-28T21:00:00.000Z</updated>
+    <published>2023-05-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -574,8 +663,8 @@ For the Windows and macOS builds Qt 6.4.3 is deliberately used, because Qt 6.5 i
     <title>qBittorrent v4.5.2 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-feb-28th-2023---qbittorrent-v4.5.2-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-feb-28th-2023---qbittorrent-v4.5.2-release"/>
-    <updated>2023-02-27T16:00:00.000Z</updated>
-    <published>2023-02-27T16:00:00.000Z</published>
+    <updated>2023-02-27T22:00:00.000Z</updated>
+    <published>2023-02-27T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -626,8 +715,8 @@ NOTE: macOS builds are self-signed now. It should help with macOS permissions di
     <title>qBittorrent v4.5.1 release</title>
     <id>https://www.qbittorrent.org/news#sunday-feb-12th-2023---qbittorrent-v4.5.1-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-feb-12th-2023---qbittorrent-v4.5.1-release"/>
-    <updated>2023-02-11T16:00:00.000Z</updated>
-    <published>2023-02-11T16:00:00.000Z</published>
+    <updated>2023-02-11T22:00:00.000Z</updated>
+    <published>2023-02-11T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -696,8 +785,8 @@ NOTE: macOS builds are self-signed now. It should help with macOS permissions di
     <title>qBittorrent v4.5.0 release</title>
     <id>https://www.qbittorrent.org/news#sunday-nov-27th-2022---qbittorrent-v4.5.0-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-nov-27th-2022---qbittorrent-v4.5.0-release"/>
-    <updated>2022-11-26T16:00:00.000Z</updated>
-    <published>2022-11-26T16:00:00.000Z</published>
+    <updated>2022-11-26T22:00:00.000Z</updated>
+    <published>2022-11-26T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -820,8 +909,8 @@ Notable features: New icon theme, new color theme and better startup time when u
     <title>qBittorrent v4.5.0beta1 release</title>
     <id>https://www.qbittorrent.org/news#thursday-sep-29th-2022---qbittorrent-v4.5.0beta1-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-sep-29th-2022---qbittorrent-v4.5.0beta1-release"/>
-    <updated>2022-09-28T16:00:00.000Z</updated>
-    <published>2022-09-28T16:00:00.000Z</published>
+    <updated>2022-09-28T21:00:00.000Z</updated>
+    <published>2022-09-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -858,8 +947,8 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
     <title>qBittorrent v4.4.5 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-aug-30th-2022---qbittorrent-v4.4.5-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-aug-30th-2022---qbittorrent-v4.4.5-release"/>
-    <updated>2022-08-29T16:00:00.000Z</updated>
-    <published>2022-08-29T16:00:00.000Z</published>
+    <updated>2022-08-29T21:00:00.000Z</updated>
+    <published>2022-08-29T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -876,8 +965,8 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
     <title>qBittorrent v4.4.4 release</title>
     <id>https://www.qbittorrent.org/news#monday-aug-22nd-2022---qbittorrent-v4.4.4-release</id>
     <link href="https://www.qbittorrent.org/news#monday-aug-22nd-2022---qbittorrent-v4.4.4-release"/>
-    <updated>2022-08-21T16:00:00.000Z</updated>
-    <published>2022-08-21T16:00:00.000Z</published>
+    <updated>2022-08-21T21:00:00.000Z</updated>
+    <published>2022-08-21T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -903,8 +992,8 @@ At this point, no changelog is provided. Also no source tarballs. If you want bu
     <title>qBittorrent v4.4.3.1 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-may-25th-2022---qbittorrent-v4.4.3.1-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-may-25th-2022---qbittorrent-v4.4.3.1-release"/>
-    <updated>2022-05-24T16:00:00.000Z</updated>
-    <published>2022-05-24T16:00:00.000Z</published>
+    <updated>2022-05-24T21:00:00.000Z</updated>
+    <published>2022-05-24T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -916,8 +1005,8 @@ Translations were broken with v4.4.3 and now are fixed.&lt;br&gt;
     <title>qBittorrent v4.4.3 release</title>
     <id>https://www.qbittorrent.org/news#sunday-may-22nd-2022---qbittorrent-v4.4.3-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-may-22nd-2022---qbittorrent-v4.4.3-release"/>
-    <updated>2022-05-21T16:00:00.000Z</updated>
-    <published>2022-05-21T16:00:00.000Z</published>
+    <updated>2022-05-21T21:00:00.000Z</updated>
+    <published>2022-05-21T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -946,8 +1035,8 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
     <title>qBittorrent v4.4.2 release</title>
     <id>https://www.qbittorrent.org/news#thursday-march-24th-2022---qbittorrent-v4.4.2-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-march-24th-2022---qbittorrent-v4.4.2-release"/>
-    <updated>2022-03-23T16:00:00.000Z</updated>
-    <published>2022-03-23T16:00:00.000Z</published>
+    <updated>2022-03-23T22:00:00.000Z</updated>
+    <published>2022-03-23T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -973,8 +1062,8 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
     <title>qBittorrent v4.4.1 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-february-15th-2022---qbittorrent-v4.4.1-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-february-15th-2022---qbittorrent-v4.4.1-release"/>
-    <updated>2022-02-14T16:00:00.000Z</updated>
-    <published>2022-02-14T16:00:00.000Z</published>
+    <updated>2022-02-14T22:00:00.000Z</updated>
+    <published>2022-02-14T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1011,8 +1100,8 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
     <title>qBittorrent v4.4.0 release</title>
     <id>https://www.qbittorrent.org/news#thursday-january-06th-2022---qbittorrent-v4.4.0-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-january-06th-2022---qbittorrent-v4.4.0-release"/>
-    <updated>2022-01-05T16:00:00.000Z</updated>
-    <published>2022-01-05T16:00:00.000Z</published>
+    <updated>2022-01-05T22:00:00.000Z</updated>
+    <published>2022-01-05T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1083,8 +1172,8 @@ The issue with white/invisible text on the progress bar is now fixed with Qt 6.3
     <title>qBittorrent v4.3.9 and v4.4.0rc1 release</title>
     <id>https://www.qbittorrent.org/news#sunday-october-31st-2021---qbittorrent-v4.3.9-and-v4.4.0rc1-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-october-31st-2021---qbittorrent-v4.3.9-and-v4.4.0rc1-release"/>
-    <updated>2021-10-30T16:00:00.000Z</updated>
-    <published>2021-10-30T16:00:00.000Z</published>
+    <updated>2021-10-30T21:00:00.000Z</updated>
+    <published>2021-10-30T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1105,8 +1194,8 @@ The next stable release will probably be 4.4.0.&lt;br&gt;
     <title>qBittorrent v4.3.8 and v4.4.0beta3 release</title>
     <id>https://www.qbittorrent.org/news#sunday-august-29th-2021---qbittorrent-v4.3.8-and-v4.4.0beta3-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-august-29th-2021---qbittorrent-v4.3.8-and-v4.4.0beta3-release"/>
-    <updated>2021-08-28T16:00:00.000Z</updated>
-    <published>2021-08-28T16:00:00.000Z</published>
+    <updated>2021-08-28T21:00:00.000Z</updated>
+    <published>2021-08-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1128,8 +1217,8 @@ Also we moved our IRC channel to &lt;code&gt;irc.libera.chat&lt;/code&gt;. The c
     <title>qBittorrent v4.3.7 and v4.4.0beta2 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-august-03rd-2021---qbittorrent-v4.3.7-and-v4.4.0beta2-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-august-03rd-2021---qbittorrent-v4.3.7-and-v4.4.0beta2-release"/>
-    <updated>2021-08-02T16:00:00.000Z</updated>
-    <published>2021-08-02T16:00:00.000Z</published>
+    <updated>2021-08-02T21:00:00.000Z</updated>
+    <published>2021-08-02T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1149,8 +1238,8 @@ Also we moved our IRC channel to &lt;code&gt;irc.libera.chat&lt;/code&gt;. The c
     <title>qBittorrent v4.3.6 and v4.4.0beta1 release</title>
     <id>https://www.qbittorrent.org/news#saturday-june-26th-2021---qbittorrent-v4.3.6-and-v4.4.0beta1-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-june-26th-2021---qbittorrent-v4.3.6-and-v4.4.0beta1-release"/>
-    <updated>2021-06-25T16:00:00.000Z</updated>
-    <published>2021-06-25T16:00:00.000Z</published>
+    <updated>2021-06-25T21:00:00.000Z</updated>
+    <published>2021-06-25T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1176,8 +1265,8 @@ The v4.4.0beta1 uses the libtorrent 2.0.x series. A more detailed changelog may 
     <title>qBittorrent v4.3.5 release</title>
     <id>https://www.qbittorrent.org/news#sunday-may-2nd-2021---qbittorrent-v4.3.5-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-may-2nd-2021---qbittorrent-v4.3.5-release"/>
-    <updated>2021-05-01T16:00:00.000Z</updated>
-    <published>2021-05-01T16:00:00.000Z</published>
+    <updated>2021-05-01T21:00:00.000Z</updated>
+    <published>2021-05-01T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1207,8 +1296,8 @@ This is the last release in the 4.3.x series. The next series will probably drop
     <title>qBittorrent v4.3.4.1 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-march-24th-2021---qbittorrent-v4.3.4.1-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-march-24th-2021---qbittorrent-v4.3.4.1-release"/>
-    <updated>2021-03-23T16:00:00.000Z</updated>
-    <published>2021-03-23T16:00:00.000Z</published>
+    <updated>2021-03-23T22:00:00.000Z</updated>
+    <published>2021-03-23T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1225,8 +1314,8 @@ Read the v4.3.4 changelog too because this is a hotfix release.&lt;/p&gt;
     <title>qBittorrent v4.3.4 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-march-24th-2021---qbittorrent-v4.3.4-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-march-24th-2021---qbittorrent-v4.3.4-release"/>
-    <updated>2021-03-23T16:00:00.000Z</updated>
-    <published>2021-03-23T16:00:00.000Z</published>
+    <updated>2021-03-23T22:00:00.000Z</updated>
+    <published>2021-03-23T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1284,8 +1373,8 @@ Support for Ubuntu 18.04 (Bionic Beaver) has been dropped.&lt;/p&gt;
     <title>qBittorrent v4.3.3 release</title>
     <id>https://www.qbittorrent.org/news#thursday-january-19th-2021---qbittorrent-v4.3.3-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-january-19th-2021---qbittorrent-v4.3.3-release"/>
-    <updated>2021-01-18T16:00:00.000Z</updated>
-    <published>2021-01-18T16:00:00.000Z</published>
+    <updated>2021-01-18T22:00:00.000Z</updated>
+    <published>2021-01-18T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1316,8 +1405,8 @@ For the same reason it is highly likely that support for Ubuntu 18.04 (Bionic Be
     <title>qBittorrent v4.3.2 release</title>
     <id>https://www.qbittorrent.org/news#sunday-december-27th-2020---qbittorrent-v4.3.2-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-december-27th-2020---qbittorrent-v4.3.2-release"/>
-    <updated>2020-12-26T16:00:00.000Z</updated>
-    <published>2020-12-26T16:00:00.000Z</published>
+    <updated>2020-12-26T22:00:00.000Z</updated>
+    <published>2020-12-26T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1350,8 +1439,8 @@ For the same reason it is highly likely that support for Ubuntu 18.04 (Bionic Be
     <title>qBittorrent v4.3.1 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-november-25th-2020---qbittorrent-v4.3.1-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-november-25th-2020---qbittorrent-v4.3.1-release"/>
-    <updated>2020-11-24T16:00:00.000Z</updated>
-    <published>2020-11-24T16:00:00.000Z</published>
+    <updated>2020-11-24T22:00:00.000Z</updated>
+    <published>2020-11-24T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1382,8 +1471,8 @@ Also take note of the previous &lt;code&gt;news&lt;/code&gt; entry regarding upd
     <title>Donation info updates</title>
     <id>https://www.qbittorrent.org/news#monday-november-16th-2020---donation-info-updates</id>
     <link href="https://www.qbittorrent.org/news#monday-november-16th-2020---donation-info-updates"/>
-    <updated>2020-11-15T16:00:00.000Z</updated>
-    <published>2020-11-15T16:00:00.000Z</published>
+    <updated>2020-11-15T22:00:00.000Z</updated>
+    <published>2020-11-15T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1399,8 +1488,8 @@ However, if you want specific features implemented or issues solved you may look
     <title>qBittorrent v4.3.0.1 release</title>
     <id>https://www.qbittorrent.org/news#thursday-october-22nd-2020---qbittorrent-v4.3.0.1-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-october-22nd-2020---qbittorrent-v4.3.0.1-release"/>
-    <updated>2020-10-21T16:00:00.000Z</updated>
-    <published>2020-10-21T16:00:00.000Z</published>
+    <updated>2020-10-21T21:00:00.000Z</updated>
+    <published>2020-10-21T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1416,8 +1505,8 @@ The rest of the release is almost the same as v4.3.0 (see changelog). Since othe
     <title>qBittorrent v4.3.0 release</title>
     <id>https://www.qbittorrent.org/news#sunday-october-18th-2020---qbittorrent-v4.3.0-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-october-18th-2020---qbittorrent-v4.3.0-release"/>
-    <updated>2020-10-17T16:00:00.000Z</updated>
-    <published>2020-10-17T16:00:00.000Z</published>
+    <updated>2020-10-17T21:00:00.000Z</updated>
+    <published>2020-10-17T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1490,8 +1579,8 @@ Some notes:&lt;/p&gt;
     <title>qBittorrent v4.2.5 release</title>
     <id>https://www.qbittorrent.org/news#saturday-april-25th-2020---qbittorrent-v4.2.5-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-april-25th-2020---qbittorrent-v4.2.5-release"/>
-    <updated>2020-04-24T16:00:00.000Z</updated>
-    <published>2020-04-24T16:00:00.000Z</published>
+    <updated>2020-04-24T21:00:00.000Z</updated>
+    <published>2020-04-24T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1511,8 +1600,8 @@ v4.2.5 changelog:&lt;/p&gt;
     <title>qBittorrent v4.2.4 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-april-22nd-2020---qbittorrent-v4.2.4-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-april-22nd-2020---qbittorrent-v4.2.4-release"/>
-    <updated>2020-04-21T16:00:00.000Z</updated>
-    <published>2020-04-21T16:00:00.000Z</published>
+    <updated>2020-04-21T21:00:00.000Z</updated>
+    <published>2020-04-21T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1545,8 +1634,8 @@ v4.2.4 changelog:&lt;/p&gt;
     <title>qBittorrent v4.2.3 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-april-1st-2020---qbittorrent-v4.2.3-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-april-1st-2020---qbittorrent-v4.2.3-release"/>
-    <updated>2020-03-31T16:00:00.000Z</updated>
-    <published>2020-03-31T16:00:00.000Z</published>
+    <updated>2020-03-31T21:00:00.000Z</updated>
+    <published>2020-03-31T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1577,8 +1666,8 @@ v4.2.3 changelog:&lt;/p&gt;
     <title>qBittorrent v4.2.2 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-march-24th-2020---qbittorrent-v4.2.2-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-march-24th-2020---qbittorrent-v4.2.2-release"/>
-    <updated>2020-03-23T16:00:00.000Z</updated>
-    <published>2020-03-23T16:00:00.000Z</published>
+    <updated>2020-03-23T22:00:00.000Z</updated>
+    <published>2020-03-23T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1647,8 +1736,8 @@ v4.2.2 changelog:&lt;/p&gt;
     <title>qBittorrent v4.2.1 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-december-18th-2019---qbittorrent-v4.2.1-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-december-18th-2019---qbittorrent-v4.2.1-release"/>
-    <updated>2019-12-17T16:00:00.000Z</updated>
-    <published>2019-12-17T16:00:00.000Z</published>
+    <updated>2019-12-17T22:00:00.000Z</updated>
+    <published>2019-12-17T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1681,8 +1770,8 @@ v4.2.1 changelog:&lt;/p&gt;
     <title>qBittorrent v4.2.0 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-december-3rd-2019---qbittorrent-v4.2.0-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-december-3rd-2019---qbittorrent-v4.2.0-release"/>
-    <updated>2019-12-02T16:00:00.000Z</updated>
-    <published>2019-12-02T16:00:00.000Z</published>
+    <updated>2019-12-02T22:00:00.000Z</updated>
+    <published>2019-12-02T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1832,8 +1921,8 @@ There were no significant user facing changes since the previous RC release. The
     <title>qBittorrent v4.2.0RC_20191121_9c1617b9778 release</title>
     <id>https://www.qbittorrent.org/news#thursday-november-21st-2019---qbittorrent-v4.2.0rc_20191121_9c1617b9778-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-november-21st-2019---qbittorrent-v4.2.0rc_20191121_9c1617b9778-release"/>
-    <updated>2019-11-20T16:00:00.000Z</updated>
-    <published>2019-11-20T16:00:00.000Z</published>
+    <updated>2019-11-20T22:00:00.000Z</updated>
+    <published>2019-11-20T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1857,8 +1946,8 @@ The final version of 4.2.0 will be released at the end of the month.&lt;br&gt;
     <title>qBittorrent v4.1.9.1 release</title>
     <id>https://www.qbittorrent.org/news#thursday-october-31st-2019---qbittorrent-v4.1.9.1-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-october-31st-2019---qbittorrent-v4.1.9.1-release"/>
-    <updated>2019-10-30T16:00:00.000Z</updated>
-    <published>2019-10-30T16:00:00.000Z</published>
+    <updated>2019-10-30T22:00:00.000Z</updated>
+    <published>2019-10-30T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1871,8 +1960,8 @@ The final version of 4.2.0 will be released at the end of the month.&lt;br&gt;
     <title>qBittorrent v4.1.9 and v_4.2.0beta1_20191027_9c466d84ec0 release</title>
     <id>https://www.qbittorrent.org/news#sunday-october-27th-2019---qbittorrent-v4.1.9-and-v_4.2.0beta1_20191027_9c466d84ec0-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-october-27th-2019---qbittorrent-v4.1.9-and-v_4.2.0beta1_20191027_9c466d84ec0-release"/>
-    <updated>2019-10-26T16:00:00.000Z</updated>
-    <published>2019-10-26T16:00:00.000Z</published>
+    <updated>2019-10-26T21:00:00.000Z</updated>
+    <published>2019-10-26T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1896,8 +1985,8 @@ For Windows only the 64-bit build is available for the beta release. Changes inc
     <title>qBittorrent v4.1.8 and v4.2.0alpha2_20190923_918ccefdc4a release</title>
     <id>https://www.qbittorrent.org/news#thursday-september-26th-2019---qbittorrent-v4.1.8-and-v4.2.0alpha2_20190923_918ccefdc4a-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-september-26th-2019---qbittorrent-v4.1.8-and-v4.2.0alpha2_20190923_918ccefdc4a-release"/>
-    <updated>2019-09-25T16:00:00.000Z</updated>
-    <published>2019-09-25T16:00:00.000Z</published>
+    <updated>2019-09-25T21:00:00.000Z</updated>
+    <published>2019-09-25T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -1925,8 +2014,8 @@ After about ~2 weeks another release of the v4.2.x series will be made. Stay tun
     <title>qBittorrent v4.2.0alpha1_20190824_69f665ed016 release</title>
     <id>https://www.qbittorrent.org/news#saturday-august-24th-2019---qbittorrent-v4.2.0alpha1_20190824_69f665ed016-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-august-24th-2019---qbittorrent-v4.2.0alpha1_20190824_69f665ed016-release"/>
-    <updated>2019-08-23T16:00:00.000Z</updated>
-    <published>2019-08-23T16:00:00.000Z</published>
+    <updated>2019-08-23T21:00:00.000Z</updated>
+    <published>2019-08-23T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2056,8 +2145,8 @@ For Windows only the 64-bit build is available for the alpha release. Changes in
     <title>qBittorrent v4.1.7 release</title>
     <id>https://www.qbittorrent.org/news#sunday-august-4th-2019---qbittorrent-v4.1.7-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-august-4th-2019---qbittorrent-v4.1.7-release"/>
-    <updated>2019-08-03T16:00:00.000Z</updated>
-    <published>2019-08-03T16:00:00.000Z</published>
+    <updated>2019-08-03T21:00:00.000Z</updated>
+    <published>2019-08-03T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2106,8 +2195,8 @@ The macOS build supports Sierra as minimum version. If you use an older macOS ve
     <title>qBittorrent v4.1.6 release</title>
     <id>https://www.qbittorrent.org/news#sunday-may-5th-2019---qbittorrent-v4.1.6-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-may-5th-2019---qbittorrent-v4.1.6-release"/>
-    <updated>2019-05-04T16:00:00.000Z</updated>
-    <published>2019-05-04T16:00:00.000Z</published>
+    <updated>2019-05-04T21:00:00.000Z</updated>
+    <published>2019-05-04T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2137,8 +2226,8 @@ The macOS build supports Sierra as minimum version. If you use an older macOS ve
     <title>qBittorrent v4.1.5 release</title>
     <id>https://www.qbittorrent.org/news#monday-december-24th-2018---qbittorrent-v4.1.5-release</id>
     <link href="https://www.qbittorrent.org/news#monday-december-24th-2018---qbittorrent-v4.1.5-release"/>
-    <updated>2018-12-23T16:00:00.000Z</updated>
-    <published>2018-12-23T16:00:00.000Z</published>
+    <updated>2018-12-23T22:00:00.000Z</updated>
+    <published>2018-12-23T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2203,8 +2292,8 @@ macOS: Support for Mavericks (10.9) was dropped due to usage of Qt 5.9. qBittorr
     <title>qBittorrent v4.1.4 release</title>
     <id>https://www.qbittorrent.org/news#monday-november-19th-2018---qbittorrent-v4.1.4-release</id>
     <link href="https://www.qbittorrent.org/news#monday-november-19th-2018---qbittorrent-v4.1.4-release"/>
-    <updated>2018-11-18T16:00:00.000Z</updated>
-    <published>2018-11-18T16:00:00.000Z</published>
+    <updated>2018-11-18T22:00:00.000Z</updated>
+    <published>2018-11-18T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2257,8 +2346,8 @@ There will be 1-2 more releases in the 4.1.x series. After that we will switch t
     <title>qBittorrent v4.1.3 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-september-18th-2018---qbittorrent-v4.1.3-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-september-18th-2018---qbittorrent-v4.1.3-release"/>
-    <updated>2018-09-17T16:00:00.000Z</updated>
-    <published>2018-09-17T16:00:00.000Z</published>
+    <updated>2018-09-17T21:00:00.000Z</updated>
+    <published>2018-09-17T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2294,8 +2383,8 @@ There will be 1-2 more releases in the 4.1.x series. After that we will switch t
     <title>qBittorrent v4.1.2 release</title>
     <id>https://www.qbittorrent.org/news#sunday-august-12th-2018---qbittorrent-v4.1.2-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-august-12th-2018---qbittorrent-v4.1.2-release"/>
-    <updated>2018-08-11T16:00:00.000Z</updated>
-    <published>2018-08-11T16:00:00.000Z</published>
+    <updated>2018-08-11T21:00:00.000Z</updated>
+    <published>2018-08-11T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2352,8 +2441,8 @@ There will be 1-2 more releases in the 4.1.x series. After that we will switch t
     <title>qBittorrent v4.1.1 release</title>
     <id>https://www.qbittorrent.org/news#sunday-may-27th-2018---qbittorrent-v4.1.1-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-may-27th-2018---qbittorrent-v4.1.1-release"/>
-    <updated>2018-05-26T16:00:00.000Z</updated>
-    <published>2018-05-26T16:00:00.000Z</published>
+    <updated>2018-05-26T21:00:00.000Z</updated>
+    <published>2018-05-26T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2400,8 +2489,8 @@ Important fixes are in the version of libtorrent used. It fixes SOCKS5 issues an
     <title>qBittorrent v4.1.0 release</title>
     <id>https://www.qbittorrent.org/news#friday-may-5th-2018---qbittorrent-v4.1.0-release</id>
     <link href="https://www.qbittorrent.org/news#friday-may-5th-2018---qbittorrent-v4.1.0-release"/>
-    <updated>2018-05-04T16:00:00.000Z</updated>
-    <published>2018-05-04T16:00:00.000Z</published>
+    <updated>2018-05-04T21:00:00.000Z</updated>
+    <published>2018-05-04T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2478,8 +2567,8 @@ The Windows &lt;strong&gt;32-bit&lt;/strong&gt; installer now uses Qt 5.6.3 inst
     <title>qBittorrent v4.0.4 release</title>
     <id>https://www.qbittorrent.org/news#friday-february-16th-2018---qbittorrent-v4.0.4-release</id>
     <link href="https://www.qbittorrent.org/news#friday-february-16th-2018---qbittorrent-v4.0.4-release"/>
-    <updated>2018-02-15T16:00:00.000Z</updated>
-    <published>2018-02-15T16:00:00.000Z</published>
+    <updated>2018-02-15T22:00:00.000Z</updated>
+    <published>2018-02-15T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2528,8 +2617,8 @@ The Windows &lt;strong&gt;32-bit&lt;/strong&gt; installer now uses Qt 5.6.3 inst
     <title>qBittorrent v4.0.3 release</title>
     <id>https://www.qbittorrent.org/news#sunday-december-17th-2017---qbittorrent-v4.0.3-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-december-17th-2017---qbittorrent-v4.0.3-release"/>
-    <updated>2017-12-16T16:00:00.000Z</updated>
-    <published>2017-12-16T16:00:00.000Z</published>
+    <updated>2017-12-16T22:00:00.000Z</updated>
+    <published>2017-12-16T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2551,8 +2640,8 @@ v4.0.3 changelog:&lt;/p&gt;
     <title>qBittorrent v4.0.2 release</title>
     <id>https://www.qbittorrent.org/news#friday-december-1st-2017---qbittorrent-v4.0.2-release</id>
     <link href="https://www.qbittorrent.org/news#friday-december-1st-2017---qbittorrent-v4.0.2-release"/>
-    <updated>2017-11-30T16:00:00.000Z</updated>
-    <published>2017-11-30T16:00:00.000Z</published>
+    <updated>2017-11-30T22:00:00.000Z</updated>
+    <published>2017-11-30T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2577,8 +2666,8 @@ v4.0.2 changelog:&lt;/p&gt;
     <title>qBittorrent v4.0.1 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-november-22nd-2017---qbittorrent-v4.0.1-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-november-22nd-2017---qbittorrent-v4.0.1-release"/>
-    <updated>2017-11-21T16:00:00.000Z</updated>
-    <published>2017-11-21T16:00:00.000Z</published>
+    <updated>2017-11-21T22:00:00.000Z</updated>
+    <published>2017-11-21T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2600,8 +2689,8 @@ v4.0.1 changelog:&lt;/p&gt;
     <title>qBittorrent v4.0.0 release</title>
     <id>https://www.qbittorrent.org/news#monday-november-20th-2017---qbittorrent-v4.0.0-release</id>
     <link href="https://www.qbittorrent.org/news#monday-november-20th-2017---qbittorrent-v4.0.0-release"/>
-    <updated>2017-11-19T16:00:00.000Z</updated>
-    <published>2017-11-19T16:00:00.000Z</published>
+    <updated>2017-11-19T22:00:00.000Z</updated>
+    <published>2017-11-19T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2713,8 +2802,8 @@ v4.0.0 changelog:&lt;/p&gt;
     <title>qBittorrent v3.3.16 and 3.4.0beta2_20170709_cbfbae14090 release</title>
     <id>https://www.qbittorrent.org/news#thursday-september-7th-2017---qbittorrent-v3.3.16-and-3.4.0beta2_20170709_cbfbae14090-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-september-7th-2017---qbittorrent-v3.3.16-and-3.4.0beta2_20170709_cbfbae14090-release"/>
-    <updated>2017-09-06T16:00:00.000Z</updated>
-    <published>2017-09-06T16:00:00.000Z</published>
+    <updated>2017-09-06T21:00:00.000Z</updated>
+    <published>2017-09-06T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2752,8 +2841,8 @@ v3.3.16 changelog:&lt;/p&gt;
     <title>qBittorrent v3.4.0beta_20170807_0320f9d5b5e release</title>
     <id>https://www.qbittorrent.org/news#monday-august-7th-2017---qbittorrent-v3.4.0beta_20170807_0320f9d5b5e-release</id>
     <link href="https://www.qbittorrent.org/news#monday-august-7th-2017---qbittorrent-v3.4.0beta_20170807_0320f9d5b5e-release"/>
-    <updated>2017-08-06T16:00:00.000Z</updated>
-    <published>2017-08-06T16:00:00.000Z</published>
+    <updated>2017-08-06T21:00:00.000Z</updated>
+    <published>2017-08-06T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2810,8 +2899,8 @@ Here is the current changelog:&lt;/p&gt;
     <title>qBittorrent v3.3.15 release</title>
     <id>https://www.qbittorrent.org/news#thursday-august-3rd-2017---qbittorrent-v3.3.15-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-august-3rd-2017---qbittorrent-v3.3.15-release"/>
-    <updated>2017-08-02T16:00:00.000Z</updated>
-    <published>2017-08-02T16:00:00.000Z</published>
+    <updated>2017-08-02T21:00:00.000Z</updated>
+    <published>2017-08-02T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2825,8 +2914,8 @@ Here is the current changelog:&lt;/p&gt;
     <title>qBittorrent v3.3.14 release</title>
     <id>https://www.qbittorrent.org/news#thursday-july-20th-2017---qbittorrent-v3.3.14-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-july-20th-2017---qbittorrent-v3.3.14-release"/>
-    <updated>2017-07-19T16:00:00.000Z</updated>
-    <published>2017-07-19T16:00:00.000Z</published>
+    <updated>2017-07-19T21:00:00.000Z</updated>
+    <published>2017-07-19T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2859,8 +2948,8 @@ Here is the current changelog:&lt;/p&gt;
     <title>qBittorrent v3.3.13 release</title>
     <id>https://www.qbittorrent.org/news#thursday-june-1st-2017---qbittorrent-v3.3.13-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-june-1st-2017---qbittorrent-v3.3.13-release"/>
-    <updated>2017-05-31T16:00:00.000Z</updated>
-    <published>2017-05-31T16:00:00.000Z</published>
+    <updated>2017-05-31T21:00:00.000Z</updated>
+    <published>2017-05-31T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2914,8 +3003,8 @@ Here is the current changelog:&lt;/p&gt;
     <title>qBittorrent v3.3.12 release</title>
     <id>https://www.qbittorrent.org/news#thursday-april-6th-2017---qbittorrent-v3.3.12-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-april-6th-2017---qbittorrent-v3.3.12-release"/>
-    <updated>2017-04-05T16:00:00.000Z</updated>
-    <published>2017-04-05T16:00:00.000Z</published>
+    <updated>2017-04-05T21:00:00.000Z</updated>
+    <published>2017-04-05T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2949,8 +3038,8 @@ Here is the current changelog:&lt;/p&gt;
     <title>NOTICE to tracker operators: User agent change</title>
     <id>https://www.qbittorrent.org/news#tuesday-march-7th-2017---notice-to-tracker-operators%3A-user-agent-change</id>
     <link href="https://www.qbittorrent.org/news#tuesday-march-7th-2017---notice-to-tracker-operators%3A-user-agent-change"/>
-    <updated>2017-03-06T16:00:00.000Z</updated>
-    <published>2017-03-06T16:00:00.000Z</published>
+    <updated>2017-03-06T22:00:00.000Z</updated>
+    <published>2017-03-06T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2969,8 +3058,8 @@ To sum up and give an example, the user agent that v3.3.12 will use is &lt;code&
     <title>"qBittorrent is the best BitTorrent client": a guide by TurboLab.it</title>
     <id>https://www.qbittorrent.org/news#monday-march-6th-2017---%22qbittorrent-is-the-best-bittorrent-client%22%3A-a-guide-by-turbolab.it</id>
     <link href="https://www.qbittorrent.org/news#monday-march-6th-2017---%22qbittorrent-is-the-best-bittorrent-client%22%3A-a-guide-by-turbolab.it"/>
-    <updated>2017-03-05T16:00:00.000Z</updated>
-    <published>2017-03-05T16:00:00.000Z</published>
+    <updated>2017-03-05T22:00:00.000Z</updated>
+    <published>2017-03-05T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -2982,8 +3071,8 @@ TurboLab.it team welcomes hints, tips and tricks to make the guide even better: 
     <title>qBittorrent v3.3.11 release</title>
     <id>https://www.qbittorrent.org/news#friday-march-3rd-2017---qbittorrent-v3.3.11-release</id>
     <link href="https://www.qbittorrent.org/news#friday-march-3rd-2017---qbittorrent-v3.3.11-release"/>
-    <updated>2017-03-02T16:00:00.000Z</updated>
-    <published>2017-03-02T16:00:00.000Z</published>
+    <updated>2017-03-02T22:00:00.000Z</updated>
+    <published>2017-03-02T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3072,8 +3161,8 @@ This will be the last release in the v3.3.x series. Next release will have a new
     <title>SSL support</title>
     <id>https://www.qbittorrent.org/news#tuesday-december-27th-2016---ssl-support</id>
     <link href="https://www.qbittorrent.org/news#tuesday-december-27th-2016---ssl-support"/>
-    <updated>2016-12-26T16:00:00.000Z</updated>
-    <published>2016-12-26T16:00:00.000Z</published>
+    <updated>2016-12-26T22:00:00.000Z</updated>
+    <published>2016-12-26T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3084,8 +3173,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.10 release</title>
     <id>https://www.qbittorrent.org/news#saturday-december-17th-2016---qbittorrent-v3.3.10-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-december-17th-2016---qbittorrent-v3.3.10-release"/>
-    <updated>2016-12-16T16:00:00.000Z</updated>
-    <published>2016-12-16T16:00:00.000Z</published>
+    <updated>2016-12-16T22:00:00.000Z</updated>
+    <published>2016-12-16T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3102,8 +3191,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.9 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-december-14th-2016---qbittorrent-v3.3.9-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-december-14th-2016---qbittorrent-v3.3.9-release"/>
-    <updated>2016-12-13T16:00:00.000Z</updated>
-    <published>2016-12-13T16:00:00.000Z</published>
+    <updated>2016-12-13T22:00:00.000Z</updated>
+    <published>2016-12-13T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3118,8 +3207,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.8 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-december-14th-2016---qbittorrent-v3.3.8-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-december-14th-2016---qbittorrent-v3.3.8-release"/>
-    <updated>2016-12-13T16:00:00.000Z</updated>
-    <published>2016-12-13T16:00:00.000Z</published>
+    <updated>2016-12-13T22:00:00.000Z</updated>
+    <published>2016-12-13T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3167,8 +3256,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.7 release</title>
     <id>https://www.qbittorrent.org/news#sunday-september-11th-2016---qbittorrent-v3.3.7-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-september-11th-2016---qbittorrent-v3.3.7-release"/>
-    <updated>2016-09-10T16:00:00.000Z</updated>
-    <published>2016-09-10T16:00:00.000Z</published>
+    <updated>2016-09-10T21:00:00.000Z</updated>
+    <published>2016-09-10T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3188,8 +3277,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.6 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-july-20th-2016---qbittorrent-v3.3.6-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-july-20th-2016---qbittorrent-v3.3.6-release"/>
-    <updated>2016-07-19T16:00:00.000Z</updated>
-    <published>2016-07-19T16:00:00.000Z</published>
+    <updated>2016-07-19T21:00:00.000Z</updated>
+    <published>2016-07-19T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3206,8 +3295,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.5 release</title>
     <id>https://www.qbittorrent.org/news#monday-june-20th-2016---qbittorrent-v3.3.5-release</id>
     <link href="https://www.qbittorrent.org/news#monday-june-20th-2016---qbittorrent-v3.3.5-release"/>
-    <updated>2016-06-19T16:00:00.000Z</updated>
-    <published>2016-06-19T16:00:00.000Z</published>
+    <updated>2016-06-19T21:00:00.000Z</updated>
+    <published>2016-06-19T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3287,8 +3376,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.4 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-march-29th-2016---qbittorrent-v3.3.4-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-march-29th-2016---qbittorrent-v3.3.4-release"/>
-    <updated>2016-03-28T16:00:00.000Z</updated>
-    <published>2016-03-28T16:00:00.000Z</published>
+    <updated>2016-03-28T21:00:00.000Z</updated>
+    <published>2016-03-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3359,8 +3448,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>The forum is restored</title>
     <id>https://www.qbittorrent.org/news#saturday-february-13th-2016---the-forum-is-restored</id>
     <link href="https://www.qbittorrent.org/news#saturday-february-13th-2016---the-forum-is-restored"/>
-    <updated>2016-02-12T16:00:00.000Z</updated>
-    <published>2016-02-12T16:00:00.000Z</published>
+    <updated>2016-02-12T22:00:00.000Z</updated>
+    <published>2016-02-12T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3370,8 +3459,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.3 release</title>
     <id>https://www.qbittorrent.org/news#thursday-january-21th-2016---qbittorrent-v3.3.3-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-january-21th-2016---qbittorrent-v3.3.3-release"/>
-    <updated>2016-01-20T16:00:00.000Z</updated>
-    <published>2016-01-20T16:00:00.000Z</published>
+    <updated>2016-01-20T22:00:00.000Z</updated>
+    <published>2016-01-20T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3386,8 +3475,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.2 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-january-19th-2016---qbittorrent-v3.3.2-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-january-19th-2016---qbittorrent-v3.3.2-release"/>
-    <updated>2016-01-18T16:00:00.000Z</updated>
-    <published>2016-01-18T16:00:00.000Z</published>
+    <updated>2016-01-18T22:00:00.000Z</updated>
+    <published>2016-01-18T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3440,8 +3529,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>Forum compromise</title>
     <id>https://www.qbittorrent.org/news#tuesday-december-22nd-2015---forum-compromise</id>
     <link href="https://www.qbittorrent.org/news#tuesday-december-22nd-2015---forum-compromise"/>
-    <updated>2015-12-21T16:00:00.000Z</updated>
-    <published>2015-12-21T16:00:00.000Z</published>
+    <updated>2015-12-21T22:00:00.000Z</updated>
+    <published>2015-12-21T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3451,8 +3540,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.1 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-december-8th-2015---qbittorrent-v3.3.1-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-december-8th-2015---qbittorrent-v3.3.1-release"/>
-    <updated>2015-12-07T16:00:00.000Z</updated>
-    <published>2015-12-07T16:00:00.000Z</published>
+    <updated>2015-12-07T22:00:00.000Z</updated>
+    <published>2015-12-07T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3485,8 +3574,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.3.0 release</title>
     <id>https://www.qbittorrent.org/news#sunday-november-29th-2015---qbittorrent-v3.3.0-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-november-29th-2015---qbittorrent-v3.3.0-release"/>
-    <updated>2015-11-28T16:00:00.000Z</updated>
-    <published>2015-11-28T16:00:00.000Z</published>
+    <updated>2015-11-28T22:00:00.000Z</updated>
+    <published>2015-11-28T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3548,8 +3637,8 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <title>qBittorrent v3.2.4 release</title>
     <id>https://www.qbittorrent.org/news#saturday-october-10th-2015---qbittorrent-v3.2.4-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-october-10th-2015---qbittorrent-v3.2.4-release"/>
-    <updated>2015-10-09T16:00:00.000Z</updated>
-    <published>2015-10-09T16:00:00.000Z</published>
+    <updated>2015-10-09T21:00:00.000Z</updated>
+    <published>2015-10-09T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3607,8 +3696,8 @@ PS: Ubuntu and OS X builds will be available in a few hours.&lt;/p&gt;
     <title>Paypal issue resolved</title>
     <id>https://www.qbittorrent.org/news#sunday-october-04th-2015---paypal-issue-resolved</id>
     <link href="https://www.qbittorrent.org/news#sunday-october-04th-2015---paypal-issue-resolved"/>
-    <updated>2015-10-03T16:00:00.000Z</updated>
-    <published>2015-10-03T16:00:00.000Z</published>
+    <updated>2015-10-03T21:00:00.000Z</updated>
+    <published>2015-10-03T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3623,8 +3712,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.2.3 release</title>
     <id>https://www.qbittorrent.org/news#sunday-august-02nd-2015---qbittorrent-v3.2.3-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-august-02nd-2015---qbittorrent-v3.2.3-release"/>
-    <updated>2015-08-01T16:00:00.000Z</updated>
-    <published>2015-08-01T16:00:00.000Z</published>
+    <updated>2015-08-01T21:00:00.000Z</updated>
+    <published>2015-08-01T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3638,8 +3727,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.2.2 release</title>
     <id>https://www.qbittorrent.org/news#saturday-august-01st-2015---qbittorrent-v3.2.2-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-august-01st-2015---qbittorrent-v3.2.2-release"/>
-    <updated>2015-07-31T16:00:00.000Z</updated>
-    <published>2015-07-31T16:00:00.000Z</published>
+    <updated>2015-07-31T21:00:00.000Z</updated>
+    <published>2015-07-31T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3684,8 +3773,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.2.1 release</title>
     <id>https://www.qbittorrent.org/news#saturday-july-11th-2015---qbittorrent-v3.2.1-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-july-11th-2015---qbittorrent-v3.2.1-release"/>
-    <updated>2015-07-10T16:00:00.000Z</updated>
-    <published>2015-07-10T16:00:00.000Z</published>
+    <updated>2015-07-10T21:00:00.000Z</updated>
+    <published>2015-07-10T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3768,8 +3857,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.2.0 release</title>
     <id>https://www.qbittorrent.org/news#sunday-may-10th-2015---qbittorrent-v3.2.0-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-may-10th-2015---qbittorrent-v3.2.0-release"/>
-    <updated>2015-05-09T16:00:00.000Z</updated>
-    <published>2015-05-09T16:00:00.000Z</published>
+    <updated>2015-05-09T21:00:00.000Z</updated>
+    <published>2015-05-09T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3870,8 +3959,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.12 release</title>
     <id>https://www.qbittorrent.org/news#sunday-february-22nd-2015---qbittorrent-v3.1.12-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-february-22nd-2015---qbittorrent-v3.1.12-release"/>
-    <updated>2015-02-21T16:00:00.000Z</updated>
-    <published>2015-02-21T16:00:00.000Z</published>
+    <updated>2015-02-21T22:00:00.000Z</updated>
+    <published>2015-02-21T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3886,8 +3975,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.11.1 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-december-17th-2014---qbittorrent-v3.1.11.1-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-december-17th-2014---qbittorrent-v3.1.11.1-release"/>
-    <updated>2014-12-16T16:00:00.000Z</updated>
-    <published>2014-12-16T16:00:00.000Z</published>
+    <updated>2014-12-16T22:00:00.000Z</updated>
+    <published>2014-12-16T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3897,8 +3986,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>Ubuntu PPAs</title>
     <id>https://www.qbittorrent.org/news#thursday-november-27th-2014---ubuntu-ppas</id>
     <link href="https://www.qbittorrent.org/news#thursday-november-27th-2014---ubuntu-ppas"/>
-    <updated>2014-11-26T16:00:00.000Z</updated>
-    <published>2014-11-26T16:00:00.000Z</published>
+    <updated>2014-11-26T22:00:00.000Z</updated>
+    <published>2014-11-26T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3908,8 +3997,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.11 release</title>
     <id>https://www.qbittorrent.org/news#wednesday-october-22nd-2014---qbittorrent-v3.1.11-release</id>
     <link href="https://www.qbittorrent.org/news#wednesday-october-22nd-2014---qbittorrent-v3.1.11-release"/>
-    <updated>2014-10-21T16:00:00.000Z</updated>
-    <published>2014-10-21T16:00:00.000Z</published>
+    <updated>2014-10-21T21:00:00.000Z</updated>
+    <published>2014-10-21T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -3942,8 +4031,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.10 release</title>
     <id>https://www.qbittorrent.org/news#sunday-september-21st-2014---qbittorrent-v3.1.10-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-september-21st-2014---qbittorrent-v3.1.10-release"/>
-    <updated>2014-09-20T16:00:00.000Z</updated>
-    <published>2014-09-20T16:00:00.000Z</published>
+    <updated>2014-09-20T21:00:00.000Z</updated>
+    <published>2014-09-20T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4009,8 +4098,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>Bitcoin and Litecoin</title>
     <id>https://www.qbittorrent.org/news#sunday-august-10th-2014---bitcoin-and-litecoin</id>
     <link href="https://www.qbittorrent.org/news#sunday-august-10th-2014---bitcoin-and-litecoin"/>
-    <updated>2014-08-09T16:00:00.000Z</updated>
-    <published>2014-08-09T16:00:00.000Z</published>
+    <updated>2014-08-09T21:00:00.000Z</updated>
+    <published>2014-08-09T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4021,8 +4110,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.9.2 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-april-29th-2014---qbittorrent-v3.1.9.2-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-april-29th-2014---qbittorrent-v3.1.9.2-release"/>
-    <updated>2014-04-28T16:00:00.000Z</updated>
-    <published>2014-04-28T16:00:00.000Z</published>
+    <updated>2014-04-28T21:00:00.000Z</updated>
+    <published>2014-04-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4035,8 +4124,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.9.1 release</title>
     <id>https://www.qbittorrent.org/news#monday-april-28th-2014---qbittorrent-v3.1.9.1-release</id>
     <link href="https://www.qbittorrent.org/news#monday-april-28th-2014---qbittorrent-v3.1.9.1-release"/>
-    <updated>2014-04-27T16:00:00.000Z</updated>
-    <published>2014-04-27T16:00:00.000Z</published>
+    <updated>2014-04-27T21:00:00.000Z</updated>
+    <published>2014-04-27T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4049,8 +4138,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.9 release</title>
     <id>https://www.qbittorrent.org/news#saturday-march-1st-2014---qbittorrent-v3.1.9-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-march-1st-2014---qbittorrent-v3.1.9-release"/>
-    <updated>2014-02-28T16:00:00.000Z</updated>
-    <published>2014-02-28T16:00:00.000Z</published>
+    <updated>2014-02-28T22:00:00.000Z</updated>
+    <published>2014-02-28T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4069,8 +4158,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.8 release</title>
     <id>https://www.qbittorrent.org/news#sunday-february-2nd-2014---qbittorrent-v3.1.8-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-february-2nd-2014---qbittorrent-v3.1.8-release"/>
-    <updated>2014-02-01T16:00:00.000Z</updated>
-    <published>2014-02-01T16:00:00.000Z</published>
+    <updated>2014-02-01T22:00:00.000Z</updated>
+    <published>2014-02-01T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4083,8 +4172,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.7 release</title>
     <id>https://www.qbittorrent.org/news#sunday-february-2nd-2014---qbittorrent-v3.1.7-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-february-2nd-2014---qbittorrent-v3.1.7-release"/>
-    <updated>2014-02-01T16:00:00.000Z</updated>
-    <published>2014-02-01T16:00:00.000Z</published>
+    <updated>2014-02-01T22:00:00.000Z</updated>
+    <published>2014-02-01T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4097,8 +4186,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.6 release</title>
     <id>https://www.qbittorrent.org/news#sunday-february-2nd-2014---qbittorrent-v3.1.6-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-february-2nd-2014---qbittorrent-v3.1.6-release"/>
-    <updated>2014-02-01T16:00:00.000Z</updated>
-    <published>2014-02-01T16:00:00.000Z</published>
+    <updated>2014-02-01T22:00:00.000Z</updated>
+    <published>2014-02-01T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4133,8 +4222,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.5 release</title>
     <id>https://www.qbittorrent.org/news#thursday-january-17th-2014---qbittorrent-v3.1.5-release</id>
     <link href="https://www.qbittorrent.org/news#thursday-january-17th-2014---qbittorrent-v3.1.5-release"/>
-    <updated>2014-01-16T16:00:00.000Z</updated>
-    <published>2014-01-16T16:00:00.000Z</published>
+    <updated>2014-01-16T22:00:00.000Z</updated>
+    <published>2014-01-16T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4161,8 +4250,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.4 release</title>
     <id>https://www.qbittorrent.org/news#sunday-december-29th-2013---qbittorrent-v3.1.4-release</id>
     <link href="https://www.qbittorrent.org/news#sunday-december-29th-2013---qbittorrent-v3.1.4-release"/>
-    <updated>2013-12-28T16:00:00.000Z</updated>
-    <published>2013-12-28T16:00:00.000Z</published>
+    <updated>2013-12-28T22:00:00.000Z</updated>
+    <published>2013-12-28T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4184,8 +4273,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.3 release</title>
     <id>https://www.qbittorrent.org/news#monday-november-20th-2013---qbittorrent-v3.1.3-release</id>
     <link href="https://www.qbittorrent.org/news#monday-november-20th-2013---qbittorrent-v3.1.3-release"/>
-    <updated>2013-11-19T16:00:00.000Z</updated>
-    <published>2013-11-19T16:00:00.000Z</published>
+    <updated>2013-11-19T22:00:00.000Z</updated>
+    <published>2013-11-19T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4216,8 +4305,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.2 release</title>
     <id>https://www.qbittorrent.org/news#tuesday-november-5th-2013---qbittorrent-v3.1.2-release</id>
     <link href="https://www.qbittorrent.org/news#tuesday-november-5th-2013---qbittorrent-v3.1.2-release"/>
-    <updated>2013-11-04T16:00:00.000Z</updated>
-    <published>2013-11-04T16:00:00.000Z</published>
+    <updated>2013-11-04T22:00:00.000Z</updated>
+    <published>2013-11-04T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4232,8 +4321,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.1.1 release</title>
     <id>https://www.qbittorrent.org/news#monday-october-28th-2013---qbittorrent-v3.1.1.1-release</id>
     <link href="https://www.qbittorrent.org/news#monday-october-28th-2013---qbittorrent-v3.1.1.1-release"/>
-    <updated>2013-10-27T16:00:00.000Z</updated>
-    <published>2013-10-27T16:00:00.000Z</published>
+    <updated>2013-10-27T22:00:00.000Z</updated>
+    <published>2013-10-27T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4243,8 +4332,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>Windows build is broken</title>
     <id>https://www.qbittorrent.org/news#monday-october-28th-2013---windows-build-is-broken</id>
     <link href="https://www.qbittorrent.org/news#monday-october-28th-2013---windows-build-is-broken"/>
-    <updated>2013-10-27T16:00:00.000Z</updated>
-    <published>2013-10-27T16:00:00.000Z</published>
+    <updated>2013-10-27T22:00:00.000Z</updated>
+    <published>2013-10-27T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4254,8 +4343,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.1 release</title>
     <id>https://www.qbittorrent.org/news#monday-october-28th-2013---qbittorrent-v3.1.1-release</id>
     <link href="https://www.qbittorrent.org/news#monday-october-28th-2013---qbittorrent-v3.1.1-release"/>
-    <updated>2013-10-27T16:00:00.000Z</updated>
-    <published>2013-10-27T16:00:00.000Z</published>
+    <updated>2013-10-27T22:00:00.000Z</updated>
+    <published>2013-10-27T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4283,8 +4372,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.1.0 release</title>
     <id>https://www.qbittorrent.org/news#saturday-october-12th-2013---qbittorrent-v3.1.0-release</id>
     <link href="https://www.qbittorrent.org/news#saturday-october-12th-2013---qbittorrent-v3.1.0-release"/>
-    <updated>2013-10-11T16:00:00.000Z</updated>
-    <published>2013-10-11T16:00:00.000Z</published>
+    <updated>2013-10-11T21:00:00.000Z</updated>
+    <published>2013-10-11T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4332,8 +4421,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.11 release</title>
     <id>https://www.qbittorrent.org/news#monday-july-29th-2013---qbittorrent-v3.0.11-release</id>
     <link href="https://www.qbittorrent.org/news#monday-july-29th-2013---qbittorrent-v3.0.11-release"/>
-    <updated>2013-07-28T16:00:00.000Z</updated>
-    <published>2013-07-28T16:00:00.000Z</published>
+    <updated>2013-07-28T21:00:00.000Z</updated>
+    <published>2013-07-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4362,8 +4451,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.10 release</title>
     <id>https://www.qbittorrent.org/news#july-10th-2013---qbittorrent-v3.0.10-release</id>
     <link href="https://www.qbittorrent.org/news#july-10th-2013---qbittorrent-v3.0.10-release"/>
-    <updated>2013-07-09T16:00:00.000Z</updated>
-    <published>2013-07-09T16:00:00.000Z</published>
+    <updated>2013-07-09T21:00:00.000Z</updated>
+    <published>2013-07-09T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4395,8 +4484,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>New qBittorrent maintainer</title>
     <id>https://www.qbittorrent.org/news#july-7th-2013---new-qbittorrent-maintainer</id>
     <link href="https://www.qbittorrent.org/news#july-7th-2013---new-qbittorrent-maintainer"/>
-    <updated>2013-07-06T16:00:00.000Z</updated>
-    <published>2013-07-06T16:00:00.000Z</published>
+    <updated>2013-07-06T21:00:00.000Z</updated>
+    <published>2013-07-06T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4406,8 +4495,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>New qBittorrent Ubuntu PPAs</title>
     <id>https://www.qbittorrent.org/news#april-7th-2013---new-qbittorrent-ubuntu-ppas</id>
     <link href="https://www.qbittorrent.org/news#april-7th-2013---new-qbittorrent-ubuntu-ppas"/>
-    <updated>2013-04-06T16:00:00.000Z</updated>
-    <published>2013-04-06T16:00:00.000Z</published>
+    <updated>2013-04-06T21:00:00.000Z</updated>
+    <published>2013-04-06T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4421,8 +4510,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.9 release</title>
     <id>https://www.qbittorrent.org/news#march-16th-2013---qbittorrent-v3.0.9-release</id>
     <link href="https://www.qbittorrent.org/news#march-16th-2013---qbittorrent-v3.0.9-release"/>
-    <updated>2013-03-15T16:00:00.000Z</updated>
-    <published>2013-03-15T16:00:00.000Z</published>
+    <updated>2013-03-15T22:00:00.000Z</updated>
+    <published>2013-03-15T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4442,8 +4531,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.8 release</title>
     <id>https://www.qbittorrent.org/news#january-20th-2013---qbittorrent-v3.0.8-release</id>
     <link href="https://www.qbittorrent.org/news#january-20th-2013---qbittorrent-v3.0.8-release"/>
-    <updated>2013-01-19T16:00:00.000Z</updated>
-    <published>2013-01-19T16:00:00.000Z</published>
+    <updated>2013-01-19T22:00:00.000Z</updated>
+    <published>2013-01-19T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4459,8 +4548,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.7 release</title>
     <id>https://www.qbittorrent.org/news#january-19th-2013---qbittorrent-v3.0.7-release</id>
     <link href="https://www.qbittorrent.org/news#january-19th-2013---qbittorrent-v3.0.7-release"/>
-    <updated>2013-01-18T16:00:00.000Z</updated>
-    <published>2013-01-18T16:00:00.000Z</published>
+    <updated>2013-01-18T22:00:00.000Z</updated>
+    <published>2013-01-18T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4483,8 +4572,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>FindMySoft Review</title>
     <id>https://www.qbittorrent.org/news#october-29th-2012---findmysoft-review</id>
     <link href="https://www.qbittorrent.org/news#october-29th-2012---findmysoft-review"/>
-    <updated>2012-10-28T16:00:00.000Z</updated>
-    <published>2012-10-28T16:00:00.000Z</published>
+    <updated>2012-10-28T22:00:00.000Z</updated>
+    <published>2012-10-28T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4495,8 +4584,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.6 release</title>
     <id>https://www.qbittorrent.org/news#october-7th-2012---qbittorrent-v3.0.6-release</id>
     <link href="https://www.qbittorrent.org/news#october-7th-2012---qbittorrent-v3.0.6-release"/>
-    <updated>2012-10-06T16:00:00.000Z</updated>
-    <published>2012-10-06T16:00:00.000Z</published>
+    <updated>2012-10-06T21:00:00.000Z</updated>
+    <published>2012-10-06T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4513,8 +4602,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.5 release</title>
     <id>https://www.qbittorrent.org/news#september-30th-2012---qbittorrent-v3.0.5-release</id>
     <link href="https://www.qbittorrent.org/news#september-30th-2012---qbittorrent-v3.0.5-release"/>
-    <updated>2012-09-29T16:00:00.000Z</updated>
-    <published>2012-09-29T16:00:00.000Z</published>
+    <updated>2012-09-29T21:00:00.000Z</updated>
+    <published>2012-09-29T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4531,8 +4620,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.3 release</title>
     <id>https://www.qbittorrent.org/news#september-16th-2012---qbittorrent-v3.0.3-release</id>
     <link href="https://www.qbittorrent.org/news#september-16th-2012---qbittorrent-v3.0.3-release"/>
-    <updated>2012-09-15T16:00:00.000Z</updated>
-    <published>2012-09-15T16:00:00.000Z</published>
+    <updated>2012-09-15T21:00:00.000Z</updated>
+    <published>2012-09-15T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4550,8 +4639,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.2 release</title>
     <id>https://www.qbittorrent.org/news#september-1st-2012---qbittorrent-v3.0.2-release</id>
     <link href="https://www.qbittorrent.org/news#september-1st-2012---qbittorrent-v3.0.2-release"/>
-    <updated>2012-08-31T16:00:00.000Z</updated>
-    <published>2012-08-31T16:00:00.000Z</published>
+    <updated>2012-08-31T21:00:00.000Z</updated>
+    <published>2012-08-31T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4570,8 +4659,8 @@ This does not mean that Paypal is preferred, the other methods work just fine to
     <title>qBittorrent v3.0.1 release</title>
     <id>https://www.qbittorrent.org/news#august-21st-2012---qbittorrent-v3.0.1-release</id>
     <link href="https://www.qbittorrent.org/news#august-21st-2012---qbittorrent-v3.0.1-release"/>
-    <updated>2012-08-20T16:00:00.000Z</updated>
-    <published>2012-08-20T16:00:00.000Z</published>
+    <updated>2012-08-20T21:00:00.000Z</updated>
+    <published>2012-08-20T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4589,8 +4678,8 @@ to address a few issues that were reported after the v3.0.0 release.&lt;/p&gt;
     <title>qBittorrent v3.0.0 final release</title>
     <id>https://www.qbittorrent.org/news#august-9th-2012---qbittorrent-v3.0.0-final-release</id>
     <link href="https://www.qbittorrent.org/news#august-9th-2012---qbittorrent-v3.0.0-final-release"/>
-    <updated>2012-08-08T16:00:00.000Z</updated>
-    <published>2012-08-08T16:00:00.000Z</published>
+    <updated>2012-08-08T21:00:00.000Z</updated>
+    <published>2012-08-08T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4611,8 +4700,8 @@ to address a few issues that were reported after the v3.0.0 release.&lt;/p&gt;
     <title>qBittorrent v3.0.0 release candidate</title>
     <id>https://www.qbittorrent.org/news#july-1st-2012---qbittorrent-v3.0.0-release-candidate</id>
     <link href="https://www.qbittorrent.org/news#july-1st-2012---qbittorrent-v3.0.0-release-candidate"/>
-    <updated>2012-06-30T16:00:00.000Z</updated>
-    <published>2012-06-30T16:00:00.000Z</published>
+    <updated>2012-06-30T21:00:00.000Z</updated>
+    <published>2012-06-30T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4625,8 +4714,8 @@ the issues so that we can make a final release as soon as possible.&lt;/p&gt;</c
     <title>qBittorrent v2.9.11 release</title>
     <id>https://www.qbittorrent.org/news#july-1st-2012---qbittorrent-v2.9.11-release</id>
     <link href="https://www.qbittorrent.org/news#july-1st-2012---qbittorrent-v2.9.11-release"/>
-    <updated>2012-06-30T16:00:00.000Z</updated>
-    <published>2012-06-30T16:00:00.000Z</published>
+    <updated>2012-06-30T21:00:00.000Z</updated>
+    <published>2012-06-30T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4643,8 +4732,8 @@ the issues so that we can make a final release as soon as possible.&lt;/p&gt;</c
     <title>qBittorrent v2.9.10 release</title>
     <id>https://www.qbittorrent.org/news#june-24th-2012---qbittorrent-v2.9.10-release</id>
     <link href="https://www.qbittorrent.org/news#june-24th-2012---qbittorrent-v2.9.10-release"/>
-    <updated>2012-06-23T16:00:00.000Z</updated>
-    <published>2012-06-23T16:00:00.000Z</published>
+    <updated>2012-06-23T21:00:00.000Z</updated>
+    <published>2012-06-23T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4664,8 +4753,8 @@ the issues so that we can make a final release as soon as possible.&lt;/p&gt;</c
     <title>qBittorrent v2.9.8 release</title>
     <id>https://www.qbittorrent.org/news#may-5th-2012---qbittorrent-v2.9.8-release</id>
     <link href="https://www.qbittorrent.org/news#may-5th-2012---qbittorrent-v2.9.8-release"/>
-    <updated>2012-05-04T16:00:00.000Z</updated>
-    <published>2012-05-04T16:00:00.000Z</published>
+    <updated>2012-05-04T21:00:00.000Z</updated>
+    <published>2012-05-04T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4682,8 +4771,8 @@ the issues so that we can make a final release as soon as possible.&lt;/p&gt;</c
     <title>qBittorrent v2.9.7 release</title>
     <id>https://www.qbittorrent.org/news#march-18th-2012---qbittorrent-v2.9.7-release</id>
     <link href="https://www.qbittorrent.org/news#march-18th-2012---qbittorrent-v2.9.7-release"/>
-    <updated>2012-03-17T16:00:00.000Z</updated>
-    <published>2012-03-17T16:00:00.000Z</published>
+    <updated>2012-03-17T22:00:00.000Z</updated>
+    <published>2012-03-17T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4704,8 +4793,8 @@ reported in the past weeks.&lt;/p&gt;
     <title>qBittorrent v2.9.5 release</title>
     <id>https://www.qbittorrent.org/news#february-18th-2012---qbittorrent-v2.9.5-release</id>
     <link href="https://www.qbittorrent.org/news#february-18th-2012---qbittorrent-v2.9.5-release"/>
-    <updated>2012-02-17T16:00:00.000Z</updated>
-    <published>2012-02-17T16:00:00.000Z</published>
+    <updated>2012-02-17T22:00:00.000Z</updated>
+    <published>2012-02-17T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4731,8 +4820,8 @@ recently.&lt;/p&gt;
     <title>qBittorrent v2.9.3 release</title>
     <id>https://www.qbittorrent.org/news#december-29th-2011---qbittorrent-v2.9.3-release</id>
     <link href="https://www.qbittorrent.org/news#december-29th-2011---qbittorrent-v2.9.3-release"/>
-    <updated>2011-12-28T16:00:00.000Z</updated>
-    <published>2011-12-28T16:00:00.000Z</published>
+    <updated>2011-12-28T22:00:00.000Z</updated>
+    <published>2011-12-28T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4753,8 +4842,8 @@ recently.&lt;/p&gt;
     <title>qBittorrent v2.9.2 release</title>
     <id>https://www.qbittorrent.org/news#october-29th-2011---qbittorrent-v2.9.2-release</id>
     <link href="https://www.qbittorrent.org/news#october-29th-2011---qbittorrent-v2.9.2-release"/>
-    <updated>2011-10-28T16:00:00.000Z</updated>
-    <published>2011-10-28T16:00:00.000Z</published>
+    <updated>2011-10-28T21:00:00.000Z</updated>
+    <published>2011-10-28T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4770,8 +4859,8 @@ recently.&lt;/p&gt;
     <title>qBittorrent v2.9.1 release</title>
     <id>https://www.qbittorrent.org/news#october-23rd-2011---qbittorrent-v2.9.1-release</id>
     <link href="https://www.qbittorrent.org/news#october-23rd-2011---qbittorrent-v2.9.1-release"/>
-    <updated>2011-10-22T16:00:00.000Z</updated>
-    <published>2011-10-22T16:00:00.000Z</published>
+    <updated>2011-10-22T21:00:00.000Z</updated>
+    <published>2011-10-22T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4789,8 +4878,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.9.0 release</title>
     <id>https://www.qbittorrent.org/news#october-8th-2011---qbittorrent-v2.9.0-release</id>
     <link href="https://www.qbittorrent.org/news#october-8th-2011---qbittorrent-v2.9.0-release"/>
-    <updated>2011-10-07T16:00:00.000Z</updated>
-    <published>2011-10-07T16:00:00.000Z</published>
+    <updated>2011-10-07T21:00:00.000Z</updated>
+    <published>2011-10-07T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4821,8 +4910,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.8.5 release</title>
     <id>https://www.qbittorrent.org/news#september-12th-2011---qbittorrent-v2.8.5-release</id>
     <link href="https://www.qbittorrent.org/news#september-12th-2011---qbittorrent-v2.8.5-release"/>
-    <updated>2011-09-11T16:00:00.000Z</updated>
-    <published>2011-09-11T16:00:00.000Z</published>
+    <updated>2011-09-11T21:00:00.000Z</updated>
+    <published>2011-09-11T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4842,8 +4931,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.8.4 release</title>
     <id>https://www.qbittorrent.org/news#august-9th-2011---qbittorrent-v2.8.4-release</id>
     <link href="https://www.qbittorrent.org/news#august-9th-2011---qbittorrent-v2.8.4-release"/>
-    <updated>2011-08-08T16:00:00.000Z</updated>
-    <published>2011-08-08T16:00:00.000Z</published>
+    <updated>2011-08-08T21:00:00.000Z</updated>
+    <published>2011-08-08T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4860,8 +4949,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.8.3 release</title>
     <id>https://www.qbittorrent.org/news#august-2nd-2011---qbittorrent-v2.8.3-release</id>
     <link href="https://www.qbittorrent.org/news#august-2nd-2011---qbittorrent-v2.8.3-release"/>
-    <updated>2011-08-01T16:00:00.000Z</updated>
-    <published>2011-08-01T16:00:00.000Z</published>
+    <updated>2011-08-01T21:00:00.000Z</updated>
+    <published>2011-08-01T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4876,8 +4965,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent on Gitorious</title>
     <id>https://www.qbittorrent.org/news#june-19th-2011---qbittorrent-on-gitorious</id>
     <link href="https://www.qbittorrent.org/news#june-19th-2011---qbittorrent-on-gitorious"/>
-    <updated>2011-06-18T16:00:00.000Z</updated>
-    <published>2011-06-18T16:00:00.000Z</published>
+    <updated>2011-06-18T21:00:00.000Z</updated>
+    <published>2011-06-18T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4890,8 +4979,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.8.2 release</title>
     <id>https://www.qbittorrent.org/news#june-18th-2011---qbittorrent-v2.8.2-release</id>
     <link href="https://www.qbittorrent.org/news#june-18th-2011---qbittorrent-v2.8.2-release"/>
-    <updated>2011-06-17T16:00:00.000Z</updated>
-    <published>2011-06-17T16:00:00.000Z</published>
+    <updated>2011-06-17T21:00:00.000Z</updated>
+    <published>2011-06-17T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4908,8 +4997,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.8.1 release</title>
     <id>https://www.qbittorrent.org/news#june-5th-2011---qbittorrent-v2.8.1-release</id>
     <link href="https://www.qbittorrent.org/news#june-5th-2011---qbittorrent-v2.8.1-release"/>
-    <updated>2011-06-04T16:00:00.000Z</updated>
-    <published>2011-06-04T16:00:00.000Z</published>
+    <updated>2011-06-04T21:00:00.000Z</updated>
+    <published>2011-06-04T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4923,8 +5012,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.8.0 release</title>
     <id>https://www.qbittorrent.org/news#june-2nd-2011---qbittorrent-v2.8.0-release</id>
     <link href="https://www.qbittorrent.org/news#june-2nd-2011---qbittorrent-v2.8.0-release"/>
-    <updated>2011-06-01T16:00:00.000Z</updated>
-    <published>2011-06-01T16:00:00.000Z</published>
+    <updated>2011-06-01T21:00:00.000Z</updated>
+    <published>2011-06-01T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4956,8 +5045,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.7.3 and v2.8.0beta3 uploads</title>
     <id>https://www.qbittorrent.org/news#april-16th-2011---qbittorrent-v2.7.3-and-v2.8.0beta3-uploads</id>
     <link href="https://www.qbittorrent.org/news#april-16th-2011---qbittorrent-v2.7.3-and-v2.8.0beta3-uploads"/>
-    <updated>2011-04-15T16:00:00.000Z</updated>
-    <published>2011-04-15T16:00:00.000Z</published>
+    <updated>2011-04-15T21:00:00.000Z</updated>
+    <published>2011-04-15T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -4978,8 +5067,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.7.2 release</title>
     <id>https://www.qbittorrent.org/news#april-5th-2011---qbittorrent-v2.7.2-release</id>
     <link href="https://www.qbittorrent.org/news#april-5th-2011---qbittorrent-v2.7.2-release"/>
-    <updated>2011-04-04T16:00:00.000Z</updated>
-    <published>2011-04-04T16:00:00.000Z</published>
+    <updated>2011-04-04T21:00:00.000Z</updated>
+    <published>2011-04-04T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5001,8 +5090,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.7.1 release</title>
     <id>https://www.qbittorrent.org/news#march-26th-2011---qbittorrent-v2.7.1-release</id>
     <link href="https://www.qbittorrent.org/news#march-26th-2011---qbittorrent-v2.7.1-release"/>
-    <updated>2011-03-25T16:00:00.000Z</updated>
-    <published>2011-03-25T16:00:00.000Z</published>
+    <updated>2011-03-25T22:00:00.000Z</updated>
+    <published>2011-03-25T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5022,8 +5111,8 @@ a few regressions that needed fixing.&lt;/p&gt;
     <title>qBittorrent v2.7.0 release</title>
     <id>https://www.qbittorrent.org/news#march-20th-2011---qbittorrent-v2.7.0-release</id>
     <link href="https://www.qbittorrent.org/news#march-20th-2011---qbittorrent-v2.7.0-release"/>
-    <updated>2011-03-19T16:00:00.000Z</updated>
-    <published>2011-03-19T16:00:00.000Z</published>
+    <updated>2011-03-19T22:00:00.000Z</updated>
+    <published>2011-03-19T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5052,8 +5141,8 @@ A big thanks to Vladimir Golovnev, Christian Kandeler and Ville Kiiskinen for th
     <title>qBittorrent v2.6.9 release</title>
     <id>https://www.qbittorrent.org/news#march-13th-2011---qbittorrent-v2.6.9-release</id>
     <link href="https://www.qbittorrent.org/news#march-13th-2011---qbittorrent-v2.6.9-release"/>
-    <updated>2011-03-12T16:00:00.000Z</updated>
-    <published>2011-03-12T16:00:00.000Z</published>
+    <updated>2011-03-12T22:00:00.000Z</updated>
+    <published>2011-03-12T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5075,8 +5164,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.7 release</title>
     <id>https://www.qbittorrent.org/news#february-26th-2011---qbittorrent-v2.6.7-release</id>
     <link href="https://www.qbittorrent.org/news#february-26th-2011---qbittorrent-v2.6.7-release"/>
-    <updated>2011-02-25T16:00:00.000Z</updated>
-    <published>2011-02-25T16:00:00.000Z</published>
+    <updated>2011-02-25T22:00:00.000Z</updated>
+    <published>2011-02-25T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5097,8 +5186,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.6 release</title>
     <id>https://www.qbittorrent.org/news#february-8th-2011---qbittorrent-v2.6.6-release</id>
     <link href="https://www.qbittorrent.org/news#february-8th-2011---qbittorrent-v2.6.6-release"/>
-    <updated>2011-02-07T16:00:00.000Z</updated>
-    <published>2011-02-07T16:00:00.000Z</published>
+    <updated>2011-02-07T22:00:00.000Z</updated>
+    <published>2011-02-07T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5121,8 +5210,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.5 release</title>
     <id>https://www.qbittorrent.org/news#february-3rd-2011---qbittorrent-v2.6.5-release</id>
     <link href="https://www.qbittorrent.org/news#february-3rd-2011---qbittorrent-v2.6.5-release"/>
-    <updated>2011-02-02T16:00:00.000Z</updated>
-    <published>2011-02-02T16:00:00.000Z</published>
+    <updated>2011-02-02T22:00:00.000Z</updated>
+    <published>2011-02-02T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5143,8 +5232,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.4 release</title>
     <id>https://www.qbittorrent.org/news#january-23rd-2011---qbittorrent-v2.6.4-release</id>
     <link href="https://www.qbittorrent.org/news#january-23rd-2011---qbittorrent-v2.6.4-release"/>
-    <updated>2011-01-22T16:00:00.000Z</updated>
-    <published>2011-01-22T16:00:00.000Z</published>
+    <updated>2011-01-22T22:00:00.000Z</updated>
+    <published>2011-01-22T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5168,8 +5257,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.3 release</title>
     <id>https://www.qbittorrent.org/news#january-15th-2011---qbittorrent-v2.6.3-release</id>
     <link href="https://www.qbittorrent.org/news#january-15th-2011---qbittorrent-v2.6.3-release"/>
-    <updated>2011-01-14T16:00:00.000Z</updated>
-    <published>2011-01-14T16:00:00.000Z</published>
+    <updated>2011-01-14T22:00:00.000Z</updated>
+    <published>2011-01-14T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5189,8 +5278,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.2 release</title>
     <id>https://www.qbittorrent.org/news#january-12th-2011---qbittorrent-v2.6.2-release</id>
     <link href="https://www.qbittorrent.org/news#january-12th-2011---qbittorrent-v2.6.2-release"/>
-    <updated>2011-01-11T16:00:00.000Z</updated>
-    <published>2011-01-11T16:00:00.000Z</published>
+    <updated>2011-01-11T22:00:00.000Z</updated>
+    <published>2011-01-11T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5210,8 +5299,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.1 release</title>
     <id>https://www.qbittorrent.org/news#january-10th-2011---qbittorrent-v2.6.1-release</id>
     <link href="https://www.qbittorrent.org/news#january-10th-2011---qbittorrent-v2.6.1-release"/>
-    <updated>2011-01-09T16:00:00.000Z</updated>
-    <published>2011-01-09T16:00:00.000Z</published>
+    <updated>2011-01-09T22:00:00.000Z</updated>
+    <published>2011-01-09T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5229,8 +5318,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.6.0 final release</title>
     <id>https://www.qbittorrent.org/news#january-9th-2011---qbittorrent-v2.6.0-final-release</id>
     <link href="https://www.qbittorrent.org/news#january-9th-2011---qbittorrent-v2.6.0-final-release"/>
-    <updated>2011-01-08T16:00:00.000Z</updated>
-    <published>2011-01-08T16:00:00.000Z</published>
+    <updated>2011-01-08T22:00:00.000Z</updated>
+    <published>2011-01-08T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5261,8 +5350,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.5.5 and v2.6.0rc1 release</title>
     <id>https://www.qbittorrent.org/news#january-6th-2011---qbittorrent-v2.5.5-and-v2.6.0rc1-release</id>
     <link href="https://www.qbittorrent.org/news#january-6th-2011---qbittorrent-v2.5.5-and-v2.6.0rc1-release"/>
-    <updated>2011-01-05T16:00:00.000Z</updated>
-    <published>2011-01-05T16:00:00.000Z</published>
+    <updated>2011-01-05T22:00:00.000Z</updated>
+    <published>2011-01-05T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5281,8 +5370,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.5.3 release</title>
     <id>https://www.qbittorrent.org/news#january-1st-2011---qbittorrent-v2.5.3-release</id>
     <link href="https://www.qbittorrent.org/news#january-1st-2011---qbittorrent-v2.5.3-release"/>
-    <updated>2010-12-31T16:00:00.000Z</updated>
-    <published>2010-12-31T16:00:00.000Z</published>
+    <updated>2010-12-31T22:00:00.000Z</updated>
+    <published>2010-12-31T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5301,8 +5390,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.5.2 release</title>
     <id>https://www.qbittorrent.org/news#december-19th-2010---qbittorrent-v2.5.2-release</id>
     <link href="https://www.qbittorrent.org/news#december-19th-2010---qbittorrent-v2.5.2-release"/>
-    <updated>2010-12-18T16:00:00.000Z</updated>
-    <published>2010-12-18T16:00:00.000Z</published>
+    <updated>2010-12-18T22:00:00.000Z</updated>
+    <published>2010-12-18T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5323,8 +5412,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.5.1 release</title>
     <id>https://www.qbittorrent.org/news#december-5th-2010---qbittorrent-v2.5.1-release</id>
     <link href="https://www.qbittorrent.org/news#december-5th-2010---qbittorrent-v2.5.1-release"/>
-    <updated>2010-12-04T16:00:00.000Z</updated>
-    <published>2010-12-04T16:00:00.000Z</published>
+    <updated>2010-12-04T22:00:00.000Z</updated>
+    <published>2010-12-04T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5362,8 +5451,8 @@ and it should be ready soon.&lt;/p&gt;
     <title>qBittorrent v2.4.11 and v2.5.0beta6 releases</title>
     <id>https://www.qbittorrent.org/news#november-21st-2010---qbittorrent-v2.4.11-and-v2.5.0beta6-releases</id>
     <link href="https://www.qbittorrent.org/news#november-21st-2010---qbittorrent-v2.4.11-and-v2.5.0beta6-releases"/>
-    <updated>2010-11-20T16:00:00.000Z</updated>
-    <published>2010-11-20T16:00:00.000Z</published>
+    <updated>2010-11-20T22:00:00.000Z</updated>
+    <published>2010-11-20T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5384,8 +5473,8 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
     <title>qBittorrent v2.4.10 release</title>
     <id>https://www.qbittorrent.org/news#november-10th-2010---qbittorrent-v2.4.10-release</id>
     <link href="https://www.qbittorrent.org/news#november-10th-2010---qbittorrent-v2.4.10-release"/>
-    <updated>2010-11-09T16:00:00.000Z</updated>
-    <published>2010-11-09T16:00:00.000Z</published>
+    <updated>2010-11-09T22:00:00.000Z</updated>
+    <published>2010-11-09T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5405,8 +5494,8 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
     <title>qBittorrent v2.4.9 release</title>
     <id>https://www.qbittorrent.org/news#october-31st-2010---qbittorrent-v2.4.9-release</id>
     <link href="https://www.qbittorrent.org/news#october-31st-2010---qbittorrent-v2.4.9-release"/>
-    <updated>2010-10-30T16:00:00.000Z</updated>
-    <published>2010-10-30T16:00:00.000Z</published>
+    <updated>2010-10-30T21:00:00.000Z</updated>
+    <published>2010-10-30T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5432,8 +5521,8 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
     <title>qBittorrent v2.4.8 release</title>
     <id>https://www.qbittorrent.org/news#october-24th-2010---qbittorrent-v2.4.8-release</id>
     <link href="https://www.qbittorrent.org/news#october-24th-2010---qbittorrent-v2.4.8-release"/>
-    <updated>2010-10-23T16:00:00.000Z</updated>
-    <published>2010-10-23T16:00:00.000Z</published>
+    <updated>2010-10-23T21:00:00.000Z</updated>
+    <published>2010-10-23T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5457,8 +5546,8 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
     <title>qBittorrent v2.4.7 release</title>
     <id>https://www.qbittorrent.org/news#october-19th-2010---qbittorrent-v2.4.7-release</id>
     <link href="https://www.qbittorrent.org/news#october-19th-2010---qbittorrent-v2.4.7-release"/>
-    <updated>2010-10-18T16:00:00.000Z</updated>
-    <published>2010-10-18T16:00:00.000Z</published>
+    <updated>2010-10-18T21:00:00.000Z</updated>
+    <published>2010-10-18T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5477,8 +5566,8 @@ A big part of qBittorrent has been rewritten for v2.5.0 with the objectives to b
     <title>qBittorrent v2.4.6 release</title>
     <id>https://www.qbittorrent.org/news#october-17th-2010---qbittorrent-v2.4.6-release</id>
     <link href="https://www.qbittorrent.org/news#october-17th-2010---qbittorrent-v2.4.6-release"/>
-    <updated>2010-10-16T16:00:00.000Z</updated>
-    <published>2010-10-16T16:00:00.000Z</published>
+    <updated>2010-10-16T21:00:00.000Z</updated>
+    <published>2010-10-16T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5496,8 +5585,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.4.2 release</title>
     <id>https://www.qbittorrent.org/news#september-26th-2010---qbittorrent-v2.4.2-release</id>
     <link href="https://www.qbittorrent.org/news#september-26th-2010---qbittorrent-v2.4.2-release"/>
-    <updated>2010-09-25T16:00:00.000Z</updated>
-    <published>2010-09-25T16:00:00.000Z</published>
+    <updated>2010-09-25T21:00:00.000Z</updated>
+    <published>2010-09-25T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5526,8 +5615,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.4.0 release</title>
     <id>https://www.qbittorrent.org/news#august-24th-2010---qbittorrent-v2.4.0-release</id>
     <link href="https://www.qbittorrent.org/news#august-24th-2010---qbittorrent-v2.4.0-release"/>
-    <updated>2010-08-23T16:00:00.000Z</updated>
-    <published>2010-08-23T16:00:00.000Z</published>
+    <updated>2010-08-23T21:00:00.000Z</updated>
+    <published>2010-08-23T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5549,8 +5638,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.3.0 release</title>
     <id>https://www.qbittorrent.org/news#july-27th-2010---qbittorrent-v2.3.0-release</id>
     <link href="https://www.qbittorrent.org/news#july-27th-2010---qbittorrent-v2.3.0-release"/>
-    <updated>2010-07-26T16:00:00.000Z</updated>
-    <published>2010-07-26T16:00:00.000Z</published>
+    <updated>2010-07-26T21:00:00.000Z</updated>
+    <published>2010-07-26T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5590,8 +5679,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.2.10 and v2.3.0beta3 release</title>
     <id>https://www.qbittorrent.org/news#june-23rd-2010---qbittorrent-v2.2.10-and-v2.3.0beta3-release</id>
     <link href="https://www.qbittorrent.org/news#june-23rd-2010---qbittorrent-v2.2.10-and-v2.3.0beta3-release"/>
-    <updated>2010-06-22T16:00:00.000Z</updated>
-    <published>2010-06-22T16:00:00.000Z</published>
+    <updated>2010-06-22T21:00:00.000Z</updated>
+    <published>2010-06-22T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5614,8 +5703,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.2.9 release</title>
     <id>https://www.qbittorrent.org/news#june-13th-2010---qbittorrent-v2.2.9-release</id>
     <link href="https://www.qbittorrent.org/news#june-13th-2010---qbittorrent-v2.2.9-release"/>
-    <updated>2010-06-12T16:00:00.000Z</updated>
-    <published>2010-06-12T16:00:00.000Z</published>
+    <updated>2010-06-12T21:00:00.000Z</updated>
+    <published>2010-06-12T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5638,8 +5727,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent available for testing on Windows</title>
     <id>https://www.qbittorrent.org/news#june-6th-2010---qbittorrent-available-for-testing-on-windows</id>
     <link href="https://www.qbittorrent.org/news#june-6th-2010---qbittorrent-available-for-testing-on-windows"/>
-    <updated>2010-06-05T16:00:00.000Z</updated>
-    <published>2010-06-05T16:00:00.000Z</published>
+    <updated>2010-06-05T21:00:00.000Z</updated>
+    <published>2010-06-05T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5650,8 +5739,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent back on Mac OS X and making its debut on Windows</title>
     <id>https://www.qbittorrent.org/news#june-4th-2010---qbittorrent-back-on-mac-os-x-and-making-its-debut-on-windows</id>
     <link href="https://www.qbittorrent.org/news#june-4th-2010---qbittorrent-back-on-mac-os-x-and-making-its-debut-on-windows"/>
-    <updated>2010-06-03T16:00:00.000Z</updated>
-    <published>2010-06-03T16:00:00.000Z</published>
+    <updated>2010-06-03T21:00:00.000Z</updated>
+    <published>2010-06-03T21:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5662,8 +5751,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.2.0</title>
     <id>https://www.qbittorrent.org/news#march-14th-2010---qbittorrent-v2.2.0</id>
     <link href="https://www.qbittorrent.org/news#march-14th-2010---qbittorrent-v2.2.0"/>
-    <updated>2010-03-13T16:00:00.000Z</updated>
-    <published>2010-03-13T16:00:00.000Z</published>
+    <updated>2010-03-13T22:00:00.000Z</updated>
+    <published>2010-03-13T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5696,8 +5785,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.1.2 and v2.2.0beta1</title>
     <id>https://www.qbittorrent.org/news#january-24th-2010---qbittorrent-v2.1.2-and-v2.2.0beta1</id>
     <link href="https://www.qbittorrent.org/news#january-24th-2010---qbittorrent-v2.1.2-and-v2.2.0beta1"/>
-    <updated>2010-01-23T16:00:00.000Z</updated>
-    <published>2010-01-23T16:00:00.000Z</published>
+    <updated>2010-01-23T22:00:00.000Z</updated>
+    <published>2010-01-23T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5721,8 +5810,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.1.1 bugfix release</title>
     <id>https://www.qbittorrent.org/news#january-20th-2010---qbittorrent-v2.1.1-bugfix-release</id>
     <link href="https://www.qbittorrent.org/news#january-20th-2010---qbittorrent-v2.1.1-bugfix-release"/>
-    <updated>2010-01-19T16:00:00.000Z</updated>
-    <published>2010-01-19T16:00:00.000Z</published>
+    <updated>2010-01-19T22:00:00.000Z</updated>
+    <published>2010-01-19T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5748,8 +5837,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.1.0 final release</title>
     <id>https://www.qbittorrent.org/news#january-18th-2010---qbittorrent-v2.1.0-final-release</id>
     <link href="https://www.qbittorrent.org/news#january-18th-2010---qbittorrent-v2.1.0-final-release"/>
-    <updated>2010-01-17T16:00:00.000Z</updated>
-    <published>2010-01-17T16:00:00.000Z</published>
+    <updated>2010-01-17T22:00:00.000Z</updated>
+    <published>2010-01-17T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5790,8 +5879,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.1.0rc1</title>
     <id>https://www.qbittorrent.org/news#january-3rd-2010---qbittorrent-v2.1.0rc1</id>
     <link href="https://www.qbittorrent.org/news#january-3rd-2010---qbittorrent-v2.1.0rc1"/>
-    <updated>2010-01-02T16:00:00.000Z</updated>
-    <published>2010-01-02T16:00:00.000Z</published>
+    <updated>2010-01-02T22:00:00.000Z</updated>
+    <published>2010-01-02T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5820,8 +5909,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.0.1</title>
     <id>https://www.qbittorrent.org/news#december-13th-2009---qbittorrent-v2.0.1</id>
     <link href="https://www.qbittorrent.org/news#december-13th-2009---qbittorrent-v2.0.1"/>
-    <updated>2009-12-12T16:00:00.000Z</updated>
-    <published>2009-12-12T16:00:00.000Z</published>
+    <updated>2009-12-12T22:00:00.000Z</updated>
+    <published>2009-12-12T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5842,8 +5931,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.0.0 final release</title>
     <id>https://www.qbittorrent.org/news#december-10th-2009---qbittorrent-v2.0.0-final-release</id>
     <link href="https://www.qbittorrent.org/news#december-10th-2009---qbittorrent-v2.0.0-final-release"/>
-    <updated>2009-12-09T16:00:00.000Z</updated>
-    <published>2009-12-09T16:00:00.000Z</published>
+    <updated>2009-12-09T22:00:00.000Z</updated>
+    <published>2009-12-09T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5854,8 +5943,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.0.0rc4 and competition finalist</title>
     <id>https://www.qbittorrent.org/news#december-2nd-2009---qbittorrent-v2.0.0rc4-and-competition-finalist</id>
     <link href="https://www.qbittorrent.org/news#december-2nd-2009---qbittorrent-v2.0.0rc4-and-competition-finalist"/>
-    <updated>2009-12-01T16:00:00.000Z</updated>
-    <published>2009-12-01T16:00:00.000Z</published>
+    <updated>2009-12-01T22:00:00.000Z</updated>
+    <published>2009-12-01T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5866,8 +5955,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v2.0.0rc2 and more search engine plugins</title>
     <id>https://www.qbittorrent.org/news#november-28th-2009---qbittorrent-v2.0.0rc2-and-more-search-engine-plugins</id>
     <link href="https://www.qbittorrent.org/news#november-28th-2009---qbittorrent-v2.0.0rc2-and-more-search-engine-plugins"/>
-    <updated>2009-11-27T16:00:00.000Z</updated>
-    <published>2009-11-27T16:00:00.000Z</published>
+    <updated>2009-11-27T22:00:00.000Z</updated>
+    <published>2009-11-27T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>
@@ -5879,8 +5968,8 @@ the new embedded tracker and qBittorrent shutdown upon torrent completion.&lt;/p
     <title>qBittorrent v1.5.6 release and qBittorrent v2.0.0 news</title>
     <id>https://www.qbittorrent.org/news#november-17th-2009---qbittorrent-v1.5.6-release-and-qbittorrent-v2.0.0-news</id>
     <link href="https://www.qbittorrent.org/news#november-17th-2009---qbittorrent-v1.5.6-release-and-qbittorrent-v2.0.0-news"/>
-    <updated>2009-11-16T16:00:00.000Z</updated>
-    <published>2009-11-16T16:00:00.000Z</published>
+    <updated>2009-11-16T22:00:00.000Z</updated>
+    <published>2009-11-16T22:00:00.000Z</published>
     <author>
       <name>The qBittorrent project</name>
     </author>

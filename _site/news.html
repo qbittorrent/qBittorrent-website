@@ -25,7 +25,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v4.6.5</a>
+      <a href="download">Latest: v4.6.6</a>
     </span>
 
     <div id="MainBox">
@@ -52,6 +52,86 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 <p><a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a></p>
+<h3 id="sun-aug-18th-2024---qbittorrent-v4.6.6-and-v5.0.0rc1-releases" tabindex="-1"><a class="header-anchor" href="#sun-aug-18th-2024---qbittorrent-v4.6.6-and-v5.0.0rc1-releases">Sun Aug 18th 2024 - qBittorrent v4.6.6 and v5.0.0rc1 releases</a></h3>
+<p>qBittorrent v4.6.6 and v5.0.0rc1 were released.<br>
+<strong>macOS:</strong> The minimum version for v5.0.0rc1 is macOS 11 (Big Sur).<br>
+<strong>AppImage:</strong> The v5.0.0rc1 AppImage is created on Ubuntu 22.04 (Jammy Jellyfish). It should work on similarly aged distros.<br></p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.3 (AppImage) / 6.7.2 (Windows rc, macOS rc, AppImage rc)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v4.6.6 changelog:</p>
+<ul>
+<li>BUGFIX: Fix handling of tags containing '&amp;' character (glassez)</li>
+<li>BUGFIX: Show scroll bar in Torrent Tags dialog (glassez)</li>
+<li>BUGFIX: Apply bulk changes to correct content widget items (glassez)</li>
+<li>BUGFIX: Hide zero status filters when torrents are removed (glassez)</li>
+<li>BUGFIX: Fix <code>Incomplete Save Path</code> cannot be changed for torrents without metadata (glassez)</li>
+<li>WEBUI: Correctly apply changed &quot;save path&quot; of RSS rules (glassez)</li>
+<li>WEBUI: Clear tracker list on full update (skomerko)</li>
+<li>OTHER: Update User-Agent string for internal downloader and search engines (cayenne17)</li>
+<li><a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.6.5...release-4.6.6">Full changes</a></li>
+</ul>
+<p>v5.0.0rc1 changelog (since beta1):</p>
+<ul>
+<li>FEATURE: Use Start/Stop instead of Resume/Pause (thalieht)</li>
+<li>FEATURE: Add the Popularity metric (Aliaksei Urbanski)</li>
+<li>FEATURE: Focus on Download button if torrent link retrieved from the clipboard (glassez)</li>
+<li>FEATURE: Add ability to pause/resume entire BitTorrent session (glassez)</li>
+<li>FEATURE: Add an option to set BitTorrent session shutdown timeout (glassez)</li>
+<li>FEATURE: Apply &quot;Excluded file names&quot; to folder names as well (glassez)</li>
+<li>FEATURE: Allow to use regular expression to filter torrent content (glassez)</li>
+<li>FEATURE: Allow to move content files to Trash instead of deleting them (glassez)</li>
+<li>FEATURE: Add ability to display torrent &quot;privateness&quot; in UI (ManiMatter)</li>
+<li>FEATURE: Add a flag in <code>Peers</code> tab denoting a connection using NAT hole punching (stalkerok)</li>
+<li>BUGFIX: Adjust tracker tier when adding additional trackers (Chocobo1)</li>
+<li>BUGFIX: Fix inconsistent naming between <code>Done/Progress</code> column (luzpaz)</li>
+<li>BUGFIX: Sanitize peer client names (Hanabishi)</li>
+<li>BUGFIX: Apply share limits immediately when torrent downloading is finished (glassez)</li>
+<li>BUGFIX: Show download progress for folders with zero byte size as 100 instead of 0 (vikas_c)</li>
+<li>WEBUI: Conditionally show filters sidebar (Thomas Piccirello)</li>
+<li>WEBUI: Add support for running concurrent searches (Thomas Piccirello)</li>
+<li>WEBUI: Improve accuracy of trackers list (Thomas Piccirello)</li>
+<li>WEBUI: Fix error when category doesn't exist (Thomas Piccirello)</li>
+<li>WEBUI: Improve table scrolling and selection on mobile (Thomas Piccirello)</li>
+<li>WEBUI: Restore search tabs on load (Thomas Piccirello)</li>
+<li>WEBUI: Restore previously used tab on load (Thomas Piccirello)</li>
+<li>WEBUI: Increase default height of 'Share ratio limit' dialog (thalieht)</li>
+<li>WEBUI: Use enabled search plugins by default (Thomas Piccirello)</li>
+<li>WEBUI: Add columns <code>Incomplete Save Path</code>, <code>Info Hash v1</code>, <code>Info Hash v2</code> (thalieht)</li>
+<li>WEBUI: Always create generic filter items (skomerko)</li>
+<li>WEBAPI: Provide endpoint for listing directory content (Paweł Kotiuk)</li>
+<li>WEBAPI: Provide &quot;private&quot; flag via &quot;torrents/info&quot; endpoint (ManiMatter)</li>
+<li>WEBAPI: Add a way to download .torrent file using search plugin (glassez)</li>
+<li>WEBAPI: Add &quot;private&quot; filter for &quot;torrents/info&quot; endpoint (ManiMatter)</li>
+<li>WEBAPI: Add root_path to &quot;torrents/info&quot; result (David Newhall)</li>
+<li>SEARCH: Lazy load search plugins (milahu)</li>
+<li>SEARCH: Add date column to the built-in search engine (ducalex)</li>
+<li>SEARCH: Allow to rearrange search tabs (glassez)</li>
+<li>WINDOWS: Don't access &quot;Favorites&quot; folder unexpectedly (glassez)</li>
+<li><a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.0.0beta1...release-5.0.0rc1">Full changes</a></li>
+</ul>
 <h3 id="sun-may-26th-2024---qbittorrent-v4.6.5-release" tabindex="-1"><a class="header-anchor" href="#sun-may-26th-2024---qbittorrent-v4.6.5-release">Sun May 26th 2024 - qBittorrent v4.6.5 release</a></h3>
 <p>qBittorrent v4.6.5 was released.<br>
 Check back in a week for an RC of v5.0.0.<br></p>

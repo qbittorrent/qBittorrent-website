@@ -4,6 +4,87 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Sun Aug 18th 2024 - qBittorrent v4.6.6 and v5.0.0rc1 releases
+
+qBittorrent v4.6.6 and v5.0.0rc1 were released.<br>
+**macOS:** The minimum version for v5.0.0rc1 is macOS 11 (Big Sur).<br>
+**AppImage:** The v5.0.0rc1 AppImage is created on Ubuntu 22.04 (Jammy Jellyfish). It should work on similarly aged distros.<br>
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.3 (AppImage) / 6.7.2 (Windows rc, macOS rc, AppImage rc)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.6 changelog:
+- BUGFIX: Fix handling of tags containing '&' character (glassez)
+- BUGFIX: Show scroll bar in Torrent Tags dialog (glassez)
+- BUGFIX: Apply bulk changes to correct content widget items (glassez)
+- BUGFIX: Hide zero status filters when torrents are removed (glassez)
+- BUGFIX: Fix `Incomplete Save Path` cannot be changed for torrents without metadata (glassez)
+- WEBUI: Correctly apply changed "save path" of RSS rules (glassez)
+- WEBUI: Clear tracker list on full update (skomerko)
+- OTHER: Update User-Agent string for internal downloader and search engines (cayenne17)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.5...release-4.6.6)
+
+v5.0.0rc1 changelog (since beta1):
+- FEATURE: Use Start/Stop instead of Resume/Pause (thalieht)
+- FEATURE: Add the Popularity metric (Aliaksei Urbanski)
+- FEATURE: Focus on Download button if torrent link retrieved from the clipboard (glassez)
+- FEATURE: Add ability to pause/resume entire BitTorrent session (glassez)
+- FEATURE: Add an option to set BitTorrent session shutdown timeout (glassez)
+- FEATURE: Apply "Excluded file names" to folder names as well (glassez)
+- FEATURE: Allow to use regular expression to filter torrent content (glassez)
+- FEATURE: Allow to move content files to Trash instead of deleting them (glassez)
+- FEATURE: Add ability to display torrent "privateness" in UI (ManiMatter)
+- FEATURE: Add a flag in `Peers` tab denoting a connection using NAT hole punching (stalkerok)
+- BUGFIX: Adjust tracker tier when adding additional trackers (Chocobo1)
+- BUGFIX: Fix inconsistent naming between `Done/Progress` column (luzpaz)
+- BUGFIX: Sanitize peer client names (Hanabishi)
+- BUGFIX: Apply share limits immediately when torrent downloading is finished (glassez)
+- BUGFIX: Show download progress for folders with zero byte size as 100 instead of 0 (vikas_c)
+- WEBUI: Conditionally show filters sidebar (Thomas Piccirello)
+- WEBUI: Add support for running concurrent searches (Thomas Piccirello)
+- WEBUI: Improve accuracy of trackers list (Thomas Piccirello)
+- WEBUI: Fix error when category doesn't exist (Thomas Piccirello)
+- WEBUI: Improve table scrolling and selection on mobile (Thomas Piccirello)
+- WEBUI: Restore search tabs on load (Thomas Piccirello)
+- WEBUI: Restore previously used tab on load (Thomas Piccirello)
+- WEBUI: Increase default height of 'Share ratio limit' dialog (thalieht)
+- WEBUI: Use enabled search plugins by default (Thomas Piccirello)
+- WEBUI: Add columns `Incomplete Save Path`, `Info Hash v1`, `Info Hash v2` (thalieht)
+- WEBUI: Always create generic filter items (skomerko)
+- WEBAPI: Provide endpoint for listing directory content (Paweł Kotiuk)
+- WEBAPI: Provide "private" flag via "torrents/info" endpoint (ManiMatter)
+- WEBAPI: Add a way to download .torrent file using search plugin (glassez)
+- WEBAPI: Add "private" filter for "torrents/info" endpoint (ManiMatter)
+- WEBAPI: Add root_path to "torrents/info" result (David Newhall)
+- SEARCH: Lazy load search plugins (milahu)
+- SEARCH: Add date column to the built-in search engine (ducalex)
+- SEARCH: Allow to rearrange search tabs (glassez)
+- WINDOWS: Don't access "Favorites" folder unexpectedly (glassez)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.0.0beta1...release-5.0.0rc1)
+
 ### Sun May 26th 2024 - qBittorrent v4.6.5 release
 
 qBittorrent v4.6.5 was released.<br>
