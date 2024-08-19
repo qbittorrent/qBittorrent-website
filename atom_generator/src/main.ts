@@ -32,13 +32,13 @@ function generateAtom(path: string): string {
         </contributor>
         <link href="https://www.qbittorrent.org/news_feed.atom" rel="self" />
         <link href="https://www.qbittorrent.org/news" />
-        <updated>2024-07-01T00:00:00Z</updated>
+        <updated>2024-07-01T01:02:03Z</updated>
         <entry>
             <title>qBittorrent v4.6.4 and v5.0.0beta1 releases</title>
             <id>https://www.qbittorrent.org/news#sun-mar-24th-2024---qbittorrent-v4.6.4-and-v5.0.0beta1-releases</id>
             <link href="https://www.qbittorrent.org/news#sun-mar-24th-2024---qbittorrent-v4.6.4-and-v5.0.0beta1-releases" />
-            <updated>2024-03-23T16:00:00.000Z</updated>
-            <published>2024-03-23T16:00:00.000Z</published>
+            <updated>2024-03-23T00:00:00.000Z</updated>
+            <published>2024-03-23T00:00:00.000Z</published>
             <author>
                 <name>The qBittorrent project</name>
             </author>
@@ -51,6 +51,11 @@ function generateAtom(path: string): string {
     */
 
     // helpers
+    const resetTimezone = (date: Date): Date => {
+        date.setUTCHours(0, 0, 0, 0);
+        return date;
+    };
+
     const toDate = (dateStr: string): Date => {
         dateStr = dateStr
             .replaceAll(/(\d)nd/g, '$1')
@@ -94,7 +99,7 @@ function generateAtom(path: string): string {
 
         // generate feed entry
         const entryLink = `https://www.qbittorrent.org/news#${h3Element.attr('id')}`;
-        const entryDate = toDate(postDate).toISOString();
+        const entryDate = resetTimezone(toDate(postDate)).toISOString();
         const entryContent = post.split('</h3>')[1].trim();
         const entry = Xmlbuilder2.fragment(docOptions)
             .ele('entry')
