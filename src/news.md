@@ -4,6 +4,43 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Mon Sep 16th 2024 - qBittorrent v4.6.7 release
+
+qBittorrent v4.6.7 was release.<br>
+This is a last minute release before v5.0.0 for a bug that slipped into v4.6.6. The coming weekend the stable release of v5.0.0 should happen.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.4.3 (Windows, macOS) / 6.6.3 (AppImage)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v4.6.7 changelog:
+- BUGFIX: The updater will launch the link to the build variant you're currently using (sledgehammer999)
+- WEBUI: RSS: The list of feeds wouldn't load for Apply Rule (glassez)
+- WEBUI: Focus on Download button if torrent link retrieved from the clipboard (glassez)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.6...release-4.6.7)
+
 ### Sun Aug 18th 2024 - qBittorrent v4.6.6 and v5.0.0rc1 releases
 
 qBittorrent v4.6.6 and v5.0.0rc1 were released.<br>

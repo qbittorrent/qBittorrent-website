@@ -3,26 +3,26 @@ layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 
 win:
-    ver: "4.6.6"
+    ver: "4.6.7"
     lt_ver: "1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb"
     qt_ver: "6.4.3"
     boost_ver: "1.86.0"
-    hash_qt6_lt12: "d26a7a6351c08c73ba1ef409e78b660426d93ec7a61f1d543ba2ed607bee4b13"
-    hash_qt6_lt20: "48fd2364e424c95f0f2df9df6f38c1805674933c62d6856329dcf6637496825e"
+    hash_qt6_lt12: "4c3047ca4f9ba6009989906d744a9e71e58c4755e924f0a5fcc60c4ef5c4b009"
+    hash_qt6_lt20: "38e34023158e9287308ae92dc4370f41c2f44d9f2ed1f2f16b8aa3d687fb5f01"
 macos:
-    ver: "4.6.6"
+    ver: "4.6.7"
     lt_ver: "1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb"
     qt_ver: "6.4.3"
     boost_ver: "1.86.0"
-    hash_lt12: "c1273ef498024305fc49192171688b9abb54ca45524931d9720bc81663b0eba1"
-    hash_lt20: "4c26b43533b4b0e12a743e49e7944774c081ffe130418e04ca67cbd53f99895e"
+    hash_lt12: "0b1051af73562fc3f7c0c71abd27c3433ad238fbca0c4612f554db35be3eba6e"
+    hash_lt20: "334b1c45f744b211dfcc81f18c3e2fb07510f5f725c0ef19e9ab2da6b73dcf2b"
 appimage:
-    ver: "4.6.6"
+    ver: "4.6.7"
     lt_ver: "1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb"
     qt_ver: "6.6.3"
     boost_ver: "1.86.0"
-    hash_lt12: "5a670142c64606f32b630230939fcdf6356492e26620b0bba123a7895f19db0b"
-    hash_lt20: "e47bacc7c4251bdffb1a54559d578f25cf1ce67a875ce69d28d3684cb13c7422"
+    hash_lt12: "07a951350398a0a372afdd9c9fd772e85e5282dc9b230d0cdb738e18e82a20a8"
+    hash_lt20: "a59cb4f47966f3626a14676b86611fcd8c4d1f0c7310f3825c7cbc1fb0713d05"
 win_unstable:
     ver: "5.0.0rc1"
     lt_ver: "1.2.19+git0ca20a38c9 / 2.0.11+git2ab8fedabb"
@@ -45,9 +45,9 @@ appimage_unstable:
     hash_lt12: "85b2602ae5a0970b6ad0617c6d57fdd812e747ad1cc4148fd9516cc7136a8d4d"
     hash_lt20: "953d2e5b25c3f3aa9df89601fcffc82dce2bde76734f2e313b49b0ed0b01833f"
 src:
-    ver: "4.6.6"
-    hash_gz: "abed5bb9cfc28d718aa7c072fcbdfb1695c3f1789a0ef36b80aab353d065b117"
-    hash_xz: "437d5dc70c146aac45c263b335855826e279fad6da5c01c21db24152f18169d1"
+    ver: "4.6.7"
+    hash_gz: "33bd92461baae71988d4c87a826903f6dd0571575d8cc94894b032a2d53e0eda"
+    hash_xz: "bcf2dcf52a0186c3f5da2f1413453888654dc1aee5e4ad80e5a026764bc640c4"
 ---
 <script defer src="scripts/download.js"></script>
 
@@ -429,7 +429,7 @@ src:
         </tr>
         <tr>
           <td>Qt</td>
-          <td>{{appimage.qt_ver}}</td>
+          <td>{{appimage.qt_ver}} (v{{appimage.ver}}) / {{appimage_unstable.qt_ver}} (v{{appimage_unstable.ver}})</td>
         </tr>
         <tr>
           <td>Boost</td>
