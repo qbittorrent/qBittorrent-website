@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2024-09-16T23:28:03.293Z</updated>
+  <updated>2024-09-17T14:24:02.270Z</updated>
   <entry>
     <title>qBittorrent v4.6.7 release</title>
     <id>https://www.qbittorrent.org/news#mon-sep-16th-2024---qbittorrent-v4.6.7-release</id>
@@ -47,8 +47,8 @@ This is a last minute release before v5.0.0 for a bug that slipped into v4.6.6. 
 &lt;p&gt;v4.6.7 changelog:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;BUGFIX: The updater will launch the link to the build variant you're currently using (sledgehammer999)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Focus on Download button if torrent link retrieved from the clipboard (glassez)&lt;/li&gt;
 &lt;li&gt;WEBUI: RSS: The list of feeds wouldn't load for Apply Rule (glassez)&lt;/li&gt;
-&lt;li&gt;WEBUI: Focus on Download button if torrent link retrieved from the clipboard (glassez)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-4.6.6...release-4.6.7"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>

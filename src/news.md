@@ -37,8 +37,8 @@ This is a last minute release before v5.0.0 for a bug that slipped into v4.6.6. 
 
 v4.6.7 changelog:
 - BUGFIX: The updater will launch the link to the build variant you're currently using (sledgehammer999)
+- BUGFIX: Focus on Download button if torrent link retrieved from the clipboard (glassez)
 - WEBUI: RSS: The list of feeds wouldn't load for Apply Rule (glassez)
-- WEBUI: Focus on Download button if torrent link retrieved from the clipboard (glassez)
 - [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.6...release-4.6.7)
 
 ### Sun Aug 18th 2024 - qBittorrent v4.6.6 and v5.0.0rc1 releases
