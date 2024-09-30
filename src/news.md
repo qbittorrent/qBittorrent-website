@@ -4,6 +4,124 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Sun Sep 29th 2024 - qBittorrent v5.0.0 release
+
+qBittorrent v5.0.0 was release.<br>
+Apart from the people mentioned below in the changelog, there are many who have contributed to code refactorings, internal fixing, bug triaging, testing new code and features, and general help. Thank you to all of you too.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git0ca20a38c9 / 2.0.11+git790b6629f6</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.0.0 changelog:
+- FEATURE: Support creating .torrent with larger piece size (Chocobo1)
+- FEATURE: Improve tracker entries handling (glassez)
+- FEATURE: Add separate filter item for tracker errors (glassez)
+- FEATURE: Allow to remove tracker from tracker filter widget menu (glassez)
+- FEATURE: Implement `Reannounce In` column (Hanabishi)
+- FEATURE: Expose `DHT bootstrap nodes` setting (Chocobo1)
+- FEATURE: Add support for [Mark-of-the-Web](https://redcanary.com/threat-detection-report/techniques/mark-of-the-web-bypass/) (Chocobo1)
+- FEATURE: Allow to keep unwanted files in separate folder (glassez)
+- FEATURE: Add `Copy Comment` to the torrent list's context menu (thalieht)
+- FEATURE: Allow relative profile paths (Victor Chernyakin)
+- FEATURE: Enable Ctrl+F hotkey for more inputs (thalieht)
+- FEATURE: Add seeding limits to RSS and Watched folders options UI (glassez)
+- FEATURE: Subcategories implicitly follow the parent category options (glassez)
+- FEATURE: Add option to name each qbittorrent instance (Chocobo1)
+- FEATURE: Add button for sending test email (Thomas Piccirello)
+- FEATURE: Allow torrents to override default share limit action (glassez)
+- FEATURE: Use Start/Stop instead of Resume/Pause (thalieht)
+- FEATURE: Add the Popularity metric (Aliaksei Urbanski)
+- FEATURE: Focus on Download button if torrent link retrieved from the clipboard (glassez)
+- FEATURE: Add ability to pause/resume entire BitTorrent session (glassez)
+- FEATURE: Add an option to set BitTorrent session shutdown timeout (glassez)
+- FEATURE: Apply "Excluded file names" to folder names as well (glassez)
+- FEATURE: Allow to use regular expression to filter torrent content (glassez)
+- FEATURE: Allow to move content files to Trash instead of deleting them (glassez)
+- FEATURE: Add ability to display torrent "privateness" in UI (ManiMatter)
+- FEATURE: Add a flag in `Peers` tab denoting a connection using NAT hole punching (stalkerok)
+- BUGFIX: Display error message when unrecoverable error occurred (glassez)
+- BUGFIX: Update size of selected files when selection is changed (glassez)
+- BUGFIX: Normalize tags by trimming leading/trailing whitespace (glassez)
+- BUGFIX: Correctly handle share limits in torrent options dialog (glassez)
+- BUGFIX: Adjust tracker tier when adding additional trackers (Chocobo1)
+- BUGFIX: Fix inconsistent naming between `Done/Progress` column (luzpaz)
+- BUGFIX: Sanitize peer client names (Hanabishi)
+- BUGFIX: Apply share limits immediately when torrent downloading is finished (glassez)
+- BUGFIX: Show download progress for folders with zero byte size as 100 instead of 0 (vikas_c)
+- BUGFIX: Fix highlighted piece color (Prince Gupta)
+- BUGFIX: Apply "merge trackers" logic regardless of way the torrent is added (glassez)
+- WEBUI: Improve WebUI responsiveness (Chocobo1)
+- WEBUI: Do not exit the app when WebUI has failed to start (Hanabishi)
+- WEBUI: Add `Moving` filter to side panel (xavier2k6)
+- WEBUI: Add dark theme (d47081)
+- WEBUI: Allow to remember torrent content files deletion (David)
+- WEBUI: Leave the fields empty when value is invalid (Chocobo1)
+- WEBUI: Use natural sorting (Chocobo1)
+- WEBUI: Improve WebUI login behavior (JayRet)
+- WEBUI: Conditionally show filters sidebar (Thomas Piccirello)
+- WEBUI: Add support for running concurrent searches (Thomas Piccirello)
+- WEBUI: Improve accuracy of trackers list (Thomas Piccirello)
+- WEBUI: Fix error when category doesn't exist (Thomas Piccirello)
+- WEBUI: Improve table scrolling and selection on mobile (Thomas Piccirello)
+- WEBUI: Restore search tabs on load (Thomas Piccirello)
+- WEBUI: Restore previously used tab on load (Thomas Piccirello)
+- WEBUI: Increase default height of `Share ratio limit` dialog (thalieht)
+- WEBUI: Use enabled search plugins by default (Thomas Piccirello)
+- WEBUI: Add columns `Incomplete Save Path`, `Info Hash v1`, `Info Hash v2` (thalieht)
+- WEBUI: Always create generic filter items (skomerko)
+- WEBUI: Provide `Use Category paths in Manual Mode` option (skomerko)
+- WEBUI: Provide `Merge trackers to existing torrent` option (skomerko)
+- WEBAPI: Fix wrong timestamp values (Chocobo1)
+- WEBAPI: Send binary data with filename and mime type specified (glassez)
+- WEBAPI: Expose API for the torrent creator (glassez, Radu Carpa)
+- WEBAPI: Add support for SSL torrents (Chocobo1, Radu Carpa)
+- WEBAPI: Provide endpoint for listing directory content (Paweł Kotiuk)
+- WEBAPI: Provide "private" flag via "torrents/info" endpoint (ManiMatter)
+- WEBAPI: Add a way to download .torrent file using search plugin (glassez)
+- WEBAPI: Add "private" filter for "torrents/info" endpoint (ManiMatter)
+- WEBAPI: Add root_path to "torrents/info" result (David Newhall)
+- RSS: Show RSS feed title in HTML browser (Jay)
+- RSS: Allow to set delay between requests to the same host (jNullj)
+- SEARCH: Allow users to specify Python executable path (Chocobo1)
+- SEARCH: Lazy load search plugins (milahu)
+- SEARCH: Add date column to the built-in search engine (ducalex)
+- SEARCH: Allow to rearrange search tabs (glassez)
+- WINDOWS: Use Fusion style on Windows 10+. It has better compatibility with dark mode (glassez)
+- WINDOWS: Allow to set qBittorrent as default program (glassez)
+- WINDOWS: Don't access "Favorites" folder unexpectedly (glassez)
+- LINUX: Add support for systemd power management (Chocobo1)
+- LINUX: Add support for localized man pages (Victor Chernyakin)
+- LINUX: Specify a locale if none is set (Chocobo1)
+- MACOS: Display download/upload speed in dock icon (Nick Korotysh)
+- MACOS: Add support for quarantine on macOS (Chocobo1)
+- OTHER: Drop support for Qt5, qmake, autotools, Windows < 10, Windows 32-bit
+- OTHER: Minimum supported versions: Qt: 6.5, Boost: 1.76, OpenSSL: 3.0.2
+- OTHER: Switch to C++20
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-4.6.7...release-5.0.0)
+
 ### Mon Sep 16th 2024 - qBittorrent v4.6.7 release
 
 qBittorrent v4.6.7 was release.<br>
