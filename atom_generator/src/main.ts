@@ -51,17 +51,13 @@ function generateAtom(path: string): string {
     */
 
     // helpers
-    const resetTimezone = (date: Date): Date => {
-        date.setUTCHours(0, 0, 0, 0);
-        return date;
-    };
-
     const toDate = (dateStr: string): Date => {
         dateStr = dateStr
             .replaceAll(/(\d)nd/g, '$1')
             .replaceAll(/(\d)rd/g, '$1')
             .replaceAll(/(\d)st/g, '$1')
-            .replaceAll(/(\d)th/g, '$1');
+            .replaceAll(/(\d)th/g, '$1')
+            + " 00:00Z";
         return new Date(dateStr);
     };
 
@@ -99,7 +95,7 @@ function generateAtom(path: string): string {
 
         // generate feed entry
         const entryLink = `https://www.qbittorrent.org/news#${h3Element.attr('id')}`;
-        const entryDate = resetTimezone(toDate(postDate)).toISOString();
+        const entryDate = toDate(postDate).toISOString();
         const entryContent = post.split('</h3>')[1].trim();
         const entry = Xmlbuilder2.fragment(docOptions)
             .ele('entry')
