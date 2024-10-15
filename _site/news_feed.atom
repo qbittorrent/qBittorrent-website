@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2024-09-30T01:06:34.231Z</updated>
+  <updated>2024-10-13T12:41:07.007Z</updated>
   <entry>
     <title>qBittorrent v5.0.0 release</title>
     <id>https://www.qbittorrent.org/news#sun-sep-29th-2024---qbittorrent-v5.0.0-release</id>
@@ -17,7 +17,7 @@
     <author>
       <name>The qBittorrent project</name>
     </author>
-    <content type="html">&lt;p&gt;qBittorrent v5.0.0 was release.&lt;br&gt;
+    <content type="html">&lt;p&gt;qBittorrent v5.0.0 was released.&lt;br&gt;
 Thanks to all the people involved, those that are named in the changelog below and those that are not.&lt;br&gt;
 Apart from the people mentioned below in the changelog, there are many who have contributed to code refactorings, internal fixes, bug triaging, testing new code and features, and general help.&lt;/p&gt;
 &lt;details&gt;
@@ -143,7 +143,7 @@ Apart from the people mentioned below in the changelog, there are many who have 
     <author>
       <name>The qBittorrent project</name>
     </author>
-    <content type="html">&lt;p&gt;qBittorrent v4.6.7 was release.&lt;br&gt;
+    <content type="html">&lt;p&gt;qBittorrent v4.6.7 was released.&lt;br&gt;
 This is a last minute release before v5.0.0 for a bug that slipped into v4.6.6. The coming weekend the stable release of v5.0.0 should happen.&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;Library versions&lt;/summary&gt;

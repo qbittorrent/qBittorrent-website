@@ -6,7 +6,7 @@ permalink: "{{ page.filePathStem }}.html"
 
 ### Sun Sep 29th 2024 - qBittorrent v5.0.0 release
 
-qBittorrent v5.0.0 was release.<br>
+qBittorrent v5.0.0 was released.<br>
 Thanks to all the people involved, those that are named in the changelog below and those that are not.<br>
 Apart from the people mentioned below in the changelog, there are many who have contributed to code refactorings, internal fixes, bug triaging, testing new code and features, and general help.
 
@@ -125,7 +125,7 @@ v5.0.0 changelog:
 
 ### Mon Sep 16th 2024 - qBittorrent v4.6.7 release
 
-qBittorrent v4.6.7 was release.<br>
+qBittorrent v4.6.7 was released.<br>
 This is a last minute release before v5.0.0 for a bug that slipped into v4.6.6. The coming weekend the stable release of v5.0.0 should happen.
 
 <details>
