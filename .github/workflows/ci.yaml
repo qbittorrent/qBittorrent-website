@@ -31,7 +31,13 @@ jobs:
         run: |
           rm -r _site
           npm run build
-          git diff --exit-code ':(exclude)_site/news_feed.atom'
+          git diff \
+            --exit-code \
+            ':(exclude)_site/news_feed.atom'
+          git diff \
+            --exit-code \
+            -I '<updated>.*</updated>' \
+            _site/news_feed.atom
       - name: Check html
         run: |
           npm run check-html
