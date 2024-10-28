@@ -4,6 +4,58 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Mon Oct 28th 2024 - qBittorrent v5.0.1 release
+
+qBittorrent v5.0.1 was released.<br>
+Libtorrent 1.2.x users who stuck with it due to memory usage issues, you might want to try the libtorrent 2.0.x variant and change the disk IO type to the new option "Simple pread/pwrite". Memory usage issues should be eliminated with it. More info in PR [#21300](https://github.com/qbittorrent/qBittorrent/pull/21300).<br>
+**WINDOWS:** If you like a native UI look and feel and don't care about dark mode use the `System` Qt style in the Settings (`Behavior` category). If you want the best possible dark mode support use the `Fusion` Qt style (it should be the default already).
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git8ad05ebd41 / 2.0.11+git6a2c1eef6f</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.0.1 changelog:
+- FEATURE: Add "Simple pread/pwrite" disk IO type (Hanabishi)
+- BUGFIX: Don't ignore SSL errors (sledgehammer999)
+- BUGFIX: Don't try to apply Mark-of-the-Web to nonexistent files (glassez)
+- BUGFIX: Disable "Move to trash" option by default (glassez)
+- BUGFIX: Disable the ability to create torrents with a piece size of 256MiB (stalkerok)
+- BUGFIX: Allow to choose Qt style (glassez)
+- BUGFIX: Always notify user about duplicate torrent (glassez)
+- BUGFIX: Correctly handle "torrent finished after move" event (glassez)
+- BUGFIX: Correctly apply filename filter when `!qB` extension is enabled (glassez)
+- BUGFIX: Improve color scheme change detection (glassez)
+- BUGFIX: Fix button state for SSL certificate check (Chocobo1)
+- WEBUI: Fix CSS that results in hidden torrent list in some browsers (skomerko)
+- WEBUI: Use proper text color to highlight items in all filter lists (skomerko)
+- WEBUI: Fix 'rename files' dialog cannot be opened more than once (Chocobo1)
+- WEBUI: Fix UI of Advanced Settings to show all settings (glassez)
+- WEBUI: Free resources allocated by web session once it is destructed (dyseg)
+- SEARCH: Import correct libraries (Chocobo1)
+- OTHER: Sync flag icons with upstream (xavier2k6)
+
 ### Sun Sep 29th 2024 - qBittorrent v5.0.0 release
 
 qBittorrent v5.0.0 was released.<br>

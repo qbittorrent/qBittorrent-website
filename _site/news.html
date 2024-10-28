@@ -25,7 +25,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v5.0.0</a>
+      <a href="download">Latest: v5.0.1</a>
     </span>
 
     <div id="MainBox">
@@ -52,6 +52,56 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 <p><a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a></p>
+<h3 id="mon-oct-28th-2024---qbittorrent-v5.0.1-release" tabindex="-1"><a class="header-anchor" href="#mon-oct-28th-2024---qbittorrent-v5.0.1-release">Mon Oct 28th 2024 - qBittorrent v5.0.1 release</a></h3>
+<p>qBittorrent v5.0.1 was released.<br>
+Libtorrent 1.2.x users who stuck with it due to memory usage issues, you might want to try the libtorrent 2.0.x variant and change the disk IO type to the new option &quot;Simple pread/pwrite&quot;. Memory usage issues should be eliminated with it. More info in PR <a href="https://github.com/qbittorrent/qBittorrent/pull/21300">#21300</a>.<br>
+<strong>WINDOWS:</strong> If you like a native UI look and feel and don't care about dark mode use the <code>System</code> Qt style in the Settings (<code>Behavior</code> category). If you want the best possible dark mode support use the <code>Fusion</code> Qt style (it should be the default already).</p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git8ad05ebd41 / 2.0.11+git6a2c1eef6f</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v5.0.1 changelog:</p>
+<ul>
+<li>FEATURE: Add &quot;Simple pread/pwrite&quot; disk IO type (Hanabishi)</li>
+<li>BUGFIX: Don't ignore SSL errors (sledgehammer999)</li>
+<li>BUGFIX: Don't try to apply Mark-of-the-Web to nonexistent files (glassez)</li>
+<li>BUGFIX: Disable &quot;Move to trash&quot; option by default (glassez)</li>
+<li>BUGFIX: Disable the ability to create torrents with a piece size of 256MiB (stalkerok)</li>
+<li>BUGFIX: Allow to choose Qt style (glassez)</li>
+<li>BUGFIX: Always notify user about duplicate torrent (glassez)</li>
+<li>BUGFIX: Correctly handle &quot;torrent finished after move&quot; event (glassez)</li>
+<li>BUGFIX: Correctly apply filename filter when <code>!qB</code> extension is enabled (glassez)</li>
+<li>BUGFIX: Improve color scheme change detection (glassez)</li>
+<li>BUGFIX: Fix button state for SSL certificate check (Chocobo1)</li>
+<li>WEBUI: Fix CSS that results in hidden torrent list in some browsers (skomerko)</li>
+<li>WEBUI: Use proper text color to highlight items in all filter lists (skomerko)</li>
+<li>WEBUI: Fix 'rename files' dialog cannot be opened more than once (Chocobo1)</li>
+<li>WEBUI: Fix UI of Advanced Settings to show all settings (glassez)</li>
+<li>WEBUI: Free resources allocated by web session once it is destructed (dyseg)</li>
+<li>SEARCH: Import correct libraries (Chocobo1)</li>
+<li>OTHER: Sync flag icons with upstream (xavier2k6)</li>
+</ul>
 <h3 id="sun-sep-29th-2024---qbittorrent-v5.0.0-release" tabindex="-1"><a class="header-anchor" href="#sun-sep-29th-2024---qbittorrent-v5.0.0-release">Sun Sep 29th 2024 - qBittorrent v5.0.0 release</a></h3>
 <p>qBittorrent v5.0.0 was released.<br>
 Thanks to all the people involved, those that are named in the changelog below and those that are not.<br>
