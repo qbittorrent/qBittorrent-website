@@ -12,8 +12,9 @@
     "lint": "eslint src/scripts/**.js && stylelint **/*.css",
     "serve": "eleventy --serve"
   },
+  "type": "module",
   "devDependencies": {
-    "@11ty/eleventy": "2",
+    "@11ty/eleventy": "3",
     "@stylistic/eslint-plugin": "*",
     "eslint": "*",
     "eslint-plugin-html": "*",

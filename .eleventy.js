@@ -1,7 +1,7 @@
-const ChildProcess = require('node:child_process');
-const MarkdownItAnchor = require("markdown-it-anchor");
+import ChildProcess from "node:child_process";
+import MarkdownItAnchor from "markdown-it-anchor";
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
   const sourceDir = "src";
 
   // Copy folders as-is
@@ -38,4 +38,4 @@ module.exports = (eleventyConfig) => {
       input: sourceDir
     }
   };
-};
+}
