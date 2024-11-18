@@ -25,7 +25,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v5.0.1</a>
+      <a href="download">Latest: v5.0.2</a>
     </span>
 
     <div id="MainBox">
@@ -52,6 +52,48 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 <p><a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a></p>
+<h3 id="sun-nov-17th-2024---qbittorrent-v5.0.2-release" tabindex="-1"><a class="header-anchor" href="#sun-nov-17th-2024---qbittorrent-v5.0.2-release">Sun Nov 17th 2024 - qBittorrent v5.0.2 release</a></h3>
+<p>qBittorrent v5.0.2 was released.<br></p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git8ad05ebd41 / 2.0.11+git4b4003d0fd</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v5.0.2 changelog:</p>
+<ul>
+<li>BUGFIX: Remove trackers from previous category when moved to new one (glassez)</li>
+<li>BUGFIX: Fix <code>.torrent</code> file could not be deleted when torrent is canceled (glassez)</li>
+<li>BUGFIX: Reset tracker entries when pausing the session (glassez)</li>
+<li>BUGFIX: Check real palette darkness to detect &quot;dark theme&quot; (glassez)</li>
+<li>BUGFIX: Correctly handle &quot;torrent finished&quot; events (glassez)</li>
+<li>BUGFIX: Preserve initial torrent progress while checking resume data (glassez)</li>
+<li>BUGFIX: Avoid reapplying Mark-of-the-Web when it already exists (Chocobo1)</li>
+<li>BUGFIX: Don't apply Mark-of-the-Web on existing files (Chocobo1)</li>
+<li>WEBUI: Add color scheme switcher (sledgehammer999)</li>
+<li>SEARCH: Correctly delete the moved search tab (glassez)</li>
+<li>WINDOWS: Correctly save and restore Qt style setting (glassez)</li>
+<li>WINDOWS: NSIS: update Luxembourgish, Simplified Chinese and Traditional Chinese translations (Ikko Eltociear Ashimine, 3gf8jv4dv)</li>
+</ul>
 <h3 id="mon-oct-28th-2024---qbittorrent-v5.0.1-release" tabindex="-1"><a class="header-anchor" href="#mon-oct-28th-2024---qbittorrent-v5.0.1-release">Mon Oct 28th 2024 - qBittorrent v5.0.1 release</a></h3>
 <p>qBittorrent v5.0.1 was released.<br>
 Libtorrent 1.2.x users who stuck with it due to memory usage issues, you might want to try the libtorrent 2.0.x variant and change the disk IO type to the new option &quot;Simple pread/pwrite&quot;. Memory usage issues should be eliminated with it. More info in PR <a href="https://github.com/qbittorrent/qBittorrent/pull/21300">#21300</a>.<br>

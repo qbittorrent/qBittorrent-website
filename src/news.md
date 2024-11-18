@@ -4,6 +4,50 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Sun Nov 17th 2024 - qBittorrent v5.0.2 release
+
+qBittorrent v5.0.2 was released.<br>
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git8ad05ebd41 / 2.0.11+git4b4003d0fd</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.0.2 changelog:
+- BUGFIX: Remove trackers from previous category when moved to new one (glassez)
+- BUGFIX: Fix `.torrent` file could not be deleted when torrent is canceled (glassez)
+- BUGFIX: Reset tracker entries when pausing the session (glassez)
+- BUGFIX: Check real palette darkness to detect "dark theme" (glassez)
+- BUGFIX: Correctly handle "torrent finished" events (glassez)
+- BUGFIX: Preserve initial torrent progress while checking resume data (glassez)
+- BUGFIX: Avoid reapplying Mark-of-the-Web when it already exists (Chocobo1)
+- BUGFIX: Don't apply Mark-of-the-Web on existing files (Chocobo1)
+- WEBUI: Add color scheme switcher (sledgehammer999)
+- SEARCH: Correctly delete the moved search tab (glassez)
+- WINDOWS: Correctly save and restore Qt style setting (glassez)
+- WINDOWS: NSIS: update Luxembourgish, Simplified Chinese and Traditional Chinese translations (Ikko Eltociear Ashimine, 3gf8jv4dv)
+
 ### Mon Oct 28th 2024 - qBittorrent v5.0.1 release
 
 qBittorrent v5.0.1 was released.<br>
