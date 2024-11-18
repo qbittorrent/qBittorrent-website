@@ -1,21 +1,27 @@
+import ESLint from "@eslint/js";
 import Globals from "globals";
 import Html from "eslint-plugin-html";
-import Js from "@eslint/js";
 import Stylistic from '@stylistic/eslint-plugin';
+import TsESLint from 'typescript-eslint';
 
 export default [
-    Js.configs.recommended,
+    ESLint.configs.recommended,
     Stylistic.configs['disable-legacy'],
+    ...TsESLint.configs.strictTypeChecked,
+    ...TsESLint.configs.stylisticTypeChecked,
     {
         files: [
             "**/*.html",
-            "**/*.js",
-            "**/*.mjs"
+            "**/*.ts"
         ],
         languageOptions: {
-            ecmaVersion: 2021,
+            ecmaVersion: 2023,
             globals: {
                 ...Globals.browser
+            },
+            parserOptions: {
+                project: true,
+                tsconfigDirName: import.meta.dirname,
             }
         },
         plugins: {
@@ -33,6 +39,14 @@ export default [
             "prefer-arrow-callback": "error",
             "prefer-const": "error",
             "radix": "error",
+            "@typescript-eslint/no-unused-vars": [
+                "error",
+                {
+                    "argsIgnorePattern": "^_",
+                    "caughtErrorsIgnorePattern": "^_",
+                    "varsIgnorePattern": "^_",
+                }
+            ],
             "Stylistic/no-mixed-operators": [
                 "error",
                 {

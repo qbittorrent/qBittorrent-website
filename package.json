@@ -8,8 +8,8 @@
   "scripts": {
     "build": "eleventy",
     "check-html": "html-validate _site/*.html",
-    "format": "js-beautify -r src/**.js && prettier --write **.css",
-    "lint": "eslint src/scripts/**.js && stylelint **/*.css",
+    "format": "prettier --write **.css",
+    "lint": "tsc --noEmit && eslint src/scripts/**.ts && stylelint **/*.css",
     "serve": "eleventy --serve"
   },
   "type": "module",
@@ -24,7 +24,9 @@
     "prettier": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*",
-    "stylelint-order": "*"
+    "stylelint-order": "*",
+    "typescript": "*",
+    "typescript-eslint": "*"
   },
   "workspaces": [
     "atom_generator"

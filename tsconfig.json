@@ -1,0 +1,13 @@
+{
+    "compilerOptions":
+    {
+        "esModuleInterop": true,
+        "module": "preserve",
+        "noImplicitAny": true,
+        "outDir": "_site/scripts",
+        "removeComments": true,
+        "strict": true,
+        "target": "ES2023"
+    },
+    "include": ["src/scripts/*.ts"],
+}
