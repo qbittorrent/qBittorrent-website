@@ -25,6 +25,7 @@
     "stylelint": "*",
     "stylelint-config-standard": "*",
     "stylelint-order": "*",
+    "swc": "*",
     "typescript": "*",
     "typescript-eslint": "*"
   },
