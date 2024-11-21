@@ -177,12 +177,12 @@ ul {
 }
 
 .menu ul li {
-    top: 10px;
-    border-radius: 5px;
-    display: inline-flex;
-    margin: 2px;
-    padding: 5px;
-    background-image: linear-gradient(0deg, #5e92de, transparent);
+  top: 10px;
+  border-radius: 5px;
+  display: inline-flex;
+  margin: 2px;
+  padding: 5px;
+  background-image: linear-gradient(0deg, #5e92de, transparent);
 }
 
 .menu ul li.first {
