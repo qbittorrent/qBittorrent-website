@@ -25,7 +25,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v5.0.2</a>
+      <a href="download">Latest: v5.0.3</a>
     </span>
 
     <div id="MainBox">
@@ -52,6 +52,48 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 <p><a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a></p>
+<h3 id="tue-dec-17th-2024---qbittorrent-v5.0.3-and-v5.1.0beta1-releases" tabindex="-1"><a class="header-anchor" href="#tue-dec-17th-2024---qbittorrent-v5.0.3-and-v5.1.0beta1-releases">Tue Dec 17th 2024 - qBittorrent v5.0.3 and v5.1.0beta1 releases</a></h3>
+<p>qBittorrent v5.0.3 and v5.1.0beta1 were released.<br>
+A changelog for v5.1.0beta1 is not available.<br>
+<strong>NOTICE:</strong> macOS builds will be available later.</p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3 (v5.0.3) / 6.8.1 (v5.1.0beta1)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v5.0.3 changelog:</p>
+<ul>
+<li>BUGFIX: Discard obsolete &quot;state update&quot; events after torrent is reloaded (glassez)</li>
+<li>BUGFIX: Fix incorrect SQL column definition (glassez)</li>
+<li>BUGFIX: Avoid redundant requests of announce entries from libtorrent (glassez)</li>
+<li>WEBUI: Fix removing tracker URL with '|' character (Thomas Piccirello)</li>
+<li>WEBUI: Fix reloading page after login (Evgenii Ryshkov)</li>
+<li>WEBAPI: Fix incorrect key in torrent creator (Bartu Özen)</li>
+<li>RSS: Don't add duplicate episodes to previously matched (wavygecko)</li>
+<li>RSS: Use cached current time when parsing RSS feed (glassez)</li>
+<li>WINDOWS: Don't follow symlink when creating torrents on Windows (Chocobo1)</li>
+<li>WINDOWS: NSIS: Update Italian translation (Giacomo411)</li>
+</ul>
 <h3 id="sun-nov-17th-2024---qbittorrent-v5.0.2-release" tabindex="-1"><a class="header-anchor" href="#sun-nov-17th-2024---qbittorrent-v5.0.2-release">Sun Nov 17th 2024 - qBittorrent v5.0.2 release</a></h3>
 <p>qBittorrent v5.0.2 was released.<br></p>
 <details>

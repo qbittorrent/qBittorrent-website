@@ -3,12 +3,12 @@ layout: base.liquid
 permalink: "{{ page.filePathStem }}.html"
 
 win:
-    ver: "5.0.2"
-    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git4b4003d0fd"
+    ver: "5.0.3"
+    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
     qt_ver: "6.7.3"
     boost_ver: "1.86.0"
-    hash_qt6_lt12: "6c3278d5529badfe853bcc7630497cf43a1d24ab563f852a270335237fb8311a"
-    hash_qt6_lt20: "ab6b126d614f94c3442b6fbe93b8cfbfe80bf483d25039f56fa7d45062b5f367"
+    hash_qt6_lt12: "878ca7e3fb7a90a937afdbe080c055877b4c6334a9589d27e092fd6737a0716f"
+    hash_qt6_lt20: "b3f7fd29c32bb8fda689aef6b6b73b2b161aea4618e0fe1c597871e9d4926687"
 macos:
     ver: "5.0.2"
     lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git4b4003d0fd"
@@ -17,16 +17,30 @@ macos:
     hash_lt12: "44de4c43d884d49f1b806a0ec641f54cf6fb2ab6ff4a9b24c3e982e7287199d3"
     hash_lt20: "0eaa8b76d33b3505e4f700ffb81a90302782be8e7393113bc6ec45bb06f286aa"
 appimage:
-    ver: "5.0.2"
-    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git4b4003d0fd"
+    ver: "5.0.3"
+    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
     qt_ver: "6.7.3"
     boost_ver: "1.86.0"
-    hash_lt12: "024954396edf3fcafa0d135caf835d2d84b9bf78a0a6012e4a23954f2b48cafe"
-    hash_lt20: "95972620a1caaa4684b4a33ed6eaaa039b998e8cfae7f9c74c92aa4da147bfe6"
+    hash_lt12: "1939cb9086ee5f22b3d304d26c7a55f14f187ce0a03f596f49329c5046b6790d"
+    hash_lt20: "12f6b8d7b3d3d7e720a1e2e44cda3a3d1f171cd568eb9aee17c0860520a321fc"
+win_unstable:
+    ver: "5.1.0beta1"
+    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
+    qt_ver: "6.8.1"
+    boost_ver: "1.86.0"
+    hash_qt6_lt12: "eebf25382a65e07ab1861c5cb642c4524a9ae4c66ebd2e99f6d0ee14a74367ad"
+    hash_qt6_lt20: "8342e349fda9673723a85e9eaa269f8dae29b8f7344ff31c8694ccc75db0ade5"
+appimage_unstable:
+    ver: "5.1.0beta1"
+    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
+    qt_ver: "6.8.1"
+    boost_ver: "1.86.0"
+    hash_lt12: "11b94f74fdf706735709f4fe789597efc85fc4ff80d15d3996173bbd854abb8b"
+    hash_lt20: "afe064640d3fbe68018c16f9fbb866f6db47c42f20181f31787790714f911f3e"
 src:
-    ver: "5.0.2"
-    hash_gz: "37adde906a77968fe9db9e27422b355fd2217f0f27462f0b811216e9c6161883"
-    hash_xz: "29514d59ff8f40b4e1afd7fbb2b34f7671875d51d00069d41dcba80032f946ca"
+    ver: "5.0.3"
+    hash_gz: "419e3f331ee6d0fefa35ee2fb34bf850650dde99a6e78d058ea9fe5d5b237016"
+    hash_xz: "41e73ff15581e7e8f2243ac00a7dafceefac0a689a8e7b8da2e5003de5835963"
 ---
 <script defer src="scripts/download.js"></script>
 
@@ -88,6 +102,36 @@ src:
     </table>
     </details>
     <br>
+    <p class="releaseParagraph">
+      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v{{win_unstable.ver}}</a></strong> (multiple installer choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br>
+    <table class="downloads-table">
+      <tbody>
+        <tr>
+          <th scope="col">Installer (64-bit)</th>
+          <th scope="col">Info</th>
+          <th scope="col">Mirrors</th>
+          <th scope="col">PGP Signature</th>
+        </tr>
+        <tr>
+          <td><a href="https://www.fosshub.com/qBittorrent.html">{{win_unstable.ver}}</a></td>
+          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_{{win_unstable.ver}}_x64_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_x64_setup.exe/download">SourceForge</a></td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_{{win_unstable.ver}}_x64_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_x64_setup.exe.asc/download">SourceForge</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://www.fosshub.com/qBittorrent.html">{{win_unstable.ver}} (qt6 lt20)</a></td>
+          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_{{win_unstable.ver}}_lt20_qt6_x64_setup.exe">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_lt20_qt6_x64_setup.exe/download">SourceForge</a></td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_{{win_unstable.ver}}_lt20_qt6_x64_setup.exe.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_lt20_qt6_x64_setup.exe.asc/download">SourceForge</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
+    <br>
     <details>
     <summary>Checksums and library versions</summary>
     <br>
@@ -105,6 +149,14 @@ src:
           <td>{{win.ver}} (qt6 lt20)</td>
           <td class="wordBreak"><code>{{win.hash_qt6_lt20}}</code></td>
         </tr>
+        <tr>
+          <td>{{win_unstable.ver}}</td>
+          <td class="wordBreak"><code>{{win_unstable.hash_qt6_lt12}}</code></td>
+        </tr>
+        <tr>
+          <td>{{win_unstable.ver}} (lt20 qt6)</td>
+          <td class="wordBreak"><code>{{win_unstable.hash_qt6_lt20}}</code></td>
+        </tr>
       </tbody>
       <tbody>
         <tr>
@@ -117,7 +169,7 @@ src:
         </tr>
         <tr>
           <td>Qt</td>
-          <td>{{win.qt_ver}}</td>
+          <td>{{win.qt_ver}} (v{{win.ver}}) / {{win_unstable.qt_ver}} (v{{win_unstable.ver}})</td>
         </tr>
         <tr>
           <td>Boost</td>
@@ -263,6 +315,36 @@ src:
     </table>
     </details>
     <br>
+    <p class="releaseParagraph">
+      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v{{appimage_unstable.ver}}</a></strong> (multiple AppImage choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br>
+    <table class="downloads-table">
+      <tbody>
+        <tr>
+          <th scope="col">AppImage</th>
+          <th scope="col">Info</th>
+          <th scope="col">Mirrors</th>
+          <th scope="col">PGP Signature</th>
+        </tr>
+        <tr>
+          <td><a href="https://www.fosshub.com/qBittorrent.html">{{appimage_unstable.ver}}</a></td>
+          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage_unstable.ver}}_x86_64.AppImage">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_x86_64.AppImage/download">SourceForge</a></td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage_unstable.ver}}_x86_64.AppImage.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_x86_64.AppImage.asc/download">SourceForge</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://www.fosshub.com/qBittorrent.html">{{appimage_unstable.ver}} (qt6 lt20)</a></td>
+          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage_unstable.ver}}_lt20_x86_64.AppImage">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_lt20_x86_64.AppImage/download">SourceForge</a></td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{appimage_unstable.ver}}_lt20_x86_64.AppImage.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_lt20_x86_64.AppImage.asc/download">SourceForge</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
+    <br>
     <details>
     <summary>Checksums and library versions</summary>
     <br>
@@ -280,6 +362,14 @@ src:
           <td>{{appimage.ver}} (qt6 lt20)</td>
           <td class="wordBreak"><code>{{appimage.hash_lt20}}</code></td>
         </tr>
+        <tr>
+          <td>{{appimage_unstable.ver}}</td>
+          <td class="wordBreak"><code>{{appimage_unstable.hash_lt12}}</code></td>
+        </tr>
+        <tr>
+          <td>{{appimage_unstable.ver}} (lt20)</td>
+          <td class="wordBreak"><code>{{appimage_unstable.hash_lt20}}</code></td>
+        </tr>
       </tbody>
       <tbody>
         <tr>
@@ -292,7 +382,7 @@ src:
         </tr>
         <tr>
           <td>Qt</td>
-          <td>{{appimage.qt_ver}}</td>
+          <td>{{appimage.qt_ver}} (v{{appimage.ver}}) / {{appimage_unstable.qt_ver}} (v{{appimage_unstable.ver}})</td>
         </tr>
         <tr>
           <td>Boost</td>

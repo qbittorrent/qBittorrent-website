@@ -4,6 +4,50 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Tue Dec 17th 2024 - qBittorrent v5.0.3 and v5.1.0beta1 releases
+
+qBittorrent v5.0.3 and v5.1.0beta1 were released.<br>
+A changelog for v5.1.0beta1 is not available.<br>
+**NOTICE:** macOS builds will be available later.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3 (v5.0.3) / 6.8.1 (v5.1.0beta1)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.0.3 changelog:
+- BUGFIX: Discard obsolete "state update" events after torrent is reloaded (glassez)
+- BUGFIX: Fix incorrect SQL column definition (glassez)
+- BUGFIX: Avoid redundant requests of announce entries from libtorrent (glassez)
+- WEBUI: Fix removing tracker URL with '|' character (Thomas Piccirello)
+- WEBUI: Fix reloading page after login (Evgenii Ryshkov)
+- WEBAPI: Fix incorrect key in torrent creator (Bartu Özen)
+- RSS: Don't add duplicate episodes to previously matched (wavygecko)
+- RSS: Use cached current time when parsing RSS feed (glassez)
+- WINDOWS: Don't follow symlink when creating torrents on Windows (Chocobo1)
+- WINDOWS: NSIS: Update Italian translation (Giacomo411)
+
 ### Sun Nov 17th 2024 - qBittorrent v5.0.2 release
 
 qBittorrent v5.0.2 was released.<br>
