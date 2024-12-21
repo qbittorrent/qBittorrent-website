@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2024-12-17T22:21:52.623Z</updated>
+  <updated>2024-12-21T10:47:23.134Z</updated>
   <entry>
     <title>qBittorrent v5.0.3 and v5.1.0beta1 releases</title>
     <id>https://www.qbittorrent.org/news#tue-dec-17th-2024---qbittorrent-v5.0.3-and-v5.1.0beta1-releases</id>
@@ -57,6 +57,7 @@ A changelog for v5.1.0beta1 is not available.&lt;br&gt;
 &lt;li&gt;RSS: Use cached current time when parsing RSS feed (glassez)&lt;/li&gt;
 &lt;li&gt;WINDOWS: Don't follow symlink when creating torrents on Windows (Chocobo1)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Update Italian translation (Giacomo411)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.0.2...release-5.0.3"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -108,6 +109,7 @@ A changelog for v5.1.0beta1 is not available.&lt;br&gt;
 &lt;li&gt;SEARCH: Correctly delete the moved search tab (glassez)&lt;/li&gt;
 &lt;li&gt;WINDOWS: Correctly save and restore Qt style setting (glassez)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: update Luxembourgish, Simplified Chinese and Traditional Chinese translations (Ikko Eltociear Ashimine, 3gf8jv4dv)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.0.1...release-5.0.2"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
@@ -167,6 +169,7 @@ Libtorrent 1.2.x users who stuck with it due to memory usage issues, you might w
 &lt;li&gt;WEBUI: Free resources allocated by web session once it is destructed (dyseg)&lt;/li&gt;
 &lt;li&gt;SEARCH: Import correct libraries (Chocobo1)&lt;/li&gt;
 &lt;li&gt;OTHER: Sync flag icons with upstream (xavier2k6)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.0.0...release-5.0.1"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>

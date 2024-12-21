@@ -47,6 +47,7 @@ v5.0.3 changelog:
 - RSS: Use cached current time when parsing RSS feed (glassez)
 - WINDOWS: Don't follow symlink when creating torrents on Windows (Chocobo1)
 - WINDOWS: NSIS: Update Italian translation (Giacomo411)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.0.2...release-5.0.3)
 
 ### Sun Nov 17th 2024 - qBittorrent v5.0.2 release
 
@@ -91,6 +92,7 @@ v5.0.2 changelog:
 - SEARCH: Correctly delete the moved search tab (glassez)
 - WINDOWS: Correctly save and restore Qt style setting (glassez)
 - WINDOWS: NSIS: update Luxembourgish, Simplified Chinese and Traditional Chinese translations (Ikko Eltociear Ashimine, 3gf8jv4dv)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.0.1...release-5.0.2)
 
 ### Mon Oct 28th 2024 - qBittorrent v5.0.1 release
 
@@ -143,6 +145,7 @@ v5.0.1 changelog:
 - WEBUI: Free resources allocated by web session once it is destructed (dyseg)
 - SEARCH: Import correct libraries (Chocobo1)
 - OTHER: Sync flag icons with upstream (xavier2k6)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.0.0...release-5.0.1)
 
 ### Sun Sep 29th 2024 - qBittorrent v5.0.0 release
 
