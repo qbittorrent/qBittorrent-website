@@ -10,12 +10,12 @@ win:
     hash_qt6_lt12: "878ca7e3fb7a90a937afdbe080c055877b4c6334a9589d27e092fd6737a0716f"
     hash_qt6_lt20: "b3f7fd29c32bb8fda689aef6b6b73b2b161aea4618e0fe1c597871e9d4926687"
 macos:
-    ver: "5.0.2"
-    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git4b4003d0fd"
+    ver: "5.0.3"
+    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
     qt_ver: "6.7.3"
     boost_ver: "1.86.0"
-    hash_lt12: "44de4c43d884d49f1b806a0ec641f54cf6fb2ab6ff4a9b24c3e982e7287199d3"
-    hash_lt20: "0eaa8b76d33b3505e4f700ffb81a90302782be8e7393113bc6ec45bb06f286aa"
+    hash_lt12: "b64127a755a471507c501c36e0408b1ff232ff1d7b7cb04f46042b042d3e3d4d"
+    hash_lt20: "dc1a4756b56dff6d9a92b370f0cee0965a8702ac3f7825145e70022747cdcfcd"
 appimage:
     ver: "5.0.3"
     lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
@@ -30,6 +30,13 @@ win_unstable:
     boost_ver: "1.86.0"
     hash_qt6_lt12: "eebf25382a65e07ab1861c5cb642c4524a9ae4c66ebd2e99f6d0ee14a74367ad"
     hash_qt6_lt20: "8342e349fda9673723a85e9eaa269f8dae29b8f7344ff31c8694ccc75db0ade5"
+macos_unstable:
+    ver: "5.1.0beta1"
+    lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
+    qt_ver: "6.8.1"
+    boost_ver: "1.86.0"
+    hash_qt6_lt12: "0057ff28fcc67b4260aaac1fc32f957949b66d179b182b8bbca8bbf610502a16"
+    hash_qt6_lt20: "500372a9ec4d755f77916b10eabddfb4ff69599703b95b4a2a0b4d5464d69cdf"
 appimage_unstable:
     ver: "5.1.0beta1"
     lt_ver: "1.2.19+git8ad05ebd41 / 2.0.11+git5ec74504aa"
@@ -224,6 +231,36 @@ src:
     </table>
     </details>
     <br>
+    <p class="releaseParagraph">
+      <strong><a href="https://www.fosshub.com/qBittorrent.html">Download qBittorrent v{{macos_unstable.ver}}</a></strong> (multiple DMG choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br>
+    <table class="downloads-table">
+      <tbody>
+        <tr>
+          <th scope="col">DMG</th>
+          <th scope="col">Info</th>
+          <th scope="col">Mirrors</th>
+          <th scope="col">PGP Signature</th>
+        </tr>
+        <tr>
+          <td><a href="https://www.fosshub.com/qBittorrent.html">{{macos_unstable.ver}}</a></td>
+          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos_unstable.ver}}.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos_unstable.ver}}/qbittorrent-{{macos_unstable.ver}}.dmg/download">SourceForge</a></td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos_unstable.ver}}.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos_unstable.ver}}/qbittorrent-{{macos_unstable.ver}}.dmg.asc/download">SourceForge</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://www.fosshub.com/qBittorrent.html">{{macos_unstable.ver}} (qt6 lt20)</a></td>
+          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos_unstable.ver}}_lt20.dmg">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos_unstable.ver}}/qbittorrent-{{macos_unstable.ver}}_lt20.dmg/download">SourceForge</a></td>
+          <td><a href="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent-{{macos_unstable.ver}}_lt20.dmg.asc">FossHub</a>, <a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-mac/qbittorrent-{{macos_unstable.ver}}/qbittorrent-{{macos_unstable.ver}}_lt20.dmg.asc/download">SourceForge</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
+    <br>
     <details>
     <summary>Checksums and library versions</summary>
     <br>
@@ -241,6 +278,14 @@ src:
           <td>{{macos.ver}} (qt6 lt20)</td>
           <td class="wordBreak"><code>{{macos.hash_lt20}}</code></td>
         </tr>
+        <tr>
+          <td>{{macos_unstable.ver}}</td>
+          <td class="wordBreak"><code>{{macos_unstable.hash_qt6_lt12}}</code></td>
+        </tr>
+        <tr>
+          <td>{{macos_unstable.ver}} (qt6 lt20)</td>
+          <td class="wordBreak"><code>{{macos_unstable.hash_qt6_lt20}}</code></td>
+        </tr>
       </tbody>
       <tbody>
         <tr>
@@ -253,7 +298,7 @@ src:
         </tr>
         <tr>
           <td>Qt</td>
-          <td>{{macos.qt_ver}}</td>
+          <td>{{macos.qt_ver}} (v{{macos.ver}}) / {{macos_unstable.qt_ver}} (v{{macos_unstable.ver}})</td>
         </tr>
         <tr>
           <td>Boost</td>
