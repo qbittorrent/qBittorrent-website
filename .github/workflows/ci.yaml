@@ -20,7 +20,10 @@ jobs:
         with:
           node-version: 'lts/*'
       - name: Install tools
-        run: npm install
+        run: |
+          npm install
+          npm ls
+          npm ls --all
       - name: Lint code
         run: npm run lint
       - name: Format code
