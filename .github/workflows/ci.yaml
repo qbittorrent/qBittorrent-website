@@ -32,7 +32,6 @@ jobs:
           git diff --exit-code
       - name: Build code
         run: |
-          rm -r _site
           npm run build
           git diff \
             --exit-code \
