@@ -12,24 +12,31 @@ jobs:
   ci:
     name: Check
     runs-on: ubuntu-latest
+    permissions:
+      security-events: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Setup nodejs
         uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
+
       - name: Install tools
         run: |
           npm install
           npm ls
           npm ls --all
+
       - name: Lint code
         run: npm run lint
+
       - name: Format code
         run: |
           npm run format
           git diff --exit-code
+
       - name: Build code
         run: |
           rm -r _site
@@ -41,11 +48,32 @@ jobs:
             --exit-code \
             -I '<updated>.*</updated>' \
             _site/news_feed.atom
+
       - name: Check html
         run: |
           npm run check-html
+
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: website
           path: _site
+
+      - name: Check GitHub Actions workflow
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install zizmor
+          zizmor \
+            --format sarif \
+            --pedantic \
+            ./ \
+            | jq '(.runs[].results |= map(select(.ruleId != "unpinned-uses")))
+              | (.runs[].tool.driver.rules |= map(select(.id != "unpinned-uses")))' \
+            > "${{ runner.temp }}/zizmor_results.sarif"
+
+      - name: Upload zizmor results
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          category: zizmor
+          sarif_file: "${{ runner.temp }}/zizmor_results.sarif"
