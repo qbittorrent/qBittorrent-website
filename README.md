@@ -18,6 +18,8 @@ npm run build
 ```
 Then the site is generated under the `_site` subfolder.
 
+Ensure changes to the news_feed.atom update time are not committed when making PRs
+
 You can also run the following to start up a local development server:
 ```shell
 npm run serve
