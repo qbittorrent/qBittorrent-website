@@ -4,7 +4,7 @@
 
 #forkongithub a {
   background: #235092;
-  color: #fff;
+  color: #ffffff;
   font-family: arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;
@@ -17,13 +17,13 @@
 }
 
 #forkongithub a:hover {
-  background: #c11;
-  color: #fff;
+  background: #cc1111;
+  color: #ffffff;
 }
 
 #forkongithub a::before,
 #forkongithub a::after {
-  background: #fff;
+  background: #ffffff;
   content: "";
   display: block;
   height: 1px;
@@ -38,7 +38,7 @@
   top: auto;
 }
 
-@media screen and (width >= 0px) {
+@media screen and (width >= 0) {
   #forkongithub {
     display: block;
     height: 200px;
