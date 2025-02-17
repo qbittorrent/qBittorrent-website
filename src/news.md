@@ -4,6 +4,37 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Mon Feb 17th 2025 - qBittorrent v5.1.0rc1 release
+
+qBittorrent v5.1.0rc1 was released.<br>
+Currently there isn't a changelog available.<br>
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git2e537ee7af / 2.0.11+gitc31d90b59f</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.8.2 / 6.8.1 (macOS)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
 ### Tue Dec 17th 2024 - qBittorrent v5.0.3 and v5.1.0beta1 releases
 
 qBittorrent v5.0.3 and v5.1.0beta1 were released.<br>
