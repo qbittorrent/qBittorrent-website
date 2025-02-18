@@ -1,6 +1,7 @@
 import ChildProcess from "node:child_process";
 import MarkdownItAnchor from "markdown-it-anchor";
 import { promisify } from 'node:util';
+import * as Fs from 'node:fs';
 
 export default (eleventyConfig) => {
   const sourceDir = "src";
@@ -46,8 +47,23 @@ export default (eleventyConfig) => {
     const generateAtomFeed = () => {
       return run(`npm run -w atom_generator generate -- -i ../${dir.output}/news.html -o ../${dir.output}/news_feed.atom`);
     };
+    const preserveFileDate = () => {
+      const targets = [
+        [`${sourceDir}/news.md`, `${dir.output}/news.html`]
+      ];
+      const utimes = promisify(Fs.utimes);
+
+      const promises = targets.map((target) => {
+        const src = target[0];
+        const dest = target[1];
+        const srcStat = Fs.statSync(src);
+        return utimes(dest, srcStat.atime, srcStat.mtime);
+      });
+      return Promise.allSettled(promises);
+    };
 
     return Promise.allSettled([
+      preserveFileDate(),
       compileTS(),
       generateAtomFeed()
     ]);
@@ -58,4 +74,4 @@ export default (eleventyConfig) => {
       input: sourceDir
     }
   };
-}
+};

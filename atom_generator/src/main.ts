@@ -62,6 +62,7 @@ function generateAtom(path: string): string {
     };
 
     // build feed
+    const lastModifiedDate = Fs.statSync(path).mtime;
     const docOptions = {
         encoding: 'UTF-8'
     };
@@ -73,7 +74,7 @@ function generateAtom(path: string): string {
                 .ele('name').txt('The qBittorrent project').up().up()
             .ele('link', { href: 'https://www.qbittorrent.org/news_feed.atom', rel: 'self' }).up()
             .ele('link', { href: 'https://www.qbittorrent.org/news'}).up()
-            .ele('updated').txt(new Date().toISOString()).up()
+            .ele('updated').txt(lastModifiedDate.toISOString()).up()
         .doc();
     const feedElement = doc.first();
 
