@@ -7,7 +7,56 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2025-02-17T23:31:32.286Z</updated>
+  <updated>2025-02-18T22:03:40.702Z</updated>
+  <entry>
+    <title>qBittorrent v5.0.4 release</title>
+    <id>https://www.qbittorrent.org/news#tue-feb-18th-2025---qbittorrent-v5.0.4-release</id>
+    <link href="https://www.qbittorrent.org/news#tue-feb-18th-2025---qbittorrent-v5.0.4-release"/>
+    <updated>2025-02-18T00:00:00.000Z</updated>
+    <published>2025-02-18T00:00:00.000Z</published>
+    <author>
+      <name>The qBittorrent project</name>
+    </author>
+    <content type="html">&lt;p&gt;qBittorrent v5.0.4 was released.&lt;br&gt;
+Make sure to also check out v5.1.0rc1, which was released yesterday.&lt;br&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Library versions&lt;/summary&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;libtorrent&lt;/td&gt;
+      &lt;td&gt;1.2.20+git2e537ee7af / 2.0.11+gitc31d90b59f&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qt&lt;/td&gt;
+      &lt;td&gt;6.7.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boost&lt;/td&gt;
+      &lt;td&gt;1.86&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/details&gt;
+&lt;p&gt;v5.0.4 changelog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BUGFIX: Fix cannot remove trackers via WebAPI (Chocobo1)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix torrent content checkbox state under certain conditions (thalieht)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Hide zero and infinity values in peer list only when that setting is set to &lt;code&gt;Always&lt;/code&gt; (thalieht)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Remove stopped torrent from &quot;error&quot; tracker filter (glassez)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix memory leak in context menus (skomerko)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Don't trim string parameters (glassez)&lt;/li&gt;
+&lt;li&gt;WINDOWS: Handle Qt style options uniformly (glassez)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Update Portuguese translation (Hugo Carvalho)&lt;/li&gt;
+&lt;li&gt;MACOS: Avoid memory leak (Chocobo1)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>qBittorrent v5.1.0rc1 release</title>
     <id>https://www.qbittorrent.org/news#mon-feb-17th-2025---qbittorrent-v5.1.0rc1-release</id>
