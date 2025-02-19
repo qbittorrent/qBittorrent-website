@@ -45,6 +45,7 @@ v5.0.4 changelog:
 - WINDOWS: Handle Qt style options uniformly (glassez)
 - WINDOWS: NSIS: Update Portuguese translation (Hugo Carvalho)
 - MACOS: Avoid memory leak (Chocobo1)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.0.3...release-5.0.4)
 
 ### Mon Feb 17th 2025 - qBittorrent v5.1.0rc1 release
 

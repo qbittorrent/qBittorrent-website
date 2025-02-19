@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2025-02-18T22:03:40.702Z</updated>
+  <updated>2025-02-19T08:35:25.219Z</updated>
   <entry>
     <title>qBittorrent v5.0.4 release</title>
     <id>https://www.qbittorrent.org/news#tue-feb-18th-2025---qbittorrent-v5.0.4-release</id>
@@ -55,6 +55,7 @@ Make sure to also check out v5.1.0rc1, which was released yesterday.&lt;br&gt;&l
 &lt;li&gt;WINDOWS: Handle Qt style options uniformly (glassez)&lt;/li&gt;
 &lt;li&gt;WINDOWS: NSIS: Update Portuguese translation (Hugo Carvalho)&lt;/li&gt;
 &lt;li&gt;MACOS: Avoid memory leak (Chocobo1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.0.3...release-5.0.4"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
