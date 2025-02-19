@@ -928,7 +928,7 @@ This does not mean that Paypal is preferred, the other methods work just fine to
 <li>OTHER: Many RSS bugfixes and improvements all over the place(Gelmir)</li>
 <li>OTHER: Generate translations at configure time to reduce tarball size</li>
 <li>OTHER: Make peer tab sortable by ip too (Gelmir)</li>
-<li>OTHER: Translations moved to Transifex(https://www.transifex.com/projects/p/qbittorrent/)</li>
+<li>OTHER: Translations moved to Transifex(https://explore.transifex.com/sledgehammer999/qbittorrent/)</li>
 <li>OTHER: New Translation - Vietnamese (Anh Phan)</li>
 <li>PERFORMANCE: Improve drawing speed of tranferlist when there are many torrents(&gt;100)</li>
 <li>PERFORMANCE: Improve drawing speed of peers list when there are many peers</li>
