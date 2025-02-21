@@ -4,6 +4,80 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Tue Feb 18th 2025 - qBittorrent v5.0.4 release
+
+qBittorrent v5.0.4 was released.<br>
+Make sure to also check out v5.1.0rc1, which was released yesterday.<br>
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git2e537ee7af / 2.0.11+gitc31d90b59f</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.0.4 changelog:
+- BUGFIX: Fix cannot remove trackers via WebAPI (Chocobo1)
+- BUGFIX: Fix torrent content checkbox state under certain conditions (thalieht)
+- BUGFIX: Hide zero and infinity values in peer list only when that setting is set to `Always` (thalieht)
+- BUGFIX: Remove stopped torrent from "error" tracker filter (glassez)
+- WEBUI: Fix memory leak in context menus (skomerko)
+- WEBAPI: Don't trim string parameters (glassez)
+- WINDOWS: Handle Qt style options uniformly (glassez)
+- WINDOWS: NSIS: Update Portuguese translation (Hugo Carvalho)
+- MACOS: Avoid memory leak (Chocobo1)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.0.3...release-5.0.4)
+
+### Mon Feb 17th 2025 - qBittorrent v5.1.0rc1 release
+
+qBittorrent v5.1.0rc1 was released.<br>
+Currently there isn't a changelog available.<br>
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git2e537ee7af / 2.0.11+gitc31d90b59f</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.8.2 / 6.8.1 (macOS)</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
 ### Tue Dec 17th 2024 - qBittorrent v5.0.3 and v5.1.0beta1 releases
 
 qBittorrent v5.0.3 and v5.1.0beta1 were released.<br>

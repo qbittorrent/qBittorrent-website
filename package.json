@@ -9,7 +9,7 @@
     "build": "eleventy",
     "check-html": "html-validate _site/*.html",
     "format": "prettier --write **.css",
-    "lint": "tsc --noEmit && eslint src/scripts/**.ts && stylelint **/*.css",
+    "lint": "tsc --noEmit && eslint --cache src/scripts/**.ts && stylelint --cache **/*.css",
     "serve": "eleventy --serve"
   },
   "type": "module",
