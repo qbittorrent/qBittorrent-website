@@ -3,7 +3,7 @@
  * Copyright (c) 2006
  */
 
-body {
+ body {
   background-color: #2f67ba;
   color: #282f33;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -52,19 +52,13 @@ div .flexbox_screenshots {
   gap: 1.5em 1em;
 }
 
-div .flexbox_screenshots figure {
+div .flexbox_screenshots div {
   text-align: center;
-  margin: 0;
-  width: calc(100% / 3 - 1em / 1.5);
 }
 
-div .flexbox_screenshots figure img {
+div .flexbox_screenshots div img {
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
-  width: auto;
 }
 
 @media only screen and (width <= 760px) and (orientation: portrait) {
