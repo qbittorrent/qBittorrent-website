@@ -52,11 +52,12 @@ div .flexbox_screenshots {
   gap: 1.5em 1em;
 }
 
-div .flexbox_screenshots div {
+div .flexbox_screenshots figure {
+  margin: 0;
   text-align: center;
 }
 
-div .flexbox_screenshots div img {
+div .flexbox_screenshots figure img {
   margin-left: auto;
   margin-right: auto;
 }
