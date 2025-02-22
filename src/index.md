@@ -46,6 +46,6 @@ If you want to help in translating qBittorrent, see these <a href="https://wiki.
 * IPv6 compliant
 * UPnP / NAT-PMP port forwarding support
 * Available on all platforms: Windows, Linux, macOS, FreeBSD, OS/2
-* Available in <a href="https://www.transifex.com/sledgehammer999/qbittorrent/" target="_blank">~70 languages</a>
+* Available in <a href="https://explore.transifex.com/sledgehammer999/qbittorrent/" target="_blank">~70 languages</a>
 
 **Go ahead and try qBittorrent, you won't regret it!**
