@@ -4,6 +4,43 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Sun Apr 13th 2025 - qBittorrent v5.0.5 release
+
+qBittorrent v5.0.5 was released.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git68ec0785cd / 2.0.11+git21cbbf74ee</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.7.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.0.5 changelog:
+- FEATURE: Add an advanced setting for setting the "Add New Torrent" dialog as modal (glassez)
+- BUGFIX: Improve command line parameters serialization (glassez)
+- BUGFIX: Declare missing color IDs for theming (glassez)
+- WINDOWS: NSIS: Update Swedish translation (Daniel Nylander)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.0.4...release-5.0.5)
+
 ### Tue Feb 18th 2025 - qBittorrent v5.0.4 release
 
 qBittorrent v5.0.4 was released.<br>
