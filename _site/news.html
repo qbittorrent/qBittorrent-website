@@ -25,7 +25,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v5.0.5</a>
+      <a href="download">Latest: v5.1.0</a>
     </span>
 
     <div id="MainBox">
@@ -52,6 +52,129 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 <p><a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a></p>
+<h3 id="sun-apr-27th-2025---qbittorrent-v5.1.0-release" tabindex="-1"><a class="header-anchor" href="#sun-apr-27th-2025---qbittorrent-v5.1.0-release">Sun Apr 27th 2025 - qBittorrent v5.1.0 release</a></h3>
+<p>qBittorrent v5.1.0 was released.<br>
+macOS builds will be available on a later date.</p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git68ec0785cd / 2.0.11+git80f8d0796c</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.9.0</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v5.1.0 changelog:</p>
+<ul>
+<li>FEATURE: Enable customizing the save statistics time interval (Burnerelu)</li>
+<li>FEATURE: Add drag support to torrent content widget (Chocobo1)</li>
+<li>FEATURE: Display External IP Address in status bar (Thomas Piccirello)</li>
+<li>FEATURE: Use modern functions to get random numbers under Linux/Windows (security related) (Chocobo1)</li>
+<li>FEATURE: Add eXact Length parameter when creating magnet URI (antanilol)</li>
+<li>FEATURE: Support fetching tracker list from URL (Thomas Piccirello)</li>
+<li>FEATURE: Add <code>announce_port</code> support (Maxime Thiebaut)</li>
+<li>BUGFIX: Enable adaptive step size for upload and download limits (Harald Nordgren)</li>
+<li>BUGFIX: Add URL link for reverse proxy setup examples (Chocobo1)</li>
+<li>BUGFIX: Allow drop action only on transfer list (Chocobo1)</li>
+<li>BUGFIX: Fix the tab order in dialogs (thalieht)</li>
+<li>BUGFIX: Fix filesize sorting in preview dialog (DoubleSpicy)</li>
+<li>BUGFIX: Improve the speed icons in the status bar (Mahdi Hosseinzadeh)</li>
+<li>BUGFIX: Update link to news (tinyboxvk)</li>
+<li>BUGFIX: Fix tab stop order in various dialogs and UI elements (Chocobo1)</li>
+<li>BUGFIX: Make links accessible by keyboard (Chocobo1)</li>
+<li>BUGFIX: Make tab key switch focus (Chocobo1)</li>
+<li>BUGFIX: Revise DHT bootstrap node list (stalkerok, Chocobo1)</li>
+<li>BUGFIX: Return first tracker as fallback for &quot;current tracker&quot; (glassez)</li>
+<li>BUGFIX: Prevent crash when exiting app with <code>Add torrent</code> dialogs opened (glassez)</li>
+<li>BUGFIX: Fix torrent relocating files when switching to &quot;manual&quot; mode (glassez)</li>
+<li>BUGFIX: Prevent crash due to corrupted resume data (glassez)</li>
+<li>WEBUI: Improvements that should help with assistive technologies (Chocobo1)</li>
+<li>WEBUI: Internal refactoring to migrate away from MooTools and towards native browser APIs (Chocobo1, skomerko)</li>
+<li>WEBUI: Implement path autocompletion (Paweł Kotiuk)</li>
+<li>WEBUI: Implement double-click behavior controls (Hanabishi)</li>
+<li>WEBUI: Add ability to toggle alternating row colors in tables (skomerko)</li>
+<li>WEBUI: Improve visibility of unread RSS articles (skomerko)</li>
+<li>WEBUI: Remove deleted torrents even if they are currently filtered out (Carmelo Scandaliato)</li>
+<li>WEBUI: Highlight torrent category in context menu (skomerko)</li>
+<li>WEBUI: Implement 'Auto hide zero status filters' (skomerko)</li>
+<li>WEBUI: Allow to filter torrent list by save path (skomerko)</li>
+<li>WEBUI: Handle regex syntax error for torrent filtering (HamletDuFromage)</li>
+<li>WEBUI: Add missing icons (skomerko)</li>
+<li>WEBUI: Add link to 'List of alternative WebUI' wiki page in Options (Chocobo1)</li>
+<li>WEBUI: Improve properties panel, torrent deletion dialog, filter list, subcategories, torrent deletion, statistics window (skomerko)</li>
+<li>WEBUI: Allow to display only hostname in the Tracker column (skomerko)</li>
+<li>WEBUI: Show country/region name next to its flag (skomerko)</li>
+<li>WEBUI: Improve hash copy actions in context menu (skomerko)</li>
+<li>WEBUI: Support removing tracker from all torrents in WebUI/WebAPI (Thomas Piccirello)</li>
+<li>WEBUI: Display DHT information in the Status bar only when DHT is enabled (skomerko)</li>
+<li>WEBUI: Add 'Confirm torrent recheck' option (skomerko)</li>
+<li>WEBUI: Support managing web seeds (Thomas Piccirello)</li>
+<li>WEBUI: Add colors to log table rows (skomerko)</li>
+<li>WEBUI: Prevent text selection within tabs, menu items (skomerko)</li>
+<li>WEBUI: Use correct text and background colors in RSS details view (skomerko)</li>
+<li>WEBUI: Reduce padding in torrents table (skomerko)</li>
+<li>WEBUI: Add WebAPI/WebUI for managing cookies (Thomas Piccirello)</li>
+<li>WEBUI: Support updating RSS feed URL (Thomas Piccirello)</li>
+<li>WEBUI: Add 'Engine' column to Search table (skomerko)</li>
+<li>WEBUI: Add confirm dialog for Auto TMM (skomerko)</li>
+<li>WEBUI: Add context menu to search tabs (skomerko)</li>
+<li>WEBUI: Show file filter when Content tab selected on load (Thomas Piccirello)</li>
+<li>WEBUI: DHT, PeX and LSD rows are now always on top in Trackers table (skomerko)</li>
+<li>WEBUI: Clear properties panel when torrent no longer selected (skomerko)</li>
+<li>WEBUI: Support auto resizing table columns (Thomas Piccirello)</li>
+<li>WEBUI: Fix displaying RSS panel on load (Thomas Piccirello)</li>
+<li>WEBUI: Add tooltip to regex filter button (Patrik Elfström)</li>
+<li>WEBUI: Hide context menu when clicking on a table row (Patrik Elfström)</li>
+<li>WEBUI: Display torrent progress percentage in General tab (skomerko)</li>
+<li>WEBUI: Use thin scrollbars (skomerko)</li>
+<li>WEBUI: Show 'Rename...' context menu item only when one torrent is selected (skomerko)</li>
+<li>WEBUI: Display error when download fails (Thomas Piccirello)</li>
+<li>WEBUI: Add colors to 'Status' column in Trackers table (skomerko)</li>
+<li>WEBUI: Add missing icon to 'Queue' context menu item (skomerko)</li>
+<li>WEBUI: Change filter inputs to type search (Patrik Elfström)</li>
+<li>WEBUI: Allow to move state icon to name column in torrents table (skomerko)</li>
+<li>WEBUI: Fix bug where the 'Tracker editing' dialog displays incorrect data (skomerko)</li>
+<li>WEBUI: Maintain row highlight after rearranging table columns (skomerko)</li>
+<li>WEBUI: Fix preferences not applied in magnet handler (Chocobo1)</li>
+<li>WEBUI: Update sort icon after changing column order (skomerko)</li>
+<li>WEBUI: Show 'Edit tracker URL...' only when one tracker is selected (skomerko)</li>
+<li>WEBUI: Set status filter to 'All' if selected filter is no longer visible (skomerko)</li>
+<li>WEBAPI: Don't reannounce when removing tracker via WebAPI (Thomas Piccirello)</li>
+<li>WEBAPI: Add WebAPI for managing torrent webseeds (Thomas Piccirello)</li>
+<li>WEBAPI: Add <code>forced</code> parameter to <code>torrents/add</code> (Chris B)</li>
+<li>WEBAPI: Optionally include trackers list in torrent info response (ze0s)</li>
+<li>WEBAPI: Add new method <code>setTags</code> to upsert tags on torrents (ze0s)</li>
+<li>RSS: Resolve relative URLs within RSS article description (Zentino)</li>
+<li>SEARCH: Provide SSL context field (Chocobo1)</li>
+<li>SEARCH: Allow to refresh existing search (glassez)</li>
+<li>SEARCH: Allow multiple simultaneous searches (glassez)</li>
+<li>SEARCH: Store opened search tabs (glassez)</li>
+<li>SEARCH: Store search history (glassez)</li>
+<li>SEARCH: Migrate socks.py from SocksiPy to PySocks 1.7.1 (FredBill1)</li>
+<li>SEARCH: Bump Python version minimum requirement (Chocobo1)</li>
+<li>WINDOWS: Opt into Windows SegmentHeap (Andarwinux)</li>
+<li>WINDOWS: Allow to choose color scheme on Windows (glassez)</li>
+<li>WINDOWS: Verify hash of Python installer (Chocobo1)</li>
+<li>LINUX: Add support for Thunar file manager (algebnaly)</li>
+<li>MACOS: Fix shift-click selection on macOS (Luke Memet)</li>
+<li><a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.0.5...release-5.1.0">Full changes</a></li>
+</ul>
 <h3 id="sun-apr-13th-2025---qbittorrent-v5.0.5-release" tabindex="-1"><a class="header-anchor" href="#sun-apr-13th-2025---qbittorrent-v5.0.5-release">Sun Apr 13th 2025 - qBittorrent v5.0.5 release</a></h3>
 <p>qBittorrent v5.0.5 was released.</p>
 <details>
