@@ -4,6 +4,55 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Mon Jun 23rd 2025 - qBittorrent v5.1.1 release
+
+qBittorrent v5.1.1 was released.<br>
+macOS builds will be available on a later date.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git9ab80b8724 / 2.0.11+git2e16847613</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.9.1</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.88</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.1.1 changelog:
+- BUGFIX: Don't interpret wildcard pattern as filepath globbing (glassez)
+- BUGFIX: Fix appearance of search history length spinbox (glassez)
+- BUGFIX: Remove dubious seeding time max value (glassez)
+- BUGFIX: Fix ratio handling (glassez)
+- BUGFIX: Fix compilation with Qt 6.6.0 (glassez)
+- WEBUI: Make General tab text selectable by default (dezza)
+- WEBUI: Add versioning to local preferences (Chocobo1)
+- WEBUI: Make multi-rename search & replace fields use a monospace font (Atk)
+- WEBUI: Fix wrong replacement sequence in IPv6 string (Chocobo1)
+- WEBUI: Fix memory leak (bolshoytoster)
+- WEBUI: Fix path autofill in set location and new category (tehcneko)
+- RSS: Mark matched article as "read" if it refers to a duplicate torrent (glassez)
+- WINDOWS: Update command line help message (KanishkaHalder1771)
+- WINDOWS: NSIS: Don't require agreement on the license page (Chocobo1)
+- LINUX: Fix preview not opening on Wayland (Isak05)
+- LINUX: Add fallback for random number generator (Chocobo1)
+
 ### Sun Apr 27th 2025 - qBittorrent v5.1.0 release
 
 qBittorrent v5.1.0 was released.<br>

@@ -7,7 +7,63 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2025-04-27T21:02:10.596Z</updated>
+  <updated>2025-06-22T22:24:04.942Z</updated>
+  <entry>
+    <title>qBittorrent v5.1.1 release</title>
+    <id>https://www.qbittorrent.org/news#mon-jun-23rd-2025---qbittorrent-v5.1.1-release</id>
+    <link href="https://www.qbittorrent.org/news#mon-jun-23rd-2025---qbittorrent-v5.1.1-release"/>
+    <updated>2025-06-23T00:00:00.000Z</updated>
+    <published>2025-06-23T00:00:00.000Z</published>
+    <author>
+      <name>The qBittorrent project</name>
+    </author>
+    <content type="html">&lt;p&gt;qBittorrent v5.1.1 was released.&lt;br&gt;
+macOS builds will be available on a later date.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Library versions&lt;/summary&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;libtorrent&lt;/td&gt;
+      &lt;td&gt;1.2.20+git9ab80b8724 / 2.0.11+git2e16847613&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qt&lt;/td&gt;
+      &lt;td&gt;6.9.1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boost&lt;/td&gt;
+      &lt;td&gt;1.86 / 1.88&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/details&gt;
+&lt;p&gt;v5.1.1 changelog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BUGFIX: Don't interpret wildcard pattern as filepath globbing (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix appearance of search history length spinbox (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Remove dubious seeding time max value (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix ratio handling (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix compilation with Qt 6.6.0 (glassez)&lt;/li&gt;
+&lt;li&gt;WEBUI: Make General tab text selectable by default (dezza)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add versioning to local preferences (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBUI: Make multi-rename search &amp; replace fields use a monospace font (Atk)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix wrong replacement sequence in IPv6 string (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix memory leak (bolshoytoster)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix path autofill in set location and new category (tehcneko)&lt;/li&gt;
+&lt;li&gt;RSS: Mark matched article as &quot;read&quot; if it refers to a duplicate torrent (glassez)&lt;/li&gt;
+&lt;li&gt;WINDOWS: Update command line help message (KanishkaHalder1771)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Don't require agreement on the license page (Chocobo1)&lt;/li&gt;
+&lt;li&gt;LINUX: Fix preview not opening on Wayland (Isak05)&lt;/li&gt;
+&lt;li&gt;LINUX: Add fallback for random number generator (Chocobo1)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>qBittorrent v5.1.0 release</title>
     <id>https://www.qbittorrent.org/news#sun-apr-27th-2025---qbittorrent-v5.1.0-release</id>
