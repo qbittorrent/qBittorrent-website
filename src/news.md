@@ -7,7 +7,8 @@ permalink: "{{ page.filePathStem }}.html"
 ### Mon Jun 23rd 2025 - qBittorrent v5.1.1 release
 
 qBittorrent v5.1.1 was released.<br>
-macOS builds will be available on a later date.
+macOS builds will be available on a later date.<br>
+**Builds are currently available only from old trusty SourceForge.** FossHub either locked the account or has login issues. Time will tell.
 
 <details>
 <summary>Library versions</summary>
