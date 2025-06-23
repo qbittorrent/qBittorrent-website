@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2025-06-22T23:26:13.688Z</updated>
+  <updated>2025-06-23T06:26:44.171Z</updated>
   <entry>
     <title>qBittorrent v5.1.1 release</title>
     <id>https://www.qbittorrent.org/news#mon-jun-23rd-2025---qbittorrent-v5.1.1-release</id>
@@ -63,6 +63,7 @@ macOS builds will be available on a later date.&lt;br&gt;
 &lt;li&gt;WINDOWS: NSIS: Don't require agreement on the license page (Chocobo1)&lt;/li&gt;
 &lt;li&gt;LINUX: Fix preview not opening on Wayland (Isak05)&lt;/li&gt;
 &lt;li&gt;LINUX: Add fallback for random number generator (Chocobo1)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.1.0...release-5.1.1"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
   <entry>

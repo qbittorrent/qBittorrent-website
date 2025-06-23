@@ -53,6 +53,7 @@ v5.1.1 changelog:
 - WINDOWS: NSIS: Don't require agreement on the license page (Chocobo1)
 - LINUX: Fix preview not opening on Wayland (Isak05)
 - LINUX: Add fallback for random number generator (Chocobo1)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.1.0...release-5.1.1)
 
 ### Sun Apr 27th 2025 - qBittorrent v5.1.0 release
 
