@@ -16,6 +16,7 @@ export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy(`${sourceDir}/.htaccess`);
   eleventyConfig.addPassthroughCopy(`${sourceDir}/favicon.ico`);
   eleventyConfig.addPassthroughCopy(`${sourceDir}/favicon.svg`);
+  eleventyConfig.addPassthroughCopy(`${sourceDir}/versions.json`);
 
   // Additional watch targets
   eleventyConfig.addWatchTarget(`${sourceDir}/scripts/*.ts`);
