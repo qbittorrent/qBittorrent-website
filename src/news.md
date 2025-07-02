@@ -4,7 +4,7 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
-### Wed Jun 02nd 2025 - qBittorrent v5.1.2 release
+### Wed Jul 02nd 2025 - qBittorrent v5.1.2 release
 
 qBittorrent v5.1.2 was released.<br>
 **SECURITY:** It contains security fixes for the WebAPI, Rss and Search modules.
