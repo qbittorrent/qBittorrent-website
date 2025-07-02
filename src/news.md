@@ -4,6 +4,47 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Wed Jun 02nd 2025 - qBittorrent v5.1.2 release
+
+qBittorrent v5.1.2 was released.<br>
+**SECURITY:** It contains security fixes for the WebAPI, Rss and Search modules.
+macOS builds will be available on a later date.<br>
+**Builds are currently available only from old trusty SourceForge.** FossHub either locked the account or has login issues. Time will tell.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git3ae563b043 / 2.0.11+git122c6edb33</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.9.1</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.88</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.1.2 changelog:
+- BUGFIX: Add fallback to update mechanism (sledgehammer999)
+- WEBUI: Fix incorrectly backported changes (glassez)
+- WEBAPI: Trim leading whitespaces on Run External Program fields (Chocobo1)
+- RSS/SEARCH: Prevent opening local files if web page is expected (glassez)
+- MACOS: Make qBittorrent quit on MacOS with main window closed (Ryu481)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.1.1...release-5.1.2)
+
 ### Mon Jun 23rd 2025 - qBittorrent v5.1.1 release
 
 qBittorrent v5.1.1 was released.<br>
