@@ -30,7 +30,7 @@
 </IfModule>
 
 <IfModule mod_headers.c>
-	Header always set Content-Security-Policy "default-src 'self'; style-src-attr 'self' 'unsafe-inline';"
+	Header always set Content-Security-Policy "default-src 'self'; form-action 'none'; frame-ancestors 'self'; style-src-attr 'self' 'unsafe-inline';"
 	Header always set Referrer-Policy "same-origin"
 	Header always set Strict-Transport-Security "max-age=31536000"
 
