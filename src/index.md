@@ -16,7 +16,7 @@ qBittorrent is developed by [volunteers](team) in their spare time.
 
 If you like this piece of software, please make a donation and help it survive.
 
-Donation info [here](donate).
+See our [donation page](donate) for more info.
 
 If you want to help in translating qBittorrent, see these <a href="https://wiki.qbittorrent.org/How-to-translate-qBittorrent" target="_blank">instructions</a>.
 
