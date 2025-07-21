@@ -20,7 +20,7 @@ export default [
                 ...Globals.browser
             },
             parserOptions: {
-                project: true,
+                projectService: true,
                 tsconfigDirName: import.meta.dirname,
             }
         },
