@@ -21,7 +21,7 @@ jobs:
           persist-credentials: false
 
       - name: Setup nodejs
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: 'lts/*'
 
@@ -56,7 +56,7 @@ jobs:
           npm run check-html
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: website
           path: _site
@@ -75,7 +75,7 @@ jobs:
             > "${{ runner.temp }}/zizmor_results.sarif"
 
       - name: Upload zizmor results
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         with:
           category: zizmor
           sarif_file: "${{ runner.temp }}/zizmor_results.sarif"
