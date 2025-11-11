@@ -7,7 +7,64 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2025-07-02T06:33:22.836Z</updated>
+  <updated>2025-11-11T00:10:48.476Z</updated>
+  <entry>
+    <title>qBittorrent v5.1.3 release</title>
+    <id>https://www.qbittorrent.org/news#tue-nov-11th-2025---qbittorrent-v5.1.3-release</id>
+    <link href="https://www.qbittorrent.org/news#tue-nov-11th-2025---qbittorrent-v5.1.3-release"/>
+    <updated>2025-11-11T00:00:00.000Z</updated>
+    <published>2025-11-11T00:00:00.000Z</published>
+    <author>
+      <name>The qBittorrent project</name>
+    </author>
+    <content type="html">&lt;p&gt;qBittorrent v5.1.3 was released.&lt;br&gt;
+macOS builds will be available on a later date.&lt;br&gt;
+AppImages should work natively under Wayland now.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Library versions&lt;/summary&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;libtorrent&lt;/td&gt;
+      &lt;td&gt;1.2.20+git3ae563b043 / 2.0.11+git195f94d4a1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qt&lt;/td&gt;
+      &lt;td&gt;6.9.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boost&lt;/td&gt;
+      &lt;td&gt;1.86 / 1.89&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/details&gt;
+&lt;p&gt;v5.1.3 changelog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BUGFIX: Don't leave an empty folder when deleting or moving torrents (Ryu481)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix invalid Transifex links (rekayno)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Don't fail because of existing files when exporting torrent files (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Allow equals character in the command line value (Mark Yu)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix &quot;Save as .torrent file&quot; button being visible before metadata retrieved (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix crash related with the processing order of libtorrent alerts (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix screen reader accessibility in torrent list (Andrew Johnson)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Improve tab key focus in hidable tab bar widget (Andrew Johnson)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix http header affecting reverse proxy  (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Use native separators for path autofill suggestions (glassez)&lt;/li&gt;
+&lt;li&gt;SEARCH: Plugin updater should work again now (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WINDOWS: Program update checker should work again now (Cloudflare related) (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Add Catalan and Kurdish translations (Ramon López i Cros, Halbast)&lt;/li&gt;
+&lt;li&gt;LINUX: Fix crashes related to getrandom() on specific setups (Chocobo1)&lt;/li&gt;
+&lt;li&gt;MACOS: Fix system language autodetection on MacOS (Ryu481)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.1.2...release-5.1.3"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>qBittorrent v5.1.2 release</title>
     <id>https://www.qbittorrent.org/news#wed-jul-02nd-2025---qbittorrent-v5.1.2-release</id>

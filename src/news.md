@@ -4,6 +4,56 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Tue Nov 11th 2025 - qBittorrent v5.1.3 release
+
+qBittorrent v5.1.3 was released.<br>
+macOS builds will be available on a later date.<br>
+AppImages should work natively under Wayland now.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git3ae563b043 / 2.0.11+git195f94d4a1</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.9.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.89</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.1.3 changelog:
+- BUGFIX: Don't leave an empty folder when deleting or moving torrents (Ryu481)
+- BUGFIX: Fix invalid Transifex links (rekayno)
+- BUGFIX: Don't fail because of existing files when exporting torrent files (glassez)
+- BUGFIX: Allow equals character in the command line value (Mark Yu)
+- BUGFIX: Fix "Save as .torrent file" button being visible before metadata retrieved (glassez)
+- BUGFIX: Fix crash related with the processing order of libtorrent alerts (glassez)
+- BUGFIX: Fix screen reader accessibility in torrent list (Andrew Johnson)
+- BUGFIX: Improve tab key focus in hidable tab bar widget (Andrew Johnson)
+- WEBUI: Fix http header affecting reverse proxy  (Chocobo1)
+- WEBAPI: Use native separators for path autofill suggestions (glassez)
+- SEARCH: Plugin updater should work again now (Chocobo1)
+- WINDOWS: Program update checker should work again now (Cloudflare related) (Chocobo1)
+- WINDOWS: NSIS: Add Catalan and Kurdish translations (Ramon López i Cros, Halbast)
+- LINUX: Fix crashes related to getrandom() on specific setups (Chocobo1)
+- MACOS: Fix system language autodetection on MacOS (Ryu481)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.1.2...release-5.1.3)
+
 ### Wed Jul 02nd 2025 - qBittorrent v5.1.2 release
 
 qBittorrent v5.1.2 was released.<br>
