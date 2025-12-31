@@ -7,7 +7,46 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2025-11-19T22:51:10.401Z</updated>
+  <updated>2025-12-31T21:11:23.253Z</updated>
+  <entry>
+    <title>qBittorrent v5.2.0beta1 release</title>
+    <id>https://www.qbittorrent.org/news#wed-dec-31st-2025---qbittorrent-v5.2.0beta1-release</id>
+    <link href="https://www.qbittorrent.org/news#wed-dec-31st-2025---qbittorrent-v5.2.0beta1-release"/>
+    <updated>2025-12-31T00:00:00.000Z</updated>
+    <published>2025-12-31T00:00:00.000Z</published>
+    <author>
+      <name>The qBittorrent project</name>
+    </author>
+    <content type="html">&lt;p&gt;qBittorrent was released.&lt;br&gt;
+macOS builds will be available on a later date.&lt;br&gt;
+AppImages should work natively under Wayland now.&lt;br&gt;
+A changelog for v5.2.0beta1 is not available.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Library versions&lt;/summary&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;libtorrent&lt;/td&gt;
+      &lt;td&gt;1.2.20+git3ae563b043 / 2.0.11+gitf591196481&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qt&lt;/td&gt;
+      &lt;td&gt;6.10.1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boost&lt;/td&gt;
+      &lt;td&gt;1.86 / 1.90&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/details&gt;</content>
+  </entry>
   <entry>
     <title>qBittorrent v5.1.4 release</title>
     <id>https://www.qbittorrent.org/news#wed-nov-19th-2025---qbittorrent-v5.1.4-release</id>

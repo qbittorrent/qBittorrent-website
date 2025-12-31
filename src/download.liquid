@@ -23,6 +23,20 @@ appimage:
     boost_ver: "1.86.0 / 1.89.0"
     hash_lt12: "130e9c0d5d7434b5268bfa73d52f8930c7b05aef0ddef7ddbbb89928d441ee27"
     hash_lt20: "cfe14e512466dc5f73f3cd336f42dddd35894230bded38eabb159cca317dcc31"
+win_unstable:
+    ver: "5.2.0beta1"
+    lt_ver: "1.2.20+git3ae563b043 / 2.0.11+gitf591196481"
+    qt_ver: "6.10.1"
+    boost_ver: "1.90.0"
+    hash_qt6_lt12: "83d37e9ff7cb434105c564d64261dedee8f63db35764e675f2629b4fd406cd3b"
+    hash_qt6_lt20: "9563d04b9ac5f12d63c49930adfb352a0d3e7e6f32fd8a2aa643ab21a6a59ea6"
+appimage_unstable:
+    ver: "5.2.0beta1"
+    lt_ver: "1.2.20+git3ae563b043 / 2.0.11+gitf591196481"
+    qt_ver: "6.10.1"
+    boost_ver: "1.90.0"
+    hash_lt12: "8300d49bb2e6abff8d539d7f614c3dafe9d4ae45fe796fb38f824c684a63c5ac"
+    hash_lt20: "445e554ccc54b657f77784a15434f44632e2181badc0370982319edd47731602"
 src:
     ver: "5.1.4"
     hash_gz: "24639f407b807ce94bbef1d07528215b6c4397866a3cb5a5a2278e277ca7652a"
@@ -88,6 +102,36 @@ src:
     </table>
     </details>
     <br>
+    <p class="releaseParagraph">
+      <strong><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/">Download qBittorrent v{{win_unstable.ver}}</a></strong> (multiple installer choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br>
+    <table class="downloads-table">
+      <tbody>
+        <tr>
+          <th scope="col">Installer (64-bit)</th>
+          <th scope="col">Info</th>
+          <th scope="col">Mirrors</th>
+          <th scope="col">PGP Signature</th>
+        </tr>
+        <tr>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/">{{win_unstable.ver}}</a></td>
+          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_x64_setup.exe/download">SourceForge</a></td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_x64_setup.exe.asc/download">SourceForge</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/">{{win_unstable.ver}} (qt6 lt20)</a></td>
+          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_qt6_lt20_x64_setup.exe/download">SourceForge</a></td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{win_unstable.ver}}/qbittorrent_{{win_unstable.ver}}_qt6_lt20_x64_setup.exe.asc/download">SourceForge</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
+    <br>
     <details>
     <summary>Checksums and library versions</summary>
     <br>
@@ -105,6 +149,14 @@ src:
           <td>{{win.ver}} (qt6 lt20)</td>
           <td class="wordBreak"><code>{{win.hash_qt6_lt20}}</code></td>
         </tr>
+        <tr>
+          <td>{{win_unstable.ver}}</td>
+          <td class="wordBreak"><code>{{win_unstable.hash_qt6_lt12}}</code></td>
+        </tr>
+        <tr>
+          <td>{{win_unstable.ver}} (lt20 qt6)</td>
+          <td class="wordBreak"><code>{{win_unstable.hash_qt6_lt20}}</code></td>
+        </tr>
       </tbody>
       <tbody>
         <tr>
@@ -117,11 +169,11 @@ src:
         </tr>
         <tr>
           <td>Qt</td>
-          <td>{{win.qt_ver}}</td>
+          <td>{{win.qt_ver}} (v{{win.ver}}) / {{win_unstable.qt_ver}} (v{{win_unstable.ver}})</td>
         </tr>
         <tr>
           <td>Boost</td>
-          <td>{{win.boost_ver}}</td>
+          <td>{{win.boost_ver}} (v{{win.ver}}) / {{win_unstable.boost_ver}} (v{{win_unstable.ver}})</td>
         </tr>
       </tbody>
     </table>
@@ -263,6 +315,36 @@ src:
     </table>
     </details>
     <br>
+    <p class="releaseParagraph">
+      <strong><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/">Download qBittorrent v{{appimage_unstable.ver}}</a></strong> (multiple AppImage choice)
+    </p>
+    <details>
+    <summary class="downloadsOptions">(Additional download options)</summary>
+    <br>
+    <table class="downloads-table">
+      <tbody>
+        <tr>
+          <th scope="col">AppImage</th>
+          <th scope="col">Info</th>
+          <th scope="col">Mirrors</th>
+          <th scope="col">PGP Signature</th>
+        </tr>
+        <tr>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/">{{appimage_unstable.ver}}</a></td>
+          <td>Uses Qt6 and libtorrent 1.2.x series.</td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_x86_64.AppImage/download">SourceForge</a></td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_x86_64.AppImage.asc/download">SourceForge</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/">{{appimage_unstable.ver}} (qt6 lt20)</a></td>
+          <td>Uses Qt6 and libtorrent 2.0.x series.</td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_lt20_x86_64.AppImage/download">SourceForge</a></td>
+          <td><a href="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-{{appimage_unstable.ver}}/qbittorrent-{{appimage_unstable.ver}}_lt20_x86_64.AppImage.asc/download">SourceForge</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
+    <br>
     <details>
     <summary>Checksums and library versions</summary>
     <br>
@@ -280,6 +362,14 @@ src:
           <td>{{appimage.ver}} (qt6 lt20)</td>
           <td class="wordBreak"><code>{{appimage.hash_lt20}}</code></td>
         </tr>
+        <tr>
+          <td>{{appimage_unstable.ver}}</td>
+          <td class="wordBreak"><code>{{appimage_unstable.hash_lt12}}</code></td>
+        </tr>
+        <tr>
+          <td>{{appimage_unstable.ver}} (lt20)</td>
+          <td class="wordBreak"><code>{{appimage_unstable.hash_lt20}}</code></td>
+        </tr>
       </tbody>
       <tbody>
         <tr>
@@ -292,11 +382,11 @@ src:
         </tr>
         <tr>
           <td>Qt</td>
-          <td>{{appimage.qt_ver}}</td>
+          <td>{{appimage.qt_ver}} (v{{appimage.ver}}) / {{appimage_unstable.qt_ver}} (v{{appimage_unstable.ver}})</td>
         </tr>
         <tr>
           <td>Boost</td>
-          <td>{{appimage.boost_ver}}</td>
+          <td>{{appimage.boost_ver}} (v{{appimage.ver}}) / {{appimage_unstable.boost_ver}} (v{{appimage_unstable.ver}})</td>
         </tr>
       </tbody>
     </table>

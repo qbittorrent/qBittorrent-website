@@ -4,6 +4,39 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Wed Dec 31st 2025 - qBittorrent v5.2.0beta1 release
+
+qBittorrent was released.<br>
+macOS builds will be available on a later date.<br>
+AppImages should work natively under Wayland now.<br>
+A changelog for v5.2.0beta1 is not available.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+git3ae563b043 / 2.0.11+gitf591196481</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.10.1</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.90</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
 ### Wed Nov 19th 2025 - qBittorrent v5.1.4 release
 
 qBittorrent v5.1.4 was released.<br>
