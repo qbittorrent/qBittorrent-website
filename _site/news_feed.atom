@@ -7,7 +7,7 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2025-12-31T21:11:23.253Z</updated>
+  <updated>2026-01-02T18:41:42.592Z</updated>
   <entry>
     <title>qBittorrent v5.2.0beta1 release</title>
     <id>https://www.qbittorrent.org/news#wed-dec-31st-2025---qbittorrent-v5.2.0beta1-release</id>
@@ -4054,7 +4054,7 @@ Also the mainsite is available as a git repo now for (almost) anyone to hack, fi
     <author>
       <name>The qBittorrent project</name>
     </author>
-    <content type="html">&lt;p&gt;qBittorrent v3.3.8 was released.&lt;br&gt;&lt;b&gt;NOTICE TO PACKAGERS:&lt;/b&gt; Libtorrent 1.1.x series isn't officially supported yet. This qBittorent release uses API of 1.1.x that hasn't been released yet. It is in their git branch for now. Wait for 1.1.2 release, or build from RC_1_1 branch, or build against the 1.0.x series.&lt;/p&gt;
+    <content type="html">&lt;p&gt;qBittorrent v3.3.8 was released.&lt;br&gt;&lt;b&gt;NOTICE TO PACKAGERS:&lt;/b&gt; Libtorrent 1.1.x series isn't officially supported yet. This qBittorrent release uses API of 1.1.x that hasn't been released yet. It is in their git branch for now. Wait for 1.1.2 release, or build from RC_1_1 branch, or build against the 1.0.x series.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;FEATURE: Start using new libtorrent 1.1.x APIs (needs at least 1.1.2). Still unofficial support. (glassez, sledgehammer999)&lt;/li&gt;
 &lt;li&gt;FEATURE: Add a new DHT bootstrap node run by libtorrent author arvidn. (sledgehammer999)&lt;/li&gt;

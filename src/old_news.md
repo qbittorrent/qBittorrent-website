@@ -17,7 +17,7 @@
 </ul>
 
 ### Wednesday December 14th 2016 - qBittorrent v3.3.8 release
-<p>qBittorrent v3.3.8 was released.<br><b>NOTICE TO PACKAGERS:</b> Libtorrent 1.1.x series isn't officially supported yet. This qBittorent release uses API of 1.1.x that hasn't been released yet. It is in their git branch for now. Wait for 1.1.2 release, or build from RC_1_1 branch, or build against the 1.0.x series.</p>
+<p>qBittorrent v3.3.8 was released.<br><b>NOTICE TO PACKAGERS:</b> Libtorrent 1.1.x series isn't officially supported yet. This qBittorrent release uses API of 1.1.x that hasn't been released yet. It is in their git branch for now. Wait for 1.1.2 release, or build from RC_1_1 branch, or build against the 1.0.x series.</p>
 <ul>
 <li>FEATURE: Start using new libtorrent 1.1.x APIs (needs at least 1.1.2). Still unofficial support. (glassez, sledgehammer999)</li>
 <li>FEATURE: Add a new DHT bootstrap node run by libtorrent author arvidn. (sledgehammer999)</li>
