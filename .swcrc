@@ -1,11 +1,16 @@
 {
   "jsc": {
+    "minify": {
+      "format": {
+        "comments": false
+      }
+    },
     "parser": {
       "syntax": "typescript"
     },
     "target": "es2022"
   },
   "module": {
-    "type": "commonjs"
+    "type": "es6"
   }
 }
