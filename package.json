@@ -15,9 +15,11 @@
   "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "3",
+    "@eslint/js": "*",
     "@stylistic/eslint-plugin": "*",
     "eslint": "*",
     "eslint-plugin-html": "*",
+    "globals": "*",
     "html-validate": "*",
     "js-beautify": "*",
     "markdown-it-anchor": "*",
