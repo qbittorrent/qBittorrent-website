@@ -8,7 +8,7 @@
   "scripts": {
     "build": "eleventy",
     "check-html": "html-validate _site/*.html",
-    "format": "prettier --write **.css",
+    "format": "prettier --write **.css **.json",
     "lint": "tsc --noEmit && eslint --cache src/scripts/**.ts && stylelint --cache **/*.css",
     "serve": "eleventy --serve"
   },
