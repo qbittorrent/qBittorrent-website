@@ -3,10 +3,10 @@
     "esModuleInterop": true,
     "module": "preserve",
     "noImplicitAny": true,
-    "outDir": "_site/scripts",
+    "rootDir": "src",
+    "outDir": "_site",
     "removeComments": true,
     "strict": true,
-    "alwaysStrict": false,
     "target": "ES2023"
   },
   "include": ["src/scripts/*.ts"]
