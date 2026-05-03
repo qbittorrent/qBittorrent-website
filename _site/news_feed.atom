@@ -7,7 +7,193 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2026-03-23T22:55:49.643Z</updated>
+  <updated>2026-05-03T18:06:08.878Z</updated>
+  <entry>
+    <title>qBittorrent v5.2.0 release</title>
+    <id>https://www.qbittorrent.org/news#sun-may-03rd-2026---qbittorrent-v5.2.0-release</id>
+    <link href="https://www.qbittorrent.org/news#sun-may-03rd-2026---qbittorrent-v5.2.0-release"/>
+    <updated>2026-05-03T00:00:00.000Z</updated>
+    <published>2026-05-03T00:00:00.000Z</published>
+    <author>
+      <name>The qBittorrent project</name>
+    </author>
+    <content type="html">&lt;p&gt;qBittorrent v5.2.0 was released.&lt;br&gt;
+This is a major version release and a huge list of changes have been accumulated. I want to give a big thank you to all the people involved, both developers and troubleshooters.&lt;br&gt;
+The provided macOS builds are self-signed which may cause scary warnings from macOS. macOS support and compatibility isn't our main priority.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Library versions&lt;/summary&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;libtorrent&lt;/td&gt;
+      &lt;td&gt;1.2.20+gitc5ff6c3186 / 2.0.12+gitfa2f95785e&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qt&lt;/td&gt;
+      &lt;td&gt;6.10.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boost&lt;/td&gt;
+      &lt;td&gt;1.86 / 1.91&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/details&gt;
+&lt;p&gt;v5.2.0 changelog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FEATURE: Show free disk space in status bar (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add control for 'hostname resolver cache expiry interval' (Chocobo1)&lt;/li&gt;
+&lt;li&gt;FEATURE: Show info hash in log when a duplicate torrent is added (Chocobo1)&lt;/li&gt;
+&lt;li&gt;FEATURE: Swap add file/link buttons on toolbar (lemantisee)&lt;/li&gt;
+&lt;li&gt;FEATURE: Revise labels for 'duplicate torrent' actions (Chocobo1)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to pass torrent comment to external program (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Revise Interface section layout in Options dialog (Chocobo1)&lt;/li&gt;
+&lt;li&gt;FEATURE: Revise label wordings (Chocobo1)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to customize PiecesBar colors (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to customize ProgressBar color (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add option to make progress bar to follow torrent state color (vafada)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add option to disable torrent state colors (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to copy content paths of selected torrents (vafada)&lt;/li&gt;
+&lt;li&gt;FEATURE: Restore default drag behavior in Torrent Content widget (loop-nop)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add Torrent Creator toolbar button (cocopaw)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to configure style and color scheme on all platforms (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add reboot option when downloads complete (bacek97)&lt;/li&gt;
+&lt;li&gt;FEATURE: Implement separate (advanced) &quot;Tracker status&quot; filter (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Calculate torrent pieces asynchronously (Chocobo1)&lt;/li&gt;
+&lt;li&gt;FEATURE: Use subcategories unconditionally (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Allow to set torrent share limits per category (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Move torrents to parent category when category is removed (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Persist additional trackers and load it on startup (vafada)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add &quot;Created On&quot; column to transfer list ((aaron-kruse))&lt;/li&gt;
+&lt;li&gt;FEATURE: Add a small gap between progress bars (glassez)&lt;/li&gt;
+&lt;li&gt;FEATURE: Add translations for Albanian, Bosnian, Kazakh, Nepali, Serbian (Latin)&lt;/li&gt;
+&lt;li&gt;PERFORMANCE: Improve resume queue load performance (TheLQ)&lt;/li&gt;
+&lt;li&gt;PERFORMANCE: Avoid copying resume data when loading torrents (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix crash when exiting immediately after adding a torrent (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Revise wordings related to SOCKS4 proxy (Chocobo1)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Remove dubious seeding time max value (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Make modifying log file perms best effort (Piccirello)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Reannounce DHT when reannouncing all trackers (Piccirello)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Block invalid file names when renaming torrent content (cocopaw)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Don't create lock file in internal data folders (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Log a critical error before aborting the app (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Raise connection max limits (Chocobo1)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Make the active torrents filter reflect actual transfers (HanabishiRecca)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Raise 'torrent share ratio' maximum limit (Chocobo1)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Use consistent text for &quot;Do not download&quot; priority (JohnVeness)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix incorrect save path when torrent is added from watched folder (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Change &quot;Session&quot; column headings to match non-&quot;Session&quot; (JohnVeness)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix fail to start seeding newly created torrent in Torrent Creator (Chocobo1)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix crash when exiting immediately after adding the torrent (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix crash due to invalid entry in ipfilter.dat (glassez)&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix crash when closing app with AddNewTorrentDialog opened (glassez)&lt;/li&gt;
+&lt;li&gt;WEBUI: Select next available search tab after closing last active tab with X button (sk0merko)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support creating new torrents (tehcneko)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add headers to RSS entry viewer (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix dark mode in RSS entry viewer (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBUI: Optimize table performance with virtual list (tehcneko, Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Don't update UI if the page is hidden (bolshoytoster)&lt;/li&gt;
+&lt;li&gt;WEBUI: Select multiple files to rename with Shift (justusaac)&lt;/li&gt;
+&lt;li&gt;WEBUI: Prevent mobile keyboards from capitalizing username input (shrolr)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix memory leak (bolshoytoster)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add support for tracker status filter (scratchmex)&lt;/li&gt;
+&lt;li&gt;WEBUI: Switch to lightweight clipboard library (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBUI: Keep client session from expiring when the page is hidden (bolshoytoster)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add ability to refresh search (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Cache server stats for statistics window (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Reset filter selection when double clicking filter (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Always show Auto Torrent Management option (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Improve performance of re-sorting table rows (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add ability to add/remove tracker from selected torrents (userwiths)&lt;/li&gt;
+&lt;li&gt;WEBUI: Make footer scrollable on mobile (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support horizontal scrolling of tabs (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix hiding of filters toolbar (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Improve search page experience on mobile (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Limit window sizes to viewport size (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Focus on filter field using Ctrl+F (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support managing category download path (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support reannouncing individual trackers (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Allow closing dialogs with Escape key (vafada)&lt;/li&gt;
+&lt;li&gt;WEBUI: Implement Share limit action (vafada)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add new Add Torrent experience (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Implement missing tracker list features (tehcneko)&lt;/li&gt;
+&lt;li&gt;WEBUI: Replace GIFs with SVG (tehcneko)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support editing tracker tier (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix blurry window controls (tehcneko)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support downloading torrent via search plugin (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Continue polling after network error (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add I2P peers to peer list (anikey-from-i2p)&lt;/li&gt;
+&lt;li&gt;WEBUI: Redesign login form (mackattack3k)&lt;/li&gt;
+&lt;li&gt;WEBUI: Do not hide context menu if the click target has submenu (vafada)&lt;/li&gt;
+&lt;li&gt;WEBUI: keep preferences window open after unsuccessful save (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Store persistent settings in client data API (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support authenticating via Basic auth (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add option to increase display density (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add torrent availability bar (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Support modifying default date format (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Search engine UX improvements (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Improve table performance (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBUI: Set appropriate autocomplete attribute on password fields (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix RSS Dialog Box Title Text (LewpyUK)&lt;/li&gt;
+&lt;li&gt;WEBUI: Fix sync using wrong key for full update check (linuxhd0)&lt;/li&gt;
+&lt;li&gt;WEBUI: Add &quot;Created On&quot; column to transfer list (aaron-kruse)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Provide announce stats within &quot;sync&quot; data (scratchmex)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Optionally include files info in torrent list (ShanaryS)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Send 204 when WebAPI response contains no data (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Add metadata in /app/getDirectoryContent response (Larsluph)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Add setComment endpoint (HamletDuFromage)&lt;/li&gt;
+&lt;li&gt;WEBAPI: send names of missing required params (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Support persisting WebUI client preferences (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Append port to session cookie name (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Add support for authenticating via API key (Piccirello)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Use Permanent Cookie (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Add &quot;app/processInfo&quot; endpoint with &quot;launch_time&quot; (s0up4200)&lt;/li&gt;
+&lt;li&gt;WEBAPI: Don't throw an error when editing category without changes (vafada)&lt;/li&gt;
+&lt;li&gt;RSS: Allow to set refresh interval per feed (glassez)&lt;/li&gt;
+&lt;li&gt;RSS: Fix crash when moving a folder into its subfolder (glassez)&lt;/li&gt;
+&lt;li&gt;RSS: Use short format for displaying RSS entry date (Chocobo1)&lt;/li&gt;
+&lt;li&gt;RSS: Add 'Open link' to RSS article header (Chocobo1)&lt;/li&gt;
+&lt;li&gt;RSS: Replace RSS articles icons with SVG (tehcneko)&lt;/li&gt;
+&lt;li&gt;RSS: Allow to filter RSS by simple string (Leuchak)&lt;/li&gt;
+&lt;li&gt;RSS: Make the Smart filter to reject articles with an unrecognized episode number (glassez)&lt;/li&gt;
+&lt;li&gt;SEARCH: Add SOCKS4/SOCKS4a proxy support to search engine (Chocobo1)&lt;/li&gt;
+&lt;li&gt;SEARCH: Enforce SOCKS proxy setting in search engine plugins (Chocobo1)&lt;/li&gt;
+&lt;li&gt;SEARCH: Use appropriate icon for &quot;error&quot; status in search tab (xavier2k6)&lt;/li&gt;
+&lt;li&gt;SEARCH: Improve search results filtering implementation (glassez)&lt;/li&gt;
+&lt;li&gt;SEARCH: Optimize parsing of search results (glassez)&lt;/li&gt;
+&lt;li&gt;SEARCH: Add CTRL+W search tab close functionality (e75ti)&lt;/li&gt;
+&lt;li&gt;SEARCH: Update Python installer version (Chocobo1)&lt;/li&gt;
+&lt;li&gt;SEARCH: Propagate error messages from search engine&lt;/li&gt;
+&lt;li&gt;WINDOWS: Allow symbolic links in torrent creator (Chocobo1)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Add support for ARM64 build (namoen0301)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Update Turkish, Russian, Ukrainian, Swedish translations (BouRock and flowerey, adem4ik, misterjaaay, NickWick13)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Add Hindi, Bosnian translations (Javed-ahmed-shanto, jasminsehic)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Add missing strings to Hindi translation (sledgehammer999)&lt;/li&gt;
+&lt;li&gt;WINDOWS: NSIS: Enable more languages available in NSIS (sledgehammer999)&lt;/li&gt;
+&lt;li&gt;LINUX: Remove &quot;Physical memory (RAM) usage limit&quot; option (HanabishiRecca)&lt;/li&gt;
+&lt;li&gt;LINUX: Do not allow orphan processes (Chocobo1)&lt;/li&gt;
+&lt;li&gt;MACOS: Use the proper keyboard shortcut for deleting items (Chocobo1)&lt;/li&gt;
+&lt;li&gt;MACOS: Fix shift-click selection (lukemmtt)&lt;/li&gt;
+&lt;li&gt;MACOS: Add status bar menu with DL/UL display (drustill)&lt;/li&gt;
+&lt;li&gt;MACOS: Improve icons (Vaida12345)&lt;/li&gt;
+&lt;li&gt;MACOS: Add macOS semi-native Window menu (kindlaj)&lt;/li&gt;
+&lt;li&gt;MACOS: Fix text cutoff in About dialog (M-Hassan-Raza)&lt;/li&gt;
+&lt;li&gt;MACOS: Fix priority text overlap when editor is active (M-Hassan-Raza)&lt;/li&gt;
+&lt;li&gt;MACOS: Add option to toggle speed indicator in dock (Ritmix3300)&lt;/li&gt;
+&lt;li&gt;MACOS: Add option to show/hide status bar icon (eshishki)&lt;/li&gt;
+&lt;li&gt;MACOS: Fix app freezing on quit due to Qt accessibility deadlock (zubeyralmaho)&lt;/li&gt;
+&lt;li&gt;MACOS: Fix crash when deleting torrents (zubeyralmaho)&lt;/li&gt;
+&lt;li&gt;OTHER: Drop support of Qt 6.5 (glassez)&lt;/li&gt;
+&lt;li&gt;OTHER: Compress images losslessly (Awqre)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.1.4...release-5.2.0"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>qBittorrent v5.2.0rc1 release</title>
     <id>https://www.qbittorrent.org/news#mon-mar-23rd-2026---qbittorrent-v5.2.0rc1-release</id>
