@@ -25,7 +25,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v5.2.0</a>
+      <a href="download">Latest: v5.2.1</a>
     </span>
 
     <div id="MainBox">
@@ -52,6 +52,48 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 <p><a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a></p>
+<h3 id="mon-may-25th-2026---qbittorrent-v5.2.1-release" tabindex="-1"><a class="header-anchor" href="#mon-may-25th-2026---qbittorrent-v5.2.1-release">Mon May 25th 2026 - qBittorrent v5.2.1 release</a></h3>
+<p>qBittorrent v5.2.1 was released.</p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.0.12+git441ee908a3</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.10.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.91</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v5.2.1 changelog:</p>
+<ul>
+<li>BUGFIX: Fix building with latest zlib (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24200">#24200</a></li>
+<li>BUGFIX: Remove old-format lockfile when starting (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24218">#24218</a></li>
+<li>BUGFIX: Prevent SSRF via HTTP redirection (AlexandrBlishun) <a href="https://github.com/qbittorrent/qBittorrent/pull/24270">#24270</a></li>
+<li>BUGFIX: Delete stale lockfile when machine-id mismatch (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24285">#24285</a></li>
+<li>BUGFIX: Fix handling of 'Accept-Encoding' header (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24286">#24286</a></li>
+<li>WEBUI: Avoid search downloader for magnet links (TurboTheTurtle) <a href="https://github.com/qbittorrent/qBittorrent/pull/24211">#24211</a></li>
+<li>WEBUI: Work around browser extension interfering with Add Torrent Dialog (vafada) <a href="https://github.com/qbittorrent/qBittorrent/pull/24240">#24240</a></li>
+<li>WEBUI: Filter all children of content root (vafada) <a href="https://github.com/qbittorrent/qBittorrent/pull/24243">#24243</a></li>
+<li>WEBAPI: Don't store API result between calls (beryxz) <a href="https://github.com/qbittorrent/qBittorrent/pull/24262">#24262</a></li>
+<li>RSS: Fix refresh is indefinitely called when there are no feeds (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24199">#24199</a></li>
+<li>SEARCH: Avoid proxy interfering with multiprocessing pool (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24234">#24234</a></li>
+<li><a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.2.0...release-5.2.1">Full changes</a></li>
+</ul>
 <h3 id="sun-may-03rd-2026---qbittorrent-v5.2.0-release" tabindex="-1"><a class="header-anchor" href="#sun-may-03rd-2026---qbittorrent-v5.2.0-release">Sun May 03rd 2026 - qBittorrent v5.2.0 release</a></h3>
 <p>qBittorrent v5.2.0 was released.<br>
 This is a major version release and a huge list of changes have been accumulated. I want to give a big thank you to all the people involved, both developers and troubleshooters.<br>

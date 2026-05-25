@@ -4,6 +4,50 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Mon May 25th 2026 - qBittorrent v5.2.1 release
+
+qBittorrent v5.2.1 was released.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.0.12+git441ee908a3</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.10.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.91</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.2.1 changelog:
+- BUGFIX: Fix building with latest zlib (glassez) [#24200](https://github.com/qbittorrent/qBittorrent/pull/24200)
+- BUGFIX: Remove old-format lockfile when starting (glassez) [#24218](https://github.com/qbittorrent/qBittorrent/pull/24218)
+- BUGFIX: Prevent SSRF via HTTP redirection (AlexandrBlishun) [#24270](https://github.com/qbittorrent/qBittorrent/pull/24270)
+- BUGFIX: Delete stale lockfile when machine-id mismatch (glassez) [#24285](https://github.com/qbittorrent/qBittorrent/pull/24285)
+- BUGFIX: Fix handling of 'Accept-Encoding' header (glassez) [#24286](https://github.com/qbittorrent/qBittorrent/pull/24286)
+- WEBUI: Avoid search downloader for magnet links (TurboTheTurtle) [#24211](https://github.com/qbittorrent/qBittorrent/pull/24211)
+- WEBUI: Work around browser extension interfering with Add Torrent Dialog (vafada) [#24240](https://github.com/qbittorrent/qBittorrent/pull/24240)
+- WEBUI: Filter all children of content root (vafada) [#24243](https://github.com/qbittorrent/qBittorrent/pull/24243)
+- WEBAPI: Don't store API result between calls (beryxz) [#24262](https://github.com/qbittorrent/qBittorrent/pull/24262)
+- RSS: Fix refresh is indefinitely called when there are no feeds (glassez) [#24199](https://github.com/qbittorrent/qBittorrent/pull/24199)
+- SEARCH: Avoid proxy interfering with multiprocessing pool (Chocobo1) [#24234](https://github.com/qbittorrent/qBittorrent/pull/24234)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.2.0...release-5.2.1)
+
 ### Sun May 03rd 2026 - qBittorrent v5.2.0 release
 
 qBittorrent v5.2.0 was released.<br>
