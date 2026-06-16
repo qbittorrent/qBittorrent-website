@@ -4,6 +4,59 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Mon Jun 15th 2026 - qBittorrent v5.2.2 release
+
+qBittorrent v5.2.2 was released.<br>
+<b>SCAM WARNING:</b> We don't provide qBittorrent via the Microsoft Store. Sometimes 3rd parties upload an application that is basically a ripoff of the qBittorent code wrapped with ads/monetization schemes. They don't provide their source code and violate the GPL. Be aware. Link to report is [here](https://github.com/qbittorrent/qBittorrent/issues/24459).
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.0.13+git8d58b0e78b</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.10.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.91</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.2.2 changelog:
+- FEATURE: Use D-Bus to show file in file managers (Chocobo1) [#24340](https://github.com/qbittorrent/qBittorrent/pull/24340)
+- BUGFIX: Fix friendlyUnitCompact precision calculation (vafada) [#24323](https://github.com/qbittorrent/qBittorrent/pull/24323)
+- BUGFIX: Remove all top-level folders (glassez) [#24333](https://github.com/qbittorrent/qBittorrent/pull/24333)
+- BUGFIX: Use proper API for checking exit status (Chocobo1) [#24349](https://github.com/qbittorrent/qBittorrent/pull/24349)
+- BUGFIX: Delete stale lockfile when hostname mismatch (TurboTheTurtle, glassez) [#24363](https://github.com/qbittorrent/qBittorrent/pull/24363)
+- BUGFIX: Fix wrong removal procedure of watched folder paths (Chocobo1) [#24413](https://github.com/qbittorrent/qBittorrent/pull/24413)
+- BUGFIX: Don't reannounce before interface changes are applied (glassez) [#24447](https://github.com/qbittorrent/qBittorrent/pull/24447)
+- BUGFIX: Use Latin script for Bosnian locale name (Andy Ye) [#24342](https://github.com/qbittorrent/qBittorrent/pull/24342)
+- WEBUI: Fix performance of global checkbox toggling (tehcneko) [#24316](https://github.com/qbittorrent/qBittorrent/pull/24316)
+- WEBUI: Fix Safari transfer list header misalignment (Piccirello) [#24377](https://github.com/qbittorrent/qBittorrent/pull/24377)
+- WEBUI: Fix error when submitting magnet before metadata loads (Piccirello) [#24378](https://github.com/qbittorrent/qBittorrent/pull/24378)
+- WEBUI: Use correct row id when updating Rss Downloader feed selection (Chocobo1) [#24402](https://github.com/qbittorrent/qBittorrent/pull/24402)
+- WEBUI: Use SameSite=Lax for session cookie to fix cross-site login (Piccirello) [#24422](https://github.com/qbittorrent/qBittorrent/pull/24422)
+- WEBUI: Bring back properties panel expand/collapse button (vafada) [#24430](https://github.com/qbittorrent/qBittorrent/pull/24430)
+- WEBAPI: Only use X-Forwarded-Host header when reverse proxy support is enabled (Chocobo1) [#24457](https://github.com/qbittorrent/qBittorrent/pull/24457)
+- RSSS: Fix "RSS Smart Episode Filter" RegEx (nathanon-akk, glassez) [#24398](https://github.com/qbittorrent/qBittorrent/pull/24398)
+- RSS: Fix previously matched episode format (glassez) [#24452](https://github.com/qbittorrent/qBittorrent/pull/24452)
+- WINDOWS: Fix Python fallback search path (TurboTheTurtle) [#24325](https://github.com/qbittorrent/qBittorrent/pull/24325)
+- WINDOWS: NSIS: Allow to install x64 binary on ARM64 (Chocobo1) [#24358](https://github.com/qbittorrent/qBittorrent/pull/24358)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.2.1...release-5.2.2)
+
 ### Mon May 25th 2026 - qBittorrent v5.2.1 release
 
 qBittorrent v5.2.1 was released.
