@@ -7,7 +7,60 @@
   </contributor>
   <link href="https://www.qbittorrent.org/news_feed.atom" rel="self"/>
   <link href="https://www.qbittorrent.org/news"/>
-  <updated>2026-06-16T04:04:55.604Z</updated>
+  <updated>2026-07-07T20:31:31.934Z</updated>
+  <entry>
+    <title>qBittorrent v5.2.3 release</title>
+    <id>https://www.qbittorrent.org/news#tue-jul-07th-2026---qbittorrent-v5.2.3-release</id>
+    <link href="https://www.qbittorrent.org/news#tue-jul-07th-2026---qbittorrent-v5.2.3-release"/>
+    <updated>2026-07-07T00:00:00.000Z</updated>
+    <published>2026-07-07T00:00:00.000Z</published>
+    <author>
+      <name>The qBittorrent project</name>
+    </author>
+    <content type="html">&lt;p&gt;qBittorrent v5.2.3 was released.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Library versions&lt;/summary&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Library&lt;/th&gt;
+      &lt;th scope="col"&gt;Version&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;libtorrent&lt;/td&gt;
+      &lt;td&gt;1.2.20+gitc5ff6c3186 / 2.0.13+gitda7a68a440&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qt&lt;/td&gt;
+      &lt;td&gt;6.10.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boost&lt;/td&gt;
+      &lt;td&gt;1.86 / 1.91&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/details&gt;
+&lt;p&gt;v5.2.3 changelog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BUGFIX: Fix MIME header encoding in email to require ASCII (quinot) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24382"&gt;#24382&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix potential invalid migration procedure (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24502"&gt;#24502&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Resolve relative UI theme paths (TurboTheTurtle) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24514"&gt;#24514&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Clear transfer filters when sections collapse (TurboTheTurtle) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24517"&gt;#24517&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix potential deadlock when database transaction failed (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24542"&gt;#24542&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix wrong torrent tracker conversion (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24546"&gt;#24546&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix wrong encoding for Web Seeds (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24593"&gt;#24593&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Use stricter parsing for Peer Address inputs (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24595"&gt;#24595&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BUGFIX: Revise regex expression for parsing HTML links (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24597"&gt;#24597&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WEBUI: Correctly escape CSS query selector so the UI won't break (vafada) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24539"&gt;#24539&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RSS: Fix feeds not following the specified interval (vafada) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24553"&gt;#24553&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SEARCH: Fix plugin counting when updating (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24544"&gt;#24544&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WINDOWS: Avoid using invalid file attributes when renaming files (Chocobo1) &lt;a href="https://github.com/qbittorrent/qBittorrent/pull/24543"&gt;#24543&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.2.2...release-5.2.3"&gt;Full changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>qBittorrent v5.2.2 release</title>
     <id>https://www.qbittorrent.org/news#mon-jun-15th-2026---qbittorrent-v5.2.2-release</id>

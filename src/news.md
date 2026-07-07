@@ -4,6 +4,52 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Tue Jul 07th 2026 - qBittorrent v5.2.3 release
+
+qBittorrent v5.2.3 was released.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.0.13+gitda7a68a440</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.10.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.91</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.2.3 changelog:
+- BUGFIX: Fix MIME header encoding in email to require ASCII (quinot) [#24382](https://github.com/qbittorrent/qBittorrent/pull/24382)
+- BUGFIX: Fix potential invalid migration procedure (Chocobo1) [#24502](https://github.com/qbittorrent/qBittorrent/pull/24502)
+- BUGFIX: Resolve relative UI theme paths (TurboTheTurtle) [#24514](https://github.com/qbittorrent/qBittorrent/pull/24514)
+- BUGFIX: Clear transfer filters when sections collapse (TurboTheTurtle) [#24517](https://github.com/qbittorrent/qBittorrent/pull/24517)
+- BUGFIX: Fix potential deadlock when database transaction failed (Chocobo1) [#24542](https://github.com/qbittorrent/qBittorrent/pull/24542)
+- BUGFIX: Fix wrong torrent tracker conversion (Chocobo1) [#24546](https://github.com/qbittorrent/qBittorrent/pull/24546)
+- BUGFIX: Fix wrong encoding for Web Seeds (Chocobo1) [#24593](https://github.com/qbittorrent/qBittorrent/pull/24593)
+- BUGFIX: Use stricter parsing for Peer Address inputs (Chocobo1) [#24595](https://github.com/qbittorrent/qBittorrent/pull/24595)
+- BUGFIX: Revise regex expression for parsing HTML links (Chocobo1) [#24597](https://github.com/qbittorrent/qBittorrent/pull/24597)
+- WEBUI: Correctly escape CSS query selector so the UI won't break (vafada) [#24539](https://github.com/qbittorrent/qBittorrent/pull/24539)
+- RSS: Fix feeds not following the specified interval (vafada) [#24553](https://github.com/qbittorrent/qBittorrent/pull/24553)
+- SEARCH: Fix plugin counting when updating (Chocobo1) [#24544](https://github.com/qbittorrent/qBittorrent/pull/24544)
+- WINDOWS: Avoid using invalid file attributes when renaming files (Chocobo1) [#24543](https://github.com/qbittorrent/qBittorrent/pull/24543)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.2.2...release-5.2.3)
+
 ### Mon Jun 15th 2026 - qBittorrent v5.2.2 release
 
 qBittorrent v5.2.2 was released.<br>
