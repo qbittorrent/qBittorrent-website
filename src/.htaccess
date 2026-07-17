@@ -10,7 +10,7 @@
 	# disable image 'hotlinking': https://httpd.apache.org/docs/current/rewrite/access.html
 	RewriteCond "%{HTTP_REFERER}" "!^$"
 	RewriteCond "%{HTTP_REFERER}" "!www.qbittorrent.org" [NC]
-	RewriteRule "\.(gif|jpg|png|svg)$" "-" [NC,F]
+	RewriteRule "\.(gif|jpeg|jpg|png|svg|webp)$" "-" [NC,F]
 
 	# redirect `/file.php` to `/file`
 	RewriteCond %{REQUEST_URI} ^/([^.]+)\.php$ [NC]
