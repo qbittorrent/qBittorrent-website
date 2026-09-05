@@ -4,6 +4,37 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Sat Sep 05th 2026 - qBittorrent v5.3.0beta1 release
+
+qBittorrent v5.3.0beta1 was released.<br>
+A changelog for v5.3.0beta1 is not available.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.1.1+git7d06538d9</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.11.2</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.92</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
 ### Tue Jul 07th 2026 - qBittorrent v5.2.3 release
 
 qBittorrent v5.2.3 was released.
