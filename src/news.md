@@ -4,6 +4,56 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Mon Sep 28th 2026 - qBittorrent v5.2.4 and v5.3.0rc1 release
+
+qBittorrent v5.2.4 and v5.3.0rc1 were released.<br>
+A changelog for v5.3.0rc1 is not available.
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.0.15+git2bc9c4f7da / 2.1.2+gitbe61ae8f44</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.10.3 / 6.11.2</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.92</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.2.4 changelog:
+- BUGFIX: Enable links in add torrent comments (TurboTheTurtle) [#24604](https://github.com/qbittorrent/qBittorrent/pull/24604)
+- BUGFIX: Resolve relative UI theme paths against config folder (vrubleg) [#24658](https://github.com/qbittorrent/qBittorrent/pull/24658)
+- BUGFIX: Fix redefined signal (glassez) [#24679](https://github.com/qbittorrent/qBittorrent/pull/24679)
+- BUGFIX: Skip processing of already being added torrent source (glassez) [#24743](https://github.com/qbittorrent/qBittorrent/pull/24743)
+- BUGFIX: Close file descriptors when starting file manager (ValdikSS) [#24761](https://github.com/qbittorrent/qBittorrent/pull/24761)
+- BUGFIX: Fix case-only renaming isn't applied (glassez) [#24852](https://github.com/qbittorrent/qBittorrent/pull/24852)
+- BUGFIX: Fix crash when second instance is started during legal notice (glassez) [#24877](https://github.com/qbittorrent/qBittorrent/pull/24877)
+- WEBUI: Add shared dialog for adding multiple torrents (Piccirello) [#24386](https://github.com/qbittorrent/qBittorrent/pull/24386)
+- WEBUI: Do not select invisible rows in dynamicTable.js (vafada) [#24725](https://github.com/qbittorrent/qBittorrent/pull/24725)
+- WEBUI: Escape add-torrent window title (RealFakeAccount) [#24726](https://github.com/qbittorrent/qBittorrent/pull/24726)
+- WEBUI: Use safe property for setting element title (Chocobo1) [#24766](https://github.com/qbittorrent/qBittorrent/pull/24766)
+- WEBUI: Only open http(s) URLs from RSS articles and search results (Piccirello) [#24790](https://github.com/qbittorrent/qBittorrent/pull/24790)
+- WEBUI: Prevent in-place corruption in DynamicTable.loadColumnsOrder() (UgurGumushan) [#24809](https://github.com/qbittorrent/qBittorrent/pull/24809)
+- WEBUI: Fixed ability to manually add peers (Chocobo1) [#24733](https://github.com/qbittorrent/qBittorrent/pull/24733)
+- WEBUI: Fixed Preferences page crash with Italian locale (Chocobo1) [#24733](https://github.com/qbittorrent/qBittorrent/pull/24733)
+- OTHER: Suppress useless compiler warning (Chocobo1) [#24814](https://github.com/qbittorrent/qBittorrent/pull/24814)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.2.3...release-5.2.4)
+
 ### Sat Sep 05th 2026 - qBittorrent v5.3.0beta1 release
 
 qBittorrent v5.3.0beta1 was released.<br>
