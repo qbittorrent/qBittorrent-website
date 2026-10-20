@@ -25,7 +25,7 @@
   </head>
   <body>
     <span id="forkongithub">
-      <a href="download">Latest: v5.2.4</a>
+      <a href="download">Latest: v5.3.0</a>
     </span>
 
     <div id="MainBox">
@@ -52,6 +52,171 @@
             <div id="content">
               <div class="stretcher" id="StretchHome">
 <p><a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a></p>
+<h3 id="mon-oct-19th-2026---qbittorrent-v5.3.0-release" tabindex="-1"><a class="header-anchor" href="#mon-oct-19th-2026---qbittorrent-v5.3.0-release">Mon Oct 19th 2026 - qBittorrent v5.3.0 release</a></h3>
+<p>qBittorrent v5.3.0 was released.<br>
+The default version is now based on libtorrent 2.1.x series. It should have less I/O problems compared to 2.0.x series for those who chose to stay on the 1.2.x series. A version based on the 1.2.x series is still provided.</p>
+<p><strong>NOTICE for heavy seeders</strong>: The new default libtorrent backend (2.1.x series) is known to have worse read performance compared to the 1.2.x series, which will affect your upload speed. So if you are a heavy seeder you may want to choose the version based on the 1.2.x series. Some details can be found <a href="https://github.com/arvidn/libtorrent/issues/9004#issuecomment-6239165752">here</a>.</p>
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.1.2+gitaa09332d4a</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.11.2</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.92</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+<p>v5.3.0 changelog:</p>
+<ul>
+<li>FEATURE: Add an option to match all share limits (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24043">#24043</a></li>
+<li>FEATURE: Put Email examples in placeholder text (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/23949">#23949</a></li>
+<li>FEATURE: Add support for widely used image types in HTTP server (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/23886">#23886</a></li>
+<li>FEATURE: Allow to filter torrent list by infohash (stalkerok) <a href="https://github.com/qbittorrent/qBittorrent/pull/23829">#23829</a></li>
+<li>FEATURE: Add &quot;Copy path&quot; in Content tab (vafada) <a href="https://github.com/qbittorrent/qBittorrent/pull/23973">#23973</a></li>
+<li>FEATURE: Don't overwrite config file when it has no write permission (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/23817">#23817</a></li>
+<li>FEATURE: Allow banning IP range (KagurazakaNyaa) <a href="https://github.com/qbittorrent/qBittorrent/pull/23157">#23157</a></li>
+<li>FEATURE: Enhance filename validation (cocopaw) <a href="https://github.com/qbittorrent/qBittorrent/pull/23386">#23386</a></li>
+<li>FEATURE: Allow monochrome tray icon to follow color mode (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24083">#24083</a></li>
+<li>FEATURE: Add &quot;Queued tracker announces&quot; session metric (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24084">#24084</a></li>
+<li>FEATURE: Improve &quot;Deletion confirmation&quot; dialog (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24117">#24117</a></li>
+<li>FEATURE: Add scroll bars to Statistics dialog (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24122">#24122</a></li>
+<li>FEATURE: Decide system tray icon color based on Windows color scheme (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24127">#24127</a></li>
+<li>FEATURE: Create a group for status bar related settings (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24150">#24150</a></li>
+<li>FEATURE: Add 'request latency' metric to Statistics dialog (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24152">#24152</a></li>
+<li>FEATURE: Add &quot;Contribution&quot; column to Peers list (aaron-kruse) <a href="https://github.com/qbittorrent/qBittorrent/pull/23989">#23989</a></li>
+<li>FEATURE: Add tooltips to email notification Options fields (LewpyUK) <a href="https://github.com/qbittorrent/qBittorrent/pull/24061">#24061</a></li>
+<li>FEATURE: Add 'Open Destination Folder' button to toolbar (FTA7700) <a href="https://github.com/qbittorrent/qBittorrent/pull/24090">#24090</a></li>
+<li>FEATURE: Implement <code>seeding_outgoing_connections</code> libtorrent setting (HanabishiRecca) <a href="https://github.com/qbittorrent/qBittorrent/pull/24158">#24158</a></li>
+<li>FEATURE: Add &quot;Force start torrents&quot; to filter context menus (aaron-kruse) <a href="https://github.com/qbittorrent/qBittorrent/pull/24260">#24260</a></li>
+<li>FEATURE: Improve management of torrent content (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24266">#24266</a></li>
+<li>FEATURE: Support multiple recipients for email notifications (LewpyUK) <a href="https://github.com/qbittorrent/qBittorrent/pull/24304">#24304</a></li>
+<li>FEATURE: Add support for magnet link 'so' parameter (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24336">#24336</a></li>
+<li>FEATURE: Add 'Ignore dotfiles' option in Torrent Creator (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24346">#24346</a></li>
+<li>FEATURE: Implement 'Maximum outstanding block requests from a peer' setting (buroa) <a href="https://github.com/qbittorrent/qBittorrent/pull/24253">#24253</a></li>
+<li>FEATURE: Revamp .torrent files backup management (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24641">#24641</a></li>
+<li>FEATURE: Make Torrent Options dialog scrollable (AgentCent) <a href="https://github.com/qbittorrent/qBittorrent/pull/24644">#24644</a></li>
+<li>FEATURE: Add allow_multiple_connections_per_pid advanced setting (lzhzh1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24684">#24684</a></li>
+<li>FEATURE: Add button to open Default Apps settings on Windows (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24707">#24707</a></li>
+<li>FEATURE: Reference torrent &quot;seed mode&quot; by its exact name (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24724">#24724</a></li>
+<li>FEATURE: Add logging of IP ban alerts (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24734">#24734</a></li>
+<li>FEATURE: Add 'Resize columns' action to 'Torrent Content Layout' dialog header (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24735">#24735</a></li>
+<li>FEATURE: Detect redundant quotes from Python executable path (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24740">#24740</a></li>
+<li>FEATURE: Add option to toggle closing search tabs with middle-click (thalieht) <a href="https://github.com/qbittorrent/qBittorrent/pull/24776">#24776</a></li>
+<li>FEATURE: Expose libtorrent setting for WebTorrent STUN server (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24837">#24837</a></li>
+<li>FEATURE: Add I2P PeX setting (thalieht) <a href="https://github.com/qbittorrent/qBittorrent/pull/24870">#24870</a></li>
+<li>FEATURE: Add settings for I2P inbound/outbound length variance (thalieht) <a href="https://github.com/qbittorrent/qBittorrent/pull/24891">#24891</a></li>
+<li>FEATURE: Make disabled speed graphs warning clickable (M-Hassan-Raza) <a href="https://github.com/qbittorrent/qBittorrent/pull/24023">#24023</a></li>
+<li>FEATURE: Relax plugin versioning rule (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/25017">#25017</a></li>
+<li>BUGFIX: Fix Comment area background mismatch in Add New Torrent dialog (M-Hassan-Raza) <a href="https://github.com/qbittorrent/qBittorrent/pull/23916">#23916</a></li>
+<li>BUGFIX: Rename FYR Macedonia to North Macedonia (alphanumericcharter) <a href="https://github.com/qbittorrent/qBittorrent/pull/23825">#23825</a></li>
+<li>BUGFIX: Fix LineEdit dark corner artifacts on macOS (M-Hassan-Raza) <a href="https://github.com/qbittorrent/qBittorrent/pull/23909">#23909</a></li>
+<li>BUGFIX: Fix macOS delete shortcuts to match platform conventions (M-Hassan-Raza) <a href="https://github.com/qbittorrent/qBittorrent/pull/23908">#23908</a></li>
+<li>BUGFIX: Replace invisible toolbar spacers with visible separators on macOS (M-Hassan-Raza) <a href="https://github.com/qbittorrent/qBittorrent/pull/23905">#23905</a></li>
+<li>BUGFIX: Fix STARTTLS implementation (LewpyUK) <a href="https://github.com/qbittorrent/qBittorrent/pull/23838">#23838</a></li>
+<li>BUGFIX: Don't try to load zero size GeoIP database (orbisai0security) <a href="https://github.com/qbittorrent/qBittorrent/pull/24087">#24087</a></li>
+<li>BUGFIX: Use sum of per-torrent payload rates for session speed display (eshishki) <a href="https://github.com/qbittorrent/qBittorrent/pull/24000">#24000</a></li>
+<li>BUGFIX: Make &quot;Force reannounce&quot; actually do it (HanabishiRecca) <a href="https://github.com/qbittorrent/qBittorrent/pull/24159">#24159</a></li>
+<li>BUGFIX: Filter out dotfiles on all platforms in Torrent Creator (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24173">#24173</a></li>
+<li>BUGFIX: Handle IPv6 range with prefix length 128 as single IP (piopodg) <a href="https://github.com/qbittorrent/qBittorrent/pull/24195">#24195</a></li>
+<li>BUGFIX: Fix Windows ARM build (talynone) <a href="https://github.com/qbittorrent/qBittorrent/pull/24334">#24334</a></li>
+<li>BUGFIX: Fix &quot;Torrent is already present&quot; dialog position when main window is minimized (LWWZH) <a href="https://github.com/qbittorrent/qBittorrent/pull/24403">#24403</a></li>
+<li>BUGFIX: Avoid memory leak on translation changed (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24456">#24456</a></li>
+<li>BUGFIX: Avoid failed add result after tracker merge (TurboTheTurtle) <a href="https://github.com/qbittorrent/qBittorrent/pull/24605">#24605</a></li>
+<li>BUGFIX: Properly handle relative path of logs folder (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24671">#24671</a></li>
+<li>BUGFIX: Fix wrong comparison between IP addresses (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24675">#24675</a></li>
+<li>BUGFIX: Update share limits timer when share limits change  (Kononkov1998) <a href="https://github.com/qbittorrent/qBittorrent/pull/24670">#24670</a></li>
+<li>BUGFIX: Fix P2P filter parsing for IPv6 (Arisa-Snowbell) <a href="https://github.com/qbittorrent/qBittorrent/pull/24680">#24680</a></li>
+<li>BUGFIX: Filter unsupported tracker URLs from magnets (TurboTheTurtle) <a href="https://github.com/qbittorrent/qBittorrent/pull/24512">#24512</a></li>
+<li>BUGFIX: Prevent SMTP injection from unsanitized mail content (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24793">#24793</a></li>
+<li>BUGFIX: Use HTTPS for dynamic DNS (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24805">#24805</a></li>
+<li>BUGFIX: Fix torrent completion handling when ignored files are present (sedlund) <a href="https://github.com/qbittorrent/qBittorrent/pull/24866">#24866</a></li>
+<li>BUGFIX: Don't create a torrent entry from an unauthenticated announce (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24869">#24869</a></li>
+<li>BUGFIX: Fix broken documentation link (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/25019">#25019</a></li>
+<li>BUGFIX: Always query free space of parent path if specified one doesn't exists (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/25040">#25040</a></li>
+<li>BUGFIX: Update sort order on Remaining column updated (Cryborg) <a href="https://github.com/qbittorrent/qBittorrent/pull/25037">#25037</a></li>
+<li>BUGFIX: Apply theme tooltip colors to inactive palette (specetator) <a href="https://github.com/qbittorrent/qBittorrent/pull/25012">#25012</a></li>
+<li>BUGFIX: Avoid heavy work in callback function (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/25047">#25047</a></li>
+<li>WEBUI: Add &quot;Select All&quot; and &quot;Invert Selection&quot; (aaron-kruse) <a href="https://github.com/qbittorrent/qBittorrent/pull/23975">#23975</a></li>
+<li>WEBUI: Enable virtual list by default (tehcneko) <a href="https://github.com/qbittorrent/qBittorrent/pull/23887">#23887</a></li>
+<li>WEBUI: Improve folder collapse behavior (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/23878">#23878</a></li>
+<li>WEBUI: Show free disk space in add torrent window (Ryu481) <a href="https://github.com/qbittorrent/qBittorrent/pull/23856">#23856</a></li>
+<li>WEBUI: Filter array elements in-place (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/23837">#23837</a></li>
+<li>WEBUI: Improve 'set rows' operation performance (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/23818">#23818</a></li>
+<li>WEBUI: Add &quot;Pread/pwrite&quot;  disk IO type option (HanabishiRecca) <a href="https://github.com/qbittorrent/qBittorrent/pull/24109">#24109</a></li>
+<li>WEBUI: Unify global speed limit window (tehcneko) <a href="https://github.com/qbittorrent/qBittorrent/pull/24134">#24134</a></li>
+<li>WEBUI: Allow to download completed files (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24135">#24135</a></li>
+<li>WEBUI: Serialize torrent creator dates as epoch seconds (TurboTheTurtle) <a href="https://github.com/qbittorrent/qBittorrent/pull/24210">#24210</a></li>
+<li>WEBUI: Respect excluded file names in Add torrent dialog (TurboTheTurtle) <a href="https://github.com/qbittorrent/qBittorrent/pull/24246">#24246</a></li>
+<li>WEBUI: Replace alerts for test email with custom notification (LewpyUK) <a href="https://github.com/qbittorrent/qBittorrent/pull/24283">#24283</a></li>
+<li>WEBUI: Allow cross-origin links to webroot (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24379">#24379</a></li>
+<li>WEBUI: Implement skip &quot;Add new torrent&quot; dialog (vafada) <a href="https://github.com/qbittorrent/qBittorrent/pull/24404">#24404</a></li>
+<li>WEBUI: Reuse category and plugin when refreshing search (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24427">#24427</a></li>
+<li>WEBUI: Make 'server domain' matching anchored (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24458">#24458</a></li>
+<li>WEBUI: Add secondary sort column (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24376">#24376</a></li>
+<li>WEBUI: Add 'Copy path' action to torrent content menu (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24678">#24678</a></li>
+<li>WEBUI: Handle non-torrent RSS link (vafada) <a href="https://github.com/qbittorrent/qBittorrent/pull/24692">#24692</a></li>
+<li>WEBUI: Disable torrent content menu items instead of hiding them (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24708">#24708</a></li>
+<li>WEBUI: Suppress errors when clicking on column headers (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24710">#24710</a></li>
+<li>WEBUI: Add sessions count limit (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24720">#24720</a></li>
+<li>WEBUI: Store search tabs between app restarts and across sessions (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/23784">#23784</a></li>
+<li>WEBUI: Add controls to start BitTorrent session paused and set session shutdown timeout (piopodg) <a href="https://github.com/qbittorrent/qBittorrent/pull/24249">#24249</a></li>
+<li>WEBUI: Add support for pausing and resuming BitTorrent session (piopodg) <a href="https://github.com/qbittorrent/qBittorrent/pull/24269">#24269</a></li>
+<li>WEBUI: Use exponential backoff for RSS refresh interval (vafada) <a href="https://github.com/qbittorrent/qBittorrent/pull/24686">#24686</a></li>
+<li>WEBUI: Detect cross-site requests using <code>Sec-Fetch-Site</code> header (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24792">#24792</a></li>
+<li>WEBUI: Remove indentation if no subcategory exists (tehcneko) <a href="https://github.com/qbittorrent/qBittorrent/pull/24804">#24804</a></li>
+<li>WEBUI: Tweak software version table layout (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24816">#24816</a></li>
+<li>WEBUI: Properly hide elements from screen readers (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24838">#24838</a></li>
+<li>WEBUI: Add ability to export/import RSS rules (sedlund) <a href="https://github.com/qbittorrent/qBittorrent/pull/24842">#24842</a></li>
+<li>WEBUI: Cap path autocompletion suggestions to 25 entries (pktiuk) <a href="https://github.com/qbittorrent/qBittorrent/pull/24848">#24848</a></li>
+<li>WEBUI: Keep properties panel sortable after tab click (pederbe) <a href="https://github.com/qbittorrent/qBittorrent/pull/24879">#24879</a></li>
+<li>WEBUI: Fix authentication bypass via X-Forwarded-For spoofing (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24889">#24889</a></li>
+<li>WEBUI: Add missing Options page settings and fix mismatches (devnullv0id) <a href="https://github.com/qbittorrent/qBittorrent/pull/24920">#24920</a></li>
+<li>WEBUI: Prefer <code>Sec-Fetch-Site</code> for cross-site request detection (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24970">#24970</a></li>
+<li>WEBUI: Add shared download window for RSS articles (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24984">#24984</a></li>
+<li>WEBAPI: Construct WebAPI controller instances on demand (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24700">#24700</a></li>
+<li>WEBAPI: Require POST for search/downloadTorrent and rss/setFeedRefreshInterval (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24791">#24791</a></li>
+<li>WEBAPI: Fix editCategory overwrites unrelated options (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24798">#24798</a></li>
+<li>WEBAPI: Generate correct sync data if client has not received last sent one (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24875">#24875</a></li>
+<li>WEBAPI: Use torrent names for exported .torrent files (TurboTheTurtle) <a href="https://github.com/qbittorrent/qBittorrent/pull/24341">#24341</a></li>
+<li>RSS: Fix the added RSS rule item doesn't follow &quot;enabled&quot; state (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24082">#24082</a></li>
+<li>RSS: Add &quot;All&quot; sticky RSS item (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/23963">#23963</a></li>
+<li>RSS: Add &quot;Clone Rule&quot; feature to RSS AutoDownloader (LewpyUK) <a href="https://github.com/qbittorrent/qBittorrent/pull/24056">#24056</a></li>
+<li>RSS: Allow adding torrents from links in RSS content viewer (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24120">#24120</a></li>
+<li>RSS: Persist feed list sort order (TurboTheTurtle) <a href="https://github.com/qbittorrent/qBittorrent/pull/24519">#24519</a></li>
+<li>RSS: Clamp 'Max articles per feed' to a non-negative value (Piccirello) <a href="https://github.com/qbittorrent/qBittorrent/pull/24806">#24806</a></li>
+<li>RSS: Make RSS settings warning clickable (M-Hassan-Raza) <a href="https://github.com/qbittorrent/qBittorrent/pull/23917">#23917</a></li>
+<li>SEARCH: Clean up documentation format (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/23911">#23911</a></li>
+<li>SEARCH: Preserve cookies when handling HTTP redirection (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24912">#24912</a></li>
+<li>SEARCH: Escape pipe characters properly (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24933">#24933</a></li>
+<li>WINDOWS: NSIS: Update Thai translation (cybercat39-droid) <a href="https://github.com/qbittorrent/qBittorrent/pull/24673">#24673</a></li>
+<li>MACOS: Make status bar icon adapt to system appearance (dluschan) <a href="https://github.com/qbittorrent/qBittorrent/pull/24775">#24775</a></li>
+<li>OTHER: Support build against latest version of libtorrent (arvidn) <a href="https://github.com/qbittorrent/qBittorrent/pull/23953">#23953</a></li>
+<li>OTHER: Don't use deprecated libtorrent features (glassez) <a href="https://github.com/qbittorrent/qBittorrent/pull/24007">#24007</a></li>
+<li>OTHER: Remove outdated setting keys (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/23952">#23952</a></li>
+<li>OTHER: Bump Python version minimum requirement (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24279">#24279</a></li>
+<li>OTHER: Support installing Python on ARM64 Windows properly (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24280">#24280</a></li>
+<li>OTHER: Disable &quot;Resolve peer countries&quot; by default in new installations (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24505">#24505</a></li>
+<li>OTHER: Remove FOSSHub site for program updates (vafada) <a href="https://github.com/qbittorrent/qBittorrent/pull/24611">#24611</a></li>
+<li>OTHER: Align default DiskQueueSize with libtorrent 2.1 (database64128) <a href="https://github.com/qbittorrent/qBittorrent/pull/24711">#24711</a></li>
+<li>OTHER: Update man pages to document all command-line options (preston176) <a href="https://github.com/qbittorrent/qBittorrent/pull/24771">#24771</a></li>
+<li>OTHER: Mark qBittorrent compatible with CET Shadow Stack (Chocobo1) <a href="https://github.com/qbittorrent/qBittorrent/pull/24905">#24905</a></li>
+<li><a href="https://github.com/qbittorrent/qBittorrent/compare/release-5.2.4...release-5.3.0">Full changes</a></li>
+</ul>
 <h3 id="mon-sep-28th-2026---qbittorrent-v5.2.4-and-v5.3.0rc1-release" tabindex="-1"><a class="header-anchor" href="#mon-sep-28th-2026---qbittorrent-v5.2.4-and-v5.3.0rc1-release">Mon Sep 28th 2026 - qBittorrent v5.2.4 and v5.3.0rc1 release</a></h3>
 <p>qBittorrent v5.2.4 and v5.3.0rc1 were released.<br>
 A changelog for v5.3.0rc1 is not available.</p>
