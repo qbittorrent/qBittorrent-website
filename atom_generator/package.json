@@ -9,9 +9,10 @@
   "license": "GPL-3.0-or-later",
   "description": "Parse HTML file and generate Atom feed",
   "dependencies": {
+    "@swc/cli": "*",
+    "@swc/core": "*",
     "cheerio": "^1.2.0",
     "commander": "^14.0.3",
-    "swc": "*",
     "ts-node": "*",
     "xmlbuilder2": "^4.0.3"
   }

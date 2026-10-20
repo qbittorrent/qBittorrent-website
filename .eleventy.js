@@ -44,7 +44,7 @@ export default (eleventyConfig) => {
 
     const compileTS = () => {
       //return run("tsc");
-      return run(`swc --out-dir ${dir.output} src/scripts/*.ts`);
+      return run(`swc --strip-leading-paths --out-dir ${dir.output} src/scripts/*.ts`);
     };
     const generateAtomFeed = () => {
       return run(`npm run -w atom_generator generate -- -i ../${dir.output}/news.html -o ../${dir.output}/news_feed.atom`);

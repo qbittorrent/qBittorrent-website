@@ -17,6 +17,8 @@
     "@11ty/eleventy": "3",
     "@eslint/js": "*",
     "@stylistic/eslint-plugin": "*",
+    "@swc/cli": "*",
+    "@swc/core": "*",
     "eslint": "*",
     "eslint-plugin-html": "*",
     "globals": "*",
@@ -27,7 +29,6 @@
     "stylelint": "*",
     "stylelint-config-standard": "*",
     "stylelint-order": "*",
-    "swc": "*",
     "typescript": "*",
     "typescript-eslint": "*"
   },
