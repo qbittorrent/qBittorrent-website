@@ -61,12 +61,17 @@ jobs:
           name: website
           path: _site
 
+      - name: Setup python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "*"
+
       - name: Check GitHub Actions workflow
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install \
-            `# --uploaded-prior-to P3D` \
+            --uploaded-prior-to P3D \
             zizmor
           zizmor \
             --format sarif \
