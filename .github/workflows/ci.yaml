@@ -65,7 +65,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pip install zizmor
+          pip install \
+            --uploaded-prior-to P3D \
+            zizmor
           zizmor \
             --format sarif \
             --persona auditor \
