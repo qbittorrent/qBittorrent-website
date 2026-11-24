@@ -4,6 +4,64 @@ permalink: "{{ page.filePathStem }}.html"
 ---
 <a href="news_feed.atom"><img src="img/rss-color.svg" class="rss" alt="Atom feed"></a>
 
+### Tue Nov 24th 2026 - qBittorrent v5.3.1 release
+
+qBittorrent v5.3.1 was released.<br>
+The default version is now based on libtorrent 2.1.x series. It should have less I/O problems compared to 2.0.x series for those who chose to stay on the 1.2.x series. A version based on the 1.2.x series is still provided.
+
+**NOTICE for heavy seeders**: The new default libtorrent backend (2.1.x series) is known to have worse read performance compared to the 1.2.x series, which will affect your upload speed. So if you are a heavy seeder you may want to choose the version based on the 1.2.x series. Some details can be found [here](https://github.com/arvidn/libtorrent/issues/9004#issuecomment-6239165752).
+
+<details>
+<summary>Library versions</summary>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Library</th>
+      <th scope="col">Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>libtorrent</td>
+      <td>1.2.20+gitc5ff6c3186 / 2.1.3+git87b77c039e</td>
+    </tr>
+    <tr>
+      <td>Qt</td>
+      <td>6.11.3</td>
+    </tr>
+    <tr>
+      <td>Boost</td>
+      <td>1.86 / 1.92</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+v5.3.1 changelog:
+- BUGFIX: Don't try to obtain pieces info when no metadata is available (glassez) [#25070](https://github.com/qbittorrent/qBittorrent/pull/25070)
+- BUGFIX: Add mnemonic for Plugins menu item (vafada) [#25111](https://github.com/qbittorrent/qBittorrent/pull/25111)
+- BUGFIX: Preserve encoded plus signs in HTTP queries (zepx) [#25114](https://github.com/qbittorrent/qBittorrent/pull/25114)
+- BUGFIX: Treat a lockfile that names our own PID as stale (ghz-max) [#25128](https://github.com/qbittorrent/qBittorrent/pull/25128)
+- BUGFIX: Correctly update item-by-path mapping on folder renamed (glassez) [#25135](https://github.com/qbittorrent/qBittorrent/pull/25135)
+- BUGFIX: Fix unexpected drop behavior when dragging from Firefox on Windows (Chocobo1) [#25140](https://github.com/qbittorrent/qBittorrent/pull/25140)
+- BUGFIX: Use system theme fallback icon for Open Destination Folder button (FTA7700) [#25153](https://github.com/qbittorrent/qBittorrent/pull/25153)
+- BUGFIX: Fix content layout isn't applied on deduplicated filenames (glassez) [#25183](https://github.com/qbittorrent/qBittorrent/pull/25183)
+- BUGFIX: Save search session after restoring it (droplet-gag-saint) [#25196](https://github.com/qbittorrent/qBittorrent/pull/25196)
+- BUGFIX: Allow renaming files with invalid names (droplet-gag-saint) [#25197](https://github.com/qbittorrent/qBittorrent/pull/25197)
+- BUGFIX: Ensure that recently queued jobs are performed before shutdown (glassez) [#25215](https://github.com/qbittorrent/qBittorrent/pull/25215)
+- BUGFIX: Adopt "producer-consumer" pattern in file-based resume data storage (glassez) [#25217](https://github.com/qbittorrent/qBittorrent/pull/25217)
+- BUGFIX: Fix WebTorrent trackers are rejected from magnet links (glassez) [#25259](https://github.com/qbittorrent/qBittorrent/pull/25259)
+- BUGFIX: Fix performance statistics time units (Chocobo1) [#25277](https://github.com/qbittorrent/qBittorrent/pull/25277)
+- WEBUI: Preserve web seed URLs when editing (c8dhjp4tyv-bit) [#25096](https://github.com/qbittorrent/qBittorrent/pull/25096)
+- WEBUI: Let search plugins download their own results (Piccirello) [#25107](https://github.com/qbittorrent/qBittorrent/pull/25107)
+- WEBUI: Insert translated strings as text instead of HTML (Piccirello) [#25145](https://github.com/qbittorrent/qBittorrent/pull/25145)
+- WEBAPI: Fix torrent ID changed event is unhandled (glassez) [#25080](https://github.com/qbittorrent/qBittorrent/pull/25080)
+- WEBAPI: Preserve metadata source URI encoding (zepx) [#25113](https://github.com/qbittorrent/qBittorrent/pull/25113)
+- WINDOWS: NSIS: Fix wrong registry view (Chocobo1) [#25179](https://github.com/qbittorrent/qBittorrent/pull/25179)
+- WINDOWS: NSIS: Remove leftover registry value (Chocobo1) [#25180](https://github.com/qbittorrent/qBittorrent/pull/25180)
+- MACOS: Add Homebrew prefix for Apple Silicon to PATH (MaxSiominDev) [#25132](https://github.com/qbittorrent/qBittorrent/pull/25132)
+- [Full changes](https://github.com/qbittorrent/qBittorrent/compare/release-5.3.0...release-5.3.1)
+
 ### Mon Oct 19th 2026 - qBittorrent v5.3.0 release
 
 qBittorrent v5.3.0 was released.<br>
