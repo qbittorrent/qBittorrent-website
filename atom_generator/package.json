@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "main": "src/main.ts",
   "scripts": {
-    "generate": "ts-node src/main.ts"
+    "generate": "ts-node --esm src/main.ts"
   },
   "author": "Chocobo1 (Mike Tzou)",
   "license": "GPL-3.0-or-later",
   "description": "Parse HTML file and generate Atom feed",
+  "type": "module",
   "dependencies": {
     "@swc/cli": "^0.8.2",
     "@swc/core": "^1.16.22",
     "cheerio": "^1.2.0",
-    "commander": "^14.0.3",
+    "commander": "^15.1.0",
     "ts-node": "^10.9.2",
     "xmlbuilder2": "^4.0.3"
   }
