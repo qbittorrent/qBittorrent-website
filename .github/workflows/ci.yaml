@@ -27,7 +27,7 @@ jobs:
 
       - name: Install tools
         run: |
-          npm install
+          npm ci
           npm ls
           npm ls --all
 

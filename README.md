@@ -13,7 +13,7 @@ You can also submit redesigns but first open a bug report informing us and maybe
 The site uses [11ty](https://www.11ty.dev/) as a static site generator.
 In the git repo folder do:
 ```shell
-npm install
+npm ci
 npm run build
 ```
 Then the site is generated under the `_site` subfolder.

@@ -9,3 +9,12 @@ updates:
           - "*"
     schedule:
       interval: "monthly"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    groups:
+      npm-dependency-update:
+        patterns:
+          - "*"
+    schedule:
+      interval: "monthly"
