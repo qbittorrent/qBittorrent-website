@@ -14,15 +14,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  Deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
-      pages: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  Setup:
+    runs-on: ubuntu-slim
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -35,6 +28,17 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
 
+  Deploy:
+    runs-on: ubuntu-slim
+    permissions:
+      contents: read
+      id-token: write
+      pages: write
+    needs: Setup
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
